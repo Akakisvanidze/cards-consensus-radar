@@ -23,10 +23,10 @@ button{font-weight:800}.add{margin-top:14px;background:#ffd34d;color:#111;border
 </style>
 </head>
 <body><div class="w">
-<div class="v">v1.1 🟨📡</div><h1>🟨 Cards Consensus Lab</h1>
-<div class="sub">3 ცალკე ბაზარი • 3 ერთხაზიანი წყარო • OVER / UNDER / PASS</div>
+<div class="v">v1.1 🟨📡</div><h1>📡 FINAL Consensus Radar</h1>
+<div class="sub">1X2 • Cards O/U 2.5 • Corners O/U 9.5 • PASS არ ითვლება</div>
 
-<div class="box"><b>📡 რეალური 3/3 რადარი</b><div id="radarText" class="muted" style="margin:7px 0">კონსენსუსებს ველოდებით.</div>
+<div class="box"><b>📡 ნამდვილი 3/3+ რადარი</b><div id="radarText" class="muted" style="margin:7px 0">კონსენსუსებს ველოდებით.</div>
 <button id="notifyBtn" onclick="enableNotifications()">🔔 შეტყობინებების ჩართვა</button></div>
 
 <div class="box">
@@ -41,76 +41,25 @@ button{font-weight:800}.add{margin-top:14px;background:#ffd34d;color:#111;border
 </div>
 
 <script>
-const STORE="cards_lab_final_v20";
-const NOTIFY="cards_notify_final_v20";
-const SOURCES=["Road2Sushi","SportsKing","StatCheck"];
+const STORE="final_consensus_radar_v1";
 const MARKETS=[
- {id:"total",title:"🟨 მატჩის საერთო ბარათები",line:"2.5",over:"OVER 2.5",under:"UNDER 2.5"},
- {id:"home",title:"🏠 მასპინძლის ბარათები",line:"0.5",over:"OVER 0.5",under:"UNDER 0.5"},
- {id:"away",title:"✈️ სტუმრის ბარათები",line:"0.5",over:"OVER 0.5",under:"UNDER 0.5"}
+ {id:"result",title:"⚽ 1X2",line:"1 / X / 2",choices:["PASS","1","X","2"]},
+ {id:"cards",title:"🟨 მატჩის ბარათები",line:"2.5",choices:["PASS","OVER","UNDER"]},
+ {id:"corners",title:"⛳ მატჩის კუთხურები",line:"9.5",choices:["PASS","OVER","UNDER"]}
 ];
+const SOURCES=["Source A","Source B","Source C","Source D","Source E"];
 let tab="today"; const q=x=>document.getElementById(x);
 function load(){try{return JSON.parse(localStorage.getItem(STORE)||"[]")}catch(e){return[]}}
 function save(x){localStorage.setItem(STORE,JSON.stringify(x))}
-function opts(){return '<option>PASS</option><option>OVER</option><option>UNDER</option>'}
-q("forms").innerHTML=MARKETS.map(m=>`<div class="market"><div class="mtitle">${m.title} — ${m.line}</div>${SOURCES.map((s,i)=>`<label>${s}</label><select id="${m.id}_${i}">${opts()}</select>`).join("")}</div>`).join("");
-
-function calc(v){
- let o=v.filter(x=>x==="OVER").length,u=v.filter(x=>x==="UNDER").length,p=v.filter(x=>x==="PASS").length;
- let pick=o>u?"OVER":u>o?"UNDER":"—",hi=Math.max(o,u),lo=Math.min(o,u);
- let valid=o+u;
- let pat = valid<2 ? "არასაკმარისი მონაცემი" : (pick==="—" ? "კონსენსუსი არაა" : `${hi}/${valid}${p?` (${p} PASS)`:""}`);
- return {o,u,p,pick,pat,hot:p===0&&hi===3};
-}
+function opts(m){return m.choices.map(x=>`<option>${x}</option>`).join("")}
+q("forms").innerHTML=MARKETS.map(m=>`<div class="market"><div class="mtitle">${m.title} — ${m.line}</div><div class="muted">ერთი ხაზი • PASS ხმაში არ ითვლება</div>${SOURCES.map((s,i)=>`<label>წყარო ${i+1}</label><input id="${m.id}_name_${i}" placeholder="მაგ. Road2Sushi"><select id="${m.id}_${i}">${opts(m)}</select>`).join("")}</div>`).join("");
 function getVotes(id){return SOURCES.map((_,i)=>q(`${id}_${i}`).value)}
-async function enableNotifications(){
- if(!("Notification" in window)){alert("ამ მოწყობილობაზე შეტყობინებები ვერ ჩაირთო.");return}
- let p=Notification.permission;if(p!=="granted")p=await Notification.requestPermission();
- if(p==="granted"){localStorage.setItem(NOTIFY,"1");q("notifyBtn").textContent="🔔 შეტყობინებები ჩართულია";try{new Notification("Cards Consensus Lab",{body:"შეტყობინებები ჩართულია."})}catch(e){}}
-}
-function notifyHot(m){
- if(localStorage.getItem(NOTIFY)!=="1"||!("Notification" in window)||Notification.permission!=="granted")return;
- MARKETS.forEach(x=>{let c=calc(m.markets[x.id].v);if(!c.hot)return;let k=`cards_notified_${m.id}_${x.id}_${m.markets[x.id].v.join("_")}`;if(localStorage.getItem(k))return;
- try{new Notification(`${c.pat} კონსენსუსი`,{body:`${m.h} – ${m.a} • ${x.title} → ${c.pick} ${x.line}`})}catch(e){}
- localStorage.setItem(k,"1")})
-}
-function addMatch(){
- let H=q("h").value.trim(),A=q("a").value.trim(),D=q("date").value;if(!H||!A||!D)return alert("შეავსე გუნდები და თარიღი.");
- let markets={};MARKETS.forEach(x=>markets[x.id]={v:getVotes(x.id),final:null,result:null});
- let m={id:Date.now(),h:H,a:A,date:D,markets};let d=load();d.unshift(m);save(d);notifyHot(m);
- q("h").value=q("a").value="";MARKETS.forEach(x=>SOURCES.forEach((_,i)=>q(`${x.id}_${i}`).value="PASS"));render()
-}
-function actual(market,n){if(market==="total")return n>=4?"OVER":"UNDER";return n>=1?"OVER":"UNDER"}
-function finalMarket(id,mid){
- let d=load(),m=d.find(x=>x.id===id),mm=m.markets[mid],def=mm.final===null?"":mm.final;
- let n=prompt(mid==="total"?"სულ რამდენი ბარათი იყო მატჩში?":"რამდენი ბარათი მიიღო გუნდმა?",def);if(n===null)return;n=Number(n);if(!Number.isFinite(n)||n<0)return alert("შეიყვანე ბარათების რაოდენობა.");
- mm.final=n;mm.result=actual(mid,n);save(d);render()
-}
-function del(id){if(confirm("წავშალოთ მატჩი?")){save(load().filter(x=>x.id!==id));render()}}
-function setTab(x){tab=x;render()}
-function updateRadar(){
- let found=[];load().filter(m=>MARKETS.some(x=>m.markets[x.id].final===null)).forEach(m=>MARKETS.forEach(x=>{let c=calc(m.markets[x.id].v);if(c.hot&&m.markets[x.id].final===null)found.push({m,x,c})}));
- if(found.length){let z=found[0];q("radarText").innerHTML=`🔴 <b>${z.c.pat}</b> — ${z.m.h} – ${z.m.a}<br>${z.x.title} → <b>${z.c.pick} ${z.x.line}</b>`}
- else q("radarText").textContent="🟢 ახალი 4–1 ან 5–0 ჯერ არ არის.";
-}
-function stats(){
- let rows=[];MARKETS.forEach(x=>{let n=0,w=0;load().forEach(m=>{let mm=m.markets[x.id],c=calc(mm.v);if(mm.final!==null&&c.pick!=="—"){n++;if(c.pick===mm.result)w++}});rows.push(`<div class="statrow"><span>${x.title}</span><b>${w}/${n}${n?` • ${Math.round(w*100/n)}%`:""}</b></div>`)});
- return `<div class="box stats"><b>📊 ბაზრების შედეგები</b>${rows.join("")}</div>`
-}
-function render(){
- updateRadar();q("t").classList.toggle("active",tab==="today");q("hist").classList.toggle("active",tab==="history");
- let d=load().filter(m=>tab==="history"?MARKETS.some(x=>m.markets[x.id].final!==null):MARKETS.some(x=>m.markets[x.id].final===null));
- let head=tab==="history"?stats():"";
- if(!d.length){q("list").innerHTML=head+`<div class="empty">${tab==="history"?"ისტორია ჯერ ცარიელია":"მატჩები ჯერ არ არის დამატებული"}</div>`;return}
- q("list").innerHTML=head+d.map(m=>`<div class="card"><b style="font-size:18px">${m.h} – ${m.a}</b><div class="muted">${m.date}</div>
- ${MARKETS.map(x=>{let mm=m.markets[x.id],c=calc(mm.v),status=mm.final!==null?(c.pick==="—"?"⚪ კონსენსუსი არ იყო":c.pick===mm.result?'<span class="ok">✅ სწორი</span>':'<span class="bad">❌ არასწორი</span>'):"";
- return `<div class="market"><div class="mtitle">${x.title} — ${x.line}</div><div class="badge ${c.hot?"hot":""}">${c.pat}</div>
- <div>არჩევანი: <b class="${c.pick}">${c.pick}</b></div><div class="muted">OVER: ${c.o} • UNDER: ${c.u} • PASS: ${c.p}</div>
- <div class="votes">${SOURCES.map((s,i)=>`<span>${s}</span><b class="${mm.v[i]}">${mm.v[i]}</b>`).join("")}</div>
- <div style="margin-top:8px">FINAL: <b>${mm.final===null?"მოლოდინში":mm.final+" ბარათი"}</b>${status?" • "+status:""}</div>
- <button style="margin-top:8px" onclick="finalMarket(${m.id},'${x.id}')">${mm.final===null?"🏁 FINAL":"FINAL-ის შეცვლა"}</button></div>`}).join("")}
- <div class="actions"><button class="del" onclick="del(${m.id})">წაშლა</button></div></div>`).join("");
-}
-if(localStorage.getItem(NOTIFY)==="1"&&("Notification" in window)&&Notification.permission==="granted")q("notifyBtn").textContent="🔔 შეტყობინებები ჩართულია";
-render();
+function getNames(id){return SOURCES.map((_,i)=>q(`${id}_name_${i}`).value.trim()||`წყარო ${i+1}`)}
+function calc(v){let active=v.filter(x=>x!=="PASS"); if(active.length<2)return {pick:"—",pat:`არასაკმარისი მონაცემი (${active.length} ხმა)`,hot:false,n:active.length}; let c={};active.forEach(x=>c[x]=(c[x]||0)+1);let a=Object.entries(c).sort((x,y)=>y[1]-x[1]);let top=a[0], tie=a[1]&&a[1][1]===top[1];return {pick:tie?"—":top[0],pat:tie?"კონსენსუსი არაა":`${top[1]}/${active.length} ${top[0]}`,hot:!tie&&top[1]===active.length&&active.length>=3,n:active.length}}
+function addMatch(){let h=q("h").value.trim(),a=q("a").value.trim(),date=q("date").value;if(!h||!a||!date){alert("შეავსე გუნდები და თარიღი");return}let markets={};MARKETS.forEach(m=>markets[m.id]={votes:getVotes(m.id),names:getNames(m.id),calc:calc(getVotes(m.id)),title:m.title,line:m.line});let x=load();x.unshift({id:Date.now(),h,a,date,markets});save(x);render();}
+function setTab(x){tab=x;q("t").classList.toggle("active",x==="today");q("hist").classList.toggle("active",x==="history");render()}
+function del(id){save(load().filter(x=>x.id!==id));render()}
+function render(){let now=new Date().toISOString().slice(0,10),x=load().filter(r=>tab==="today"?r.date>=now:r.date<now);let hot=[];x.forEach(r=>Object.values(r.markets).forEach(m=>{if(m.calc.hot)hot.push(`${r.h}–${r.a}: ${m.title} ${m.calc.pat}`)}));q("radarText").innerHTML=hot.length?hot.map(x=>`🔥 ${x}`).join("<br>"):"ჯერ ნამდვილი 3/3+ კონსენსუსი არ გვაქვს.";q("list").innerHTML=x.map(r=>`<div class="box"><b>${r.h} – ${r.a}</b><div class="muted">${r.date}</div>${Object.values(r.markets).map(m=>`<div class="market"><b>${m.title} — ${m.line}</b><div>${m.calc.hot?"🔥 ":""}${m.calc.pat}</div><div class="muted">${m.names.map((n,i)=>`${n}: ${m.votes[i]}`).join(" • ")}</div></div>`).join("")}<button onclick="del(${r.id})">წაშლა</button></div>`).join("")||'<div class="box muted">მატჩები ჯერ არაა დამატებული.</div>'}
+async function enableNotifications(){alert("რადარი მზადაა. ძლიერი სიგნალი ეკრანზე 🔥 ნიშნით გამოჩნდება.")}
+q("date").value=new Date().toISOString().slice(0,10);render();
 </script></body></html>
