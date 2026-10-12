@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ka"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071526"><title>FINAL Consensus Radar v3.3</title><style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,'Segoe UI',sans-serif}*{box-sizing:border-box}body{margin:0;background:#071526;color:#edf5ff}.wrap{max-width:860px;margin:auto;padding:22px 16px 60px}h1{font-size:clamp(25px,6vw,38px);line-height:1.15}h2{font-size:20px}p,.muted{color:#a9bbcf;line-height:1.55}.panel{background:#102239;border:1px solid #304963;border-radius:18px;padding:18px;margin:14px 0}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}button,input,select{font:inherit;border-radius:11px;padding:12px;border:1px solid #46617e;background:#172f4a;color:white;min-width:0}button{cursor:pointer;font-weight:700}button.primary{background:#235a4a;border-color:#39956f}button:disabled{opacity:.5;cursor:wait}input{flex:1;min-width:180px}select{max-width:100%}.tag{display:inline-block;border:1px solid #526b81;border-radius:20px;padding:5px 10px;font-size:12px;color:#b8ccdc}.green{color:#68e2a0}.amber{color:#ffd071}.red{color:#ff9b9b}.fixture{padding:14px 0;border-top:1px solid #2d445c}.fixture strong{display:block;margin:5px 0;font-size:17px}.fixture small{color:#a9bbcf}.count{font-size:28px;font-weight:900}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;text-align:center}.grid>div{background:#0a1b2f;padding:12px 3px;border-radius:12px}.grid small{display:block;color:#a9bbcf}a{color:#8ed4ff}.hide{display:none}details{margin:8px 0}summary{cursor:pointer}.alert{border-left:3px solid #e2b45c;padding-left:12px}label{font-size:13px;color:#bdcee0}footer{font-size:13px;color:#9caec2;margin-top:30px}@media(max-width:480px){.wrap{padding:15px 12px}.grid{gap:4px}.panel{padding:13px}.row button{flex:1}}
+</style></head><body><main class="wrap"><p class="muted">v3.3 · LIVE მონაცემები · დაზოგილი მოთხოვნები · უფასო წყარო</p><h1>📡 FINAL Consensus Radar</h1><p>მატჩების ავტომატური მოძიება და კონკრეტული თამაშის ძებნა. წყარო: <a href="https://www.openligadb.de/" target="_blank" rel="noopener">OpenLigaDB</a>.</p>
+<section class="panel"><h2>🟢 რადარის მდგომარეობა</h2><p id="status" aria-live="polite">ჯერ მონაცემები არ ჩამოტვირთულა.</p><div class="grid"><div><span class="count" id="total">0</span><small>მატჩი</small></div><div><span class="count amber" id="candidates">0</span><small>კანდიდატი</small></div><div><span class="count green" id="greens">0</span><small>GREEN</small></div></div><p class="alert"><b>სიზუსტის წესი:</b> მატჩის პოვნა და განრიგის ჩანაწერი არ ნიშნავს მატჩის ოფიციალურად დადასტურებას ან პროგნოზის სიზუსტეს. GREEN არ მიენიჭება 3 დამოუკიდებელი პროგნოზის, ბაზრისა და კოეფიციენტის რეალური გადამოწმების გარეშე.</p></section>
+<section class="panel"><h2>🌍 ავტომატური ძებნა</h2><p>მოძებნის უახლოესი 7 დღის მატჩებს იმ ლიგებიდან, რომლებსაც უფასო OpenLigaDB რეალურად ფარავს. ყველა ქვეყნის სრული დაფარვა გარანტირებული არ არის.</p><div class="row"><button class="primary" id="scan">🔎 მოძებნე მატჩები</button><button id="refresh" title="განახლება">↻ განახლება</button></div><p id="progress" class="muted" aria-live="polite"></p><p class="muted">ერთ ჯერზე მოწმდება მაქსიმუმ 2 ლიგა. ყოველ 30 წუთში შესაძლებელია შემდეგი ლიგების შემოწმება. HTTP 429-ისას შეჩერდება 60 წუთით. შენახული მატჩები არ იშლება.</p><div class="row"><label for="league">ლიგა</label><select id="league"><option value="">ყველა ხელმისაწვდომი ლიგა</option></select></div></section>
+<section class="panel"><h2>🔍 კონკრეტული მატჩის ანალიზი</h2><p>ჩაწერე გუნდის სახელი — პროგრამა მოძებნის მას ჩამოტვირთულ მატჩებში და გაჩვენებს არსებულ ფაქტებს. სანდო პროგნოზი ცალკე გადამოწმებას მოითხოვს.</p><div class="row"><input id="query" placeholder="მაგ. Bayern, Arsenal, Dortmund" autocomplete="off"><button id="search">მოძებნე</button></div><p id="searchHint" class="muted"></p></section>
+<section class="panel"><h2>📋 აღმოჩენილი მატჩები</h2><div id="fixtures"><p class="muted">დააჭირე „მოძებნე მატჩები“.</p></div></section>
+<section class="panel"><h2>🔌 მონაცემების წყაროები</h2><p><b>მოქმედი:</b> OpenLigaDB — მატჩები და შედეგები, უფასოდ და გასაღების გარეშე. მონაცემები ინახება მხოლოდ ამ ბრაუზერში; სხვა მოწყობილობებზე არ სინქრონდება.</p><p><b>ჯერ არ არის დაკავშირებული:</b> 3 დამოუკიდებელი პროგნოზისტი, რეალური კოეფიციენტები, მსაჯების/ბარათების სრული სტატისტიკა, Bets% / Money%. ამიტომ ავტომატური მწვანე სიგნალები ამ ვერსიაში არ გენერირდება.</p><p>წყაროს შეფერხების ან ბრაუზერის შეზღუდვის შემთხვევაში პროგრამა შეცდომას აჩვენებს და არ გამოიგონებს მონაცემებს.</p></section><footer>v3.3 საცდელი რეალური მონაცემების ვერსია · ძველი v2.0 უცვლელი რჩება. მონაცემები: OpenLigaDB (ODbL); ინფორმაციის გადამოწმება აუცილებელია.</footer></main>
+<script>
+'use strict';
+const API='https://api.openligadb.de',CACHE_KEY='consensus_radar_v33_cache',LOCK_KEY='consensus_radar_v33_next',STATE_KEY='consensus_radar_v33_state',TTL=30*60*1000,WAIT_429=60*60*1000;
+let matches=[],loaded=false,scanning=false,lastSuccess=0,leagueState={list:[],cursor:0,updatedAt:0};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+function setStatus(s){$('status').textContent=s}
+function localDate(d){try{return new Date(d).toLocaleString('ka-GE',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Tbilisi'})}catch{return String(d)}}
+function dateOf(m){return Date.parse(m.matchDateTimeUTC?(m.matchDateTimeUTC.endsWith('Z')?m.matchDateTimeUTC:m.matchDateTimeUTC+'Z'):m.matchDateTime)}
+async function json(path){const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),12000);try{const r=await fetch(API+path,{signal:ctl.signal,cache:'default'});if(!r.ok){const e=new Error('HTTP '+r.status);e.code=r.status;throw e}return await r.json()}finally{clearTimeout(t)}}
+function norm(m,l){const score=(m.matchResults||[]).find(r=>r.resultTypeID===2)||(m.matchResults||[])[0];return{id:String(m.matchID),league:l,home:m.team1?.teamName||'?',away:m.team2?.teamName||'?',date:m.matchDateTimeUTC?(m.matchDateTimeUTC.endsWith('Z')?m.matchDateTimeUTC:m.matchDateTimeUTC+'Z'):m.matchDateTime,finished:!!m.matchIsFinished,score:score?score.pointsTeam1+':'+score.pointsTeam2:''}}
+function leaguesMenu(){const names=[...new Set(matches.map(m=>m.league))].sort(),prev=$('league').value;$('league').innerHTML='<option value="">ყველა ხელმისაწვდომი ლიგა</option>'+names.map(n=>`<option value="${esc(n)}">${esc(n)}</option>`).join('');if(names.includes(prev))$('league').value=prev;return names.length}
+function render(){const q=$('query').value.trim().toLocaleLowerCase(),l=$('league').value,arr=matches.filter(m=>(!l||m.league===l)&&(!q||[m.home,m.away,m.league].some(s=>s.toLocaleLowerCase().includes(q))));$('total').textContent=matches.length;$('candidates').textContent='0';$('greens').textContent='0';$('fixtures').innerHTML=arr.length?arr.slice(0,180).map(m=>`<article class="fixture"><small>${esc(m.league)} · ${esc(localDate(m.date))}</small><strong>${esc(m.home)} — ${esc(m.away)}</strong><span class="tag">${m.finished?'წყაროში დასრულებულადაა მონიშნული':'წყაროს განრიგში'}</span> ${m.finished&&m.score?`<span class="tag">${esc(m.score)}</span>`:''}<p class="muted">განრიგი დამოუკიდებლად არ გადამოწმებულა · პროგნოზი: არ არის გადამოწმებული · 3 წყარო: 0/3</p></article>`).join(''):'<p class="muted">ამ პირობებით მატჩები არ მოიძებნა.</p>';$('searchHint').textContent=q?`ნაპოვნია ${arr.length} მატჩი ჩამოტვირთულ მონაცემებში.`:''}
+function read(key){try{return JSON.parse(localStorage.getItem(key)||'null')}catch{return null}}
+function write(key,val){try{localStorage.setItem(key,JSON.stringify(val))}catch{}}
+function restore(){let c=read(CACHE_KEY);if(!c||!Array.isArray(c.matches)){const older=read('consensus_radar_v32_cache')||read('consensus_radar_v31_cache');if(older&&Array.isArray(older.matches))c=older}
+ if(c&&Array.isArray(c.matches)){matches=c.matches.filter(m=>Number.isFinite(Date.parse(m.date))&&Date.parse(m.date)>=Date.now()-86400000&&Date.parse(m.date)<=Date.now()+7*86400000);lastSuccess=c.savedAt||0;loaded=matches.length>0}
+ const st=read(STATE_KEY);if(st&&Array.isArray(st.list))leagueState=st;
+ const oldLock=Number(localStorage.getItem('consensus_radar_v31_next')||0),oldV32=Number(read('consensus_radar_v32_next')||0),ownLock=Number(read(LOCK_KEY)||0);
+ if(Math.max(oldLock,oldV32)>Date.now()&&ownLock<Math.max(oldLock,oldV32))write(LOCK_KEY,Math.max(oldLock,oldV32));
+ leaguesMenu();render();if(loaded)setStatus(`შენახულია ${matches.length} მატჩი (${new Set(matches.map(m=>m.league)).size} ლიგა).`);return loaded}
+function persist(){write(CACHE_KEY,{savedAt:lastSuccess,matches});write(STATE_KEY,leagueState)}
+function lockUntil(){return Number(read(LOCK_KEY)||0)}
+function lock(ms){write(LOCK_KEY,Date.now()+ms)}
+function remainingMessage(){const remaining=lockUntil()-Date.now();return remaining>0?`ახალი მოთხოვნა ხელმისაწვდომი იქნება დაახლოებით ${Math.ceil(remaining/60000)} წუთში. შენახული მატჩები შენარჩუნებულია.`:''}
+async function scan(){if(scanning)return;const msg=remainingMessage();if(msg){$('progress').textContent=msg;return}
+ scanning=true;$('scan').disabled=true;$('refresh').disabled=true;setStatus(loaded?'მონაცემები ინახება. მიმდინარეობს მცირე განახლება…':'მატჩების მოძიება მიმდინარეობს…');$('progress').textContent='';
+ // A lock is set before the network call to prevent accidental repeated taps/reloads.
+ lock(TTL);
+ let checked=0,errors=0,rateLimited=false,fresh=[];
+ try{
+  const now=Date.now(),year=new Date().getUTCFullYear();
+  // Curated, verified OpenLigaDB league shortcuts; avoid unreliable sport metadata.
+  // OpenLigaDB season is the year the season starts.
+  if(!leagueState.list.length){
+   leagueState={list:[
+    {shortcut:'bl1',season:year,name:'Bundesliga'},
+    {shortcut:'bl2',season:year,name:'2. Bundesliga'},
+    {shortcut:'bl3',season:year,name:'3. Liga'},
+    {shortcut:'ucl',season:year,name:'Champions League'},
+    {shortcut:'dfb',season:year,name:'DFB Pokal'},
+    {shortcut:'la1',season:year,name:'LaLiga'},
+    {shortcut:'pl',season:year,name:'Premier League'},
+    {shortcut:'ffb1',season:year,name:'Frauen Bundesliga'},
+    {shortcut:'uel2026',season:2026,name:'Europa League'},
+    {shortcut:'rlno',season:year,name:'Regionalliga NordOst'}
+   ],cursor:0,updatedAt:now};persist();
+  }
+  if(!leagueState.list.length)throw Error('ლიგები ვერ მოიძებნა');
+  const batch=[];for(let i=0;i<Math.min(2,leagueState.list.length);i++)batch.push(leagueState.list[(leagueState.cursor+i)%leagueState.list.length]);
+  const start=Date.now()-86400000,end=Date.now()+7*86400000;
+  for(const l of batch){
+   try{const events=await json('/getmatchdata/'+encodeURIComponent(l.shortcut)+'/'+encodeURIComponent(l.season));checked++;if(Array.isArray(events))for(const m of events){const when=dateOf(m);if(Number.isFinite(when)&&when>=start&&when<=end)fresh.push(norm(m,l.name))}}
+   catch(e){errors++;if(e.code===429){rateLimited=true;break}}
+   $('progress').textContent=`შემოწმებულია ${checked} ლიგა.`;
+   await wait(900);
+  }
+  leagueState.cursor=(leagueState.cursor+checked)%leagueState.list.length;
+  if(fresh.length){const combined=new Map();for(const m of [...matches,...fresh]){const time=Date.parse(m.date);if(Number.isFinite(time)&&time>=start&&time<=end)combined.set(m.league+'|'+m.id,m)}matches=[...combined.values()].sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));loaded=true;lastSuccess=Date.now()}
+  persist();leaguesMenu();render();
+  setStatus(loaded?`ხელმისაწვდომია ${matches.length} მატჩი (${new Set(matches.map(m=>m.league)).size} ლიგა).`:'ამ შემოწმებაზე მატჩები ვერ მივიღეთ.');
+  $('progress').textContent=rateLimited?'წყარომ დროებით შეზღუდა მოთხოვნები (HTTP 429). შემდეგი მცდელობა 60 წუთში.':errors?`შემოწმდა ${checked} ლიგა, ${errors} მოთხოვნა ვერ შესრულდა. შემდეგი მცდელობა 30 წუთში.`:`შემოწმდა ${checked} ლიგა. შემდეგი შემოწმება 30 წუთში; გაგრძელდება სხვა ლიგებიდან.`;
+  if(rateLimited)lock(WAIT_429);
+ }catch(e){setStatus(loaded?`შენახულია ${matches.length} მატჩი.`:'მატჩების მიღება დროებით ვერ მოხერხდა.');$('progress').textContent='შეცდომა: '+(e.name==='AbortError'?'დრო ამოიწურა':e.message)+'. ხელახლა ცდა მოგვიანებით.';if(e.code===429)lock(WAIT_429)}
+ finally{scanning=false;$('scan').disabled=false;$('refresh').disabled=false}
+}
+$('scan').onclick=scan;$('refresh').onclick=scan;
+$('search').onclick=()=>{render();$('fixtures').scrollIntoView({behavior:'smooth'})};
+$('query').addEventListener('input',render);$('league').addEventListener('change',render);
+restore();if(remainingMessage())$('progress').textContent=remainingMessage();else scan();
+</script></body></html>
