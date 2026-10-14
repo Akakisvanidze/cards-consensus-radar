@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ka"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Football Consensus Radar 9.5</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#071526;color:#edf5ff;font:15px system-ui}main{max-width:900px;margin:auto;padding:18px 13px 70px}.panel{background:#102239;border:1px solid #34516d;border-radius:15px;padding:15px;margin:13px 0}h1{font-size:25px}h2{font-size:19px}p,small{color:#bcd1e4;line-height:1.5}button,input,select{padding:10px;border-radius:9px;background:#1b3857;color:white;border:1px solid #587895;font:inherit}button{cursor:pointer}.row{display:flex;gap:8px;flex-wrap:wrap}.row>*{flex:1;min-width:145px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;text-align:center}.stats>div{background:#07192d;border-radius:9px;padding:12px 2px}.stats strong{display:block;font-size:23px}.match{padding:13px 0;border-top:1px solid #38516b}.tag{display:inline-block;border:1px solid #587895;border-radius:16px;padding:4px 8px;font-size:12px;margin:5px 4px 0 0}.amber{color:#ffda8d;border-color:#dba538}.hidden{display:none}.sourcefinder{background:#091c30;border:1px solid #527391;border-radius:12px;padding:12px;margin:12px 0}.source-links{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.source-links a{border:1px solid #7198bd;border-radius:10px;padding:9px;color:#cbe7ff;text-decoration:none;font-size:13px;flex:1;min-width:120px;text-align:center}.source-links a:focus{outline:2px solid white}</style></head><body><main>
+<h1>📡 Football Consensus Radar 9.5</h1><section class="panel"><h2>📊 შედეგები</h2><div class="stats"><div><strong id="total">0</strong><small>მატჩი არჩეულ პერიოდში</small></div><div><strong id="candidates">0</strong><small>კანდიდატი</small></div><div><strong id="greens">0</strong><small>3/3 თანხვედრა · მონიშნული</small></div></div><p>🟡 კანდიდატი სტატისტიკური სამუშაო მიმართულებაა. 🟢 3/3 თანხვედრა ნიშნავს შენ მიერ სამივე წყაროს თანხმობის მონიშვნას — არა საბოლოოდ დადასტურებულ GREEN-ს. 9.0 კანდიდატისთვის წყაროების ძიებას ერთი დაჭერით ხსნის, მაგრამ მათ პროგნოზებს ავტომატურად ჯერ ვერ კითხულობს. ყვითლების მიმდინარე სტატისტიკა ჯერ არ არის დაკავშირებული.</p></section>
+<section class="panel"><h2>🔎 ფილტრები</h2><div class="row"><select id="mode"><option value="candidates">🟡 მხოლოდ კანდიდატები</option><option value="all">ყველა მომავალი მატჩი</option></select><select id="days"><option value="3">მომდევნო 3 დღე</option><option value="7" selected>მომდევნო 7 დღე</option><option value="14">მომდევნო 14 დღე</option></select></div><div class="row" style="margin-top:8px"><select id="market"><option value="all">ყველა სამუშაო მიმართულება</option><option value="goals">გოლები · მეტი / ნაკლები</option><option value="homegoals2">🏠 მასპინძლის 2+ გოლი</option><option value="awaygoals2">✈️ სტუმრის 2+ გოლი</option><option value="one">1 · მასპინძლის მოგება</option><option value="draw">X · ფრე</option><option value="two">2 · სტუმრის მოგება</option><option value="onex">1X · მასპინძელი ან ფრე</option><option value="xtwo">X2 · ფრე ან სტუმარი</option><option value="teamcards">🟨 გუნდის 1.5-ზე მეტი ყვითელი · მონაცემები არ არის</option><option value="matchcards">🟨 მატჩის 2.5-ზე მეტი ყვითელი · მონაცემები არ არის</option></select><input id="query" placeholder="გუნდი ან ლიგა"></div><div class="row" style="margin-top:8px"><select id="country"><option value="all">🌍 ყველა ქვეყანა და ტურნირი</option></select></div><p id="shown"></p><small id="marketnote"></small></section>
+<section class="panel"><h2>⚡ სწრაფი სამწყაროიანი შემოწმება</h2><p>აირჩიე მატჩის სამუშაო კანდიდატი; 9.5 ძიების ბმულებს ავტომატურად მოამზადებს. თითოეული კონკრეტული არჩევანი მხოლოდ სამი მართლაც დამოუკიდებელი წყაროს, კოეფიციენტისა და რისკების შემოწმების შემდეგ შეიძლება ჩაითვალოს GREEN-ად. მხოლოდ სხვადასხვა საიტის ბმული დამოუკიდებლობას არ ამტკიცებს.</p><div class="row"><select id="reviewpick"><option value="">აირჩიე კანდიდატი</option></select></div><div id="reviewform" class="hidden"><p id="reviewtitle"></p><section class="sourcefinder"><strong>🔎 პროგნოზების მოძიება ამ არჩევანისთვის</strong><p><small>თითო ბმული ხსნის შესაბამისი საიტის ძიებას. შედეგი, არჩევანის თანხვედრა და წყაროების მეთოდოლოგიური დამოუკიდებლობა ავტომატურად არ დასტურდება.</small></p><div id="sourcefindlinks" class="source-links"></div><div class="row"><button type="button" id="copyResearch">ძიების ტექსტის კოპირება</button><button type="button" id="nextReview">შემდეგი კანდიდატი →</button></div></section><section class="sourcefinder"><strong>🧭 სამი წყაროს სწრაფი შედარება</strong><p><small>ყოველი საიტის შეფასება ცალ-ცალკე მონიშნე. თითოეულ ცვლილებას რადარი თავისით ინახავს; ბმულების და სხვა ველების შევსება საჭირო აღარ არის.</small></p><div class="row"><label>Forebet<select id="verdict1"><option value="unknown">შეუმოწმებელი</option><option value="yes">ამ არჩევანს ეთანხმება</option><option value="no">ეწინააღმდეგება</option><option value="unclear">დასკვნა არ ჩანს</option></select></label><label>Sports Mole<select id="verdict2"><option value="unknown">შეუმოწმებელი</option><option value="yes">ამ არჩევანს ეთანხმება</option><option value="no">ეწინააღმდეგება</option><option value="unclear">დასკვნა არ ჩანს</option></select></label><label>PredictZ<select id="verdict3"><option value="unknown">შეუმოწმებელი</option><option value="yes">ამ არჩევანს ეთანხმება</option><option value="no">ეწინააღმდეგება</option><option value="unclear">დასკვნა არ ჩანს</option></select></label></div><p id="verdictSummary">შეამოწმე სამი წყარო.</p></section><p class="tip">✅ მონიშვნები ავტომატურად ინახება. 3/3 სამუშაო თანხვედრა არ ნიშნავს საბოლოო GREEN-ს.</p><button id="clearReview" type="button">ამ კანდიდატის მონიშვნების გასუფთავება</button><p id="reviewstatus"></p></div></section><section class="panel"><h2>✅ 3/3 თანხვედრის სია · არა GREEN</h2><div id="greenlist"><p>ჯერ არცერთი არჩევანი არ არის გადამოწმებული.</p></div></section><section class="panel"><h2>🌍 სკანირება</h2><p id="progress">მზადაა. აირჩიე ლიგა და ბაზარი, შემდეგ დააჭირე დაწყებას. ავტომატური სკანირება გამორთულია.</p><div class="row"><button id="scan">▶ სკანირების დაწყება</button><button id="stop">შეჩერება</button></div><small>არჩეული ლიგა მოწმდება ცალკე; 30 ტურნირი — მხოლოდ „ყველა ქვეყანა“ რეჟიმში. ESPN-ის საჯარო მატჩების მონაცემები. გუნდების ფორმაში სხვა ხელმისაწვდომი ტურნირებიც ითვლება მხოლოდ ზუსტად დამთხვევისას. სკანირება იწყება მხოლოდ ღილაკზე დაჭერით; პერიოდული განახლება გამორთულია. წარუმატებელი მოთხოვნები ცალკე აღირიცხება. ბარათებისა და მსაჯების მიმდინარე მონაცემები ამ წყაროში არ არის დამოწმებული. 9.5: მასპინძლის/სტუმრის 2+ გოლი, სამი წყაროს სწრაფი ხელით მონიშვნა, ავტომატური შენახვა და 3/3 თანხვედრის ცალკე სია. წყაროების ავტომატური წაკითხვა, დამოუკიდებლობა, კოეფიციენტები და რისკები დაუდასტურებელია; საბოლოო GREEN ავტომატურად არ მიენიჭება.</small></section>
+<section class="panel"><h2>🟡 სამუშაო სია</h2><div id="matches"></div><button id="more" class="hidden">მეტის ჩვენება</button></section></main>
+<script>'use strict';const $=id=>document.getElementById(id);const leagues=[['uefa.champions','ჩემპიონთა ლიგა'],['uefa.europa','ევროპა ლიგა'],['uefa.europa.conf','კონფერენს ლიგა'],['eng.1','ინგლისი · პრემიერ ლიგა'],['eng.2','ინგლისი · ჩემპიონშიფი'],['esp.1','ესპანეთი · ლა ლიგა'],['ita.1','იტალია · სერია A'],['ger.1','გერმანია · ბუნდესლიგა'],['fra.1','საფრანგეთი · ლიგა 1'],['por.1','პორტუგალია'],['ned.1','ნიდერლანდები'],['bel.1','ბელგია'],['sco.1','შოტლანდია'],['tur.1','თურქეთი'],['gre.1','საბერძნეთი'],['aut.1','ავსტრია'],['sui.1','შვეიცარია'],['den.1','დანია'],['nor.1','ნორვეგია'],['swe.1','შვედეთი'],['pol.1','პოლონეთი'],['cze.1','ჩეხეთი'],['usa.1','აშშ · MLS'],['mex.1','მექსიკა'],['bra.1','ბრაზილია'],['arg.1','არგენტინა'],['jpn.1','იაპონია'],['aus.1','ავსტრალია'],['ksa.1','საუდის არაბეთი'],['uefa.nations','ერთა ლიგა']];const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&quot;',"'":'&#39;'}[c]));let games=[],historyGames=[],busy=false,stopped=false,visible=60,scanCompleted=false;function normTeam(v){return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
+// IDs are reliable only within the same competition; across competitions match exact normalized names.
+// Never infer fuzzy similarities: if unavailable, mark insufficient history rather than invent it.
+function form(code,team,at,teamName){
+ const name=normTeam(teamName);
+ const a=[...new Map([...historyGames,...games].map(g=>[g.id,g])).values()].filter(x=>{
+  if(!x.done||x.date>=at||x.date<at-60*864e5)return false;
+  return (x.code===code&&(x.homeId===team||x.awayId===team)) ||
+    (name.length>2&&(normTeam(x.home)===name||normTeam(x.away)===name));
+ }).sort((a,b)=>b.date-a.date).slice(0,5);
+ let scored=0,conceded=0,wins=0,draws=0,losses=0,scored2=0,conceded2=0;
+ for(const g of a){const home=(g.code===code&&g.homeId===team)||normTeam(g.home)===name;
+  let fg=home?g.hs:g.as,ag=home?g.as:g.hs;scored+=fg;conceded+=ag;if(fg>=2)scored2++;if(ag>=2)conceded2++;if(fg>ag)wins++;else if(fg===ag)draws++;else losses++}
+ return {n:a.length,avg:a.length?scored/a.length:0,con:a.length?conceded/a.length:0,scored2,conceded2,wins,draws,losses};
+}
+function evaluate(g){
+ let h=form(g.code,g.homeId,g.date,g.home),a=form(g.code,g.awayId,g.date,g.away);
+ if(h.n<3||a.n<3)return null;
+ let goals=h.avg+a.avg,markets=[],picks=[];
+ function add(market,label,reason){markets.push(market);picks.push({market,label,reason})}
+ if(goals>=3.8)add('goals','მეტი 2.5 · საწყისი შესამოწმებელი','გატანილი გოლების ორი საშუალოს ჯამი '+goals.toFixed(2));
+ else if(goals>=2.7)add('goals','მეტი 1.5 · საწყისი შესამოწმებელი','გატანილი გოლების ორი საშუალოს ჯამი '+goals.toFixed(2));
+ else if(goals<=1.7)add('goals','ნაკლები 3.5 · საწყისი შესამოწმებელი','გატანილი გოლების ორი საშუალოს ჯამი '+goals.toFixed(2));
+ // Team 2+ goals: both own attack and opponent's conceded-goals history are required.
+ // These are transparent uncalibrated heuristics, not true outcome probabilities.
+ const hAttack2=h.scored2/h.n,hOppConcede2=a.conceded2/a.n;
+ const aAttack2=a.scored2/a.n,aOppConcede2=h.conceded2/h.n;
+ function team2Reason(attacker,defender){return 'ბოლო '+attacker.n+' მატჩში 2+ გოლი გაიტანა '+attacker.scored2+'-ჯერ; მეტოქემ ბოლო '+defender.n+' მატჩში 2+ გოლი გაუშვა '+defender.conceded2+'-ჯერ. ისტორიული სიხშირეა, არა პროგნოზის ალბათობა.'}
+ if(h.scored2>=2&&a.conceded2>=2&&hAttack2>=.4&&hOppConcede2>=.4)
+   add('homegoals2','🏠 '+g.home+' · 2+ გოლი · შესამოწმებელი',team2Reason(h,a));
+ if(a.scored2>=2&&h.conceded2>=2&&aAttack2>=.4&&aOppConcede2>=.4)
+   add('awaygoals2','✈️ '+g.away+' · 2+ გოლი · შესამოწმებელი',team2Reason(a,h));
+
+ // Heuristic form scores, not calibrated probabilities or independent predictions.
+ let p1=(h.wins/h.n+a.losses/a.n)/2, px=(h.draws/h.n+a.draws/a.n)/2,p2=(h.losses/h.n+a.wins/a.n)/2;
+ let pct=x=>Math.round(x*100)+'%';
+ const desc='მხოლოდ ბოლო '+h.n+'/'+a.n+' მატჩის შედეგებით დათვლილი ფორმის ინდექსი — არა მოგების ალბათობა';
+ if(p1>=.46&&p1>=px+.10&&p1>=p2+.10)add('one','1 · '+g.home+' მოგება · შესამოწმებელი',desc+'; ინდექსი '+pct(p1));
+ if(px>=.34&&px>=p1-.03&&px>=p2-.03)add('draw','X · ფრე · შესამოწმებელი',desc+'; ინდექსი '+pct(px));
+ if(p2>=.46&&p2>=px+.10&&p2>=p1+.10)add('two','2 · '+g.away+' მოგება · შესამოწმებელი',desc+'; ინდექსი '+pct(p2));
+ if(p1+px>=.68)add('onex','1X · '+g.home+' ან ფრე · შესამოწმებელი',desc+'; კომბინირებული ინდექსი '+pct(p1+px));
+ if(px+p2>=.68)add('xtwo','X2 · ფრე ან '+g.away+' · შესამოწმებელი',desc+'; კომბინირებული ინდექსი '+pct(px+p2));
+ if(!markets.length)return null;
+ return {markets,picks,h,a,rank:markets.length*10+Math.max(p1,px,p2)*5+goals/3};
+}
+function render(){
+ const now=Date.now(),q=$('query').value.trim().toLowerCase(),days=+$('days').value,market=$('market').value,country=$('country').value;
+ const all=games.filter(g=>!g.done&&g.date>=now&&g.date<now+days*864e5&&(country==='all'||g.code===country));
+ const scored=all.map(g=>({...g,ev:evaluate(g)}));
+ const cardReview=market==='teamcards'||market==='matchcards';
+ const relevant=scored.filter(g=>(g.home+' '+g.away+' '+g.league).toLowerCase().includes(q));
+ const candidateSet=relevant.filter(g=>g.ev&&(market==='all'||g.ev.markets.includes(market)));
+ const shown=(cardReview?[]:relevant.filter(g=>market==='all'?($('mode').value==='all'||g.ev):($('mode').value==='all'||g.ev?.markets.includes(market)))).sort((a,b)=>(b.ev?.rank||0)-(a.ev?.rank||0)||a.date-b.date);
+ $('total').textContent=scanCompleted?relevant.length:'0';
+ $('candidates').textContent=scanCompleted&&!cardReview?candidateSet.length:'0';
+ $('marketnote').textContent=cardReview?'ბარათების სანდო მონაცემთა წყარო ჯერ არ არის მიერთებული. ამიტომ ამ ბაზარზე 0 დადასტურებული სტატისტიკური კანდიდატია; ზოგადი მატჩები განზრახ არ გამოჩნდება.': 'ფორმისთვის გამოიყენება გუნდის ზუსტად ამოცნობილი მატჩები ხელმისაწვდომ ლიგებშიც. თუ გუნდის სახელები განსხვავდება, მონაცემები შეიძლება აკლდეს. 2+ გუნდის გოლის შეფასებაც ბოლო მატჩების ისტორიულ სიხშირეს ეფუძნება, არა კალიბრირებულ ალბათობას. ეს არ არის GREEN ან სანდო სამწყაროიანი პროგნოზი.';
+ $('shown').textContent='არჩეულ პერიოდში მატჩი: '+(scanCompleted?relevant.length:0)+' · ამ ბაზრის კანდიდატი: '+(cardReview?0:candidateSet.length)+' · ნაჩვენებია: '+Math.min(shown.length,visible)+' / '+shown.length;
+ $('more').classList.toggle('hidden',shown.length<=visible);
+ $('matches').innerHTML=shown.slice(0,visible).map(g=>{
+  let picks=g.ev?.picks.filter(p=>market==='all'||p.market===market)||[];
+  return '<div class="match"><small>'+esc(g.league)+' · '+esc(new Date(g.date).toLocaleString('ka-GE',{timeZone:'Asia/Tbilisi'}))+'</small><div><strong>'+esc(g.home)+' — '+esc(g.away)+'</strong></div>'+
+  (picks.length?'<span class="tag amber">🟡 სამუშაო კანდიდატი · არა GREEN</span>'+picks.map(p=>'<p><strong>'+esc(p.label)+'</strong><br><small>'+esc(p.reason)+'</small></p>').join('')+'<small>ESPN ბოლო მატჩები: '+esc(g.home)+' '+g.ev.h.n+'; '+esc(g.away)+' '+g.ev.a.n+'.</small>':'<span class="tag">⚪ ამ ბაზარზე დადასტურებული კანდიდატი არ არის</span>')+
+  '<div><span class="tag">დამოუკიდებელი პროგნოზები: 0/3 გადამოწმებული</span><span class="tag">კოეფიციენტი: უცნობია</span><span class="tag">მსაჯი / ბარათები: დაუდასტურებელია</span></div></div>';
+ }).join('')||(!scanCompleted?'<p>სკანირება ჯერ არ დაწყებულა ან მიმდინარეობს. დააჭირე „სკანირების დაწყებას“ და დაელოდე დასრულებას.</p>':cardReview?'<p>🟨 ბარათების სტატისტიკური კანდიდატები: 0. მონაცემები მიუწვდომელია — ეს არ ნიშნავს, რომ რომელიმე მატჩში ბარათები არ იქნება.</p>':'<p>ამ ფილტრით მატჩი არ გამოჩნდა. სცადე 14 დღე ან „ყველა მომავალი მატჩი“.</p>');
+}
+async function get(url){let ctrl=new AbortController(),t=setTimeout(()=>ctrl.abort(),12000);try{let r=await fetch(url,{signal:ctrl.signal});if(!r.ok)throw Error(r.status);return await r.json()}finally{clearTimeout(t)}}
+async function scan(){
+ if(busy)return;
+ busy=true;stopped=false;scanCompleted=false;games=[];visible=60;window.__selectedReviewKey='';
+ $('scan').disabled=true;
+ const selected=$('country').value;
+ const target=selected==='all'?leagues:leagues.filter(([code])=>code===selected);
+ const label=selected==='all'?'ყველა ლიგა':target[0]?.[1]||'არჩეული ლიგა';
+ let map=new Map(),ok=0,fail=0,now=new Date(),months=[-1,0,1].map(d=>new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth()+d,1)));
+ $('progress').textContent='⏳ სკანირება დაიწყო · '+label+' · 0/'+target.length;
+ render();
+ try{
+  for(let i=0;i<target.length;i++){
+   if(stopped)break;
+   let [code,league]=target[i],worked=false;
+   for(const month of months){
+    if(stopped)break;
+    let ym=month.getUTCFullYear()+String(month.getUTCMonth()+1).padStart(2,'0');
+    try{
+     let d=await get('https://site.api.espn.com/apis/site/v2/sports/soccer/'+encodeURIComponent(code)+'/scoreboard?dates='+ym+'&limit=500');
+     if(!Array.isArray(d.events))continue;
+     worked=true;
+     for(const e of d.events){
+      let c=e.competitions?.[0]?.competitors||[],h=c.find(x=>x.homeAway==='home'),a=c.find(x=>x.homeAway==='away');
+      if(!h||!a||!e.date)continue;
+      let date=Date.parse(e.date);
+      if(!Number.isFinite(date)||date<Date.now()-60*864e5||date>Date.now()+15*864e5)continue;
+      let done=!!e.status?.type?.completed,hs=Number(h.score),as=Number(a.score);
+      if(done&&(!Number.isFinite(hs)||!Number.isFinite(as)))continue;
+      map.set(code+'-'+e.id,{id:code+'-'+e.id,code,league,home:h.team?.displayName||'?',away:a.team?.displayName||'?',homeId:String(h.team?.id||h.team?.displayName),awayId:String(a.team?.id||a.team?.displayName),date,done,hs,as});
+     }
+    }catch(e){}
+   }
+   worked?ok++:fail++;
+   $('progress').textContent='⏳ '+label+' · ლიგები '+(i+1)+'/'+target.length+' · წარმატებული '+ok+' · მიუწვდომელი '+fail;
+  }
+  games=[...map.values()];
+  // Preserve fetched data as optional historical form context; do not show old scan results.
+  if(ok){
+   const known=new Map([...historyGames,...games].map(g=>[g.id,g]));
+   historyGames=[...known.values()].filter(g=>g.date>=Date.now()-65*864e5&&g.date<=Date.now()+15*864e5);
+   try{localStorage.setItem('radar_v95_history',JSON.stringify(historyGames))}catch(e){}
+  }
+  scanCompleted=ok>0;
+  $('progress').textContent=(stopped?'⏹ შეჩერებულია':ok?'✅ დასრულდა':'⚠ მონაცემები მიუწვდომელია')+' · '+label+' · ლიგები '+(ok+fail)+'/'+target.length+' · წარმატებული '+ok+' · მიუწვდომელი '+fail;
+ }finally{busy=false;$('scan').disabled=false;render()}
+}
+try{historyGames=JSON.parse(localStorage.getItem('radar_v95_history')||localStorage.getItem('radar_v94_history')||localStorage.getItem('radar_v89_cache')||'[]')}catch(e){}
+for(const[code,name]of leagues){let option=document.createElement('option');option.value=code;option.textContent=name;$('country').appendChild(option)}
+for(let id of ['mode','days','market','query','country'])$(id).addEventListener(id==='query'?'input':'change',()=>{visible=60;render()});
+$('more').onclick=()=>{visible+=60;render()};
+$('scan').onclick=scan;
+$('stop').onclick=()=>{stopped=true};
+render();
+
+// Review ledger is local to this browser. Links and consent are user-provided; there is no automatic source validation.
+let reviews={};try{reviews=JSON.parse(localStorage.getItem('radar_v95_reviews')||localStorage.getItem('radar_v94_reviews')||localStorage.getItem('radar_v93_reviews')||localStorage.getItem('radar_v92_reviews')||localStorage.getItem('radar_v91_reviews')||'{}')}catch(e){}
+const marketPickKey=(g,p)=>g.id+'|'+p.market+'|'+p.label;
+function httpsDomain(link){try{let u=new URL(link);return u.protocol==='https:'?u.hostname.replace(/^www\./,''):''}catch(e){return ''}}
+function candidateChoices(){const now=Date.now(),max=now+Number($('days').value)*864e5,country=$('country').value,market=$('market').value,q=$('query').value.toLowerCase();let choices=[];for(const g of games){if(g.done||g.date<now||g.date>=max||(country!=='all'&&g.code!==country)||(g.home+' '+g.away+' '+g.league).toLowerCase().indexOf(q)<0)continue;let ev=evaluate(g);if(!ev)continue;for(const p of ev.picks){if(market!=='all'&&market!==p.market)continue;choices.push({g,p,key:marketPickKey(g,p)})}}return choices}
+function consensus(x){return Array.isArray(x?.verdicts)&&x.verdicts.length===3&&x.verdicts.every(v=>v==='yes')}
+function saveReviews(){try{localStorage.setItem('radar_v95_reviews',JSON.stringify(reviews))}catch(e){$('reviewstatus').textContent='შენახვა ვერ მოხერხდა: ბრაუზერის მეხსიერება შეზღუდულია.'}}
+function renderReview(){
+ const options=candidateChoices(),sel=$('reviewpick');
+ sel.innerHTML='<option value="">აირჩიე სამუშაო კანდიდატი</option>'+options.slice(0,400).map((o,i)=>'<option value="'+i+'">'+esc(o.g.home+' — '+o.g.away+' · '+o.p.label)+'</option>').join('');
+ const chosen=options.findIndex(o=>o.key===window.__selectedReviewKey);
+ sel.value=chosen>=0?String(chosen):'';
+ const agreed=options.filter(o=>consensus(reviews[o.key]));
+ $('greens').textContent=String(agreed.length);
+ $('greenlist').innerHTML=agreed.length?'<p>🟡 '+agreed.length+' არჩევანზე სამივე წყაროს თანხმობა მონიშნულია, თუმცა დამოუკიდებლობა და სხვა რისკები არ არის გადამოწმებული.</p>'+agreed.map(o=>'<div class="match"><strong>'+esc(o.g.home+' — '+o.g.away)+'</strong><p>✅ 3/3 თანხვედრა: '+esc(o.p.label)+'</p><small>სამუშაო 3/3 თანხვედრა — საბოლოო GREEN არაა</small></div>').join(''):'<p>ამ ფილტრებში ჯერ 3/3 თანხვედრით მონიშნული არჩევანი არ არის.</p>';
+ showReviewForm(options[chosen]);
+}
+function researchTerm(option){let d=new Date(option.g.date).toISOString().slice(0,10);let market=option.p.market==='goals'?'over under total goals prediction':option.p.market==='homegoals2'?'home team over 1.5 team goals prediction':option.p.market==='awaygoals2'?'away team over 1.5 team goals prediction':'win draw double chance prediction';return option.g.home+' vs '+option.g.away+' '+d+' '+market}
+function researchLinks(option){const term=researchTerm(option),sites=[['Forebet','forebet.com'],['Sports Mole','sportsmole.co.uk'],['PredictZ','predictz.com']];return sites.map(([name,host])=>{let q='site:'+host+' '+term;return '<a href="https://www.google.com/search?q='+encodeURIComponent(q)+'" target="_blank" rel="noopener noreferrer">🔎 '+esc(name)+'</a>'}).join('')+'<a href="https://www.google.com/search?q='+encodeURIComponent(term)+'" target="_blank" rel="noopener noreferrer">🌐 ფართო ძიება</a>'}
+function updateVerdictSummary(){
+ let a=[1,2,3].map(i=>$('verdict'+i).value),yes=a.filter(v=>v==='yes').length,no=a.filter(v=>v==='no').length,unclear=a.filter(v=>v==='unclear').length;
+ $('verdictSummary').textContent='წყაროები: '+yes+'/3 თანხმდება · '+no+' ეწინააღმდეგება · '+unclear+' გაურკვეველია. '+(no?'⛔ წინააღმდეგობაა; GREEN დაუშვებელია.':yes===3?'✅ 3/3 სამუშაო თანხვედრა. წყაროების დამოუკიდებლობა და რისკები ჯერ დაუდასტურებელია; არა GREEN.':'🟡 ჯერ 3/3 თანხვედრა არ არის.');
+}
+function showReviewForm(option){
+ $('reviewform').classList.toggle('hidden',!option);if(!option)return;
+ $('reviewtitle').textContent=option.g.home+' — '+option.g.away+' | '+option.p.label;
+ $('sourcefindlinks').innerHTML=researchLinks(option);
+ const r=reviews[option.key]||{};
+ for(let i=1;i<=3;i++)$('verdict'+i).value=r.verdicts?.[i-1]||'unknown';
+ updateVerdictSummary();
+ $('reviewstatus').textContent='💾 ცვლილებები ავტომატურად ინახება ამ ბრაუზერში.';
+}
+for(let i=1;i<=3;i++)$('verdict'+i).onchange=()=>{
+ const key=window.__selectedReviewKey;if(!key)return;
+ reviews[key]={...(reviews[key]||{}),verdicts:[1,2,3].map(j=>$('verdict'+j).value)};
+ saveReviews();renderReview();
+};
+$('copyResearch').onclick=()=>{let o=candidateChoices().find(x=>x.key===window.__selectedReviewKey);if(!o)return;let t=researchTerm(o);if(navigator.clipboard?.writeText){navigator.clipboard.writeText(t).then(()=>{$('reviewstatus').textContent='🔎 საძიებო ტექსტი დაკოპირდა';}).catch(()=>{$('reviewstatus').textContent=t})}else $('reviewstatus').textContent=t};
+$('nextReview').onclick=()=>{let opts=candidateChoices(),i=opts.findIndex(o=>o.key===window.__selectedReviewKey);if(!opts.length)return;let next=opts[(i+1)%opts.length];window.__selectedReviewKey=next.key;renderReview()};
+$('reviewpick').onchange=()=>{let opts=candidateChoices(),n=Number($('reviewpick').value);window.__selectedReviewKey=$('reviewpick').value===''?'':opts[n]?.key;showReviewForm(opts[n])};
+$('clearReview').onclick=()=>{let key=window.__selectedReviewKey;if(!key)return;delete reviews[key];saveReviews();renderReview()};
+const baseRender=render;render=function(){baseRender();renderReview()};render();
+</script></body></html>
