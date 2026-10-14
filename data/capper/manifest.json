@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-10-14T10:54:33.773415+00:00",
+  "timezone": "Asia/Tbilisi",
+  "available": [
+    {
+      "date": "2026-10-14",
+      "market": "total_goals",
+      "file": "2026-10-14_total_goals.json"
+    },
+    {
+      "date": "2026-10-14",
+      "market": "match_winner",
+      "file": "2026-10-14_match_winner.json"
+    },
+    {
+      "date": "2026-10-14",
+      "market": "double_chance",
+      "file": "2026-10-14_double_chance.json"
+    },
+    {
+      "date": "2026-10-14",
+      "market": "btts",
+      "file": "2026-10-14_btts.json"
+    },
+    {
+      "date": "2026-10-14",
+      "market": "corners",
+      "file": "2026-10-14_corners.json"
+    },
+    {
+      "date": "2026-10-15",
+      "market": "total_goals",
+      "file": "2026-10-15_total_goals.json"
+    },
+    {
+      "date": "2026-10-15",
+      "market": "match_winner",
+      "file": "2026-10-15_match_winner.json"
+    },
+    {
+      "date": "2026-10-15",
+      "market": "double_chance",
+      "file": "2026-10-15_double_chance.json"
+    },
+    {
+      "date": "2026-10-15",
+      "market": "btts",
+      "file": "2026-10-15_btts.json"
+    },
+    {
+      "date": "2026-10-15",
+      "market": "corners",
+      "file": "2026-10-15_corners.json"
+    }
+  ],
+  "unavailable": [],
+  "note": "Single-source published selections, not verified probabilities or GREEN."
+}

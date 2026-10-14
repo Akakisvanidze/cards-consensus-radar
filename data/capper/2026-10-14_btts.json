@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-14",
+  "market": "btts",
+  "market_counts": {
+    "total_goals": 6,
+    "corners": 0,
+    "match_winner": 2,
+    "double_chance": 0,
+    "handicap": 0,
+    "btts": 0
+  },
+  "countries": []
+}
