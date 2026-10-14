@@ -1,0 +1,612 @@
+{
+  "date": "2026-10-16",
+  "market": "corners",
+  "market_counts": {
+    "total_goals": 1,
+    "corners": 0,
+    "team_total": 0,
+    "match_winner": 0,
+    "double_chance": 0,
+    "handicap": 0,
+    "btts": 0
+  },
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 1822,
+              "url": "https://capper.win/predictions/huracan-vs-gimnasia-lp-1822",
+              "kickoff": "2026-10-15T23:00:00+00:00",
+              "time": "02:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Huracan",
+                "logo": "/app/teams/445.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Gimnasia L.P.",
+                "logo": "/app/teams/434.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-15T22:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "flag": "/app/flags/dk.svg",
+      "leagues": [
+        {
+          "id": 22,
+          "name": "Superliga",
+          "logo": "/app/leagues/119.png",
+          "fixtures": [
+            {
+              "id": 1826,
+              "url": "https://capper.win/predictions/ac-horsens-vs-randers-fc-1826",
+              "kickoff": "2026-10-16T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "AC Horsens",
+                "logo": "/app/teams/404.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Randers FC",
+                "logo": "/app/teams/401.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-16T16:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 2,
+          "name": "Championship",
+          "logo": "/app/leagues/40.png",
+          "fixtures": [
+            {
+              "id": 1834,
+              "url": "https://capper.win/predictions/burnley-vs-wolves-1834",
+              "kickoff": "2026-10-16T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Burnley",
+                "logo": "/app/teams/44.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Wolves",
+                "logo": "/app/teams/39.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "flag": "/app/flags/fr.svg",
+      "leagues": [
+        {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 1833,
+              "url": "https://capper.win/predictions/le-mans-vs-toulouse-1833",
+              "kickoff": "2026-10-16T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Le Mans",
+                "logo": "/app/teams/1298.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Toulouse",
+                "logo": "/app/teams/96.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 4,
+          "name": "Bundesliga",
+          "logo": "/app/leagues/78.png",
+          "fixtures": [
+            {
+              "id": 1831,
+              "url": "https://capper.win/predictions/eintracht-frankfurt-vs-1-fc-koln-1831",
+              "kickoff": "2026-10-16T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Eintracht Frankfurt",
+                "logo": "/app/teams/169.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "1. FC Köln",
+                "logo": "/app/teams/192.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 1832,
+              "url": "https://capper.win/predictions/frosinone-vs-sassuolo-1832",
+              "kickoff": "2026-10-16T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Frosinone",
+                "logo": "/app/teams/512.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Sassuolo",
+                "logo": "/app/teams/488.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "flag": "/app/flags/nl.svg",
+      "leagues": [
+        {
+          "id": 5,
+          "name": "Eredivisie",
+          "logo": "/app/leagues/88.png",
+          "fixtures": [
+            {
+              "id": 1828,
+              "url": "https://capper.win/predictions/heerenveen-vs-excelsior-1828",
+              "kickoff": "2026-10-16T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Heerenveen",
+                "logo": "/app/teams/210.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Excelsior",
+                "logo": "/app/teams/196.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-16T17:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "flag": "/app/flags/pl.svg",
+      "leagues": [
+        {
+          "id": 20,
+          "name": "Ekstraklasa",
+          "logo": "/app/leagues/106.png",
+          "fixtures": [
+            {
+              "id": 1824,
+              "url": "https://capper.win/predictions/wieczysta-krakow-vs-rakow-czestochowa-1824",
+              "kickoff": "2026-10-16T16:00:00+00:00",
+              "time": "19:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Wieczysta Kraków",
+                "logo": "/app/teams/17115.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Raków Częstochowa",
+                "logo": "/app/teams/3491.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-16T15:30:00+00:00"
+            },
+            {
+              "id": 1829,
+              "url": "https://capper.win/predictions/widzew-lodz-vs-wisla-krakow-1829",
+              "kickoff": "2026-10-16T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Widzew Łódź",
+                "logo": "/app/teams/6962.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Wisla Krakow",
+                "logo": "/app/teams/338.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1835,
+              "url": "https://capper.win/predictions/deportivo-la-coruna-vs-levante-1835",
+              "kickoff": "2026-10-16T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Deportivo La Coruna",
+                "logo": "/app/teams/544.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Levante",
+                "logo": "/app/teams/539.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 1830,
+              "url": "https://capper.win/predictions/leganes-vs-cordoba-1830",
+              "kickoff": "2026-10-16T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Leganes",
+                "logo": "/app/teams/537.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Cordoba",
+                "logo": "/app/teams/713.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
+            {
+              "id": 1825,
+              "url": "https://capper.win/predictions/if-brommapojkarna-vs-djurgardens-if-1825",
+              "kickoff": "2026-10-16T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "IF Brommapojkarna",
+                "logo": "/app/teams/371.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Djurgardens IF",
+                "logo": "/app/teams/364.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-16T16:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 1827,
+              "url": "https://capper.win/predictions/corum-fk-vs-rizespor-1827",
+              "kickoff": "2026-10-16T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Çorum FK",
+                "logo": "/app/teams/6343.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Rizespor",
+                "logo": "/app/teams/1007.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-16T16:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "flag": "/app/flags/ua.svg",
+      "leagues": [
+        {
+          "id": 15,
+          "name": "Premier League",
+          "logo": "/app/leagues/333.png",
+          "fixtures": [
+            {
+              "id": 1823,
+              "url": "https://capper.win/predictions/obolon-brovar-vs-veres-rivne-1823",
+              "kickoff": "2026-10-16T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Obolon'-Brovar",
+                "logo": "/app/teams/3630.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Veres Rivne",
+                "logo": "/app/teams/6501.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
