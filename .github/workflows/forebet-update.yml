@@ -1,4 +1,4 @@
-name: API-Football 70% Update
+name: Forebet 70% Update
 
 on:
   workflow_dispatch:
