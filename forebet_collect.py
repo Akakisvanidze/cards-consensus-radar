@@ -1,4 +1,3 @@
-
 import os
 import json
 import requests
@@ -9,31 +8,38 @@ KEY = os.environ["API_FOOTBALL_KEY"]
 BASE = "https://v3.football.api-sports.io"
 HEADERS = {"x-apisports-key": KEY}
 OUT = Path("data/forebet/latest.json")
+MAX_PREDICTIONS = 10
 
 
 def api(endpoint, params):
-    r = requests.get(
+    response = requests.get(
         BASE + "/" + endpoint,
         headers=HEADERS,
         params=params,
         timeout=30
     )
-    r.raise_for_status()
-    data = r.json()
+    if response.status_code == 429:
+        print("API request limit reached; stopping.")
+        return None
+    response.raise_for_status()
+    data = response.json()
     if data.get("errors"):
-        raise RuntimeError(str(data["errors"]))
+        print("API error:", data["errors"])
+        return None
     return data.get("response", [])
 
 
 def main():
     today = datetime.now(timezone.utc).date().isoformat()
     fixtures = api("fixtures", {"date": today})
+    if fixtures is None:
+        return
 
     matches = []
     checked = 0
 
     for item in fixtures:
-        if checked >= 70:
+        if checked >= MAX_PREDICTIONS:
             break
 
         fixture = item.get("fixture", {})
@@ -44,14 +50,16 @@ def main():
         if not fixture_id:
             continue
 
-        checked += 1
         predictions = api("predictions", {"fixture": fixture_id})
+        if predictions is None:
+            break
 
+        checked += 1
         if not predictions:
             continue
 
-        p = predictions[0].get("predictions", {})
-        percent = p.get("percent", {})
+        prediction = predictions[0].get("predictions", {})
+        percent = prediction.get("percent", {})
         probabilities = {}
 
         for market, field in [
@@ -61,7 +69,10 @@ def main():
         ]:
             value = percent.get(field)
             if isinstance(value, str) and value.endswith("%"):
-                probabilities[market] = int(value[:-1])
+                try:
+                    probabilities[market] = float(value[:-1])
+                except ValueError:
+                    pass
 
         if len(probabilities) != 3:
             continue
@@ -81,7 +92,7 @@ def main():
         })
 
     if not matches:
-        print("No validated predictions; previous data preserved")
+        print("No validated predictions; previous data preserved.")
         return
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -94,7 +105,7 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"Checked {checked} fixtures, saved {len(matches)}")
+    print(f"Checked {checked} matches; saved {len(matches)}.")
 
 
 if __name__ == "__main__":
