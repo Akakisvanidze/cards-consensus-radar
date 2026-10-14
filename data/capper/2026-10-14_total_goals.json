@@ -2,11 +2,11 @@
   "date": "2026-10-14",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 6,
+    "total_goals": 7,
     "corners": 0,
-    "match_winner": 2,
+    "match_winner": 3,
     "double_chance": 0,
-    "handicap": 0,
+    "handicap": 1,
     "btts": 0
   },
   "countries": [
@@ -260,8 +260,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-14T16:15:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1781,

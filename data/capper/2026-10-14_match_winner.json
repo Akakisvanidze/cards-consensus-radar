@@ -2,11 +2,11 @@
   "date": "2026-10-14",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 6,
+    "total_goals": 7,
     "corners": 0,
-    "match_winner": 2,
+    "match_winner": 3,
     "double_chance": 0,
-    "handicap": 0,
+    "handicap": 1,
     "btts": 0
   },
   "countries": [
@@ -19,6 +19,47 @@
           "name": "UEFA Champions League",
           "logo": "/app/leagues/uefa-champions-league.svg",
           "fixtures": [
+            {
+              "id": 1776,
+              "url": "https://capper.win/predictions/lask-linz-vs-liverpool-1776",
+              "kickoff": "2026-10-14T16:45:00+00:00",
+              "time": "19:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Lask Linz",
+                "logo": "/app/teams/1026.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Liverpool",
+                "logo": "/app/teams/40.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
             {
               "id": 1781,
               "url": "https://capper.win/predictions/as-roma-vs-real-madrid-1781",
