@@ -137,7 +137,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:30:00+00:00"
             }
           ]
         }
@@ -181,7 +181,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:15:00+00:00"
             }
           ]
         }
@@ -225,7 +225,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:00:00+00:00"
             }
           ]
         }
@@ -269,7 +269,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:15:00+00:00"
             }
           ]
         }
@@ -388,7 +388,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:00:00+00:00"
             }
           ]
         }
@@ -432,7 +432,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:30:00+00:00"
             }
           ]
         },
@@ -470,7 +470,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": "2026-10-16T18:00:00+00:00"
             }
           ]
         }

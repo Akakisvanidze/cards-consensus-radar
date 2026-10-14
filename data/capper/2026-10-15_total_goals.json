@@ -2,8 +2,8 @@
   "date": "2026-10-15",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 13,
-    "corners": 0,
+    "total_goals": 48,
+    "corners": 28,
     "team_total": 0,
     "match_winner": 0,
     "double_chance": 0,
@@ -25,31 +25,77 @@
               "url": "https://capper.win/predictions/sarmiento-junin-vs-river-plate-1788",
               "kickoff": "2026-10-14T22:00:00+00:00",
               "time": "01:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 52,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Sarmiento Junin",
                 "logo": "/app/teams/474.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 3
               },
               "away": {
                 "name": "River Plate",
                 "logo": "/app/teams/435.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 5
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-14T21:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -92,8 +138,54 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-14T23:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1790,
@@ -123,8 +215,54 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-14T23:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1791,
@@ -168,6 +306,51 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -214,6 +397,51 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -246,8 +474,54 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-14T23:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1794,
@@ -277,8 +551,54 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-14T23:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1798,
