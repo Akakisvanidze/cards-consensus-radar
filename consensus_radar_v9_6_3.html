@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ka">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Football Consensus Radar 9.6.3</title>
+<style>body{background:#081827;color:#eaf5ff;font:18px system-ui,sans-serif;padding:26px;line-height:1.6}</style></head>
+<body><p id="loading">⏳ Radar 9.6.3 იტვირთება...</p>
+<script>
+(async function(){
+  try {
+    const response=await fetch('./consensus_radar_v9_6_1.html',{cache:'no-store'});
+    if(!response.ok) throw new Error('Radar 9.6.1 ვერ მოიძებნა (HTTP '+response.status+')');
+    let html=await response.text();
+    if(!html.includes('function researchLinks(option)') || !html.includes('Your1x2')) {
+      throw new Error('საწყისი კოდი შეიცვალა; უსაფრთხოდ შესწორება ვერ მოხერხდა');
+    }
+    // Replace four-source links and remove the two duplicate quick-access links below them.
+    const links=`function researchLinks(option){
+      const term=researchTerm(option);
+      const sites=[['Forebet','forebet.com'],['xGaura','xgaura.com'],['PredictZ · შემოწმება','predictz.com']];
+      const links=sites.map(([name,host])=>{
+        const q='site:'+host+' '+term;
+        return '<a href="https://www.google.com/search?q='+encodeURIComponent(q)+'" target="_blank" rel="noopener noreferrer">🔎 '+esc(name)+'</a>';
+      });
+      links.splice(2,0,'<a href="https://www.sportytrader.com/en/betting-tips/football/double-chance/" target="_blank" rel="noopener noreferrer">🔎 SportyTrader · ორმაგი შანსი</a>');
+      return links.join('');
+    }
+    function updateVerdictSummary`;
+    html=html.replace(/function researchLinks\(option\)\{[\s\S]*?\}\nfunction updateVerdictSummary/,links);
+    html=html.replaceAll('Your1x2','SportyTrader').replaceAll('your1x2.com','sportytrader.com');
+    html=html.replaceAll('9.6.1','9.6.3');
+    // Eliminate the redundant research-copy control at bottom; no unnecessary search UI.
+    html=html.replace('<button type="button" id="copyResearch">ძიების ტექსტის კოპირება</button>','');
+    html=html.replace(/\$\('copyResearch'\)\.onclick=\(\)=>\{[^\n]*\};\n/,'');
+    html=html.replace('სამი ძირითადი წყაროა Forebet, xGaura და SportyTrader.', 'სამი სამუშაო წყაროა Forebet, xGaura და SportyTrader (დამოუკიდებლობა გადასამოწმებელია).');
+    if(!html.includes('SportyTrader · ორმაგი შანსი') || html.includes('id="copyResearch"')) throw new Error('ფაილის კორექცია არ დასრულდა');
+    document.open();document.write(html);document.close();
+  } catch(e) {
+    document.getElementById('loading').textContent='❌ '+e.message+' — ეს ვერსია GitHub-ის იმავე საქაღალდეში უნდა იდოს, სადაც consensus_radar_v9_6_1.html მდებარეობს.';
+  }
+})();
+</script></body></html>
