@@ -1,112 +1,73 @@
-import os
 import json
-import requests
+import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-KEY = os.environ["API_FOOTBALL_KEY"]
-BASE = "https://v3.football.api-sports.io"
-HEADERS = {"x-apisports-key": KEY}
+import requests
+from bs4 import BeautifulSoup
+
+URL = "https://www.forebet.com/en/football-tips-and-predictions-for-today/"
 OUT = Path("data/forebet/latest.json")
-MAX_PREDICTIONS = 10
 
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
+}
 
-def api(endpoint, params):
-    response = requests.get(
-        BASE + "/" + endpoint,
-        headers=HEADERS,
-        params=params,
-        timeout=30
-    )
-    if response.status_code == 429:
-        print("API request limit reached; stopping.")
-        return None
-    response.raise_for_status()
-    data = response.json()
-    if data.get("errors"):
-        print("API error:", data["errors"])
-        return None
-    return data.get("response", [])
+response = requests.get(URL, headers=headers, timeout=30)
+response.raise_for_status()
 
+soup = BeautifulSoup(response.text, "html.parser")
+matches = []
 
-def main():
-    today = datetime.now(timezone.utc).date().isoformat()
-    fixtures = api("fixtures", {"date": today})
-    if fixtures is None:
-        return
+for row in soup.select(".rcnt"):
+    probability_box = row.select_one(".fprc")
+    if not probability_box:
+        continue
 
-    matches = []
-    checked = 0
+    spans = probability_box.find_all("span", recursive=False)
+    if len(spans) < 3:
+        continue
 
-    for item in fixtures:
-        if checked >= MAX_PREDICTIONS:
-            break
+    try:
+        values = [float(spans[i].get_text(strip=True).replace("%", "")) for i in range(3)]
+    except ValueError:
+        continue
 
-        fixture = item.get("fixture", {})
-        if fixture.get("status", {}).get("short") != "NS":
-            continue
+    if not 98 <= sum(values) <= 102:
+        continue
 
-        fixture_id = fixture.get("id")
-        if not fixture_id:
-            continue
+    home_tag = row.select_one('[itemprop="homeTeam"] [itemprop="name"]')
+    away_tag = row.select_one('[itemprop="awayTeam"] [itemprop="name"]')
 
-        predictions = api("predictions", {"fixture": fixture_id})
-        if predictions is None:
-            break
+    if not home_tag or not away_tag:
+        continue
 
-        checked += 1
-        if not predictions:
-            continue
+    probabilities = dict(zip(("1", "X", "2"), values))
+    qualified = [
+        {"market": market, "probability": value}
+        for market, value in probabilities.items()
+        if value >= 70
+    ]
 
-        prediction = predictions[0].get("predictions", {})
-        percent = prediction.get("percent", {})
-        probabilities = {}
+    matches.append({
+        "home": home_tag.get_text(strip=True),
+        "away": away_tag.get_text(strip=True),
+        "probabilities": probabilities,
+        "qualified": qualified
+    })
 
-        for market, field in [
-            ("1", "home"),
-            ("X", "draw"),
-            ("2", "away")
-        ]:
-            value = percent.get(field)
-            if isinstance(value, str) and value.endswith("%"):
-                try:
-                    probabilities[market] = float(value[:-1])
-                except ValueError:
-                    pass
+if not matches:
+    raise RuntimeError("Forebet-ის მონაცემები ვერ წავიკითხეთ. ძველი ფაილი უცვლელი დარჩა.")
 
-        if len(probabilities) != 3:
-            continue
+OUT.parent.mkdir(parents=True, exist_ok=True)
+OUT.write_text(
+    json.dumps({
+        "source": "Forebet",
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "matches": matches
+    }, ensure_ascii=False, indent=2),
+    encoding="utf-8"
+)
 
-        qualified = [
-            {"market": market, "probability": value}
-            for market, value in probabilities.items()
-            if value >= 70
-        ]
-
-        matches.append({
-            "fixture_id": fixture_id,
-            "home": item["teams"]["home"]["name"],
-            "away": item["teams"]["away"]["name"],
-            "probabilities": probabilities,
-            "qualified": qualified
-        })
-
-    if not matches:
-        print("No validated predictions; previous data preserved.")
-        return
-
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(
-        json.dumps({
-            "source": "API-Football",
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-            "matches": matches
-        }, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
-
-    print(f"Checked {checked} matches; saved {len(matches)}.")
-
-
-if __name__ == "__main__":
-    main()
+print(f"Read {len(matches)} matches.")
+print(f"70% selections: {sum(len(m['qualified']) for m in matches)}")
