@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ka">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Football Consensus Radar 9.6.2</title><style>body{background:#081827;color:#eaf5ff;font:18px system-ui,sans-serif;padding:30px}</style></head>
+<body><p id="loading">⏳ Radar 9.6.2 იტვირთება...</p>
+<script>
+(async function(){
+try {
+ const response=await fetch('./consensus_radar_v9_6_1.html',{cache:'no-store'});
+ if(!response.ok)throw new Error('Radar 9.6.1 ფაილი ვერ მოიძებნა: HTTP '+response.status);
+ let html=await response.text();
+ const original="let q='site:'+host+' '+term;return '<a href=\"https://www.google.com/search?q='+encodeURIComponent(q)+'\" target=\"_blank\" rel=\"noopener noreferrer\">🔎 '+esc(name)+'</a>'";
+ const corrected="if(name==='Your1x2'){return '<a href=\"https://www.your1x2.com/football\" target=\"_blank\" rel=\"noopener noreferrer\">🔎 Your1x2 · 1/X/2 პროგნოზები</a>';}let q='site:'+host+' '+term;return '<a href=\"https://www.google.com/search?q='+encodeURIComponent(q)+'\" target=\"_blank\" rel=\"noopener noreferrer\">🔎 '+esc(name)+'</a>'";
+ if(!html.includes(original))throw new Error('ძველ ფაილში Your1x2-ის შესაბამისი კოდი ვერ ვიპოვე.');
+ html=html.replace(original,corrected).replaceAll('9.6.1','9.6.2');
+ document.open();document.write(html);document.close();
+} catch(err){document.getElementById('loading').textContent='❌ '+err.message+' — ორივე ფაილი უნდა იყოს GitHub-ის ერთ საქაღალდეში.';}
+})();
+</script></body></html>
