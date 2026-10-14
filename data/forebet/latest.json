@@ -1,0 +1,105 @@
+{
+  "source": "API-Football",
+  "updated_at": "2026-10-14T18:59:59.036686+00:00",
+  "matches": [
+    {
+      "fixture_id": 1619580,
+      "home": "Never Give Up Academy",
+      "away": "Flambeau du Centre",
+      "probabilities": {
+        "1": 10.0,
+        "X": 45.0,
+        "2": 45.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1619585,
+      "home": "Panthere Noir",
+      "away": "Musongati",
+      "probabilities": {
+        "1": 10.0,
+        "X": 45.0,
+        "2": 45.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1645832,
+      "home": "Matlama",
+      "away": "Lijabatho",
+      "probabilities": {
+        "1": 45.0,
+        "X": 45.0,
+        "2": 10.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1642284,
+      "home": "Omonia 29is Maiou",
+      "away": "Polemidion",
+      "probabilities": {
+        "1": 33.0,
+        "X": 33.0,
+        "2": 33.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1645792,
+      "home": "Enesia",
+      "away": "Galaxy",
+      "probabilities": {
+        "1": 45.0,
+        "X": 45.0,
+        "2": 10.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1645793,
+      "home": "Gaborone United",
+      "away": "Police XI",
+      "probabilities": {
+        "1": 45.0,
+        "X": 45.0,
+        "2": 10.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1592213,
+      "home": "ASC Dortmund",
+      "away": "Schermbeck",
+      "probabilities": {
+        "1": 45.0,
+        "X": 45.0,
+        "2": 10.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1630326,
+      "home": "Farroupilha",
+      "away": "EC Novo Horizonte",
+      "probabilities": {
+        "1": 45.0,
+        "X": 45.0,
+        "2": 10.0
+      },
+      "qualified": []
+    },
+    {
+      "fixture_id": 1630328,
+      "home": "SC Rio Grande",
+      "away": "Real",
+      "probabilities": {
+        "1": 0.0,
+        "X": 50.0,
+        "2": 50.0
+      },
+      "qualified": []
+    }
+  ]
+}
