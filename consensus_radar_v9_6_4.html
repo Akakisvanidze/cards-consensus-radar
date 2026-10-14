@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ka">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Football Consensus Radar 9.6.4</title><style>body{background:#081827;color:#eaf5ff;font:18px system-ui,sans-serif;padding:26px;line-height:1.6}</style></head>
+<body><p id="loading">⏳ Radar 9.6.4 იტვირთება...</p>
+<script>
+(async()=>{
+try{
+ const response=await fetch('./consensus_radar_v9_6_1.html',{cache:'no-store'});
+ if(!response.ok)throw Error('საწყისი Radar 9.6.1 ვერ მოიძებნა — HTTP '+response.status);
+ let html=await response.text();
+ function replaceExact(a,b){if(!html.includes(a))throw Error('ვერ მოიძებნა საჭირო კოდის ნაწილი: '+a.slice(0,55));html=html.replace(a,b)}
+ // Replace the non-working prediction source and remove redundant search controls.
+ const p1=html.indexOf('function researchLinks(option)');
+ const p2=html.indexOf('function updateVerdictSummary()',p1);
+ if(p1<0||p2<0)throw Error('წყაროების სექცია შეიცვალა');
+ const research=`function researchLinks(option){
+ const term=researchTerm(option);
+ const sites=[['Forebet','forebet.com'],['xGaura','xgaura.com'],['PredictZ · დამატებითი','predictz.com']];
+ const links=sites.map(([name,host])=>{
+  const q='site:'+host+' '+term;
+  return '<a href="https://www.google.com/search?q='+encodeURIComponent(q)+'" target="_blank" rel="noopener noreferrer">🔎 '+esc(name)+'</a>';
+ });
+ links.splice(2,0,'<a href="https://www.sportytrader.com/en/betting-tips/football/" target="_blank" rel="noopener noreferrer">🔎 SportyTrader</a>');
+ return links.join('');
+}
+`;
+ html=html.slice(0,p1)+research+html.slice(p2);
+ html=html.replaceAll('Your1x2','SportyTrader').replaceAll('9.6.1','9.6.4');
+ html=html.replace('<button type="button" id="copyResearch">ძიების ტექსტის კოპირება</button>','');
+ html=html.replace(/\$\('copyResearch'\)\.onclick=\(\)=>\{[^\n]*\};\n/,'');
+ // Add both markets to the existing independent market filter.
+ replaceExact('<option value="twelve">12 · ფრე არ იქნება</option>',
+ '<option value="twelve">12 · ფრე არ იქნება</option><option value="btts_yes">⚽ ორივე გაიტანს — კი</option><option value="btts_no">⚽ ორივე გაიტანს — არა</option>');
+ // Compute scored-in-match counts from actual finished ESPN match scores.
+ replaceExact('let scored=0,conceded=0,wins=0,draws=0,losses=0,scored2=0,conceded2=0;',
+ 'let scored=0,conceded=0,wins=0,draws=0,losses=0,scored2=0,conceded2=0,scoredAny=0,concededAny=0;');
+ replaceExact('scored+=fg;conceded+=ag;if(fg>=2)',
+ 'scored+=fg;conceded+=ag;if(fg>=1)scoredAny++;if(ag>=1)concededAny++;if(fg>=2)');
+ replaceExact('return {n:a.length,avg:a.length?scored/a.length:0,con:a.length?conceded/a.length:0,scored2,conceded2,wins,draws,losses};',
+ 'return {n:a.length,avg:a.length?scored/a.length:0,con:a.length?conceded/a.length:0,scored2,conceded2,scoredAny,concededAny,wins,draws,losses};');
+ // The heuristic is explicitly not a calibrated outcome probability; never automatically approve 65% or GREEN.
+ replaceExact(' // Heuristic form scores, not calibrated probabilities or independent predictions.',
+ ` // BTTS working candidates: both sides' recent scoring and opponent concession history.
+ const hy=h.scoredAny/h.n,ac=a.concededAny/a.n,ay=a.scoredAny/a.n,hc=h.concededAny/h.n;
+ const bttsDesc='ბოლო '+h.n+'/'+a.n+' დასრულებულ მატჩში: '+g.home+' გაიტანა '+h.scoredAny+'-ჯერ, გაუშვა '+h.concededAny+'-ჯერ; '+g.away+' გაიტანა '+a.scoredAny+'-ჯერ, გაუშვა '+a.concededAny+'-ჯერ. მხოლოდ ისტორიული სიხშირეა, არა 65%-იანი ალბათობა.';
+ if(hy>=.6&&ac>=.6&&ay>=.6&&hc>=.6)add('btts_yes','⚽ ორივე გუნდი გაიტანს — კი · შესამოწმებელი',bttsDesc);
+ if((hy<=.4||ac<=.4)&&(ay<=.4||hc<=.4))add('btts_no','⚽ ორივე გუნდი გაიტანს — არა · შესამოწმებელი',bttsDesc);
+ // Heuristic form scores, not calibrated probabilities or independent predictions.`);
+ replaceExact("option.p.market==='twelve'?'12 double chance no draw home or away winner prediction':'win draw double chance prediction'",
+ "option.p.market==='twelve'?'12 double chance no draw home or away winner prediction':option.p.market==='btts_yes'?'both teams to score yes prediction':option.p.market==='btts_no'?'both teams to score no prediction':'win draw double chance prediction'");
+ html=html.replace('სამი ძირითადი წყაროა Forebet, xGaura და SportyTrader.', 'სამი სამუშაო წყაროა Forebet, xGaura და SportyTrader (მათი მეთოდოლოგიური დამოუკიდებლობა ჯერ დაუდასტურებელია).');
+ html=html.replace('2+ გუნდის გოლის შეფასებაც ბოლო მატჩების ისტორიულ სიხშირეს ეფუძნება, არა კალიბრირებულ ალბათობას.', '2+ გუნდის გოლისა და ორივე გაიტანს კი/არას შეფასებები ბოლო მატჩების ისტორიულ სიხშირეს ეფუძნება, არა კალიბრირებულ ალბათობას.');
+ if(!html.includes('btts_yes')||!html.includes('SportyTrader')||html.includes('id="copyResearch"'))throw Error('განახლება ვერ დასრულდა');
+ document.open();document.write(html);document.close();
+}catch(err){document.getElementById('loading').textContent='❌ '+err.message+' — ფაილი GitHub-ზე consensus_radar_v9_6_1.html-ის გვერდით უნდა განთავსდეს.'}
+})();
+</script></body></html>
