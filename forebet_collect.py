@@ -1,70 +1,90 @@
 import json
-from datetime import datetime, timezone
 from pathlib import Path
+from datetime import datetime, timezone
 
 import requests
 
-URL = "https://kiqiq.com/api/v1/predictions"
+URL = "https://tipsaudit.com/api/v1/predictions"
 OUTPUT = Path("data/forebet/latest.json")
+THRESHOLD = 70
 
 response = requests.get(
     URL,
-    params={"limit": 100},
+    headers={
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0"
+    },
     timeout=30
 )
 response.raise_for_status()
 
 data = response.json()
-fixtures = data.get("fixtures")
+predictions = data.get("predictions", [])
 
-if not isinstance(fixtures, list):
-    raise RuntimeError("API did not return a fixtures list")
+if not isinstance(predictions, list):
+    raise RuntimeError("Invalid predictions data")
 
 matches = []
 
-for game in fixtures:
+for game in predictions:
     try:
+        probs = game["fair_probabilities"]
+
         probabilities = {
-            "1": round(float(game["home_win_prob"]) * 100, 1),
-            "X": round(float(game["draw_prob"]) * 100, 1),
-            "2": round(float(game["away_win_prob"]) * 100, 1)
+            "1": round(float(probs["home"]) * 100, 1),
+            "X": round(float(probs["draw"]) * 100, 1),
+            "2": round(float(probs["away"]) * 100, 1)
         }
 
         if not 98 <= sum(probabilities.values()) <= 102:
             continue
 
         qualified = [
-            {"market": market, "probability": probability}
+            {
+                "market": market,
+                "probability": probability
+            }
             for market, probability in probabilities.items()
-            if probability >= 70
+            if probability >= THRESHOLD
         ]
 
         matches.append({
-            "fixture_id": game.get("fixture_id"),
+            "fixture_id": game.get("id"),
             "home": game["home"],
             "away": game["away"],
-            "league": game.get("competition"),
-            "kickoff": game.get("kickoff_iso"),
+            "league": game.get("league"),
+            "kickoff": game.get("kickoff_utc"),
             "probabilities": probabilities,
-            "qualified": qualified
+            "qualified": qualified,
+            "source_url": game.get("url")
         })
 
-    except (KeyError, ValueError, TypeError):
+    except (KeyError, TypeError, ValueError):
         continue
 
 if not matches:
-    print("No valid matches returned. Existing data preserved.")
-else:
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-
-    OUTPUT.write_text(
-        json.dumps({
-            "source": "KiqIQ",
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-            "matches": matches
-        }, ensure_ascii=False, indent=2),
-        encoding="utf-8"
+    raise RuntimeError(
+        "No valid matches. Existing data preserved."
     )
 
-    print(f"Saved {len(matches)} matches")
-    print(f"70% picks: {sum(len(m['qualified']) for m in matches)}")
+OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+
+OUTPUT.write_text(
+    json.dumps({
+        "source": "TipsAudit",
+        "source_url": "https://tipsaudit.com",
+        "updated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "matches": matches
+    }, ensure_ascii=False, indent=2),
+    encoding="utf-8"
+)
+
+picks = sum(
+    len(match["qualified"])
+    for match in matches
+)
+
+print(f"Saved matches: {len(matches)}")
+print(f"Predictions >= 70%: {picks}")
