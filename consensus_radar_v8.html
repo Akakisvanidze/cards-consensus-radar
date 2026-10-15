@@ -117,7 +117,8 @@ async function showTipsAudit() {
 
     const data = await response.json();
     const matches = (data.matches || []).filter(
-      m => (m.qualified || []).length > 0
+      m => (m.qualified || []).some(p => p.probability >= 75)
+    
     );
 
     const labels = {"1": "მასპინძლის მოგება", "X": "ფრე", "2": "სტუმრის მოგება"};
@@ -152,5 +153,6 @@ async function showTipsAudit() {
   }
 }
 
-showTipsAudit();
+E('scan').onclick = showTipsAudit;
+ 
 </script></body></html>
