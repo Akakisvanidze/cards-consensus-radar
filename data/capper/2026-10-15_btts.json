@@ -2,12 +2,12 @@
   "date": "2026-10-15",
   "market": "btts",
   "market_counts": {
-    "total_goals": 92,
-    "corners": 61,
+    "total_goals": 116,
+    "corners": 85,
     "team_total": 4,
-    "match_winner": 0,
+    "match_winner": 11,
     "double_chance": 1,
-    "handicap": 0,
+    "handicap": 1,
     "btts": 0
   },
   "countries": []
