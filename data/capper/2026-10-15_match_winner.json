@@ -2,11 +2,11 @@
   "date": "2026-10-15",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 78,
-    "corners": 52,
-    "team_total": 0,
+    "total_goals": 91,
+    "corners": 61,
+    "team_total": 3,
     "match_winner": 0,
-    "double_chance": 0,
+    "double_chance": 1,
     "handicap": 0,
     "btts": 0
   },
