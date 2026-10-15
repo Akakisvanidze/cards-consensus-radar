@@ -101,4 +101,56 @@ for(const id of ['query','period','filter','league'])E(id).addEventListener(id==
 E('matches').onclick=e=>{const b=e.target.closest('[data-star]');if(b){stars=stars.includes(b.dataset.star)?stars.filter(x=>x!==b.dataset.star):[...stars,b.dataset.star];render();return;}const a=e.target.closest('[data-report]');if(a){const div=document.getElementById('report-'+a.dataset.report);div.hidden=!div.hidden;if(!div.hidden)showReport(a.dataset.report,div);}};
 render();menu();E('status').textContent=games.length?'შენახულია '+games.length+' მატჩი':'განრიგი ჯერ არ არის მიღებული';
 (async()=>{try{await catalog();await scan()}catch(e){E('status').textContent='შეცდომა: '+e.message}})();
+ // TipsAudit-ის 70%-იანი პროგნოზები
+async function showTipsAudit() {
+  const panel = document.createElement("section");
+  panel.className = "panel";
+  panel.innerHTML = "<h2>⚽ 70%+ პროგნოზები — TipsAudit</h2><p>იტვირთება...</p>";
+
+  document.body.appendChild(panel);
+
+  try {
+    const response = await fetch(
+      "./data/forebet/latest.json?t=" + Date.now()
+    );
+    if (!response.ok) throw new Error("HTTP " + response.status);
+
+    const data = await response.json();
+    const matches = (data.matches || []).filter(
+      m => (m.qualified || []).length > 0
+    );
+
+    const labels = {"1": "მასპინძლის მოგება", "X": "ფრე", "2": "სტუმრის მოგება"};
+
+    panel.innerHTML =
+      "<h2>⚽ 70%+ პროგნოზები — TipsAudit</h2>" +
+      "<p>ნაპოვნია: " + matches.length + " მატჩი</p>";
+
+    for (const match of matches) {
+      const card = document.createElement("div");
+      card.className = "report";
+      card.style.padding = "12px";
+      card.style.marginBottom = "10px";
+
+      const title = document.createElement("strong");
+      title.textContent = match.home + " — " + match.away;
+      card.appendChild(title);
+
+      for (const pick of match.qualified) {
+        const line = document.createElement("p");
+        line.textContent =
+          (labels[pick.market] || pick.market) +
+          ": " + pick.probability + "%";
+        card.appendChild(line);
+      }
+
+      panel.appendChild(card);
+    }
+  } catch (error) {
+    panel.innerHTML =
+      "<h2>⚽ 70%+ პროგნოზები</h2><p>მონაცემები ვერ ჩაიტვირთა.</p>";
+  }
+}
+
+showTipsAudit();
 </script></body></html>
