@@ -1,73 +1,70 @@
 import json
-import re
-from pathlib import Path
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
-URL = "https://www.forebet.com/en/football-tips-and-predictions-for-today/"
-OUT = Path("data/forebet/latest.json")
+URL = "https://kiqiq.com/api/v1/predictions"
+OUTPUT = Path("data/forebet/latest.json")
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
-}
-
-response = requests.get(URL, headers=headers, timeout=30)
+response = requests.get(
+    URL,
+    params={"limit": 100},
+    timeout=30
+)
 response.raise_for_status()
 
-soup = BeautifulSoup(response.text, "html.parser")
+data = response.json()
+fixtures = data.get("fixtures")
+
+if not isinstance(fixtures, list):
+    raise RuntimeError("API did not return a fixtures list")
+
 matches = []
 
-for row in soup.select(".rcnt"):
-    probability_box = row.select_one(".fprc")
-    if not probability_box:
-        continue
-
-    spans = probability_box.find_all("span", recursive=False)
-    if len(spans) < 3:
-        continue
-
+for game in fixtures:
     try:
-        values = [float(spans[i].get_text(strip=True).replace("%", "")) for i in range(3)]
-    except ValueError:
+        probabilities = {
+            "1": round(float(game["home_win_prob"]) * 100, 1),
+            "X": round(float(game["draw_prob"]) * 100, 1),
+            "2": round(float(game["away_win_prob"]) * 100, 1)
+        }
+
+        if not 98 <= sum(probabilities.values()) <= 102:
+            continue
+
+        qualified = [
+            {"market": market, "probability": probability}
+            for market, probability in probabilities.items()
+            if probability >= 70
+        ]
+
+        matches.append({
+            "fixture_id": game.get("fixture_id"),
+            "home": game["home"],
+            "away": game["away"],
+            "league": game.get("competition"),
+            "kickoff": game.get("kickoff_iso"),
+            "probabilities": probabilities,
+            "qualified": qualified
+        })
+
+    except (KeyError, ValueError, TypeError):
         continue
-
-    if not 98 <= sum(values) <= 102:
-        continue
-
-    home_tag = row.select_one('[itemprop="homeTeam"] [itemprop="name"]')
-    away_tag = row.select_one('[itemprop="awayTeam"] [itemprop="name"]')
-
-    if not home_tag or not away_tag:
-        continue
-
-    probabilities = dict(zip(("1", "X", "2"), values))
-    qualified = [
-        {"market": market, "probability": value}
-        for market, value in probabilities.items()
-        if value >= 70
-    ]
-
-    matches.append({
-        "home": home_tag.get_text(strip=True),
-        "away": away_tag.get_text(strip=True),
-        "probabilities": probabilities,
-        "qualified": qualified
-    })
 
 if not matches:
-    raise RuntimeError("Forebet-ის მონაცემები ვერ წავიკითხეთ. ძველი ფაილი უცვლელი დარჩა.")
+    print("No valid matches returned. Existing data preserved.")
+else:
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
-OUT.parent.mkdir(parents=True, exist_ok=True)
-OUT.write_text(
-    json.dumps({
-        "source": "Forebet",
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "matches": matches
-    }, ensure_ascii=False, indent=2),
-    encoding="utf-8"
-)
+    OUTPUT.write_text(
+        json.dumps({
+            "source": "KiqIQ",
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "matches": matches
+        }, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
 
-print(f"Read {len(matches)} matches.")
-print(f"70% selections: {sum(len(m['qualified']) for m in matches)}")
+    print(f"Saved {len(matches)} matches")
+    print(f"70% picks: {sum(len(m['qualified']) for m in matches)}")
