@@ -2,13 +2,68 @@
   "date": "2026-10-16",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 1,
-    "corners": 0,
+    "total_goals": 5,
+    "corners": 3,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
     "btts": 0
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 1822,
+              "url": "https://capper.win/predictions/huracan-vs-gimnasia-lp-1822",
+              "kickoff": "2026-10-15T23:00:00+00:00",
+              "time": "02:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 61,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Huracan",
+                "logo": "/app/teams/445.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Gimnasia L.P.",
+                "logo": "/app/teams/434.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
