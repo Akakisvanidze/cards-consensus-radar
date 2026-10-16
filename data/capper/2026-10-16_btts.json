@@ -2,10 +2,10 @@
   "date": "2026-10-16",
   "market": "btts",
   "market_counts": {
-    "total_goals": 5,
+    "total_goals": 10,
     "corners": 3,
-    "team_total": 0,
-    "match_winner": 1,
+    "team_total": 1,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
     "btts": 0

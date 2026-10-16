@@ -2,10 +2,10 @@
   "date": "2026-10-16",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 5,
+    "total_goals": 10,
     "corners": 3,
-    "team_total": 0,
-    "match_winner": 1,
+    "team_total": 1,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
     "btts": 0
@@ -384,8 +384,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-16T17:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -650,31 +660,68 @@
               "url": "https://capper.win/predictions/obolon-brovar-vs-veres-rivne-1823",
               "kickoff": "2026-10-16T10:00:00+00:00",
               "time": "13:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 61,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Obolon'-Brovar",
                 "logo": "/app/teams/3630.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "Veres Rivne",
                 "logo": "/app/teams/6501.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 1,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-16T09:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }

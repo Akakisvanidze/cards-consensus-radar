@@ -2,10 +2,10 @@
   "date": "2026-10-16",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 5,
+    "total_goals": 10,
     "corners": 3,
-    "team_total": 0,
-    "match_winner": 1,
+    "team_total": 1,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
     "btts": 0
@@ -62,6 +62,60 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "flag": "/app/flags/ua.svg",
+      "leagues": [
+        {
+          "id": 15,
+          "name": "Premier League",
+          "logo": "/app/leagues/333.png",
+          "fixtures": [
+            {
+              "id": 1823,
+              "url": "https://capper.win/predictions/obolon-brovar-vs-veres-rivne-1823",
+              "kickoff": "2026-10-16T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 61,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Obolon'-Brovar",
+                "logo": "/app/teams/3630.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Veres Rivne",
+                "logo": "/app/teams/6501.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 1,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
