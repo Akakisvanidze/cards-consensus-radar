@@ -2,13 +2,122 @@
   "date": "2026-10-17",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 17,
-    "corners": 0,
+    "total_goals": 25,
+    "corners": 6,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 1
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 1837,
+              "url": "https://capper.win/predictions/defensa-y-justicia-vs-instituto-cordoba-1837",
+              "kickoff": "2026-10-16T22:00:00+00:00",
+              "time": "01:00",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Defensa Y Justicia",
+                "logo": "/app/teams/442.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "away": {
+                "name": "Instituto Cordoba",
+                "logo": "/app/teams/478.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Brazil",
+      "flag": "/app/flags/br.svg",
+      "leagues": [
+        {
+          "id": 26,
+          "name": "Serie A",
+          "logo": "/app/leagues/71.png",
+          "fixtures": [
+            {
+              "id": 1836,
+              "url": "https://capper.win/predictions/mirassol-vs-internacional-1836",
+              "kickoff": "2026-10-16T23:00:00+00:00",
+              "time": "02:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Mirassol",
+                "logo": "/app/teams/7848.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Internacional",
+                "logo": "/app/teams/119.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

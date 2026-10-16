@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "corners",
   "market_counts": {
-    "total_goals": 17,
-    "corners": 0,
+    "total_goals": 25,
+    "corners": 6,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 1
   },
   "countries": [
     {
@@ -25,31 +25,59 @@
               "url": "https://capper.win/predictions/defensa-y-justicia-vs-instituto-cordoba-1837",
               "kickoff": "2026-10-16T22:00:00+00:00",
               "time": "01:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Defensa Y Justicia",
                 "logo": "/app/teams/442.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 2
               },
               "away": {
                 "name": "Instituto Cordoba",
                 "logo": "/app/teams/478.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 2
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-16T21:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1838,
@@ -216,8 +244,36 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-16T22:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -1392,8 +1448,8 @@
             {
               "id": 1840,
               "url": "https://capper.win/predictions/club-tijuana-vs-puebla-1840",
-              "kickoff": "2026-10-17T03:00:00+00:00",
-              "time": "06:00",
+              "kickoff": "2026-10-17T03:05:00+00:00",
+              "time": "06:05",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -1418,7 +1474,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-17T02:30:00+00:00"
+              "predictions_eta": "2026-10-17T02:35:00+00:00"
             }
           ]
         }
