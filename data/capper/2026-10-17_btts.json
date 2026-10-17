@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "btts",
   "market_counts": {
-    "total_goals": 42,
-    "corners": 18,
-    "team_total": 3,
-    "match_winner": 5,
-    "double_chance": 0,
+    "total_goals": 96,
+    "corners": 42,
+    "team_total": 5,
+    "match_winner": 11,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 4
+    "btts": 8
   },
   "countries": [
     {
@@ -71,6 +71,114 @@
       ]
     },
     {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 2,
+          "name": "Championship",
+          "logo": "/app/leagues/40.png",
+          "fixtures": [
+            {
+              "id": 1849,
+              "url": "https://capper.win/predictions/millwall-vs-lincoln-1849",
+              "kickoff": "2026-10-17T11:30:00+00:00",
+              "time": "14:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 7,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Millwall",
+                "logo": "/app/teams/58.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Lincoln",
+                "logo": "/app/teams/1379.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 1845,
+              "url": "https://capper.win/predictions/ff-jaro-vs-mariehamn-1845",
+              "kickoff": "2026-10-17T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 36,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "FF Jaro",
+                "logo": "/app/teams/2075.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Mariehamn",
+                "logo": "/app/teams/587.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Mexico",
       "flag": "/app/flags/mx.svg",
       "leagues": [
@@ -121,6 +229,60 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Norway",
+      "flag": "/app/flags/no.svg",
+      "leagues": [
+        {
+          "id": 18,
+          "name": "Eliteserien",
+          "logo": "/app/leagues/103.png",
+          "fixtures": [
+            {
+              "id": 1851,
+              "url": "https://capper.win/predictions/ham-kam-vs-bodoglimt-1851",
+              "kickoff": "2026-10-17T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Ham-Kam",
+                "logo": "/app/teams/2159.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Bodo/Glimt",
+                "logo": "/app/teams/327.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -215,6 +377,60 @@
                   "provider": {
                     "name": "Alcor",
                     "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "flag": "/app/flags/ua.svg",
+      "leagues": [
+        {
+          "id": 15,
+          "name": "Premier League",
+          "logo": "/app/leagues/333.png",
+          "fixtures": [
+            {
+              "id": 1842,
+              "url": "https://capper.win/predictions/zorya-luhansk-vs-chornomorets-1842",
+              "kickoff": "2026-10-17T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 75,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Zorya Luhansk",
+                "logo": "/app/teams/599.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Chornomorets",
+                "logo": "/app/teams/3615.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
                   }
                 }
               ],

@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 42,
-    "corners": 18,
-    "team_total": 3,
-    "match_winner": 5,
-    "double_chance": 0,
+    "total_goals": 96,
+    "corners": 42,
+    "team_total": 5,
+    "match_winner": 11,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 4
+    "btts": 8
   },
   "countries": [
     {
@@ -121,6 +121,203 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 2,
+          "name": "Championship",
+          "logo": "/app/leagues/40.png",
+          "fixtures": [
+            {
+              "id": 1850,
+              "url": "https://capper.win/predictions/watford-vs-charlton-1850",
+              "kickoff": "2026-10-17T11:30:00+00:00",
+              "time": "14:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 6,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Watford",
+                "logo": "/app/teams/38.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Charlton",
+                "logo": "/app/teams/1335.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Premier League",
+          "logo": "/app/leagues/39.png",
+          "fixtures": [
+            {
+              "id": 1847,
+              "url": "https://capper.win/predictions/everton-vs-chelsea-1847",
+              "kickoff": "2026-10-17T11:30:00+00:00",
+              "time": "14:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 4,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Everton",
+                "logo": "/app/teams/45.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Chelsea",
+                "logo": "/app/teams/49.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 1845,
+              "url": "https://capper.win/predictions/ff-jaro-vs-mariehamn-1845",
+              "kickoff": "2026-10-17T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 36,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "FF Jaro",
+                "logo": "/app/teams/2075.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Mariehamn",
+                "logo": "/app/teams/587.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1844,
+              "url": "https://capper.win/predictions/ilves-vs-sjk-1844",
+              "kickoff": "2026-10-17T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 35,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Ilves",
+                "logo": "/app/teams/1163.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "SJK",
+                "logo": "/app/teams/689.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -272,6 +469,108 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1853,
+              "url": "https://capper.win/predictions/espanyol-vs-atletico-madrid-1853",
+              "kickoff": "2026-10-17T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Espanyol",
+                "logo": "/app/teams/540.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Atletico Madrid",
+                "logo": "/app/teams/530.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 1852,
+              "url": "https://capper.win/predictions/real-sociedad-ii-vs-almeria-1852",
+              "kickoff": "2026-10-17T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Real Sociedad II",
+                "logo": "/app/teams/9585.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Almeria",
+                "logo": "/app/teams/723.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
