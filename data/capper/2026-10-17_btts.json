@@ -2,10 +2,10 @@
   "date": "2026-10-17",
   "market": "btts",
   "market_counts": {
-    "total_goals": 25,
-    "corners": 6,
+    "total_goals": 33,
+    "corners": 12,
     "team_total": 0,
-    "match_winner": 2,
+    "match_winner": 3,
     "double_chance": 0,
     "handicap": 0,
     "btts": 1
@@ -25,38 +25,43 @@
               "url": "https://capper.win/predictions/defensa-y-justicia-vs-instituto-cordoba-1837",
               "kickoff": "2026-10-16T22:00:00+00:00",
               "time": "01:00",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Defensa Y Justicia",
                 "logo": "/app/teams/442.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 2
+                "corners": 6
               },
               "away": {
                 "name": "Instituto Cordoba",
                 "logo": "/app/teams/478.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 2
+                "corners": 5
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
