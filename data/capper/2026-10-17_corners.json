@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "corners",
   "market_counts": {
-    "total_goals": 33,
-    "corners": 12,
-    "team_total": 0,
-    "match_winner": 3,
+    "total_goals": 42,
+    "corners": 18,
+    "team_total": 3,
+    "match_winner": 5,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 1
+    "btts": 4
   },
   "countries": [
     {
@@ -99,56 +99,71 @@
               "url": "https://capper.win/predictions/boca-juniors-vs-talleres-cordoba-1838",
               "kickoff": "2026-10-17T00:30:00+00:00",
               "time": "03:30",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Boca Juniors",
                 "logo": "/app/teams/451.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 4
+                "corners": 5
               },
               "away": {
                 "name": "Talleres Cordoba",
                 "logo": "/app/teams/456.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 1
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -1446,56 +1461,71 @@
               "url": "https://capper.win/predictions/necaxa-vs-atlas-1839",
               "kickoff": "2026-10-17T01:00:00+00:00",
               "time": "04:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 16,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Necaxa",
                 "logo": "/app/teams/2288.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 0
+                "corners": 10
               },
               "away": {
                 "name": "Atlas",
                 "logo": "/app/teams/2283.png",
-                "goals": 1,
-                "goals_ft": null,
-                "red": 0,
-                "corners": 0
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 1,
+                "corners": 6
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -1505,62 +1535,148 @@
               "url": "https://capper.win/predictions/atlante-fc-vs-unam-pumas-1841",
               "kickoff": "2026-10-17T03:00:00+00:00",
               "time": "06:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Atlante FC",
                 "logo": "/app/teams/2312.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 1,
+                "corners": 10
               },
               "away": {
                 "name": "U.N.A.M. - Pumas",
                 "logo": "/app/teams/2286.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 0
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T02:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1840,
               "url": "https://capper.win/predictions/club-tijuana-vs-puebla-1840",
               "kickoff": "2026-10-17T03:05:00+00:00",
               "time": "06:05",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "Club Tijuana",
                 "logo": "/app/teams/2280.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 13
               },
               "away": {
                 "name": "Puebla",
                 "logo": "/app/teams/2291.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T02:35:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }

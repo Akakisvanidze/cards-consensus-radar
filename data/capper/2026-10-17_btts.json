@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "btts",
   "market_counts": {
-    "total_goals": 33,
-    "corners": 12,
-    "team_total": 0,
-    "match_winner": 3,
+    "total_goals": 42,
+    "corners": 18,
+    "team_total": 3,
+    "match_winner": 5,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 1
+    "btts": 4
   },
   "countries": [
     {
@@ -62,6 +62,160 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Mexico",
+      "flag": "/app/flags/mx.svg",
+      "leagues": [
+        {
+          "id": 29,
+          "name": "Liga MX",
+          "logo": "/app/leagues/262.png",
+          "fixtures": [
+            {
+              "id": 1840,
+              "url": "https://capper.win/predictions/club-tijuana-vs-puebla-1840",
+              "kickoff": "2026-10-17T03:05:00+00:00",
+              "time": "06:05",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "Club Tijuana",
+                "logo": "/app/teams/2280.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 13
+              },
+              "away": {
+                "name": "Puebla",
+                "logo": "/app/teams/2291.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1853,
+              "url": "https://capper.win/predictions/espanyol-vs-atletico-madrid-1853",
+              "kickoff": "2026-10-17T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Espanyol",
+                "logo": "/app/teams/540.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Atletico Madrid",
+                "logo": "/app/teams/530.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1894,
+              "url": "https://capper.win/predictions/real-betis-vs-barcelona-1894",
+              "kickoff": "2026-10-17T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Real Betis",
+                "logo": "/app/teams/543.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Barcelona",
+                "logo": "/app/teams/529.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null
