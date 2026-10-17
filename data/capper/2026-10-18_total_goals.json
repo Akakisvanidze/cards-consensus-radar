@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 13,
-    "corners": 0,
+    "total_goals": 21,
+    "corners": 6,
     "team_total": 0,
     "match_winner": 0,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
   "countries": [
     {
@@ -131,31 +131,68 @@
               "url": "https://capper.win/predictions/botafogo-vs-chapecoense-sc-1910",
               "kickoff": "2026-10-17T21:00:00+00:00",
               "time": "00:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 25,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Botafogo",
                 "logo": "/app/teams/120.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 0
               },
               "away": {
                 "name": "Chapecoense-sc",
                 "logo": "/app/teams/132.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 0
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T20:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1911,
@@ -185,8 +222,45 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T21:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1912,
