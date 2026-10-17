@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 231,
-    "corners": 128,
+    "total_goals": 281,
+    "corners": 162,
     "team_total": 10,
-    "match_winner": 34,
-    "double_chance": 1,
+    "match_winner": 40,
+    "double_chance": 2,
     "handicap": 0,
-    "btts": 23
+    "btts": 28
   },
   "countries": [
     {
@@ -25,28 +25,87 @@
               "url": "https://capper.win/predictions/ado-den-haag-vs-psv-eindhoven-1883",
               "kickoff": "2026-10-17T14:30:00+00:00",
               "time": "17:30",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "ADO Den Haag",
                 "logo": "/app/teams/198.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 2
+                "corners": 3
               },
               "away": {
                 "name": "PSV Eindhoven",
                 "logo": "/app/teams/197.png",
                 "goals": 1,
+                "goals_ft": 1,
+                "red": 1,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw_away",
+                  "line": null,
+                  "label": "Draw/Away",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1894,
+              "url": "https://capper.win/predictions/real-betis-vs-barcelona-1894",
+              "kickoff": "2026-10-17T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 2,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Real Betis",
+                "logo": "/app/teams/543.png",
+                "goals": 2,
                 "goals_ft": null,
                 "red": 1,
-                "corners": 0
+                "corners": 2
+              },
+              "away": {
+                "name": "Barcelona",
+                "logo": "/app/teams/529.png",
+                "goals": 5,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
               },
               "predictions": [
                 {
@@ -54,7 +113,7 @@
                   "capper": false,
                   "alien": false,
                   "provider": {
-                    "name": "Alioth",
+                    "name": "Capella",
                     "icon_url": null
                   }
                 }

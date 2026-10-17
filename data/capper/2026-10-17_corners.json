@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "corners",
   "market_counts": {
-    "total_goals": 231,
-    "corners": 129,
+    "total_goals": 281,
+    "corners": 162,
     "team_total": 10,
-    "match_winner": 34,
-    "double_chance": 1,
+    "match_winner": 40,
+    "double_chance": 2,
     "handicap": 0,
-    "btts": 23
+    "btts": 28
   },
   "countries": [
     {
@@ -173,31 +173,59 @@
               "url": "https://capper.win/predictions/banfield-vs-argentinos-jrs-1896",
               "kickoff": "2026-10-17T18:00:00+00:00",
               "time": "21:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 29,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Banfield",
                 "logo": "/app/teams/449.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 0
               },
               "away": {
                 "name": "Argentinos JRS",
                 "logo": "/app/teams/458.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 2
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T17:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1909,
@@ -588,18 +616,18 @@
               "url": "https://capper.win/predictions/birmingham-vs-qpr-1873",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 75,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Birmingham",
                 "logo": "/app/teams/54.png",
-                "goals": 2,
-                "goals_ft": null,
+                "goals": 3,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 0
               },
@@ -607,37 +635,52 @@
                 "name": "QPR",
                 "logo": "/app/teams/72.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 3
+                "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -647,47 +690,57 @@
               "url": "https://capper.win/predictions/wrexham-vs-preston-1880",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 74,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Wrexham",
                 "logo": "/app/teams/1837.png",
                 "goals": 4,
-                "goals_ft": null,
+                "goals_ft": 4,
                 "red": 0,
-                "corners": 6
+                "corners": 8
               },
               "away": {
                 "name": "Preston",
                 "logo": "/app/teams/59.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 2
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "push",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "push",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -697,47 +750,57 @@
               "url": "https://capper.win/predictions/west-brom-vs-blackburn-1879",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 70,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "West Brom",
                 "logo": "/app/teams/60.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 3,
+                "goals_ft": 3,
                 "red": 0,
-                "corners": 5
+                "corners": 8
               },
               "away": {
                 "name": "Blackburn",
                 "logo": "/app/teams/67.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -747,47 +810,57 @@
               "url": "https://capper.win/predictions/swansea-vs-west-ham-1878",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 75,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Swansea",
                 "logo": "/app/teams/76.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 5
+                "corners": 6
               },
               "away": {
                 "name": "West Ham",
                 "logo": "/app/teams/48.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 1
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -797,56 +870,71 @@
               "url": "https://capper.win/predictions/southampton-vs-bolton-1877",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 76,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Southampton",
                 "logo": "/app/teams/41.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 4
+                "corners": 5
               },
               "away": {
                 "name": "Bolton",
                 "logo": "/app/teams/68.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -856,18 +944,18 @@
               "url": "https://capper.win/predictions/norwich-vs-portsmouth-1876",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 73,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Norwich",
                 "logo": "/app/teams/71.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 1
               },
@@ -875,28 +963,38 @@
                 "name": "Portsmouth",
                 "logo": "/app/teams/1355.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 1
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -906,47 +1004,57 @@
               "url": "https://capper.win/predictions/bristol-city-vs-sheffield-utd-1874",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 72,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Bristol City",
                 "logo": "/app/teams/56.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 2
+                "corners": 3
               },
               "away": {
                 "name": "Sheffield Utd",
                 "logo": "/app/teams/62.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 2
+                "corners": 5
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -956,47 +1064,57 @@
               "url": "https://capper.win/predictions/derby-vs-stoke-city-1875",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 73,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Derby",
                 "logo": "/app/teams/69.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 5
+                "corners": 7
               },
               "away": {
                 "name": "Stoke City",
                 "logo": "/app/teams/75.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -1087,56 +1205,71 @@
               "url": "https://capper.win/predictions/manchester-city-vs-ipswich-1872",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 72,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Manchester City",
                 "logo": "/app/teams/50.png",
                 "goals": 3,
-                "goals_ft": null,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 2
               },
               "away": {
                 "name": "Ipswich",
                 "logo": "/app/teams/57.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 2
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -1146,26 +1279,26 @@
               "url": "https://capper.win/predictions/fulham-vs-hull-city-1871",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 75,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Fulham",
                 "logo": "/app/teams/36.png",
                 "goals": 1,
-                "goals_ft": null,
-                "red": 0,
-                "corners": 10
+                "goals_ft": 1,
+                "red": 1,
+                "corners": 11
               },
               "away": {
                 "name": "Hull City",
                 "logo": "/app/teams/64.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 2
               },
@@ -1220,56 +1353,71 @@
               "url": "https://capper.win/predictions/brentford-vs-liverpool-1870",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 65,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Brentford",
                 "logo": "/app/teams/55.png",
                 "goals": 1,
-                "goals_ft": null,
-                "red": 1,
+                "goals_ft": 1,
+                "red": 2,
                 "corners": 3
               },
               "away": {
                 "name": "Liverpool",
                 "logo": "/app/teams/40.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 4
+                "corners": 9
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -1279,31 +1427,74 @@
               "url": "https://capper.win/predictions/newcastle-vs-aston-villa-1892",
               "kickoff": "2026-10-17T16:30:00+00:00",
               "time": "19:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Newcastle",
                 "logo": "/app/teams/34.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 4
               },
               "away": {
                 "name": "Aston Villa",
                 "logo": "/app/teams/66.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 5
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T16:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -1447,27 +1638,27 @@
               "url": "https://capper.win/predictions/inter-turku-vs-ac-oulu-1885",
               "kickoff": "2026-10-17T15:00:00+00:00",
               "time": "18:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 31,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Inter Turku",
                 "logo": "/app/teams/1164.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "AC Oulu",
                 "logo": "/app/teams/2077.png",
-                "goals": 0,
-                "goals_ft": null,
-                "red": 0,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 1,
                 "corners": null
               },
               "predictions": [],
@@ -1491,27 +1682,101 @@
               "url": "https://capper.win/predictions/strasbourg-vs-paris-saint-germain-1886",
               "kickoff": "2026-10-17T15:15:00+00:00",
               "time": "18:15",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 18,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Strasbourg",
                 "logo": "/app/teams/95.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": null
+                "corners": 3
               },
               "away": {
                 "name": "Paris Saint Germain",
                 "logo": "/app/teams/85.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 3,
+                "goals_ft": 3,
                 "red": 0,
+                "corners": 6
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9,
+                  "label": "Under 9",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9,
+                  "label": "Under 9",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9,
+                  "label": "Under 9",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1901,
+              "url": "https://capper.win/predictions/lille-vs-stade-brestois-29-1901",
+              "kickoff": "2026-10-17T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Lille",
+                "logo": "/app/teams/79.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Stade Brestois 29",
+                "logo": "/app/teams/106.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
                 "corners": null
               },
               "predictions": [
@@ -1546,37 +1811,6 @@
               "predictions_eta": null
             },
             {
-              "id": 1901,
-              "url": "https://capper.win/predictions/lille-vs-stade-brestois-29-1901",
-              "kickoff": "2026-10-17T18:45:00+00:00",
-              "time": "21:45",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Lille",
-                "logo": "/app/teams/79.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "Stade Brestois 29",
-                "logo": "/app/teams/106.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T18:15:00+00:00"
-            },
-            {
               "id": 1902,
               "url": "https://capper.win/predictions/estac-troyes-vs-lens-1902",
               "kickoff": "2026-10-17T18:45:00+00:00",
@@ -1604,8 +1838,36 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T18:15:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -1656,7 +1918,7 @@
                   "line": 9.5,
                   "label": "Over 9.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
@@ -1670,7 +1932,7 @@
                   "line": 9.5,
                   "label": "Over 9.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
@@ -1684,7 +1946,7 @@
                   "line": 9.5,
                   "label": "Over 9.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
@@ -1730,7 +1992,7 @@
                   "line": 9.5,
                   "label": "Over 9.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
@@ -1744,7 +2006,7 @@
                   "line": 9.5,
                   "label": "Under 9.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
@@ -1758,7 +2020,7 @@
                   "line": 9.5,
                   "label": "Over 9.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
@@ -1773,26 +2035,26 @@
               "url": "https://capper.win/predictions/sv-elversberg-vs-fc-augsburg-1864",
               "kickoff": "2026-10-17T13:30:00+00:00",
               "time": "16:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
+              "status_short": "FT",
+              "status_long": "Match Finished",
               "elapsed": 90,
-              "extra": 5,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "SV Elversberg",
                 "logo": "/app/teams/1660.png",
                 "goals": 4,
-                "goals_ft": null,
+                "goals_ft": 4,
                 "red": 0,
-                "corners": 3
+                "corners": 4
               },
               "away": {
                 "name": "FC Augsburg",
                 "logo": "/app/teams/170.png",
                 "goals": 3,
-                "goals_ft": null,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 12
               },
@@ -1995,31 +2257,74 @@
               "url": "https://capper.win/predictions/bayern-munchen-vs-rb-leipzig-1895",
               "kickoff": "2026-10-17T16:30:00+00:00",
               "time": "19:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Bayern München",
                 "logo": "/app/teams/157.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 6,
+                "goals_ft": 6,
+                "red": 0,
+                "corners": 11
               },
               "away": {
                 "name": "RB Leipzig",
                 "logo": "/app/teams/173.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T16:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -2113,6 +2418,80 @@
               "url": "https://capper.win/predictions/bologna-vs-inter-1890",
               "kickoff": "2026-10-17T16:00:00+00:00",
               "time": "19:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Bologna",
+                "logo": "/app/teams/500.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 2
+              },
+              "away": {
+                "name": "Inter",
+                "logo": "/app/teams/505.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 7
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9,
+                  "label": "Over 9",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9,
+                  "label": "Over 9",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9,
+                  "label": "Over 9",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1900,
+              "url": "https://capper.win/predictions/as-roma-vs-genoa-1900",
+              "kickoff": "2026-10-17T18:45:00+00:00",
+              "time": "21:45",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -2121,16 +2500,16 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Bologna",
-                "logo": "/app/teams/500.png",
+                "name": "AS Roma",
+                "logo": "/app/teams/497.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
                 "corners": null
               },
               "away": {
-                "name": "Inter",
-                "logo": "/app/teams/505.png",
+                "name": "Genoa",
+                "logo": "/app/teams/495.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -2166,37 +2545,6 @@
                 }
               ],
               "predictions_eta": null
-            },
-            {
-              "id": 1900,
-              "url": "https://capper.win/predictions/as-roma-vs-genoa-1900",
-              "kickoff": "2026-10-17T18:45:00+00:00",
-              "time": "21:45",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "AS Roma",
-                "logo": "/app/teams/497.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "Genoa",
-                "logo": "/app/teams/495.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T18:15:00+00:00"
             }
           ]
         }
@@ -2451,30 +2799,99 @@
               "url": "https://capper.win/predictions/ado-den-haag-vs-psv-eindhoven-1883",
               "kickoff": "2026-10-17T14:30:00+00:00",
               "time": "17:30",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "ADO Den Haag",
                 "logo": "/app/teams/198.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 2
+                "corners": 3
               },
               "away": {
                 "name": "PSV Eindhoven",
                 "logo": "/app/teams/197.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 1,
-                "corners": 0
+                "corners": 2
               },
               "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1897,
+              "url": "https://capper.win/predictions/telstar-vs-feyenoord-1897",
+              "kickoff": "2026-10-17T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 28,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Telstar",
+                "logo": "/app/teams/427.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Feyenoord",
+                "logo": "/app/teams/209.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
                 {
                   "locked": true,
                   "capper": false,
@@ -2495,37 +2912,6 @@
                 }
               ],
               "predictions_eta": null
-            },
-            {
-              "id": 1897,
-              "url": "https://capper.win/predictions/telstar-vs-feyenoord-1897",
-              "kickoff": "2026-10-17T18:00:00+00:00",
-              "time": "21:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Telstar",
-                "logo": "/app/teams/427.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "Feyenoord",
-                "logo": "/app/teams/209.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T17:30:00+00:00"
             },
             {
               "id": 1903,
@@ -2650,47 +3036,57 @@
               "url": "https://capper.win/predictions/kristiansund-bk-vs-aalesund-1865",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 74,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Kristiansund BK",
                 "logo": "/app/teams/320.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 3
+                "corners": 4
               },
               "away": {
                 "name": "Aalesund",
                 "logo": "/app/teams/757.png",
-                "goals": 2,
-                "goals_ft": null,
+                "goals": 4,
+                "goals_ft": 4,
                 "red": 0,
-                "corners": 4
+                "corners": 8
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 11,
+                  "label": "Over 11",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 11,
+                  "label": "Over 11",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -2700,47 +3096,71 @@
               "url": "https://capper.win/predictions/viking-vs-fredrikstad-1889",
               "kickoff": "2026-10-17T16:00:00+00:00",
               "time": "19:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Viking",
                 "logo": "/app/teams/759.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 6
               },
               "away": {
                 "name": "Fredrikstad",
                 "logo": "/app/teams/2149.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 0
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 11.5,
+                  "label": "Over 11.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 11.5,
+                  "label": "Over 11.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 11.5,
+                  "label": "Over 11.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -2837,28 +3257,102 @@
               "url": "https://capper.win/predictions/gks-katowice-vs-pogon-szczecin-1888",
               "kickoff": "2026-10-17T15:30:00+00:00",
               "time": "18:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "GKS Katowice",
                 "logo": "/app/teams/3484.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 6
               },
               "away": {
                 "name": "Pogon Szczecin",
                 "logo": "/app/teams/348.png",
-                "goals": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1898,
+              "url": "https://capper.win/predictions/cracovia-krakow-vs-legia-warszawa-1898",
+              "kickoff": "2026-10-17T18:15:00+00:00",
+              "time": "21:15",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 14,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Cracovia Krakow",
+                "logo": "/app/teams/350.png",
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 1
+              },
+              "away": {
+                "name": "Legia Warszawa",
+                "logo": "/app/teams/339.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0
               },
               "predictions": [
                 {
@@ -2890,37 +3384,6 @@
                 }
               ],
               "predictions_eta": null
-            },
-            {
-              "id": 1898,
-              "url": "https://capper.win/predictions/cracovia-krakow-vs-legia-warszawa-1898",
-              "kickoff": "2026-10-17T18:15:00+00:00",
-              "time": "21:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Cracovia Krakow",
-                "logo": "/app/teams/350.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "Legia Warszawa",
-                "logo": "/app/teams/339.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T17:45:00+00:00"
             }
           ]
         }
@@ -2940,47 +3403,57 @@
               "url": "https://capper.win/predictions/aberdeen-vs-st-mirren-1866",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 75,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Aberdeen",
                 "logo": "/app/teams/252.png",
                 "goals": 3,
-                "goals_ft": null,
+                "goals_ft": 3,
                 "red": 0,
-                "corners": 1
+                "corners": 2
               },
               "away": {
                 "name": "ST Mirren",
                 "logo": "/app/teams/251.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 4
+                "corners": 6
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -2990,56 +3463,71 @@
               "url": "https://capper.win/predictions/st-johnstone-vs-dundee-utd-1869",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 73,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "ST Johnstone",
                 "logo": "/app/teams/258.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 4
               },
               "away": {
                 "name": "Dundee Utd",
                 "logo": "/app/teams/1386.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 5
+                "corners": 7
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -3049,47 +3537,57 @@
               "url": "https://capper.win/predictions/hibernian-vs-falkirk-1867",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 74,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Hibernian",
                 "logo": "/app/teams/249.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 3
+                "corners": 6
               },
               "away": {
                 "name": "Falkirk",
                 "logo": "/app/teams/1389.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 2
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -3099,18 +3597,18 @@
               "url": "https://capper.win/predictions/kilmarnock-vs-motherwell-1868",
               "kickoff": "2026-10-17T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 73,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Kilmarnock",
                 "logo": "/app/teams/250.png",
                 "goals": 3,
-                "goals_ft": null,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 5
               },
@@ -3118,37 +3616,52 @@
                 "name": "Motherwell",
                 "logo": "/app/teams/256.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -3276,30 +3789,99 @@
               "url": "https://capper.win/predictions/villarreal-vs-elche-1882",
               "kickoff": "2026-10-17T14:15:00+00:00",
               "time": "17:15",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 59,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Villarreal",
                 "logo": "/app/teams/533.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 7
+                "corners": 10
               },
               "away": {
                 "name": "Elche",
                 "logo": "/app/teams/797.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 1
+                "corners": 5
               },
               "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1894,
+              "url": "https://capper.win/predictions/real-betis-vs-barcelona-1894",
+              "kickoff": "2026-10-17T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 2,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Real Betis",
+                "logo": "/app/teams/543.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 1,
+                "corners": 2
+              },
+              "away": {
+                "name": "Barcelona",
+                "logo": "/app/teams/529.png",
+                "goals": 5,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
                 {
                   "locked": true,
                   "capper": false,
@@ -3320,37 +3902,6 @@
                 }
               ],
               "predictions_eta": null
-            },
-            {
-              "id": 1894,
-              "url": "https://capper.win/predictions/real-betis-vs-barcelona-1894",
-              "kickoff": "2026-10-17T16:30:00+00:00",
-              "time": "19:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Real Betis",
-                "logo": "/app/teams/543.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "Barcelona",
-                "logo": "/app/teams/529.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T16:00:00+00:00"
             },
             {
               "id": 1906,
@@ -3469,47 +4020,57 @@
               "url": "https://capper.win/predictions/eibar-vs-mallorca-1881",
               "kickoff": "2026-10-17T14:15:00+00:00",
               "time": "17:15",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 59,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Eibar",
                 "logo": "/app/teams/545.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 2
+                "corners": 5
               },
               "away": {
                 "name": "Mallorca",
                 "logo": "/app/teams/798.png",
                 "goals": 1,
-                "goals_ft": null,
-                "red": 0,
-                "corners": 4
+                "goals_ft": 1,
+                "red": 1,
+                "corners": 7
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -3519,31 +4080,74 @@
               "url": "https://capper.win/predictions/sporting-gijon-vs-albacete-1893",
               "kickoff": "2026-10-17T16:30:00+00:00",
               "time": "19:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Sporting Gijon",
                 "logo": "/app/teams/731.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3
               },
               "away": {
                 "name": "Albacete",
                 "logo": "/app/teams/722.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 5
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-17T16:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10,
+                  "label": "Under 10",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1905,
@@ -3594,56 +4198,71 @@
               "url": "https://capper.win/predictions/aik-stockholm-vs-ifk-goteborg-1887",
               "kickoff": "2026-10-17T15:30:00+00:00",
               "time": "18:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "AIK Stockholm",
                 "logo": "/app/teams/377.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 4
               },
               "away": {
                 "name": "IFK Goteborg",
                 "logo": "/app/teams/366.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -3888,38 +4507,71 @@
               "url": "https://capper.win/predictions/fenerbahce-vs-alanyaspor-1891",
               "kickoff": "2026-10-17T16:00:00+00:00",
               "time": "19:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 4,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Fenerbahçe",
                 "logo": "/app/teams/611.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 4
               },
               "away": {
                 "name": "Alanyaspor",
                 "logo": "/app/teams/996.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -4004,27 +4656,27 @@
               "url": "https://capper.win/predictions/shakhtar-donetsk-vs-kolos-kovalivka-1884",
               "kickoff": "2026-10-17T15:00:00+00:00",
               "time": "18:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 30,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Shakhtar Donetsk",
                 "logo": "/app/teams/550.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "Kolos Kovalivka",
                 "logo": "/app/teams/3627.png",
-                "goals": 0,
-                "goals_ft": null,
-                "red": 0,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 1,
                 "corners": null
               },
               "predictions": [],
@@ -4072,7 +4724,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-17T18:00:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 1907,
