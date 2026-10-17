@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 96,
-    "corners": 42,
-    "team_total": 5,
-    "match_winner": 11,
+    "total_goals": 231,
+    "corners": 128,
+    "team_total": 10,
+    "match_winner": 34,
     "double_chance": 1,
     "handicap": 0,
-    "btts": 8
+    "btts": 23
   },
   "countries": [
     {
@@ -143,28 +143,279 @@
               "url": "https://capper.win/predictions/watford-vs-charlton-1850",
               "kickoff": "2026-10-17T11:30:00+00:00",
               "time": "14:30",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 6,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Watford",
                 "logo": "/app/teams/38.png",
-                "goals": 0,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 4
               },
               "away": {
                 "name": "Charlton",
                 "logo": "/app/teams/1335.png",
                 "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1873,
+              "url": "https://capper.win/predictions/birmingham-vs-qpr-1873",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 75,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Birmingham",
+                "logo": "/app/teams/54.png",
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 0
+              },
+              "away": {
+                "name": "QPR",
+                "logo": "/app/teams/72.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1879,
+              "url": "https://capper.win/predictions/west-brom-vs-blackburn-1879",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 70,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "West Brom",
+                "logo": "/app/teams/60.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
+              },
+              "away": {
+                "name": "Blackburn",
+                "logo": "/app/teams/67.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1878,
+              "url": "https://capper.win/predictions/swansea-vs-west-ham-1878",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 75,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Swansea",
+                "logo": "/app/teams/76.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
+              },
+              "away": {
+                "name": "West Ham",
+                "logo": "/app/teams/48.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1876,
+              "url": "https://capper.win/predictions/norwich-vs-portsmouth-1876",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 73,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Norwich",
+                "logo": "/app/teams/71.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Portsmouth",
+                "logo": "/app/teams/1355.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1874,
+              "url": "https://capper.win/predictions/bristol-city-vs-sheffield-utd-1874",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 72,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Bristol City",
+                "logo": "/app/teams/56.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "away": {
+                "name": "Sheffield Utd",
+                "logo": "/app/teams/62.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1875,
+              "url": "https://capper.win/predictions/derby-vs-stoke-city-1875",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 73,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Derby",
+                "logo": "/app/teams/69.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
+              },
+              "away": {
+                "name": "Stoke City",
+                "logo": "/app/teams/75.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
               },
               "predictions": [
                 {
@@ -191,28 +442,156 @@
               "url": "https://capper.win/predictions/everton-vs-chelsea-1847",
               "kickoff": "2026-10-17T11:30:00+00:00",
               "time": "14:30",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 4,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Everton",
+                "logo": "/app/teams/45.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 5
+              },
+              "away": {
+                "name": "Chelsea",
+                "logo": "/app/teams/49.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 7
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1872,
+              "url": "https://capper.win/predictions/manchester-city-vs-ipswich-1872",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 72,
               "extra": null,
               "finished": false,
               "live": true,
               "winner": null,
               "home": {
-                "name": "Everton",
-                "logo": "/app/teams/45.png",
-                "goals": 0,
+                "name": "Manchester City",
+                "logo": "/app/teams/50.png",
+                "goals": 3,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 2
               },
               "away": {
-                "name": "Chelsea",
-                "logo": "/app/teams/49.png",
+                "name": "Ipswich",
+                "logo": "/app/teams/57.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1871,
+              "url": "https://capper.win/predictions/fulham-vs-hull-city-1871",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 75,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Fulham",
+                "logo": "/app/teams/36.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 10
+              },
+              "away": {
+                "name": "Hull City",
+                "logo": "/app/teams/64.png",
                 "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1870,
+              "url": "https://capper.win/predictions/brentford-vs-liverpool-1870",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 65,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Brentford",
+                "logo": "/app/teams/55.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 1,
+                "corners": 3
+              },
+              "away": {
+                "name": "Liverpool",
+                "logo": "/app/teams/40.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
               },
               "predictions": [
                 {
@@ -245,28 +624,225 @@
               "url": "https://capper.win/predictions/ff-jaro-vs-mariehamn-1845",
               "kickoff": "2026-10-17T11:00:00+00:00",
               "time": "14:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 36,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "FF Jaro",
                 "logo": "/app/teams/2075.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "Mariehamn",
                 "logo": "/app/teams/587.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1844,
+              "url": "https://capper.win/predictions/ilves-vs-sjk-1844",
+              "kickoff": "2026-10-17T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Ilves",
+                "logo": "/app/teams/1163.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "SJK",
+                "logo": "/app/teams/689.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 4,
+          "name": "Bundesliga",
+          "logo": "/app/leagues/78.png",
+          "fixtures": [
+            {
+              "id": 1862,
+              "url": "https://capper.win/predictions/werder-bremen-vs-sc-paderborn-07-1862",
+              "kickoff": "2026-10-17T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "Werder Bremen",
+                "logo": "/app/teams/162.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 5
+              },
+              "away": {
+                "name": "SC Paderborn 07",
+                "logo": "/app/teams/185.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1863,
+              "url": "https://capper.win/predictions/fc-schalke-04-vs-fsv-mainz-05-1863",
+              "kickoff": "2026-10-17T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "FC Schalke 04",
+                "logo": "/app/teams/174.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "FSV Mainz 05",
+                "logo": "/app/teams/164.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1864,
+              "url": "https://capper.win/predictions/sv-elversberg-vs-fc-augsburg-1864",
+              "kickoff": "2026-10-17T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 5,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "SV Elversberg",
+                "logo": "/app/teams/1660.png",
+                "goals": 4,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "FC Augsburg",
+                "logo": "/app/teams/170.png",
+                "goals": 3,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 12
               },
               "predictions": [
                 {
@@ -282,42 +858,106 @@
               "predictions_eta": null
             },
             {
-              "id": 1844,
-              "url": "https://capper.win/predictions/ilves-vs-sjk-1844",
-              "kickoff": "2026-10-17T11:00:00+00:00",
-              "time": "14:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 35,
+              "id": 1861,
+              "url": "https://capper.win/predictions/hamburger-sv-vs-vfb-stuttgart-1861",
+              "kickoff": "2026-10-17T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
-                "name": "Ilves",
-                "logo": "/app/teams/1163.png",
-                "goals": 0,
-                "goals_ft": null,
+                "name": "Hamburger SV",
+                "logo": "/app/teams/175.png",
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": null
+                "corners": 5
               },
               "away": {
-                "name": "SJK",
-                "logo": "/app/teams/689.png",
+                "name": "VfB Stuttgart",
+                "logo": "/app/teams/172.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": null
+                "corners": 9
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 1856,
+              "url": "https://capper.win/predictions/venezia-vs-napoli-1856",
+              "kickoff": "2026-10-17T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Venezia",
+                "logo": "/app/teams/517.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 0
+              },
+              "away": {
+                "name": "Napoli",
+                "logo": "/app/teams/492.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 12
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -478,19 +1118,119 @@
       ]
     },
     {
-      "country": "Spain",
-      "flag": "/app/flags/es.svg",
+      "country": "Norway",
+      "flag": "/app/flags/no.svg",
       "leagues": [
         {
-          "id": 9,
-          "name": "La Liga",
-          "logo": "/app/leagues/140.png",
+          "id": 18,
+          "name": "Eliteserien",
+          "logo": "/app/leagues/103.png",
           "fixtures": [
             {
-              "id": 1853,
-              "url": "https://capper.win/predictions/espanyol-vs-atletico-madrid-1853",
-              "kickoff": "2026-10-17T12:00:00+00:00",
-              "time": "15:00",
+              "id": 1865,
+              "url": "https://capper.win/predictions/kristiansund-bk-vs-aalesund-1865",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 74,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Kristiansund BK",
+                "logo": "/app/teams/320.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Aalesund",
+                "logo": "/app/teams/757.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "flag": "/app/flags/pl.svg",
+      "leagues": [
+        {
+          "id": 20,
+          "name": "Ekstraklasa",
+          "logo": "/app/leagues/106.png",
+          "fixtures": [
+            {
+              "id": 1855,
+              "url": "https://capper.win/predictions/motor-lublin-vs-slask-wroclaw-1855",
+              "kickoff": "2026-10-17T12:45:00+00:00",
+              "time": "15:45",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Motor Lublin",
+                "logo": "/app/teams/14562.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 10
+              },
+              "away": {
+                "name": "Slask Wroclaw",
+                "logo": "/app/teams/337.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1888,
+              "url": "https://capper.win/predictions/gks-katowice-vs-pogon-szczecin-1888",
+              "kickoff": "2026-10-17T15:30:00+00:00",
+              "time": "18:30",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -499,16 +1239,16 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Espanyol",
-                "logo": "/app/teams/540.png",
+                "name": "GKS Katowice",
+                "logo": "/app/teams/3484.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
                 "corners": null
               },
               "away": {
-                "name": "Atletico Madrid",
-                "logo": "/app/teams/530.png",
+                "name": "Pogon Szczecin",
+                "logo": "/app/teams/348.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -528,6 +1268,201 @@
               "predictions_eta": null
             }
           ]
+        }
+      ]
+    },
+    {
+      "country": "Scotland",
+      "flag": "/app/flags/gb-sct.svg",
+      "leagues": [
+        {
+          "id": 12,
+          "name": "Premiership",
+          "logo": "/app/leagues/179.png",
+          "fixtures": [
+            {
+              "id": 1866,
+              "url": "https://capper.win/predictions/aberdeen-vs-st-mirren-1866",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 75,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Aberdeen",
+                "logo": "/app/teams/252.png",
+                "goals": 3,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "ST Mirren",
+                "logo": "/app/teams/251.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1869,
+              "url": "https://capper.win/predictions/st-johnstone-vs-dundee-utd-1869",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 73,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "ST Johnstone",
+                "logo": "/app/teams/258.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Dundee Utd",
+                "logo": "/app/teams/1386.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1868,
+              "url": "https://capper.win/predictions/kilmarnock-vs-motherwell-1868",
+              "kickoff": "2026-10-17T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 73,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Kilmarnock",
+                "logo": "/app/teams/250.png",
+                "goals": 3,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5
+              },
+              "away": {
+                "name": "Motherwell",
+                "logo": "/app/teams/256.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1853,
+              "url": "https://capper.win/predictions/espanyol-vs-atletico-madrid-1853",
+              "kickoff": "2026-10-17T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Espanyol",
+                "logo": "/app/teams/540.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Atletico Madrid",
+                "logo": "/app/teams/530.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 12
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
         },
         {
           "id": 10,
@@ -539,6 +1474,106 @@
               "url": "https://capper.win/predictions/real-sociedad-ii-vs-almeria-1852",
               "kickoff": "2026-10-17T12:00:00+00:00",
               "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Real Sociedad II",
+                "logo": "/app/teams/9585.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 10
+              },
+              "away": {
+                "name": "Almeria",
+                "logo": "/app/teams/723.png",
+                "goals": 4,
+                "goals_ft": 4,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1881,
+              "url": "https://capper.win/predictions/eibar-vs-mallorca-1881",
+              "kickoff": "2026-10-17T14:15:00+00:00",
+              "time": "17:15",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 59,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Eibar",
+                "logo": "/app/teams/545.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "away": {
+                "name": "Mallorca",
+                "logo": "/app/teams/798.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
+            {
+              "id": 1887,
+              "url": "https://capper.win/predictions/aik-stockholm-vs-ifk-goteborg-1887",
+              "kickoff": "2026-10-17T15:30:00+00:00",
+              "time": "18:30",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -547,16 +1582,16 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Real Sociedad II",
-                "logo": "/app/teams/9585.png",
+                "name": "AIK Stockholm",
+                "logo": "/app/teams/377.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
                 "corners": null
               },
               "away": {
-                "name": "Almeria",
-                "logo": "/app/teams/723.png",
+                "name": "IFK Goteborg",
+                "logo": "/app/teams/366.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -571,6 +1606,65 @@
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
                   }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 1857,
+              "url": "https://capper.win/predictions/amed-vs-konyaspor-1857",
+              "kickoff": "2026-10-17T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 5,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Amed",
+                "logo": "/app/teams/3579.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 6
+              },
+              "away": {
+                "name": "Konyaspor",
+                "logo": "/app/teams/607.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null

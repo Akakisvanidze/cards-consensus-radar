@@ -2,13 +2,13 @@
   "date": "2026-10-17",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 96,
-    "corners": 42,
-    "team_total": 5,
-    "match_winner": 11,
+    "total_goals": 231,
+    "corners": 128,
+    "team_total": 10,
+    "match_winner": 34,
     "double_chance": 1,
     "handicap": 0,
-    "btts": 8
+    "btts": 23
   },
   "countries": [
     {
@@ -25,28 +25,28 @@
               "url": "https://capper.win/predictions/ado-den-haag-vs-psv-eindhoven-1883",
               "kickoff": "2026-10-17T14:30:00+00:00",
               "time": "17:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "ADO Den Haag",
                 "logo": "/app/teams/198.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 2
               },
               "away": {
                 "name": "PSV Eindhoven",
                 "logo": "/app/teams/197.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 1,
+                "corners": 0
               },
               "predictions": [
                 {
