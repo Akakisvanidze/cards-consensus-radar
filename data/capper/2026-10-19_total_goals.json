@@ -2,13 +2,13 @@
   "date": "2026-10-19",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 9,
-    "corners": 0,
+    "total_goals": 21,
+    "corners": 9,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 3,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 1
   },
   "countries": [
     {
@@ -48,8 +48,45 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-18T20:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1990,
@@ -93,6 +130,42 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -866,6 +939,42 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
                 }
               ],
               "predictions_eta": null

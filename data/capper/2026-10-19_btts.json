@@ -2,13 +2,68 @@
   "date": "2026-10-19",
   "market": "btts",
   "market_counts": {
-    "total_goals": 9,
-    "corners": 0,
+    "total_goals": 21,
+    "corners": 9,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 3,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 1
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 1990,
+              "url": "https://capper.win/predictions/estudiantes-lp-vs-san-lorenzo-1990",
+              "kickoff": "2026-10-18T21:00:00+00:00",
+              "time": "00:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Estudiantes L.P.",
+                "logo": "/app/teams/450.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "San Lorenzo",
+                "logo": "/app/teams/460.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
