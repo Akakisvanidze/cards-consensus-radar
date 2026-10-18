@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "market": "btts",
   "market_counts": {
-    "total_goals": 217,
-    "corners": 141,
-    "team_total": 2,
-    "match_winner": 36,
+    "total_goals": 301,
+    "corners": 200,
+    "team_total": 3,
+    "match_winner": 52,
     "double_chance": 0,
     "handicap": 1,
-    "btts": 22
+    "btts": 30
   },
   "countries": [
     {
@@ -62,6 +62,47 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1981,
+              "url": "https://capper.win/predictions/racing-club-vs-independiente-1981",
+              "kickoff": "2026-10-18T17:45:00+00:00",
+              "time": "20:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Racing Club",
+                "logo": "/app/teams/436.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Independiente",
+                "logo": "/app/teams/453.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -268,37 +309,37 @@
       ]
     },
     {
-      "country": "England",
-      "flag": "/app/flags/gb-eng.svg",
+      "country": "Denmark",
+      "flag": "/app/flags/dk.svg",
       "leagues": [
         {
-          "id": 1,
-          "name": "Premier League",
-          "logo": "/app/leagues/39.png",
+          "id": 22,
+          "name": "Superliga",
+          "logo": "/app/leagues/119.png",
           "fixtures": [
             {
-              "id": 1952,
-              "url": "https://capper.win/predictions/brighton-vs-crystal-palace-1952",
-              "kickoff": "2026-10-18T13:00:00+00:00",
-              "time": "16:00",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "id": 1974,
+              "url": "https://capper.win/predictions/fc-copenhagen-vs-aarhus-1974",
+              "kickoff": "2026-10-18T16:00:00+00:00",
+              "time": "19:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 61,
               "extra": null,
               "finished": false,
               "live": true,
               "winner": null,
               "home": {
-                "name": "Brighton",
-                "logo": "/app/teams/51.png",
-                "goals": 3,
+                "name": "FC Copenhagen",
+                "logo": "/app/teams/400.png",
+                "goals": 1,
                 "goals_ft": null,
                 "red": 0,
-                "corners": 3
+                "corners": 5
               },
               "away": {
-                "name": "Crystal Palace",
-                "logo": "/app/teams/52.png",
+                "name": "Aarhus",
+                "logo": "/app/teams/406.png",
                 "goals": 0,
                 "goals_ft": null,
                 "red": 0,
@@ -316,34 +357,139 @@
                 }
               ],
               "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 1,
+          "name": "Premier League",
+          "logo": "/app/leagues/39.png",
+          "fixtures": [
+            {
+              "id": 1952,
+              "url": "https://capper.win/predictions/brighton-vs-crystal-palace-1952",
+              "kickoff": "2026-10-18T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Brighton",
+                "logo": "/app/teams/51.png",
+                "goals": 5,
+                "goals_ft": 5,
+                "red": 0,
+                "corners": 8
+              },
+              "away": {
+                "name": "Crystal Palace",
+                "logo": "/app/teams/52.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 5
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1951,
               "url": "https://capper.win/predictions/bournemouth-vs-sunderland-1951",
               "kickoff": "2026-10-18T13:00:00+00:00",
               "time": "16:00",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Bournemouth",
                 "logo": "/app/teams/35.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 4
+                "corners": 5
               },
               "away": {
                 "name": "Sunderland",
                 "logo": "/app/teams/746.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 1,
-                "corners": 1
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1972,
+              "url": "https://capper.win/predictions/nottingham-forest-vs-arsenal-1972",
+              "kickoff": "2026-10-18T15:30:00+00:00",
+              "time": "18:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 2,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Nottingham Forest",
+                "logo": "/app/teams/65.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 7
+              },
+              "away": {
+                "name": "Arsenal",
+                "logo": "/app/teams/42.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 6
               },
               "predictions": [
                 {
@@ -422,6 +568,65 @@
       ]
     },
     {
+      "country": "France",
+      "flag": "/app/flags/fr.svg",
+      "leagues": [
+        {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 1969,
+              "url": "https://capper.win/predictions/lorient-vs-monaco-1969",
+              "kickoff": "2026-10-18T15:15:00+00:00",
+              "time": "18:15",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Lorient",
+                "logo": "/app/teams/97.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Monaco",
+                "logo": "/app/teams/91.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Germany",
       "flag": "/app/flags/de.svg",
       "leagues": [
@@ -435,38 +640,43 @@
               "url": "https://capper.win/predictions/bayer-leverkusen-vs-sc-freiburg-1955",
               "kickoff": "2026-10-18T13:30:00+00:00",
               "time": "16:30",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 30,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Bayer Leverkusen",
                 "logo": "/app/teams/168.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 0
+                "corners": 4
               },
               "away": {
                 "name": "SC Freiburg",
                 "logo": "/app/teams/160.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 1
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "Capella",
                     "icon_url": null
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -640,6 +850,60 @@
       ]
     },
     {
+      "country": "Norway",
+      "flag": "/app/flags/no.svg",
+      "leagues": [
+        {
+          "id": 18,
+          "name": "Eliteserien",
+          "logo": "/app/leagues/103.png",
+          "fixtures": [
+            {
+              "id": 1980,
+              "url": "https://capper.win/predictions/tromso-vs-kfum-oslo-1980",
+              "kickoff": "2026-10-18T17:15:00+00:00",
+              "time": "20:15",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 6,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Tromso",
+                "logo": "/app/teams/325.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0
+              },
+              "away": {
+                "name": "KFUM Oslo",
+                "logo": "/app/teams/2143.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Poland",
       "flag": "/app/flags/pl.svg",
       "leagues": [
@@ -712,38 +976,43 @@
               "url": "https://capper.win/predictions/celtic-vs-heart-of-midlothian-1957",
               "kickoff": "2026-10-18T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Celtic",
                 "logo": "/app/teams/247.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 7,
+                "goals_ft": 7,
+                "red": 0,
+                "corners": 6
               },
               "away": {
                 "name": "Heart Of Midlothian",
                 "logo": "/app/teams/254.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "Capella",
                     "icon_url": null
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -766,38 +1035,43 @@
               "url": "https://capper.win/predictions/celta-vigo-vs-alaves-1959",
               "kickoff": "2026-10-18T14:15:00+00:00",
               "time": "17:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Celta Vigo",
                 "logo": "/app/teams/538.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 0
               },
               "away": {
                 "name": "Alaves",
                 "logo": "/app/teams/542.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -814,28 +1088,120 @@
               "url": "https://capper.win/predictions/ad-ceuta-fc-vs-oviedo-1943",
               "kickoff": "2026-10-18T12:00:00+00:00",
               "time": "15:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
+              "status_short": "FT",
+              "status_long": "Match Finished",
               "elapsed": 90,
-              "extra": 3,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "AD Ceuta FC",
                 "logo": "/app/teams/10139.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 9
+                "corners": 15
               },
               "away": {
                 "name": "Oviedo",
                 "logo": "/app/teams/718.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1958,
+              "url": "https://capper.win/predictions/granada-cf-vs-cadiz-1958",
+              "kickoff": "2026-10-18T14:15:00+00:00",
+              "time": "17:15",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Granada CF",
+                "logo": "/app/teams/715.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Cadiz",
+                "logo": "/app/teams/724.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 6
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1978,
+              "url": "https://capper.win/predictions/valladolid-vs-eldense-1978",
+              "kickoff": "2026-10-18T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Valladolid",
+                "logo": "/app/teams/720.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Eldense",
+                "logo": "/app/teams/9692.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
               },
               "predictions": [
                 {
@@ -849,44 +1215,108 @@
                 }
               ],
               "predictions_eta": null
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
             {
-              "id": 1958,
-              "url": "https://capper.win/predictions/granada-cf-vs-cadiz-1958",
-              "kickoff": "2026-10-18T14:15:00+00:00",
-              "time": "17:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "id": 1960,
+              "url": "https://capper.win/predictions/halmstad-vs-hammarby-ff-1960",
+              "kickoff": "2026-10-18T14:30:00+00:00",
+              "time": "17:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
-                "name": "Granada CF",
-                "logo": "/app/teams/715.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "name": "Halmstad",
+                "logo": "/app/teams/766.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3
               },
               "away": {
-                "name": "Cadiz",
-                "logo": "/app/teams/724.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "name": "Hammarby FF",
+                "logo": "/app/teams/363.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 11
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1962,
+              "url": "https://capper.win/predictions/orgryte-is-vs-gais-1962",
+              "kickoff": "2026-10-18T14:30:00+00:00",
+              "time": "17:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Orgryte IS",
+                "logo": "/app/teams/2166.png",
+                "goals": 4,
+                "goals_ft": 4,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Gais",
+                "logo": "/app/teams/2170.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 6
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -955,38 +1385,43 @@
               "url": "https://capper.win/predictions/kocaelispor-vs-goztepe-1954",
               "kickoff": "2026-10-18T13:00:00+00:00",
               "time": "16:00",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
-              "extra": 2,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 5,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Kocaelispor",
                 "logo": "/app/teams/7411.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 2
+                "corners": 3
               },
               "away": {
                 "name": "Göztepe",
                 "logo": "/app/teams/994.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": 1
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
