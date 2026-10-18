@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 105,
+    "total_goals": 117,
     "corners": 69,
-    "team_total": 0,
-    "match_winner": 15,
+    "team_total": 2,
+    "match_winner": 17,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 7
+    "btts": 9
   },
   "countries": [
     {
@@ -1810,28 +1810,28 @@
               "url": "https://capper.win/predictions/cruz-azul-vs-fc-juarez-1932",
               "kickoff": "2026-10-18T03:10:00+00:00",
               "time": "06:10",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 56,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Cruz Azul",
                 "logo": "/app/teams/2295.png",
-                "goals": 4,
-                "goals_ft": null,
+                "goals": 5,
+                "goals_ft": 5,
                 "red": 0,
-                "corners": 0
+                "corners": 2
               },
               "away": {
                 "name": "FC Juarez",
                 "logo": "/app/teams/2298.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 5
+                "corners": 8
               },
               "predictions": [
                 {
@@ -1962,6 +1962,15 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null
@@ -2223,8 +2232,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-18T14:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1964,
@@ -2268,6 +2287,15 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null
@@ -2450,8 +2478,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-18T13:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -3082,8 +3120,45 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-18T09:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1933,
@@ -3113,8 +3188,45 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-18T09:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 1967,
@@ -3869,26 +3981,26 @@
               "url": "https://capper.win/predictions/los-angeles-galaxy-vs-san-diego-1928",
               "kickoff": "2026-10-18T02:30:00+00:00",
               "time": "05:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 87,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Los Angeles Galaxy",
                 "logo": "/app/teams/1605.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 4
+                "corners": 5
               },
               "away": {
                 "name": "San Diego",
                 "logo": "/app/teams/25484.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": 3
               },
@@ -3971,18 +4083,18 @@
               "url": "https://capper.win/predictions/portland-timbers-vs-colorado-rapids-1931",
               "kickoff": "2026-10-18T02:30:00+00:00",
               "time": "05:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 86,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Portland Timbers",
                 "logo": "/app/teams/1617.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 1
               },
@@ -3990,46 +4102,66 @@
                 "name": "Colorado Rapids",
                 "logo": "/app/teams/1610.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 2
+                "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "yoda",
                     "icon_url": "/app/providers/yoda.svg"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -4039,18 +4171,18 @@
               "url": "https://capper.win/predictions/san-jose-earthquakes-vs-nashville-sc-1930",
               "kickoff": "2026-10-18T02:30:00+00:00",
               "time": "05:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 89,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "San Jose Earthquakes",
                 "logo": "/app/teams/1596.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 4
               },
@@ -4058,46 +4190,66 @@
                 "name": "Nashville SC",
                 "logo": "/app/teams/9569.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 0
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "yoda",
                     "icon_url": "/app/providers/yoda.svg"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -4107,65 +4259,85 @@
               "url": "https://capper.win/predictions/seattle-sounders-vs-cf-montreal-1929",
               "kickoff": "2026-10-18T02:30:00+00:00",
               "time": "05:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
+              "status_short": "FT",
+              "status_long": "Match Finished",
               "elapsed": 90,
-              "extra": 3,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Seattle Sounders",
                 "logo": "/app/teams/1595.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 3
+                "corners": 5
               },
               "away": {
                 "name": "CF Montreal",
                 "logo": "/app/teams/1614.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 2
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "yoda",
                     "icon_url": "/app/providers/yoda.svg"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
