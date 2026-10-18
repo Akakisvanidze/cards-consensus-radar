@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "market": "btts",
   "market_counts": {
-    "total_goals": 117,
-    "corners": 69,
+    "total_goals": 217,
+    "corners": 141,
     "team_total": 2,
-    "match_winner": 17,
+    "match_winner": 36,
     "double_chance": 0,
-    "handicap": 0,
-    "btts": 9
+    "handicap": 1,
+    "btts": 22
   },
   "countries": [
     {
@@ -268,6 +268,273 @@
       ]
     },
     {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 1,
+          "name": "Premier League",
+          "logo": "/app/leagues/39.png",
+          "fixtures": [
+            {
+              "id": 1952,
+              "url": "https://capper.win/predictions/brighton-vs-crystal-palace-1952",
+              "kickoff": "2026-10-18T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Brighton",
+                "logo": "/app/teams/51.png",
+                "goals": 3,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Crystal Palace",
+                "logo": "/app/teams/52.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1951,
+              "url": "https://capper.win/predictions/bournemouth-vs-sunderland-1951",
+              "kickoff": "2026-10-18T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Bournemouth",
+                "logo": "/app/teams/35.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Sunderland",
+                "logo": "/app/teams/746.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 1,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 1945,
+              "url": "https://capper.win/predictions/kups-vs-vps-1945",
+              "kickoff": "2026-10-18T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "KuPS",
+                "logo": "/app/teams/1165.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "VPS",
+                "logo": "/app/teams/650.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 4,
+          "name": "Bundesliga",
+          "logo": "/app/leagues/78.png",
+          "fixtures": [
+            {
+              "id": 1955,
+              "url": "https://capper.win/predictions/bayer-leverkusen-vs-sc-freiburg-1955",
+              "kickoff": "2026-10-18T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 30,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Bayer Leverkusen",
+                "logo": "/app/teams/168.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "away": {
+                "name": "SC Freiburg",
+                "logo": "/app/teams/160.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 1937,
+              "url": "https://capper.win/predictions/udinese-vs-lecce-1937",
+              "kickoff": "2026-10-18T10:30:00+00:00",
+              "time": "13:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Udinese",
+                "logo": "/app/teams/494.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Lecce",
+                "logo": "/app/teams/867.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Mexico",
       "flag": "/app/flags/mx.svg",
       "leagues": [
@@ -373,19 +640,78 @@
       ]
     },
     {
-      "country": "Ukraine",
-      "flag": "/app/flags/ua.svg",
+      "country": "Poland",
+      "flag": "/app/flags/pl.svg",
       "leagues": [
         {
-          "id": 15,
-          "name": "Premier League",
-          "logo": "/app/leagues/333.png",
+          "id": 20,
+          "name": "Ekstraklasa",
+          "logo": "/app/leagues/106.png",
           "fixtures": [
             {
-              "id": 1934,
-              "url": "https://capper.win/predictions/polessya-vs-dynamo-kyiv-1934",
-              "kickoff": "2026-10-18T10:00:00+00:00",
-              "time": "13:00",
+              "id": 1936,
+              "url": "https://capper.win/predictions/gornik-zabrze-vs-piast-gliwice-1936",
+              "kickoff": "2026-10-18T10:15:00+00:00",
+              "time": "13:15",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "Gornik Zabrze",
+                "logo": "/app/teams/340.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 10
+              },
+              "away": {
+                "name": "Piast Gliwice",
+                "logo": "/app/teams/349.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Scotland",
+      "flag": "/app/flags/gb-sct.svg",
+      "leagues": [
+        {
+          "id": 12,
+          "name": "Premiership",
+          "logo": "/app/leagues/179.png",
+          "fixtures": [
+            {
+              "id": 1957,
+              "url": "https://capper.win/predictions/celtic-vs-heart-of-midlothian-1957",
+              "kickoff": "2026-10-18T14:00:00+00:00",
+              "time": "17:00",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -394,16 +720,70 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Polessya",
-                "logo": "/app/teams/6496.png",
+                "name": "Celtic",
+                "logo": "/app/teams/247.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
                 "corners": null
               },
               "away": {
-                "name": "Dynamo Kyiv",
-                "logo": "/app/teams/572.png",
+                "name": "Heart Of Midlothian",
+                "logo": "/app/teams/254.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1959,
+              "url": "https://capper.win/predictions/celta-vigo-vs-alaves-1959",
+              "kickoff": "2026-10-18T14:15:00+00:00",
+              "time": "17:15",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Celta Vigo",
+                "logo": "/app/teams/538.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Alaves",
+                "logo": "/app/teams/542.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -421,12 +801,60 @@
                 }
               ],
               "predictions_eta": null
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 1943,
+              "url": "https://capper.win/predictions/ad-ceuta-fc-vs-oviedo-1943",
+              "kickoff": "2026-10-18T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 3,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "AD Ceuta FC",
+                "logo": "/app/teams/10139.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 9
+              },
+              "away": {
+                "name": "Oviedo",
+                "logo": "/app/teams/718.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
-              "id": 1933,
-              "url": "https://capper.win/predictions/kryvbas-kr-vs-lnz-cherkasy-1933",
-              "kickoff": "2026-10-18T10:00:00+00:00",
-              "time": "13:00",
+              "id": 1958,
+              "url": "https://capper.win/predictions/granada-cf-vs-cadiz-1958",
+              "kickoff": "2026-10-18T14:15:00+00:00",
+              "time": "17:15",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -435,19 +863,223 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Kryvbas KR",
-                "logo": "/app/teams/6489.png",
+                "name": "Granada CF",
+                "logo": "/app/teams/715.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
                 "corners": null
               },
               "away": {
-                "name": "LNZ Cherkasy",
-                "logo": "/app/teams/17161.png",
+                "name": "Cadiz",
+                "logo": "/app/teams/724.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 1938,
+              "url": "https://capper.win/predictions/kasimpasa-vs-samsunspor-1938",
+              "kickoff": "2026-10-18T10:30:00+00:00",
+              "time": "13:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 4,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Kasımpaşa",
+                "logo": "/app/teams/1004.png",
+                "goals": 4,
+                "goals_ft": 4,
+                "red": 0,
+                "corners": 8
+              },
+              "away": {
+                "name": "Samsunspor",
+                "logo": "/app/teams/3603.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1954,
+              "url": "https://capper.win/predictions/kocaelispor-vs-goztepe-1954",
+              "kickoff": "2026-10-18T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": 2,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Kocaelispor",
+                "logo": "/app/teams/7411.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "away": {
+                "name": "Göztepe",
+                "logo": "/app/teams/994.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "flag": "/app/flags/ua.svg",
+      "leagues": [
+        {
+          "id": 15,
+          "name": "Premier League",
+          "logo": "/app/leagues/333.png",
+          "fixtures": [
+            {
+              "id": 1934,
+              "url": "https://capper.win/predictions/polessya-vs-dynamo-kyiv-1934",
+              "kickoff": "2026-10-18T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "ABD",
+              "status_long": "Match Abandoned",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Polessya",
+                "logo": "/app/teams/6496.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 1,
+                "corners": null
+              },
+              "away": {
+                "name": "Dynamo Kyiv",
+                "logo": "/app/teams/572.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 1933,
+              "url": "https://capper.win/predictions/kryvbas-kr-vs-lnz-cherkasy-1933",
+              "kickoff": "2026-10-18T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "INT",
+              "status_long": "Match Interrupted",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Kryvbas KR",
+                "logo": "/app/teams/6489.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "LNZ Cherkasy",
+                "logo": "/app/teams/17161.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
                 "corners": null
               },
               "predictions": [
