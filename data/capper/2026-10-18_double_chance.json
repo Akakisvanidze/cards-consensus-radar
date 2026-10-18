@@ -2,13 +2,13 @@
   "date": "2026-10-18",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 72,
-    "corners": 42,
+    "total_goals": 105,
+    "corners": 69,
     "team_total": 0,
-    "match_winner": 11,
+    "match_winner": 15,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 6
+    "btts": 7
   },
   "countries": []
 }
