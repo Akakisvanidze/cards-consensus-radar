@@ -2,13 +2,13 @@
   "date": "2026-10-19",
   "market": "corners",
   "market_counts": {
-    "total_goals": 7,
-    "corners": 7,
+    "total_goals": 9,
+    "corners": 9,
     "team_total": 0,
     "match_winner": 0,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 2
+    "btts": 6
   },
   "countries": [
     {
@@ -318,6 +318,114 @@
                     "icon_url": "/app/providers/anthropic.svg"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "flag": "/app/flags/pt.svg",
+      "leagues": [
+        {
+          "id": 6,
+          "name": "Primeira Liga",
+          "logo": "/app/leagues/94.png",
+          "fixtures": [
+            {
+              "id": 509,
+              "url": "https://capper.win/predictions/sc-braga-vs-gil-vicente-509",
+              "kickoff": "2026-10-19T19:15:00+00:00",
+              "time": "22:15",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "SC Braga",
+                "logo": "/app/teams/217.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "GIL Vicente",
+                "logo": "/app/teams/762.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
+            {
+              "id": 1999,
+              "url": "https://capper.win/predictions/degerfors-if-vs-kalmar-ff-1999",
+              "kickoff": "2026-10-19T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Degerfors IF",
+                "logo": "/app/teams/2172.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Kalmar FF",
+                "logo": "/app/teams/374.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null
