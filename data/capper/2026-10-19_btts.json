@@ -2,13 +2,13 @@
   "date": "2026-10-19",
   "market": "btts",
   "market_counts": {
-    "total_goals": 9,
-    "corners": 9,
+    "total_goals": 20,
+    "corners": 19,
     "team_total": 0,
     "match_winner": 0,
     "double_chance": 0,
-    "handicap": 0,
-    "btts": 6
+    "handicap": 1,
+    "btts": 11
   },
   "countries": [
     {
@@ -130,28 +130,133 @@
               "url": "https://capper.win/predictions/viborg-vs-fc-midtjylland-2000",
               "kickoff": "2026-10-19T17:00:00+00:00",
               "time": "20:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Viborg",
                 "logo": "/app/teams/2070.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3
               },
               "away": {
                 "name": "FC Midtjylland",
                 "logo": "/app/teams/397.png",
-                "goals": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 1998,
+              "url": "https://capper.win/predictions/monza-vs-cagliari-1998",
+              "kickoff": "2026-10-19T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Monza",
+                "logo": "/app/teams/1579.png",
+                "goals": 4,
+                "goals_ft": 4,
+                "red": 0,
+                "corners": 2
+              },
+              "away": {
+                "name": "Cagliari",
+                "logo": "/app/teams/490.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 7
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2004,
+              "url": "https://capper.win/predictions/parma-vs-torino-2004",
+              "kickoff": "2026-10-19T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 52,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Parma",
+                "logo": "/app/teams/523.png",
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Torino",
+                "logo": "/app/teams/503.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
               },
               "predictions": [
                 {
@@ -159,9 +264,176 @@
                   "capper": false,
                   "alien": false,
                   "provider": {
-                    "name": "Capella",
-                    "icon_url": null
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
                   }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "flag": "/app/flags/pt.svg",
+      "leagues": [
+        {
+          "id": 6,
+          "name": "Primeira Liga",
+          "logo": "/app/leagues/94.png",
+          "fixtures": [
+            {
+              "id": 509,
+              "url": "https://capper.win/predictions/sc-braga-vs-gil-vicente-509",
+              "kickoff": "2026-10-19T19:15:00+00:00",
+              "time": "22:15",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 39,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "SC Braga",
+                "logo": "/app/teams/217.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "GIL Vicente",
+                "logo": "/app/teams/762.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 2003,
+              "url": "https://capper.win/predictions/celta-de-vigo-ii-vs-tenerife-2003",
+              "kickoff": "2026-10-19T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 64,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Celta de Vigo II",
+                "logo": "/app/teams/9571.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Tenerife",
+                "logo": "/app/teams/719.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
+            {
+              "id": 1999,
+              "url": "https://capper.win/predictions/degerfors-if-vs-kalmar-ff-1999",
+              "kickoff": "2026-10-19T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Degerfors IF",
+                "logo": "/app/teams/2172.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 10
+              },
+              "away": {
+                "name": "Kalmar FF",
+                "logo": "/app/teams/374.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -184,47 +456,57 @@
               "url": "https://capper.win/predictions/trabzonspor-vs-besiktas-2002",
               "kickoff": "2026-10-19T17:00:00+00:00",
               "time": "20:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 4,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Trabzonspor",
                 "logo": "/app/teams/998.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 4
               },
               "away": {
                 "name": "Beşiktaş",
                 "logo": "/app/teams/549.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "Capella",
                     "icon_url": null
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "Alioth",
                     "icon_url": null
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
