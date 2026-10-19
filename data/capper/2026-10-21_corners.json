@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-21",
+  "market": "corners",
+  "market_counts": {
+    "total_goals": 10,
+    "corners": 2,
+    "team_total": 0,
+    "match_winner": 0,
+    "double_chance": 0,
+    "handicap": 0,
+    "btts": 0
+  },
+  "countries": [
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 1233,
+              "url": "https://capper.win/predictions/levante-vs-athletic-club-1233",
+              "kickoff": "2026-10-21T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Levante",
+                "logo": "/app/teams/539.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Athletic Club",
+                "logo": "/app/teams/531.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "google",
+                    "icon_url": "/app/providers/google.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
