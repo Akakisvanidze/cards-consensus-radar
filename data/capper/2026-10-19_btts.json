@@ -71,18 +71,18 @@
               "url": "https://capper.win/predictions/belgrano-cordoba-vs-river-plate-1995",
               "kickoff": "2026-10-18T23:15:00+00:00",
               "time": "02:15",
-              "status_short": "2H",
-              "status_long": "Second Half",
+              "status_short": "FT",
+              "status_long": "Match Finished",
               "elapsed": 90,
-              "extra": 4,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Belgrano Cordoba",
                 "logo": "/app/teams/440.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 4
               },
@@ -90,19 +90,24 @@
                 "name": "River Plate",
                 "logo": "/app/teams/435.png",
                 "goals": 3,
-                "goals_ft": null,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 7
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
