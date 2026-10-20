@@ -1,32 +1,7 @@
 {
-  "updated_at": "2026-10-20T19:15:09.920268+00:00",
+  "updated_at": "2026-10-20T22:19:19.047661+00:00",
   "timezone": "Asia/Tbilisi",
   "available": [
-    {
-      "date": "2026-10-20",
-      "market": "total_goals",
-      "file": "2026-10-20_total_goals.json"
-    },
-    {
-      "date": "2026-10-20",
-      "market": "match_winner",
-      "file": "2026-10-20_match_winner.json"
-    },
-    {
-      "date": "2026-10-20",
-      "market": "double_chance",
-      "file": "2026-10-20_double_chance.json"
-    },
-    {
-      "date": "2026-10-20",
-      "market": "btts",
-      "file": "2026-10-20_btts.json"
-    },
-    {
-      "date": "2026-10-20",
-      "market": "corners",
-      "file": "2026-10-20_corners.json"
-    },
     {
       "date": "2026-10-21",
       "market": "total_goals",
@@ -51,6 +26,31 @@
       "date": "2026-10-21",
       "market": "corners",
       "file": "2026-10-21_corners.json"
+    },
+    {
+      "date": "2026-10-22",
+      "market": "total_goals",
+      "file": "2026-10-22_total_goals.json"
+    },
+    {
+      "date": "2026-10-22",
+      "market": "match_winner",
+      "file": "2026-10-22_match_winner.json"
+    },
+    {
+      "date": "2026-10-22",
+      "market": "double_chance",
+      "file": "2026-10-22_double_chance.json"
+    },
+    {
+      "date": "2026-10-22",
+      "market": "btts",
+      "file": "2026-10-22_btts.json"
+    },
+    {
+      "date": "2026-10-22",
+      "market": "corners",
+      "file": "2026-10-22_corners.json"
     }
   ],
   "unavailable": [],
