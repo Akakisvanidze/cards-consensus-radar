@@ -2,12 +2,12 @@
   "date": "2026-10-20",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 16,
-    "corners": 9,
-    "team_total": 0,
-    "match_winner": 0,
+    "total_goals": 22,
+    "corners": 12,
+    "team_total": 1,
+    "match_winner": 4,
     "double_chance": 0,
-    "handicap": 0,
+    "handicap": 1,
     "btts": 0
   },
   "countries": [
@@ -25,26 +25,26 @@
               "url": "https://capper.win/predictions/newells-old-boys-vs-central-cordoba-de-santiago-2007",
               "kickoff": "2026-10-19T22:00:00+00:00",
               "time": "01:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 77,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Newells Old Boys",
                 "logo": "/app/teams/457.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 5
+                "corners": 6
               },
               "away": {
                 "name": "Central Cordoba de Santiago",
                 "logo": "/app/teams/1065.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 3
               },
@@ -56,7 +56,7 @@
                   "line": 3.5,
                   "label": "Under 3.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "hit",
                   "provider": {
                     "name": "Oracle",
                     "icon_url": "/app/providers/oracle.png?v=1"
@@ -64,40 +64,74 @@
                   "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 2,
+                  "label": "Over 2",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "yoda",
                     "icon_url": "/app/providers/yoda.svg"
-                  }
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 2,
+                  "label": "Over 2",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -107,65 +141,187 @@
               "url": "https://capper.win/predictions/sarmiento-junin-vs-barracas-central-2008",
               "kickoff": "2026-10-19T22:00:00+00:00",
               "time": "01:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 78,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Sarmiento Junin",
                 "logo": "/app/teams/474.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 1
               },
               "away": {
                 "name": "Barracas Central",
                 "logo": "/app/teams/2432.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": 4
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "push",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "push",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 2,
+                  "label": "Over 2",
+                  "odd": null,
+                  "result": "push",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "push",
                   "provider": {
                     "name": "yoda",
                     "icon_url": "/app/providers/yoda.svg"
-                  }
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 2,
+                  "label": "Over 2",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2010,
+              "url": "https://capper.win/predictions/deportivo-riestra-vs-union-santa-fe-2010",
+              "kickoff": "2026-10-20T00:15:00+00:00",
+              "time": "03:15",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "Deportivo Riestra",
+                "logo": "/app/teams/476.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Union Santa Fe",
+                "logo": "/app/teams/441.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 2,
+                  "label": "Under 2",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 2,
+                  "label": "Over 2",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 2,
+                  "label": "Over 2",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
@@ -188,65 +344,85 @@
               "url": "https://capper.win/predictions/corinthians-vs-vitoria-2009",
               "kickoff": "2026-10-19T23:00:00+00:00",
               "time": "02:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 35,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Corinthians",
                 "logo": "/app/teams/131.png",
-                "goals": 0,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 9
               },
               "away": {
                 "name": "Vitoria",
                 "logo": "/app/teams/136.png",
-                "goals": 0,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 1
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2.5,
+                  "label": "Under 2.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "anthropic",
                     "icon_url": "/app/providers/anthropic.svg"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 2.5,
+                  "label": "Over 2.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "openai",
                     "icon_url": "/app/providers/openai.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2.5,
+                  "label": "Under 2.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 2.5,
+                  "label": "Under 2.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "yoda",
                     "icon_url": "/app/providers/yoda.svg"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
