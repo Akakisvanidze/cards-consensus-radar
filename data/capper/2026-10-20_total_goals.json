@@ -2,13 +2,13 @@
   "date": "2026-10-20",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 22,
-    "corners": 12,
-    "team_total": 1,
-    "match_winner": 5,
-    "double_chance": 0,
+    "total_goals": 57,
+    "corners": 42,
+    "team_total": 4,
+    "match_winner": 8,
+    "double_chance": 1,
     "handicap": 1,
-    "btts": 0
+    "btts": 5
   },
   "countries": [
     {
@@ -432,6 +432,87 @@
       ]
     },
     {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 2,
+          "name": "Championship",
+          "logo": "/app/leagues/40.png",
+          "fixtures": [
+            {
+              "id": 2013,
+              "url": "https://capper.win/predictions/wolves-vs-portsmouth-2013",
+              "kickoff": "2026-10-20T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 30,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Wolves",
+                "logo": "/app/teams/39.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "away": {
+                "name": "Portsmouth",
+                "logo": "/app/teams/1355.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "yoda",
+                    "icon_url": "/app/providers/yoda.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "World",
       "flag": null,
       "leagues": [
@@ -441,32 +522,208 @@
           "logo": "/app/leagues/uefa-champions-league.svg",
           "fixtures": [
             {
+              "id": 2011,
+              "url": "https://capper.win/predictions/fenerbahce-vs-slavia-praha-2011",
+              "kickoff": "2026-10-20T16:45:00+00:00",
+              "time": "19:45",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "Fenerbahçe",
+                "logo": "/app/teams/611.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3
+              },
+              "away": {
+                "name": "Slavia Praha",
+                "logo": "/app/teams/560.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 5
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": true,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 1.5,
+                  "label": "Over 1.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2012,
+              "url": "https://capper.win/predictions/sabah-fa-vs-borussia-dortmund-2012",
+              "kickoff": "2026-10-20T16:45:00+00:00",
+              "time": "19:45",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Sabah FA",
+                "logo": "/app/teams/13976.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Borussia Dortmund",
+                "logo": "/app/teams/165.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 9
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3,
+                  "label": "Under 3",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": true,
+                  "pick": "over",
+                  "line": 3,
+                  "label": "Over 3",
+                  "odd": null,
+                  "result": "push",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 4.5,
+                  "label": "Under 4.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
               "id": 2014,
               "url": "https://capper.win/predictions/as-roma-vs-slovan-bratislava-2014",
               "kickoff": "2026-10-20T19:00:00+00:00",
               "time": "22:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 15,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "AS Roma",
                 "logo": "/app/teams/497.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 1
               },
               "away": {
                 "name": "Slovan Bratislava",
                 "logo": "/app/teams/656.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 0
               },
               "predictions": [
                 {
@@ -482,6 +739,101 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2015,
+              "url": "https://capper.win/predictions/fc-porto-vs-psv-eindhoven-2015",
+              "kickoff": "2026-10-20T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 14,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "FC Porto",
+                "logo": "/app/teams/212.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0
+              },
+              "away": {
+                "name": "PSV Eindhoven",
+                "logo": "/app/teams/197.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -491,28 +843,28 @@
               "url": "https://capper.win/predictions/liverpool-vs-villarreal-2016",
               "kickoff": "2026-10-20T19:00:00+00:00",
               "time": "22:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 14,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Liverpool",
                 "logo": "/app/teams/40.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 0
               },
               "away": {
                 "name": "Villarreal",
                 "logo": "/app/teams/533.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 0
               },
               "predictions": [
                 {
@@ -528,6 +880,160 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2017,
+              "url": "https://capper.win/predictions/manchester-city-vs-aek-athens-fc-2017",
+              "kickoff": "2026-10-20T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 14,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Manchester City",
+                "logo": "/app/teams/50.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "AEK Athens FC",
+                "logo": "/app/teams/575.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2018,
+              "url": "https://capper.win/predictions/napoli-vs-bodoglimt-2018",
+              "kickoff": "2026-10-20T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 12,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Napoli",
+                "logo": "/app/teams/492.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Bodo/Glimt",
+                "logo": "/app/teams/327.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null
@@ -537,28 +1043,28 @@
               "url": "https://capper.win/predictions/paris-saint-germain-vs-barcelona-2019",
               "kickoff": "2026-10-20T19:00:00+00:00",
               "time": "22:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 12,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Paris Saint Germain",
                 "logo": "/app/teams/85.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 1
               },
               "away": {
                 "name": "Barcelona",
                 "logo": "/app/teams/529.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 1
               },
               "predictions": [
                 {
@@ -574,6 +1080,92 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2020,
+              "url": "https://capper.win/predictions/vfb-stuttgart-vs-atletico-madrid-2020",
+              "kickoff": "2026-10-20T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 15,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "VfB Stuttgart",
+                "logo": "/app/teams/172.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 2
+              },
+              "away": {
+                "name": "Atletico Madrid",
+                "logo": "/app/teams/530.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "anthropic",
+                    "icon_url": "/app/providers/anthropic.svg"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "openai",
+                    "icon_url": "/app/providers/openai.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null

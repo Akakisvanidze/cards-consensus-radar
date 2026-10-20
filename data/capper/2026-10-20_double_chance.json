@@ -2,13 +2,73 @@
   "date": "2026-10-20",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 22,
-    "corners": 12,
-    "team_total": 1,
-    "match_winner": 5,
-    "double_chance": 0,
+    "total_goals": 57,
+    "corners": 42,
+    "team_total": 4,
+    "match_winner": 8,
+    "double_chance": 1,
     "handicap": 1,
-    "btts": 0
+    "btts": 5
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "World",
+      "flag": null,
+      "leagues": [
+        {
+          "id": 16,
+          "name": "UEFA Champions League",
+          "logo": "/app/leagues/uefa-champions-league.svg",
+          "fixtures": [
+            {
+              "id": 2012,
+              "url": "https://capper.win/predictions/sabah-fa-vs-borussia-dortmund-2012",
+              "kickoff": "2026-10-20T16:45:00+00:00",
+              "time": "19:45",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Sabah FA",
+                "logo": "/app/teams/13976.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 4
+              },
+              "away": {
+                "name": "Borussia Dortmund",
+                "logo": "/app/teams/165.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 9
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw_away",
+                  "line": null,
+                  "label": "Draw/Away",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
