@@ -2,103 +2,15 @@
   "date": "2026-10-21",
   "market": "corners",
   "market_counts": {
-    "total_goals": 12,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 1,
-    "double_chance": 3,
+    "total_goals": 28,
+    "corners": 1,
+    "team_total": 6,
+    "match_winner": 5,
+    "double_chance": 4,
     "handicap": 1,
-    "btts": 3
+    "btts": 7
   },
   "countries": [
-    {
-      "country": "Finland",
-      "flag": "/app/flags/fi.svg",
-      "leagues": [
-        {
-          "id": 21,
-          "name": "Veikkausliiga",
-          "logo": "/app/leagues/244.png",
-          "fixtures": [
-            {
-              "id": 2058,
-              "url": "https://capper.win/predictions/pk-35-vs-ff-jaro-2058",
-              "kickoff": "2026-10-21T15:30:00+00:00",
-              "time": "18:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "PK-35",
-                "logo": "/app/teams/10669.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "FF Jaro",
-                "logo": "/app/teams/2075.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Spain",
-      "flag": "/app/flags/es.svg",
-      "leagues": [
-        {
-          "id": 9,
-          "name": "La Liga",
-          "logo": "/app/leagues/140.png",
-          "fixtures": [
-            {
-              "id": 1233,
-              "url": "https://capper.win/predictions/levante-vs-athletic-club-1233",
-              "kickoff": "2026-10-21T18:00:00+00:00",
-              "time": "21:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Levante",
-                "logo": "/app/teams/539.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": 0,
-                "corners": null
-              },
-              "away": {
-                "name": "Athletic Club",
-                "logo": "/app/teams/531.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": 0,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-21T17:30:00+00:00"
-            }
-          ]
-        }
-      ]
-    },
     {
       "country": "World",
       "flag": null,
@@ -113,62 +25,41 @@
               "url": "https://capper.win/predictions/como-vs-manchester-united-2025",
               "kickoff": "2026-10-21T16:45:00+00:00",
               "time": "19:45",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 3,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Como",
                 "logo": "/app/teams/895.png",
-                "goals": null,
+                "goals": 4,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 1
               },
               "away": {
                 "name": "Manchester United",
                 "logo": "/app/teams/33.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 3
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-21T16:15:00+00:00"
-            },
-            {
-              "id": 2026,
-              "url": "https://capper.win/predictions/lille-vs-galatasaray-2026",
-              "kickoff": "2026-10-21T16:45:00+00:00",
-              "time": "19:45",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Lille",
-                "logo": "/app/teams/79.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "Galatasaray",
-                "logo": "/app/teams/645.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-21T16:15:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2027,
@@ -199,7 +90,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 2028,
@@ -230,7 +121,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 2029,
@@ -261,7 +152,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 2030,
@@ -292,7 +183,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 2031,
@@ -323,7 +214,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 2032,
@@ -354,7 +245,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             },
             {
               "id": 2033,
@@ -385,7 +276,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-21T18:30:00+00:00"
+              "predictions_eta": null
             }
           ]
         }

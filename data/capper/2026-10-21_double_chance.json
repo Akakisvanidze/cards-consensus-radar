@@ -2,13 +2,13 @@
   "date": "2026-10-21",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 12,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 1,
-    "double_chance": 3,
+    "total_goals": 28,
+    "corners": 1,
+    "team_total": 6,
+    "match_winner": 5,
+    "double_chance": 4,
     "handicap": 1,
-    "btts": 3
+    "btts": 7
   },
   "countries": [
     {
@@ -84,6 +84,47 @@
               "away": {
                 "name": "Shakhtar Donetsk",
                 "logo": "/app/teams/550.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2032,
+              "url": "https://capper.win/predictions/real-madrid-vs-rb-leipzig-2032",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Real Madrid",
+                "logo": "/app/teams/541.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "RB Leipzig",
+                "logo": "/app/teams/173.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,

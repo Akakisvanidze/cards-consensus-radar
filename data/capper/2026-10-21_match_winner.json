@@ -2,15 +2,75 @@
   "date": "2026-10-21",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 12,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 1,
-    "double_chance": 3,
+    "total_goals": 28,
+    "corners": 1,
+    "team_total": 6,
+    "match_winner": 5,
+    "double_chance": 4,
     "handicap": 1,
-    "btts": 3
+    "btts": 7
   },
   "countries": [
+    {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 2058,
+              "url": "https://capper.win/predictions/pk-35-vs-ff-jaro-2058",
+              "kickoff": "2026-10-21T15:30:00+00:00",
+              "time": "18:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "PK-35",
+                "logo": "/app/teams/10669.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "FF Jaro",
+                "logo": "/app/teams/2075.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 70.4
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "country": "World",
       "flag": null,
@@ -20,6 +80,88 @@
           "name": "UEFA Champions League",
           "logo": "/app/leagues/uefa-champions-league.svg",
           "fixtures": [
+            {
+              "id": 2025,
+              "url": "https://capper.win/predictions/como-vs-manchester-united-2025",
+              "kickoff": "2026-10-21T16:45:00+00:00",
+              "time": "19:45",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 3,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Como",
+                "logo": "/app/teams/895.png",
+                "goals": 4,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Manchester United",
+                "logo": "/app/teams/33.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2031,
+              "url": "https://capper.win/predictions/inter-vs-shakhtar-donetsk-2031",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Inter",
+                "logo": "/app/teams/505.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Shakhtar Donetsk",
+                "logo": "/app/teams/550.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
             {
               "id": 2032,
               "url": "https://capper.win/predictions/real-madrid-vs-rb-leipzig-2032",
@@ -56,6 +198,47 @@
                   "provider": {
                     "name": "Alioth",
                     "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2033,
+              "url": "https://capper.win/predictions/sporting-cp-vs-lask-linz-2033",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Sporting CP",
+                "logo": "/app/teams/228.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Lask Linz",
+                "logo": "/app/teams/1026.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
                   }
                 }
               ],

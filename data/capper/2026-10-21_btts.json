@@ -2,13 +2,13 @@
   "date": "2026-10-21",
   "market": "btts",
   "market_counts": {
-    "total_goals": 12,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 1,
-    "double_chance": 3,
+    "total_goals": 28,
+    "corners": 1,
+    "team_total": 6,
+    "match_winner": 5,
+    "double_chance": 4,
     "handicap": 1,
-    "btts": 3
+    "btts": 7
   },
   "countries": [
     {
@@ -25,6 +25,52 @@
               "url": "https://capper.win/predictions/como-vs-manchester-united-2025",
               "kickoff": "2026-10-21T16:45:00+00:00",
               "time": "19:45",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 3,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Como",
+                "logo": "/app/teams/895.png",
+                "goals": 4,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "away": {
+                "name": "Manchester United",
+                "logo": "/app/teams/33.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2028,
+              "url": "https://capper.win/predictions/bayern-munchen-vs-arsenal-2028",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -33,16 +79,16 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Como",
-                "logo": "/app/teams/895.png",
+                "name": "Bayern München",
+                "logo": "/app/teams/157.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
                 "corners": null
               },
               "away": {
-                "name": "Manchester United",
-                "logo": "/app/teams/33.png",
+                "name": "Arsenal",
+                "logo": "/app/teams/42.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -54,8 +100,8 @@
                   "capper": false,
                   "alien": false,
                   "provider": {
-                    "name": "Alcor",
-                    "icon_url": null
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
                   }
                 }
               ],
@@ -138,6 +184,97 @@
                   "provider": {
                     "name": "Alioth",
                     "icon_url": null
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2032,
+              "url": "https://capper.win/predictions/real-madrid-vs-rb-leipzig-2032",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Real Madrid",
+                "logo": "/app/teams/541.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "RB Leipzig",
+                "logo": "/app/teams/173.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2033,
+              "url": "https://capper.win/predictions/sporting-cp-vs-lask-linz-2033",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Sporting CP",
+                "logo": "/app/teams/228.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Lask Linz",
+                "logo": "/app/teams/1026.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
                   }
                 }
               ],
