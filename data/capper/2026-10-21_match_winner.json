@@ -2,13 +2,68 @@
   "date": "2026-10-21",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 8,
+    "total_goals": 12,
     "corners": 0,
     "team_total": 1,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 1,
+    "double_chance": 3,
     "handicap": 1,
     "btts": 3
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "World",
+      "flag": null,
+      "leagues": [
+        {
+          "id": 16,
+          "name": "UEFA Champions League",
+          "logo": "/app/leagues/uefa-champions-league.svg",
+          "fixtures": [
+            {
+              "id": 2032,
+              "url": "https://capper.win/predictions/real-madrid-vs-rb-leipzig-2032",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Real Madrid",
+                "logo": "/app/teams/541.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "RB Leipzig",
+                "logo": "/app/teams/173.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

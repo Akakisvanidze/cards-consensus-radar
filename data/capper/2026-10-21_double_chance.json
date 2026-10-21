@@ -2,13 +2,150 @@
   "date": "2026-10-21",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 8,
+    "total_goals": 12,
     "corners": 0,
     "team_total": 1,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 1,
+    "double_chance": 3,
     "handicap": 1,
     "btts": 3
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "World",
+      "flag": null,
+      "leagues": [
+        {
+          "id": 16,
+          "name": "UEFA Champions League",
+          "logo": "/app/leagues/uefa-champions-league.svg",
+          "fixtures": [
+            {
+              "id": 2028,
+              "url": "https://capper.win/predictions/bayern-munchen-vs-arsenal-2028",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Bayern München",
+                "logo": "/app/teams/157.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Arsenal",
+                "logo": "/app/teams/42.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2031,
+              "url": "https://capper.win/predictions/inter-vs-shakhtar-donetsk-2031",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Inter",
+                "logo": "/app/teams/505.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Shakhtar Donetsk",
+                "logo": "/app/teams/550.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2033,
+              "url": "https://capper.win/predictions/sporting-cp-vs-lask-linz-2033",
+              "kickoff": "2026-10-21T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Sporting CP",
+                "logo": "/app/teams/228.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Lask Linz",
+                "logo": "/app/teams/1026.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alioth",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
