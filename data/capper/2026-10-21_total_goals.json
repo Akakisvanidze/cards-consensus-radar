@@ -2,13 +2,68 @@
   "date": "2026-10-21",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 0,
+    "total_goals": 1,
     "corners": 0,
-    "team_total": 0,
+    "team_total": 1,
     "match_winner": 0,
     "double_chance": 0,
     "handicap": 0,
     "btts": 0
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Mexico",
+      "flag": "/app/flags/mx.svg",
+      "leagues": [
+        {
+          "id": 29,
+          "name": "Liga MX",
+          "logo": "/app/leagues/262.png",
+          "fixtures": [
+            {
+              "id": 2021,
+              "url": "https://capper.win/predictions/guadalajara-chivas-vs-necaxa-2021",
+              "kickoff": "2026-10-21T00:07:00+00:00",
+              "time": "03:07",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 63,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Guadalajara Chivas",
+                "logo": "/app/teams/2278.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 8
+              },
+              "away": {
+                "name": "Necaxa",
+                "logo": "/app/teams/2288.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
