@@ -116,8 +116,8 @@
             {
               "id": 2038,
               "url": "https://capper.win/predictions/cf-pachuca-vs-cruz-azul-2038",
-              "kickoff": "2026-10-22T03:00:00+00:00",
-              "time": "06:00",
+              "kickoff": "2026-10-22T03:10:00+00:00",
+              "time": "06:10",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -142,7 +142,7 @@
                 "corners": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-22T02:30:00+00:00"
+              "predictions_eta": "2026-10-22T02:40:00+00:00"
             },
             {
               "id": 2039,
