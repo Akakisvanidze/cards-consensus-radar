@@ -2,13 +2,13 @@
   "date": "2026-10-22",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 0,
+    "total_goals": 5,
     "corners": 0,
-    "team_total": 0,
-    "match_winner": 0,
+    "team_total": 2,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
   "countries": [
     {
@@ -25,93 +25,123 @@
               "url": "https://capper.win/predictions/atlas-vs-club-america-2035",
               "kickoff": "2026-10-22T01:00:00+00:00",
               "time": "04:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 28,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Atlas",
                 "logo": "/app/teams/2283.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 1
               },
               "away": {
                 "name": "Club America",
                 "logo": "/app/teams/2287.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 2
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-22T00:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2036,
               "url": "https://capper.win/predictions/puebla-vs-monterrey-2036",
               "kickoff": "2026-10-22T01:00:00+00:00",
               "time": "04:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 29,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Puebla",
                 "logo": "/app/teams/2291.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 0
               },
               "away": {
                 "name": "Monterrey",
                 "logo": "/app/teams/2282.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": 1
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-22T00:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2037,
               "url": "https://capper.win/predictions/toluca-vs-club-tijuana-2037",
               "kickoff": "2026-10-22T01:00:00+00:00",
               "time": "04:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 29,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Toluca",
                 "logo": "/app/teams/2281.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 2
               },
               "away": {
                 "name": "Club Tijuana",
                 "logo": "/app/teams/2280.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": 3
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-22T00:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2038,
@@ -193,31 +223,61 @@
               "url": "https://capper.win/predictions/fc-cincinnati-vs-dc-united-2034",
               "kickoff": "2026-10-21T23:00:00+00:00",
               "time": "02:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "FC Cincinnati",
                 "logo": "/app/teams/2242.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 6
               },
               "away": {
                 "name": "DC United",
                 "logo": "/app/teams/1615.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 9
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-21T22:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": true,
+                  "pick": "over",
+                  "line": 3.5,
+                  "label": "Over 3.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 57.8
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }

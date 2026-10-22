@@ -2,13 +2,128 @@
   "date": "2026-10-22",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 0,
+    "total_goals": 5,
     "corners": 0,
-    "team_total": 0,
-    "match_winner": 0,
+    "team_total": 2,
+    "match_winner": 2,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Mexico",
+      "flag": "/app/flags/mx.svg",
+      "leagues": [
+        {
+          "id": 29,
+          "name": "Liga MX",
+          "logo": "/app/leagues/262.png",
+          "fixtures": [
+            {
+              "id": 2036,
+              "url": "https://capper.win/predictions/puebla-vs-monterrey-2036",
+              "kickoff": "2026-10-22T01:00:00+00:00",
+              "time": "04:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 29,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Puebla",
+                "logo": "/app/teams/2291.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 0
+              },
+              "away": {
+                "name": "Monterrey",
+                "logo": "/app/teams/2282.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "USA",
+      "flag": "/app/flags/us.svg",
+      "leagues": [
+        {
+          "id": 28,
+          "name": "Major League Soccer",
+          "logo": "/app/leagues/253.png",
+          "fixtures": [
+            {
+              "id": 2034,
+              "url": "https://capper.win/predictions/fc-cincinnati-vs-dc-united-2034",
+              "kickoff": "2026-10-21T23:00:00+00:00",
+              "time": "02:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "FC Cincinnati",
+                "logo": "/app/teams/2242.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 6
+              },
+              "away": {
+                "name": "DC United",
+                "logo": "/app/teams/1615.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 9
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 69.3
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
