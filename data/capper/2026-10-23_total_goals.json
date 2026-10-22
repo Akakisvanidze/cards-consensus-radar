@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 0,
+    "total_goals": 2,
     "corners": 0,
     "team_total": 0,
     "match_winner": 0,
@@ -782,8 +782,23 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T19:15:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "Oracle",
+                    "icon_url": "/app/providers/oracle.png?v=1"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
@@ -983,8 +998,23 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T16:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "pending",
+                  "provider": {
+                    "name": "Oracle",
+                    "icon_url": "/app/providers/oracle.png?v=1"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }

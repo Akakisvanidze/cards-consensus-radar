@@ -2,13 +2,13 @@
   "date": "2026-10-22",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 5,
-    "corners": 0,
-    "team_total": 2,
-    "match_winner": 2,
+    "total_goals": 15,
+    "corners": 6,
+    "team_total": 1,
+    "match_winner": 4,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 2
+    "btts": 1
   },
   "countries": [
     {
@@ -21,64 +21,148 @@
           "logo": "/app/leagues/262.png",
           "fixtures": [
             {
+              "id": 2035,
+              "url": "https://capper.win/predictions/atlas-vs-club-america-2035",
+              "kickoff": "2026-10-22T01:00:00+00:00",
+              "time": "04:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Atlas",
+                "logo": "/app/teams/2283.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 9
+              },
+              "away": {
+                "name": "Club America",
+                "logo": "/app/teams/2287.png",
+                "goals": 5,
+                "goals_ft": 5,
+                "red": 0,
+                "corners": 4
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
               "id": 2036,
               "url": "https://capper.win/predictions/puebla-vs-monterrey-2036",
               "kickoff": "2026-10-22T01:00:00+00:00",
               "time": "04:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 29,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Puebla",
                 "logo": "/app/teams/2291.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 0
+                "corners": 2
               },
               "away": {
                 "name": "Monterrey",
                 "logo": "/app/teams/2282.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 4,
+                "goals_ft": 4,
                 "red": 0,
-                "corners": 1
+                "corners": 8
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
-                    "name": "Ophiuchus",
-                    "icon_url": "/app/providers/ophiuchus.svg"
-                  }
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "USA",
-      "flag": "/app/flags/us.svg",
-      "leagues": [
-        {
-          "id": 28,
-          "name": "Major League Soccer",
-          "logo": "/app/leagues/253.png",
-          "fixtures": [
+            },
             {
-              "id": 2034,
-              "url": "https://capper.win/predictions/fc-cincinnati-vs-dc-united-2034",
-              "kickoff": "2026-10-21T23:00:00+00:00",
-              "time": "02:00",
+              "id": 2038,
+              "url": "https://capper.win/predictions/cf-pachuca-vs-cruz-azul-2038",
+              "kickoff": "2026-10-22T03:10:00+00:00",
+              "time": "06:10",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "CF Pachuca",
+                "logo": "/app/teams/2292.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 0
+              },
+              "away": {
+                "name": "Cruz Azul",
+                "logo": "/app/teams/2295.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 8
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2039,
+              "url": "https://capper.win/predictions/santos-laguna-vs-unam-pumas-2039",
+              "kickoff": "2026-10-22T03:10:00+00:00",
+              "time": "06:10",
               "status_short": "FT",
               "status_long": "Match Finished",
               "elapsed": 90,
@@ -87,20 +171,20 @@
               "live": false,
               "winner": "home",
               "home": {
-                "name": "FC Cincinnati",
-                "logo": "/app/teams/2242.png",
+                "name": "Santos Laguna",
+                "logo": "/app/teams/2285.png",
                 "goals": 2,
                 "goals_ft": 2,
                 "red": 0,
-                "corners": 6
+                "corners": 9
               },
               "away": {
-                "name": "DC United",
-                "logo": "/app/teams/1615.png",
-                "goals": 1,
-                "goals_ft": 1,
-                "red": 0,
-                "corners": 9
+                "name": "U.N.A.M. - Pumas",
+                "logo": "/app/teams/2286.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 3
               },
               "predictions": [
                 {
@@ -112,11 +196,10 @@
                   "odd": null,
                   "result": "hit",
                   "provider": {
-                    "name": "Ophiuchus",
-                    "icon_url": "/app/providers/ophiuchus.svg"
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
                   },
-                  "alien": false,
-                  "strength": 69.3
+                  "alien": false
                 }
               ],
               "predictions_eta": null
