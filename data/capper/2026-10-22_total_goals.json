@@ -2,13 +2,13 @@
   "date": "2026-10-22",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 15,
+    "total_goals": 19,
     "corners": 6,
     "team_total": 1,
     "match_winner": 4,
-    "double_chance": 0,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 1
+    "btts": 2
   },
   "countries": [
     {
@@ -841,6 +841,24 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null
@@ -873,8 +891,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-22T18:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2054,
@@ -935,8 +963,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-22T18:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2056,

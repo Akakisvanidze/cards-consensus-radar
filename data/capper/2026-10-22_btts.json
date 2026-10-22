@@ -2,13 +2,13 @@
   "date": "2026-10-22",
   "market": "btts",
   "market_counts": {
-    "total_goals": 15,
+    "total_goals": 19,
     "corners": 6,
     "team_total": 1,
     "match_winner": 4,
-    "double_chance": 0,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 1
+    "btts": 2
   },
   "countries": [
     {
@@ -62,6 +62,60 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "World",
+      "flag": null,
+      "leagues": [
+        {
+          "id": 17,
+          "name": "UEFA Europa League",
+          "logo": "/app/leagues/3.png",
+          "fixtures": [
+            {
+              "id": 2052,
+              "url": "https://capper.win/predictions/1899-hoffenheim-vs-lyon-2052",
+              "kickoff": "2026-10-22T19:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "1899 Hoffenheim",
+                "logo": "/app/teams/167.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Lyon",
+                "logo": "/app/teams/80.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null

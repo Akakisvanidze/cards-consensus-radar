@@ -2,13 +2,13 @@
   "date": "2026-10-22",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 15,
+    "total_goals": 19,
     "corners": 6,
     "team_total": 1,
     "match_winner": 4,
-    "double_chance": 0,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 1
+    "btts": 2
   },
   "countries": [
     {
