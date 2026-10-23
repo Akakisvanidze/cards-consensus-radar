@@ -3,7 +3,7 @@
   "market": "corners",
   "market_counts": {
     "total_goals": 2,
-    "corners": 0,
+    "corners": 1,
     "team_total": 0,
     "match_winner": 0,
     "double_chance": 0,
@@ -908,8 +908,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T16:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2060,

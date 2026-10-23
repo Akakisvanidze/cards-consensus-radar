@@ -3,7 +3,7 @@
   "market": "match_winner",
   "market_counts": {
     "total_goals": 2,
-    "corners": 0,
+    "corners": 1,
     "team_total": 0,
     "match_winner": 0,
     "double_chance": 0,
