@@ -2,15 +2,807 @@
   "date": "2026-10-23",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 7,
-    "corners": 1,
-    "team_total": 0,
-    "match_winner": 1,
+    "total_goals": 28,
+    "corners": 6,
+    "team_total": 2,
+    "match_winner": 17,
     "double_chance": 1,
     "handicap": 0,
-    "btts": 2
+    "btts": 10
   },
   "countries": [
+    {
+      "country": "Austria",
+      "flag": "/app/flags/at.svg",
+      "leagues": [
+        {
+          "id": 35,
+          "name": "Bundesliga",
+          "logo": "/app/leagues/218.png",
+          "fixtures": [
+            {
+              "id": 2080,
+              "url": "https://capper.win/predictions/scr-altach-vs-austria-vienna-2080",
+              "kickoff": "2026-10-23T17:30:00+00:00",
+              "time": "20:30",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "SCR Altach",
+                "logo": "/app/teams/618.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Austria Vienna",
+                "logo": "/app/teams/601.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Denmark",
+      "flag": "/app/flags/dk.svg",
+      "leagues": [
+        {
+          "id": 22,
+          "name": "Superliga",
+          "logo": "/app/leagues/119.png",
+          "fixtures": [
+            {
+              "id": 2062,
+              "url": "https://capper.win/predictions/randers-fc-vs-brondby-2062",
+              "kickoff": "2026-10-23T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 59,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Randers FC",
+                "logo": "/app/teams/401.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Brondby",
+                "logo": "/app/teams/407.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "flag": "/app/flags/fr.svg",
+      "leagues": [
+        {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 2069,
+              "url": "https://capper.win/predictions/stade-brestois-29-vs-nice-2069",
+              "kickoff": "2026-10-23T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Stade Brestois 29",
+                "logo": "/app/teams/106.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Nice",
+                "logo": "/app/teams/84.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Ligue 2",
+          "logo": "/app/leagues/62.png",
+          "fixtures": [
+            {
+              "id": 2081,
+              "url": "https://capper.win/predictions/clermont-foot-vs-guingamp-2081",
+              "kickoff": "2026-10-23T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 19,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Clermont Foot",
+                "logo": "/app/teams/99.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Guingamp",
+                "logo": "/app/teams/90.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2082,
+              "url": "https://capper.win/predictions/dunkerque-vs-metz-2082",
+              "kickoff": "2026-10-23T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 20,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Dunkerque",
+                "logo": "/app/teams/1304.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Metz",
+                "logo": "/app/teams/112.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2084,
+              "url": "https://capper.win/predictions/pau-vs-grenoble-2084",
+              "kickoff": "2026-10-23T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 19,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "PAU",
+                "logo": "/app/teams/1297.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Grenoble",
+                "logo": "/app/teams/101.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2085,
+              "url": "https://capper.win/predictions/sochaux-vs-annecy-2085",
+              "kickoff": "2026-10-23T18:00:00+00:00",
+              "time": "21:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 19,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Sochaux",
+                "logo": "/app/teams/115.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Annecy",
+                "logo": "/app/teams/3012.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 31,
+          "name": "2. Bundesliga",
+          "logo": "/app/leagues/79.png",
+          "fixtures": [
+            {
+              "id": 2078,
+              "url": "https://capper.win/predictions/vfl-bochum-vs-vfl-wolfsburg-2078",
+              "kickoff": "2026-10-23T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "VfL Bochum",
+                "logo": "/app/teams/176.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "VfL Wolfsburg",
+                "logo": "/app/teams/161.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2079,
+              "url": "https://capper.win/predictions/sv-darmstadt-98-vs-fc-st-pauli-2079",
+              "kickoff": "2026-10-23T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 88,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "SV Darmstadt 98",
+                "logo": "/app/teams/181.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "FC St. Pauli",
+                "logo": "/app/teams/186.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 2068,
+              "url": "https://capper.win/predictions/torino-vs-monza-2068",
+              "kickoff": "2026-10-23T18:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Torino",
+                "logo": "/app/teams/503.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Monza",
+                "logo": "/app/teams/1579.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Serie B",
+          "logo": "/app/leagues/136.png",
+          "fixtures": [
+            {
+              "id": 2086,
+              "url": "https://capper.win/predictions/empoli-vs-vicenza-virtus-2086",
+              "kickoff": "2026-10-23T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Empoli",
+                "logo": "/app/teams/511.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Vicenza Virtus",
+                "logo": "/app/teams/1584.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "flag": "/app/flags/pl.svg",
+      "leagues": [
+        {
+          "id": 20,
+          "name": "Ekstraklasa",
+          "logo": "/app/leagues/106.png",
+          "fixtures": [
+            {
+              "id": 2059,
+              "url": "https://capper.win/predictions/motor-lublin-vs-zaglebie-lubin-2059",
+              "kickoff": "2026-10-23T16:00:00+00:00",
+              "time": "19:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
+              "home": {
+                "name": "Motor Lublin",
+                "logo": "/app/teams/14562.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 8
+              },
+              "away": {
+                "name": "Zaglebie Lubin",
+                "logo": "/app/teams/345.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 2
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2065,
+              "url": "https://capper.win/predictions/widzew-lodz-vs-gornik-zabrze-2065",
+              "kickoff": "2026-10-23T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Widzew Łódź",
+                "logo": "/app/teams/6962.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Gornik Zabrze",
+                "logo": "/app/teams/340.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 2066,
+              "url": "https://capper.win/predictions/granada-cf-vs-valladolid-2066",
+              "kickoff": "2026-10-23T18:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Granada CF",
+                "logo": "/app/teams/715.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "Valladolid",
+                "logo": "/app/teams/720.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
+            {
+              "id": 2060,
+              "url": "https://capper.win/predictions/if-elfsborg-vs-malmo-ff-2060",
+              "kickoff": "2026-10-23T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 62,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "IF Elfsborg",
+                "logo": "/app/teams/372.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Malmo FF",
+                "logo": "/app/teams/375.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 2063,
+              "url": "https://capper.win/predictions/alanyaspor-vs-kocaelispor-2063",
+              "kickoff": "2026-10-23T17:00:00+00:00",
+              "time": "20:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 59,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Alanyaspor",
+                "logo": "/app/teams/996.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Kocaelispor",
+                "logo": "/app/teams/7411.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "country": "Ukraine",
       "flag": "/app/flags/ua.svg",

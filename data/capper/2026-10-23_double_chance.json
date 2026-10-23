@@ -2,13 +2,13 @@
   "date": "2026-10-23",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 7,
-    "corners": 1,
-    "team_total": 0,
-    "match_winner": 1,
+    "total_goals": 28,
+    "corners": 6,
+    "team_total": 2,
+    "match_winner": 17,
     "double_chance": 1,
     "handicap": 0,
-    "btts": 2
+    "btts": 10
   },
   "countries": [
     {
@@ -25,27 +25,27 @@
               "url": "https://capper.win/predictions/vfl-bochum-vs-vfl-wolfsburg-2078",
               "kickoff": "2026-10-23T16:30:00+00:00",
               "time": "19:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "VfL Bochum",
                 "logo": "/app/teams/176.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "VfL Wolfsburg",
                 "logo": "/app/teams/161.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null
               },
               "predictions": [
