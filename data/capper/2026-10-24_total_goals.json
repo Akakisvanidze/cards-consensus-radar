@@ -2,13 +2,13 @@
   "date": "2026-10-24",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 22,
+    "total_goals": 24,
     "corners": 0,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
   "countries": [
     {
@@ -25,59 +25,74 @@
               "url": "https://capper.win/predictions/gimnasia-lp-vs-sarmiento-junin-2076",
               "kickoff": "2026-10-23T21:00:00+00:00",
               "time": "00:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 47,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Gimnasia L.P.",
                 "logo": "/app/teams/434.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Sarmiento Junin",
                 "logo": "/app/teams/474.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": null,
+                "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T20:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2075,
               "url": "https://capper.win/predictions/gimnasia-m-vs-platense-2075",
               "kickoff": "2026-10-23T21:30:00+00:00",
               "time": "00:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 39,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Gimnasia M.",
                 "logo": "/app/teams/1066.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Platense",
                 "logo": "/app/teams/1064.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null
+                "red": 0,
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -93,9 +108,19 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2090,
@@ -115,7 +140,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Atletico Tucuman",
@@ -123,10 +149,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-23T23:45:00+00:00"
+              "predictions_eta": "2026-10-23T23:45:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2182,
@@ -146,7 +174,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Lanus",
@@ -154,10 +183,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T17:15:00+00:00"
+              "predictions_eta": "2026-10-24T17:15:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2198,
@@ -177,7 +208,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Defensa Y Justicia",
@@ -185,10 +217,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T19:30:00+00:00"
+              "predictions_eta": "2026-10-24T19:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -221,7 +255,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Grazer AK",
@@ -229,10 +264,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T14:30:00+00:00"
+              "predictions_eta": "2026-10-24T14:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2209,
@@ -252,7 +289,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Wolfsberger AC",
@@ -260,7 +298,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -278,7 +317,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2180,
@@ -298,7 +338,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Austria Lustenau",
@@ -306,7 +347,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -324,7 +366,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             }
           ]
         }
@@ -357,7 +400,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Charleroi",
@@ -365,10 +409,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2170,
@@ -388,7 +434,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Lommel United",
@@ -396,10 +443,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:45:00+00:00"
+              "predictions_eta": "2026-10-24T15:45:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2188,
@@ -419,7 +468,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Zulte Waregem",
@@ -427,10 +477,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:15:00+00:00"
+              "predictions_eta": "2026-10-24T18:15:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2189,
@@ -450,7 +502,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "SK Beveren",
@@ -458,7 +511,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -476,7 +530,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             }
           ]
         }
@@ -509,7 +564,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Remo",
@@ -517,10 +573,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-23T22:30:00+00:00"
+              "predictions_eta": "2026-10-23T22:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2194,
@@ -540,7 +598,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Botafogo",
@@ -548,10 +607,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T19:00:00+00:00"
+              "predictions_eta": "2026-10-24T19:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2195,
@@ -571,7 +632,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Sao Paulo",
@@ -579,10 +641,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T19:00:00+00:00"
+              "predictions_eta": "2026-10-24T19:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2196,
@@ -602,7 +666,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Atletico Paranaense",
@@ -610,10 +675,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T19:00:00+00:00"
+              "predictions_eta": "2026-10-24T19:00:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -646,7 +713,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "NK Lokomotiva Zagreb",
@@ -654,10 +722,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2149,
@@ -677,7 +747,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "HNK Rijeka",
@@ -685,10 +756,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2153,
@@ -708,7 +781,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "NK Slaven Belupo",
@@ -716,10 +790,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:30:00+00:00"
+              "predictions_eta": "2026-10-24T15:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -752,7 +828,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Bohemians 1905",
@@ -760,10 +837,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2113,
@@ -783,7 +862,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Baník Ostrava",
@@ -791,10 +871,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2114,
@@ -814,7 +896,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Artis",
@@ -822,10 +905,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2115,
@@ -845,7 +930,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Sigma Olomouc",
@@ -853,10 +939,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2167,
@@ -876,7 +964,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Mlada Boleslav",
@@ -884,10 +973,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:30:00+00:00"
+              "predictions_eta": "2026-10-24T15:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -920,7 +1011,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Norwich",
@@ -928,10 +1020,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T11:00:00+00:00"
+              "predictions_eta": "2026-10-24T11:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2101,
@@ -951,7 +1045,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Millwall",
@@ -959,10 +1054,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T11:00:00+00:00"
+              "predictions_eta": "2026-10-24T11:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2102,
@@ -982,7 +1079,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Derby",
@@ -990,10 +1088,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T11:00:00+00:00"
+              "predictions_eta": "2026-10-24T11:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2135,
@@ -1013,7 +1113,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Wrexham",
@@ -1021,10 +1122,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2136,
@@ -1044,7 +1147,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Birmingham",
@@ -1052,10 +1156,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2137,
@@ -1075,7 +1181,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Burnley",
@@ -1083,10 +1190,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2138,
@@ -1106,7 +1215,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "West Brom",
@@ -1114,10 +1224,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2139,
@@ -1137,7 +1249,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Swansea",
@@ -1145,10 +1258,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2140,
@@ -1168,7 +1283,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Bristol City",
@@ -1176,10 +1292,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2141,
@@ -1199,7 +1317,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Southampton",
@@ -1207,10 +1326,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2142,
@@ -1230,7 +1351,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Watford",
@@ -1238,10 +1360,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             }
           ]
         },
@@ -1268,7 +1392,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Manchester City",
@@ -1276,10 +1401,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T11:00:00+00:00"
+              "predictions_eta": "2026-10-24T11:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2132,
@@ -1299,7 +1426,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Everton",
@@ -1307,10 +1435,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2133,
@@ -1330,7 +1460,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Fulham",
@@ -1338,10 +1469,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2171,
@@ -1361,7 +1494,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Tottenham",
@@ -1369,10 +1503,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:00:00+00:00"
+              "predictions_eta": "2026-10-24T16:00:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -1405,7 +1541,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Inter Turku",
@@ -1413,7 +1550,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -1431,7 +1569,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2143,
@@ -1451,7 +1590,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "AC Oulu",
@@ -1459,10 +1599,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -1495,7 +1637,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Paris FC",
@@ -1503,10 +1646,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:15:00+00:00"
+              "predictions_eta": "2026-10-24T18:15:00+00:00",
+              "sport": "football"
             }
           ]
         },
@@ -1533,7 +1678,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Rodez",
@@ -1541,7 +1687,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -1559,44 +1706,14 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
-            },
-            {
-              "id": 2104,
-              "url": "https://capper.win/predictions/montpellier-vs-red-star-fc-93-2104",
-              "kickoff": "2026-10-24T12:00:00+00:00",
-              "time": "15:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Montpellier",
-                "logo": "/app/teams/82.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "RED Star FC 93",
-                "logo": "/app/teams/104.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-24T11:30:00+00:00"
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2183,
               "url": "https://capper.win/predictions/saint-etienne-vs-nantes-2183",
-              "kickoff": "2026-10-24T18:00:00+00:00",
-              "time": "21:00",
+              "kickoff": "2026-10-24T18:45:00+00:00",
+              "time": "21:45",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -1610,7 +1727,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Nantes",
@@ -1618,10 +1736,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T17:30:00+00:00"
+              "predictions_eta": "2026-10-24T18:15:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -1654,7 +1774,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Energie Cottbus",
@@ -1662,7 +1783,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -1680,7 +1802,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2096,
@@ -1700,7 +1823,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Arminia Bielefeld",
@@ -1708,10 +1832,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T10:30:00+00:00"
+              "predictions_eta": "2026-10-24T10:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2097,
@@ -1731,7 +1857,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Karlsruher SC",
@@ -1739,10 +1866,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T10:30:00+00:00"
+              "predictions_eta": "2026-10-24T10:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2185,
@@ -1762,7 +1891,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "1. FC Kaiserslautern",
@@ -1770,10 +1900,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:00:00+00:00"
+              "predictions_eta": "2026-10-24T18:00:00+00:00",
+              "sport": "football"
             }
           ]
         },
@@ -1800,7 +1932,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "SV Elversberg",
@@ -1808,10 +1941,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:00:00+00:00"
+              "predictions_eta": "2026-10-24T13:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2123,
@@ -1831,7 +1966,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Union Berlin",
@@ -1839,7 +1975,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -1857,7 +1994,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2124,
@@ -1877,7 +2015,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Werder Bremen",
@@ -1885,7 +2024,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -1903,7 +2043,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2125,
@@ -1923,7 +2064,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "FC Schalke 04",
@@ -1931,10 +2073,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:00:00+00:00"
+              "predictions_eta": "2026-10-24T13:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2126,
@@ -1954,7 +2098,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Hamburger SV",
@@ -1962,10 +2107,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:00:00+00:00"
+              "predictions_eta": "2026-10-24T13:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2175,
@@ -1985,7 +2132,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Eintracht Frankfurt",
@@ -1993,10 +2141,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:00:00+00:00"
+              "predictions_eta": "2026-10-24T16:00:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -2029,7 +2179,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Kifisia",
@@ -2037,10 +2188,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:30:00+00:00"
+              "predictions_eta": "2026-10-24T15:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2176,
@@ -2060,7 +2213,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Levadiakos",
@@ -2068,7 +2222,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -2086,7 +2241,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2178,
@@ -2106,7 +2262,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Panetolikos",
@@ -2114,10 +2271,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:30:00+00:00"
+              "predictions_eta": "2026-10-24T16:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -2150,7 +2309,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Bologna",
@@ -2158,7 +2318,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -2176,7 +2337,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2111,
@@ -2196,7 +2358,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Sassuolo",
@@ -2204,10 +2367,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2166,
@@ -2227,7 +2392,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "AS Roma",
@@ -2235,7 +2401,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -2253,7 +2420,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2186,
@@ -2273,7 +2441,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Parma",
@@ -2281,10 +2450,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:15:00+00:00"
+              "predictions_eta": "2026-10-24T18:15:00+00:00",
+              "sport": "football"
             }
           ]
         },
@@ -2311,7 +2482,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Padova",
@@ -2319,10 +2491,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2118,
@@ -2342,7 +2516,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Juve Stabia",
@@ -2350,10 +2525,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2119,
@@ -2373,7 +2550,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Mantova",
@@ -2381,10 +2559,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2120,
@@ -2404,7 +2584,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Cesena",
@@ -2412,10 +2593,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2121,
@@ -2435,7 +2618,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Sampdoria",
@@ -2443,10 +2627,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2161,
@@ -2466,7 +2652,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Ascoli",
@@ -2474,7 +2661,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -2492,7 +2680,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2181,
@@ -2512,7 +2701,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Benevento",
@@ -2520,10 +2710,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T17:00:00+00:00"
+              "predictions_eta": "2026-10-24T17:00:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -2556,7 +2748,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "FC Juarez",
@@ -2564,10 +2757,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T00:30:00+00:00"
+              "predictions_eta": "2026-10-24T00:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2092,
@@ -2587,7 +2782,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Atletico San Luis",
@@ -2595,10 +2791,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T02:30:00+00:00"
+              "predictions_eta": "2026-10-24T02:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -2631,7 +2829,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "PEC Zwolle",
@@ -2639,7 +2838,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -2657,7 +2857,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2177,
@@ -2677,7 +2878,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Cambuur",
@@ -2685,10 +2887,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:15:00+00:00"
+              "predictions_eta": "2026-10-24T16:15:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2190,
@@ -2708,7 +2912,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Heerenveen",
@@ -2716,10 +2921,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:30:00+00:00"
+              "predictions_eta": "2026-10-24T18:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -2752,7 +2959,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Valerenga",
@@ -2760,10 +2968,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2165,
@@ -2783,7 +2993,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Rosenborg",
@@ -2791,7 +3002,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -2809,7 +3021,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             }
           ]
         }
@@ -2842,7 +3055,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Cracovia Krakow",
@@ -2850,10 +3064,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T09:45:00+00:00"
+              "predictions_eta": "2026-10-24T09:45:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2107,
@@ -2873,7 +3089,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "GKS Katowice",
@@ -2881,10 +3098,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:15:00+00:00"
+              "predictions_eta": "2026-10-24T12:15:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2164,
@@ -2904,7 +3123,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Radomiak Radom",
@@ -2912,10 +3132,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:00:00+00:00"
+              "predictions_eta": "2026-10-24T15:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2184,
@@ -2935,7 +3157,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Raków Częstochowa",
@@ -2943,10 +3166,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T17:45:00+00:00"
+              "predictions_eta": "2026-10-24T17:45:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -2979,7 +3204,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Casa Pia",
@@ -2987,10 +3213,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T14:00:00+00:00"
+              "predictions_eta": "2026-10-24T14:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2147,
@@ -3010,7 +3238,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Arouca",
@@ -3018,10 +3247,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:30:00+00:00"
+              "predictions_eta": "2026-10-24T16:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2197,
@@ -3041,7 +3272,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "FC Porto",
@@ -3049,10 +3281,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T19:00:00+00:00"
+              "predictions_eta": "2026-10-24T19:00:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -3085,7 +3319,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Aberdeen",
@@ -3093,10 +3328,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2129,
@@ -3116,7 +3353,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Kilmarnock",
@@ -3124,10 +3362,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2130,
@@ -3147,7 +3387,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "ST Johnstone",
@@ -3155,7 +3396,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3173,7 +3415,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2131,
@@ -3193,7 +3436,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Dundee",
@@ -3201,10 +3445,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:30:00+00:00"
+              "predictions_eta": "2026-10-24T13:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -3237,7 +3483,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Elche",
@@ -3245,10 +3492,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T11:30:00+00:00"
+              "predictions_eta": "2026-10-24T11:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2145,
@@ -3268,7 +3517,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Espanyol",
@@ -3276,10 +3526,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T13:45:00+00:00"
+              "predictions_eta": "2026-10-24T13:45:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2174,
@@ -3299,7 +3551,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Villarreal",
@@ -3307,10 +3560,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:00:00+00:00"
+              "predictions_eta": "2026-10-24T16:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2192,
@@ -3330,7 +3585,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Deportivo La Coruna",
@@ -3338,10 +3594,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:30:00+00:00"
+              "predictions_eta": "2026-10-24T18:30:00+00:00",
+              "sport": "football"
             }
           ]
         },
@@ -3368,7 +3626,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Eibar",
@@ -3376,7 +3635,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3394,7 +3654,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2144,
@@ -3414,7 +3675,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Mallorca",
@@ -3422,7 +3684,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3440,7 +3703,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2172,
@@ -3460,7 +3724,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Celta de Vigo II",
@@ -3468,10 +3733,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T16:00:00+00:00"
+              "predictions_eta": "2026-10-24T16:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2173,
@@ -3491,7 +3758,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Real Sociedad II",
@@ -3499,7 +3767,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3517,7 +3786,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2191,
@@ -3537,7 +3807,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Oviedo",
@@ -3545,10 +3816,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T18:30:00+00:00"
+              "predictions_eta": "2026-10-24T18:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -3581,7 +3854,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Degerfors IF",
@@ -3589,10 +3863,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2109,
@@ -3612,7 +3888,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "AIK Stockholm",
@@ -3620,10 +3897,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T12:30:00+00:00"
+              "predictions_eta": "2026-10-24T12:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2162,
@@ -3643,7 +3922,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Orgryte IS",
@@ -3651,10 +3931,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:00:00+00:00"
+              "predictions_eta": "2026-10-24T15:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2163,
@@ -3674,7 +3956,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "IF Brommapojkarna",
@@ -3682,10 +3965,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T15:00:00+00:00"
+              "predictions_eta": "2026-10-24T15:00:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -3718,7 +4003,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Kasımpaşa",
@@ -3726,10 +4012,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T10:00:00+00:00"
+              "predictions_eta": "2026-10-24T10:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2116,
@@ -3749,7 +4037,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Erzurumspor FK",
@@ -3757,7 +4046,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3775,7 +4065,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2168,
@@ -3795,7 +4086,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Amed",
@@ -3803,7 +4095,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3821,7 +4114,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             }
           ]
         }
@@ -3854,7 +4148,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "FC Kharkiv",
@@ -3862,10 +4157,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T09:30:00+00:00"
+              "predictions_eta": "2026-10-24T09:30:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2158,
@@ -3885,7 +4182,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "LNZ Cherkasy",
@@ -3893,7 +4191,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [
                 {
@@ -3911,7 +4210,8 @@
                   "alien": false
                 }
               ],
-              "predictions_eta": null
+              "predictions_eta": null,
+              "sport": "football"
             },
             {
               "id": 2159,
@@ -3931,7 +4231,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Zorya Luhansk",
@@ -3939,10 +4240,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T14:30:00+00:00"
+              "predictions_eta": "2026-10-24T14:30:00+00:00",
+              "sport": "football"
             }
           ]
         }
@@ -3975,7 +4278,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Nashville SC",
@@ -3983,10 +4287,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T17:00:00+00:00"
+              "predictions_eta": "2026-10-24T17:00:00+00:00",
+              "sport": "football"
             },
             {
               "id": 2193,
@@ -4006,7 +4312,8 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "away": {
                 "name": "Toronto FC",
@@ -4014,10 +4321,12 @@
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
-                "corners": null
+                "corners": null,
+                "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-24T19:00:00+00:00"
+              "predictions_eta": "2026-10-24T19:00:00+00:00",
+              "sport": "football"
             }
           ]
         }

@@ -2,13 +2,71 @@
   "date": "2026-10-24",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 22,
+    "total_goals": 24,
     "corners": 0,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 2075,
+              "url": "https://capper.win/predictions/gimnasia-m-vs-platense-2075",
+              "kickoff": "2026-10-23T21:30:00+00:00",
+              "time": "00:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 39,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Gimnasia M.",
+                "logo": "/app/teams/1066.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Platense",
+                "logo": "/app/teams/1064.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

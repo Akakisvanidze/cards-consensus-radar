@@ -2,13 +2,120 @@
   "date": "2026-10-24",
   "market": "btts",
   "market_counts": {
-    "total_goals": 22,
+    "total_goals": 24,
     "corners": 0,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 2076,
+              "url": "https://capper.win/predictions/gimnasia-lp-vs-sarmiento-junin-2076",
+              "kickoff": "2026-10-23T21:00:00+00:00",
+              "time": "00:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 47,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Gimnasia L.P.",
+                "logo": "/app/teams/434.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Sarmiento Junin",
+                "logo": "/app/teams/474.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2075,
+              "url": "https://capper.win/predictions/gimnasia-m-vs-platense-2075",
+              "kickoff": "2026-10-23T21:30:00+00:00",
+              "time": "00:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 39,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Gimnasia M.",
+                "logo": "/app/teams/1066.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Platense",
+                "logo": "/app/teams/1064.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
