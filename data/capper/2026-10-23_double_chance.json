@@ -2,13 +2,68 @@
   "date": "2026-10-23",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 2,
+    "total_goals": 7,
     "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 1,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 31,
+          "name": "2. Bundesliga",
+          "logo": "/app/leagues/79.png",
+          "fixtures": [
+            {
+              "id": 2078,
+              "url": "https://capper.win/predictions/vfl-bochum-vs-vfl-wolfsburg-2078",
+              "kickoff": "2026-10-23T16:30:00+00:00",
+              "time": "19:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "VfL Bochum",
+                "logo": "/app/teams/176.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "away": {
+                "name": "VfL Wolfsburg",
+                "logo": "/app/teams/161.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

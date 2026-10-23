@@ -2,13 +2,114 @@
   "date": "2026-10-23",
   "market": "btts",
   "market_counts": {
-    "total_goals": 2,
+    "total_goals": 7,
     "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 1,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Ukraine",
+      "flag": "/app/flags/ua.svg",
+      "leagues": [
+        {
+          "id": 15,
+          "name": "Premier League",
+          "logo": "/app/leagues/333.png",
+          "fixtures": [
+            {
+              "id": 2089,
+              "url": "https://capper.win/predictions/veres-rivne-vs-kolos-kovalivka-2089",
+              "kickoff": "2026-10-23T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "INT",
+              "status_long": "Match Interrupted",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Veres Rivne",
+                "logo": "/app/teams/6501.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Kolos Kovalivka",
+                "logo": "/app/teams/3627.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
+            },
+            {
+              "id": 2087,
+              "url": "https://capper.win/predictions/dynamo-kyiv-vs-kudrivka-2087",
+              "kickoff": "2026-10-23T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Dynamo Kyiv",
+                "logo": "/app/teams/572.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": null
+              },
+              "away": {
+                "name": "Kudrivka",
+                "logo": "/app/teams/21953.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

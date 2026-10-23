@@ -691,37 +691,6 @@
               "predictions_eta": null
             },
             {
-              "id": 2151,
-              "url": "https://capper.win/predictions/istra-1961-vs-hnk-hajduk-split-2151",
-              "kickoff": "2026-10-24T15:00:00+00:00",
-              "time": "18:00",
-              "status_short": "PST",
-              "status_long": "Match Postponed",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Istra 1961",
-                "logo": "/app/teams/1016.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "away": {
-                "name": "HNK Hajduk Split",
-                "logo": "/app/teams/608.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null
-              },
-              "predictions": [],
-              "predictions_eta": null
-            },
-            {
               "id": 2153,
               "url": "https://capper.win/predictions/nk-varazdin-vs-nk-slaven-belupo-2153",
               "kickoff": "2026-10-24T16:00:00+00:00",

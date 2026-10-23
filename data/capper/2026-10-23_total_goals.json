@@ -2,13 +2,13 @@
   "date": "2026-10-23",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 2,
+    "total_goals": 7,
     "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 1,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 0
+    "btts": 2
   },
   "countries": [
     {
@@ -468,8 +468,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T16:00:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2079,
@@ -581,8 +591,18 @@
                 "red": null,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T18:15:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         },
@@ -1034,39 +1054,49 @@
               "url": "https://capper.win/predictions/veres-rivne-vs-kolos-kovalivka-2089",
               "kickoff": "2026-10-23T10:00:00+00:00",
               "time": "13:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
+              "status_short": "INT",
+              "status_long": "Match Interrupted",
               "elapsed": null,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Veres Rivne",
                 "logo": "/app/teams/6501.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "Kolos Kovalivka",
                 "logo": "/app/teams/3627.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T09:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2088,
               "url": "https://capper.win/predictions/polessya-vs-obolon-brovar-2088",
               "kickoff": "2026-10-23T10:00:00+00:00",
               "time": "13:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
+              "status_short": "ABD",
+              "status_long": "Match Abandoned",
               "elapsed": null,
               "extra": null,
               "finished": false,
@@ -1075,52 +1105,77 @@
               "home": {
                 "name": "Polessya",
                 "logo": "/app/teams/6496.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "Obolon'-Brovar",
                 "logo": "/app/teams/3630.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T09:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null
             },
             {
               "id": 2087,
               "url": "https://capper.win/predictions/dynamo-kyiv-vs-kudrivka-2087",
               "kickoff": "2026-10-23T10:00:00+00:00",
               "time": "13:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Dynamo Kyiv",
                 "logo": "/app/teams/572.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
                 "corners": null
               },
               "away": {
                 "name": "Kudrivka",
                 "logo": "/app/teams/21953.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
                 "corners": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T09:30:00+00:00"
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": true,
+                  "pick": "over",
+                  "line": 3.5,
+                  "label": "Over 3.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null
             }
           ]
         }
