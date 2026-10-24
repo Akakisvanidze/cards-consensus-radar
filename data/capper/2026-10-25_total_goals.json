@@ -624,7 +624,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-25T16:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -671,7 +671,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-25T11:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -705,7 +705,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-25T13:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3631,7 +3631,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-25T10:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3665,7 +3665,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-25T10:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
