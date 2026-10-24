@@ -2,10 +2,10 @@
   "date": "2026-10-24",
   "market": "btts",
   "market_counts": {
-    "total_goals": 28,
-    "corners": 2,
+    "total_goals": 29,
+    "corners": 3,
     "team_total": 0,
-    "match_winner": 5,
+    "match_winner": 6,
     "double_chance": 0,
     "handicap": 0,
     "btts": 3
@@ -136,40 +136,45 @@
               "url": "https://capper.win/predictions/cruzeiro-vs-remo-2077",
               "kickoff": "2026-10-23T23:00:00+00:00",
               "time": "02:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 77,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Cruzeiro",
                 "logo": "/app/teams/135.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 6,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "Remo",
                 "logo": "/app/teams/1198.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 6,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,

@@ -2,10 +2,10 @@
   "date": "2026-10-24",
   "market": "corners",
   "market_counts": {
-    "total_goals": 28,
-    "corners": 2,
+    "total_goals": 29,
+    "corners": 3,
     "team_total": 0,
-    "match_winner": 5,
+    "match_winner": 6,
     "double_chance": 0,
     "handicap": 0,
     "btts": 3
@@ -20,6 +20,108 @@
           "name": "Liga Profesional Argentina",
           "logo": "/app/leagues/128.png",
           "fixtures": [
+            {
+              "id": 2076,
+              "url": "https://capper.win/predictions/gimnasia-lp-vs-sarmiento-junin-2076",
+              "kickoff": "2026-10-23T21:00:00+00:00",
+              "time": "00:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Gimnasia L.P.",
+                "logo": "/app/teams/434.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Sarmiento Junin",
+                "logo": "/app/teams/474.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2075,
+              "url": "https://capper.win/predictions/gimnasia-m-vs-platense-2075",
+              "kickoff": "2026-10-23T21:30:00+00:00",
+              "time": "00:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Gimnasia M.",
+                "logo": "/app/teams/1066.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Platense",
+                "logo": "/app/teams/1064.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2090,
+              "url": "https://capper.win/predictions/tigre-vs-atletico-tucuman-2090",
+              "kickoff": "2026-10-24T00:15:00+00:00",
+              "time": "03:15",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Tigre",
+                "logo": "/app/teams/452.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Atletico Tucuman",
+                "logo": "/app/teams/455.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 1,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
+              "sport": "football"
+            },
             {
               "id": 2182,
               "url": "https://capper.win/predictions/banfield-vs-lanus-2182",
@@ -370,27 +472,27 @@
               "url": "https://capper.win/predictions/cruzeiro-vs-remo-2077",
               "kickoff": "2026-10-23T23:00:00+00:00",
               "time": "02:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 77,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Cruzeiro",
                 "logo": "/app/teams/135.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 6,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "Remo",
                 "logo": "/app/teams/1198.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 6,
                 "short": null
@@ -1342,6 +1444,87 @@
               },
               "predictions": [],
               "predictions_eta": "2026-10-24T16:00:00+00:00",
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 2098,
+              "url": "https://capper.win/predictions/vps-vs-inter-turku-2098",
+              "kickoff": "2026-10-24T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "VPS",
+                "logo": "/app/teams/650.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Inter Turku",
+                "logo": "/app/teams/1164.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2143,
+              "url": "https://capper.win/predictions/gnistan-vs-ac-oulu-2143",
+              "kickoff": "2026-10-24T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Gnistan",
+                "logo": "/app/teams/2082.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "AC Oulu",
+                "logo": "/app/teams/2077.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -2353,40 +2536,45 @@
               "url": "https://capper.win/predictions/necaxa-vs-fc-juarez-2091",
               "kickoff": "2026-10-24T01:00:00+00:00",
               "time": "04:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "Necaxa",
                 "logo": "/app/teams/2288.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "FC Juarez",
                 "logo": "/app/teams/2298.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -2397,33 +2585,48 @@
               "url": "https://capper.win/predictions/atlante-fc-vs-atletico-san-luis-2092",
               "kickoff": "2026-10-24T03:00:00+00:00",
               "time": "06:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Atlante FC",
                 "logo": "/app/teams/2312.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "Atletico San Luis",
                 "logo": "/app/teams/2314.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-24T02:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": true,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -3623,6 +3826,121 @@
               },
               "predictions": [],
               "predictions_eta": "2026-10-24T15:30:00+00:00",
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "flag": "/app/flags/ua.svg",
+      "leagues": [
+        {
+          "id": 15,
+          "name": "Premier League",
+          "logo": "/app/leagues/333.png",
+          "fixtures": [
+            {
+              "id": 2157,
+              "url": "https://capper.win/predictions/epitsentr-dunayivtsi-vs-fc-kharkiv-2157",
+              "kickoff": "2026-10-24T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Epitsentr Dunayivtsi",
+                "logo": "/app/teams/14434.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "FC Kharkiv",
+                "logo": "/app/teams/3628.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2158,
+              "url": "https://capper.win/predictions/livyi-bereh-vs-lnz-cherkasy-2158",
+              "kickoff": "2026-10-24T10:00:00+00:00",
+              "time": "13:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Livyi Bereh",
+                "logo": "/app/teams/17162.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "LNZ Cherkasy",
+                "logo": "/app/teams/17161.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2159,
+              "url": "https://capper.win/predictions/shakhtar-donetsk-vs-zorya-luhansk-2159",
+              "kickoff": "2026-10-24T15:00:00+00:00",
+              "time": "18:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Shakhtar Donetsk",
+                "logo": "/app/teams/550.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Zorya Luhansk",
+                "logo": "/app/teams/599.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
