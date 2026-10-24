@@ -225,6 +225,47 @@
       "flag": "/app/flags/fr.svg",
       "leagues": [
         {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 2293,
+              "url": "https://capper.win/predictions/paris-saint-germain-vs-lyon-2293",
+              "kickoff": "2026-10-26T19:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Paris Saint Germain",
+                "logo": "/app/teams/85.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Lyon",
+                "logo": "/app/teams/80.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-26T19:00:00+00:00",
+              "sport": "football"
+            }
+          ]
+        },
+        {
           "id": 30,
           "name": "Ligue 2",
           "logo": "/app/leagues/62.png",
@@ -260,7 +301,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-26T19:15:00+00:00",
               "sport": "football"
             },
             {
@@ -490,7 +531,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-26T18:15:00+00:00",
               "sport": "football"
             }
           ]
@@ -537,7 +578,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-26T19:30:00+00:00",
               "sport": "football"
             }
           ]
@@ -578,7 +619,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-26T19:00:00+00:00",
               "sport": "football"
             }
           ]
@@ -693,7 +734,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-26T18:00:00+00:00",
               "sport": "football"
             }
           ]

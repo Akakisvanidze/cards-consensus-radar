@@ -2,13 +2,169 @@
   "date": "2026-10-25",
   "market": "btts",
   "market_counts": {
-    "total_goals": 22,
-    "corners": 0,
-    "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
-    "handicap": 0,
-    "btts": 0
+    "total_goals": 35,
+    "corners": 9,
+    "team_total": 2,
+    "match_winner": 11,
+    "double_chance": 2,
+    "handicap": 3,
+    "btts": 3
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Brazil",
+      "flag": "/app/flags/br.svg",
+      "leagues": [
+        {
+          "id": 26,
+          "name": "Serie A",
+          "logo": "/app/leagues/71.png",
+          "fixtures": [
+            {
+              "id": 2200,
+              "url": "https://capper.win/predictions/palmeiras-vs-rb-bragantino-2200",
+              "kickoff": "2026-10-24T21:30:00+00:00",
+              "time": "00:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 71,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Palmeiras",
+                "logo": "/app/teams/121.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 7,
+                "short": null
+              },
+              "away": {
+                "name": "RB Bragantino",
+                "logo": "/app/teams/794.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 9,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2201,
+              "url": "https://capper.win/predictions/vasco-da-gama-vs-corinthians-2201",
+              "kickoff": "2026-10-24T21:30:00+00:00",
+              "time": "00:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 81,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Vasco DA Gama",
+                "logo": "/app/teams/133.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "away": {
+                "name": "Corinthians",
+                "logo": "/app/teams/131.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2203,
+              "url": "https://capper.win/predictions/chapecoense-sc-vs-fluminense-2203",
+              "kickoff": "2026-10-24T22:30:00+00:00",
+              "time": "01:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 39,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Chapecoense-sc",
+                "logo": "/app/teams/132.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "away": {
+                "name": "Fluminense",
+                "logo": "/app/teams/124.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
