@@ -2,13 +2,13 @@
   "date": "2026-10-24",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 29,
-    "corners": 3,
-    "team_total": 0,
-    "match_winner": 6,
-    "double_chance": 0,
-    "handicap": 0,
-    "btts": 3
+    "total_goals": 41,
+    "corners": 4,
+    "team_total": 4,
+    "match_winner": 12,
+    "double_chance": 3,
+    "handicap": 1,
+    "btts": 9
   },
   "countries": [
     {
@@ -201,6 +201,208 @@
       ]
     },
     {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 2098,
+              "url": "https://capper.win/predictions/vps-vs-inter-turku-2098",
+              "kickoff": "2026-10-24T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "VPS",
+                "logo": "/app/teams/650.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Inter Turku",
+                "logo": "/app/teams/1164.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 31,
+          "name": "2. Bundesliga",
+          "logo": "/app/leagues/79.png",
+          "fixtures": [
+            {
+              "id": 2095,
+              "url": "https://capper.win/predictions/1-fc-heidenheim-vs-energie-cottbus-2095",
+              "kickoff": "2026-10-24T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "1. FC Heidenheim",
+                "logo": "/app/teams/180.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Energie Cottbus",
+                "logo": "/app/teams/1320.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2096,
+              "url": "https://capper.win/predictions/hertha-bsc-vs-arminia-bielefeld-2096",
+              "kickoff": "2026-10-24T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Hertha BSC",
+                "logo": "/app/teams/159.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Arminia Bielefeld",
+                "logo": "/app/teams/188.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2097,
+              "url": "https://capper.win/predictions/1-fc-magdeburg-vs-karlsruher-sc-2097",
+              "kickoff": "2026-10-24T11:00:00+00:00",
+              "time": "14:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "1. FC Magdeburg",
+                "logo": "/app/teams/179.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Karlsruher SC",
+                "logo": "/app/teams/785.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Mexico",
       "flag": "/app/flags/mx.svg",
       "leagues": [
@@ -302,6 +504,120 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "flag": "/app/flags/pl.svg",
+      "leagues": [
+        {
+          "id": 20,
+          "name": "Ekstraklasa",
+          "logo": "/app/leagues/106.png",
+          "fixtures": [
+            {
+              "id": 2093,
+              "url": "https://capper.win/predictions/piast-gliwice-vs-cracovia-krakow-2093",
+              "kickoff": "2026-10-24T10:15:00+00:00",
+              "time": "13:15",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 42,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Piast Gliwice",
+                "logo": "/app/teams/349.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Cracovia Krakow",
+                "logo": "/app/teams/350.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 2094,
+              "url": "https://capper.win/predictions/eyupspor-vs-kasimpasa-2094",
+              "kickoff": "2026-10-24T10:30:00+00:00",
+              "time": "13:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 27,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Eyüpspor",
+                "logo": "/app/teams/3588.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Kasımpaşa",
+                "logo": "/app/teams/1004.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
                 }
               ],
               "predictions_eta": null,
