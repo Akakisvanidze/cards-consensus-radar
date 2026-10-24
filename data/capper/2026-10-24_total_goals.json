@@ -2,13 +2,13 @@
   "date": "2026-10-24",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 24,
-    "corners": 0,
+    "total_goals": 28,
+    "corners": 2,
     "team_total": 0,
-    "match_winner": 1,
+    "match_winner": 5,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 2
+    "btts": 3
   },
   "countries": [
     {
@@ -25,18 +25,18 @@
               "url": "https://capper.win/predictions/gimnasia-lp-vs-sarmiento-junin-2076",
               "kickoff": "2026-10-23T21:00:00+00:00",
               "time": "00:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 47,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Gimnasia L.P.",
                 "logo": "/app/teams/434.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": null,
                 "short": null
@@ -45,20 +45,25 @@
                 "name": "Sarmiento Junin",
                 "logo": "/app/teams/474.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 2.5,
+                  "label": "Over 2.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -69,18 +74,18 @@
               "url": "https://capper.win/predictions/gimnasia-m-vs-platense-2075",
               "kickoff": "2026-10-23T21:30:00+00:00",
               "time": "00:30",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 39,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Gimnasia M.",
                 "logo": "/app/teams/1066.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": null,
                 "short": null
@@ -88,8 +93,8 @@
               "away": {
                 "name": "Platense",
                 "logo": "/app/teams/1064.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": null,
                 "short": null
@@ -102,13 +107,62 @@
                   "line": 3.5,
                   "label": "Under 3.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "hit",
                   "provider": {
                     "name": "Oracle",
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
                 },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 2.5,
+                  "label": "Under 2.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2090,
+              "url": "https://capper.win/predictions/tigre-vs-atletico-tucuman-2090",
+              "kickoff": "2026-10-24T00:15:00+00:00",
+              "time": "03:15",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 26,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Tigre",
+                "logo": "/app/teams/452.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Atletico Tucuman",
+                "logo": "/app/teams/455.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
                 {
                   "locked": true,
                   "capper": false,
@@ -120,40 +174,6 @@
                 }
               ],
               "predictions_eta": null,
-              "sport": "football"
-            },
-            {
-              "id": 2090,
-              "url": "https://capper.win/predictions/tigre-vs-atletico-tucuman-2090",
-              "kickoff": "2026-10-24T00:15:00+00:00",
-              "time": "03:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Tigre",
-                "logo": "/app/teams/452.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "away": {
-                "name": "Atletico Tucuman",
-                "logo": "/app/teams/455.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T23:45:00+00:00",
               "sport": "football"
             },
             {
@@ -551,33 +571,52 @@
               "url": "https://capper.win/predictions/cruzeiro-vs-remo-2077",
               "kickoff": "2026-10-23T23:00:00+00:00",
               "time": "02:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 77,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Cruzeiro",
                 "logo": "/app/teams/135.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 6,
                 "short": null
               },
               "away": {
                 "name": "Remo",
                 "logo": "/app/teams/1198.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 6,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-23T22:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2760,8 +2799,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-24T00:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
