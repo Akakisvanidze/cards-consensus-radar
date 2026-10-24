@@ -2,13 +2,13 @@
   "date": "2026-10-24",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 41,
-    "corners": 4,
-    "team_total": 4,
-    "match_winner": 12,
-    "double_chance": 3,
-    "handicap": 1,
-    "btts": 9
+    "total_goals": 106,
+    "corners": 29,
+    "team_total": 12,
+    "match_winner": 66,
+    "double_chance": 14,
+    "handicap": 19,
+    "btts": 36
   },
   "countries": [
     {
@@ -21,33 +21,121 @@
           "logo": "/app/leagues/40.png",
           "fixtures": [
             {
+              "id": 2135,
+              "url": "https://capper.win/predictions/blackburn-vs-wrexham-2135",
+              "kickoff": "2026-10-24T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 31,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Blackburn",
+                "logo": "/app/teams/67.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "away": {
+                "name": "Wrexham",
+                "logo": "/app/teams/1837.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2136,
+              "url": "https://capper.win/predictions/cardiff-vs-birmingham-2136",
+              "kickoff": "2026-10-24T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 29,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Cardiff",
+                "logo": "/app/teams/43.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "away": {
+                "name": "Birmingham",
+                "logo": "/app/teams/54.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
               "id": 2141,
               "url": "https://capper.win/predictions/west-ham-vs-southampton-2141",
               "kickoff": "2026-10-24T14:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 31,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "West Ham",
                 "logo": "/app/teams/48.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Southampton",
                 "logo": "/app/teams/41.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "predictions": [
@@ -58,6 +146,101 @@
                   "provider": {
                     "name": "Wezen",
                     "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2142,
+              "url": "https://capper.win/predictions/wolves-vs-watford-2142",
+              "kickoff": "2026-10-24T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 31,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Wolves",
+                "logo": "/app/teams/39.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 3,
+                "short": null
+              },
+              "away": {
+                "name": "Watford",
+                "logo": "/app/teams/38.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 0,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Premier League",
+          "logo": "/app/leagues/39.png",
+          "fixtures": [
+            {
+              "id": 2132,
+              "url": "https://capper.win/predictions/arsenal-vs-everton-2132",
+              "kickoff": "2026-10-24T14:00:00+00:00",
+              "time": "17:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 31,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Arsenal",
+                "logo": "/app/teams/42.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5,
+                "short": null
+              },
+              "away": {
+                "name": "Everton",
+                "logo": "/app/teams/45.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
                   }
                 }
               ],
@@ -82,26 +265,335 @@
               "url": "https://capper.win/predictions/1-fc-heidenheim-vs-energie-cottbus-2095",
               "kickoff": "2026-10-24T11:00:00+00:00",
               "time": "14:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "1. FC Heidenheim",
                 "logo": "/app/teams/180.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Energie Cottbus",
                 "logo": "/app/teams/1320.png",
-                "goals": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home_draw",
+                  "line": null,
+                  "label": "Home/Draw",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 72
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Bundesliga",
+          "logo": "/app/leagues/78.png",
+          "fixtures": [
+            {
+              "id": 2122,
+              "url": "https://capper.win/predictions/rb-leipzig-vs-sv-elversberg-2122",
+              "kickoff": "2026-10-24T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "RB Leipzig",
+                "logo": "/app/teams/173.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 1,
+                "short": null
+              },
+              "away": {
+                "name": "SV Elversberg",
+                "logo": "/app/teams/1660.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": 5,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2123,
+              "url": "https://capper.win/predictions/fc-augsburg-vs-union-berlin-2123",
+              "kickoff": "2026-10-24T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "FC Augsburg",
+                "logo": "/app/teams/170.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "away": {
+                "name": "Union Berlin",
+                "logo": "/app/teams/182.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 1,
+                "corners": 0,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2126,
+              "url": "https://capper.win/predictions/sc-paderborn-07-vs-hamburger-sv-2126",
+              "kickoff": "2026-10-24T13:30:00+00:00",
+              "time": "16:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 45,
+              "extra": 16,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "SC Paderborn 07",
+                "logo": "/app/teams/185.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 4,
+                "short": null
+              },
+              "away": {
+                "name": "Hamburger SV",
+                "logo": "/app/teams/175.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 32,
+          "name": "Serie B",
+          "logo": "/app/leagues/136.png",
+          "fixtures": [
+            {
+              "id": 2117,
+              "url": "https://capper.win/predictions/avellino-vs-padova-2117",
+              "kickoff": "2026-10-24T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 71,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Avellino",
+                "logo": "/app/teams/528.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Padova",
+                "logo": "/app/teams/870.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 2105,
+              "url": "https://capper.win/predictions/cordoba-vs-eibar-2105",
+              "kickoff": "2026-10-24T12:00:00+00:00",
+              "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Cordoba",
+                "logo": "/app/teams/713.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Eibar",
+                "logo": "/app/teams/545.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home_draw",
+                  "line": null,
+                  "label": "Home/Draw",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 58.9
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2144,
+              "url": "https://capper.win/predictions/leganes-vs-mallorca-2144",
+              "kickoff": "2026-10-24T14:15:00+00:00",
+              "time": "17:15",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 16,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Leganes",
+                "logo": "/app/teams/537.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Mallorca",
+                "logo": "/app/teams/798.png",
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -139,28 +631,78 @@
               "url": "https://capper.win/predictions/eyupspor-vs-kasimpasa-2094",
               "kickoff": "2026-10-24T10:30:00+00:00",
               "time": "13:30",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 27,
-              "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 4,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Eyüpspor",
                 "logo": "/app/teams/3588.png",
                 "goals": 0,
-                "goals_ft": null,
-                "red": null,
+                "goals_ft": 0,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Kasımpaşa",
                 "logo": "/app/teams/1004.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home_draw",
+                  "line": null,
+                  "label": "Home/Draw",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 68.3
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2116,
+              "url": "https://capper.win/predictions/gaziantep-fk-vs-erzurumspor-fk-2116",
+              "kickoff": "2026-10-24T13:00:00+00:00",
+              "time": "16:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 69,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Gaziantep FK",
+                "logo": "/app/teams/3573.png",
                 "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Erzurumspor FK",
+                "logo": "/app/teams/1009.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
