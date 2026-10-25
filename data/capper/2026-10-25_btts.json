@@ -2,13 +2,13 @@
   "date": "2026-10-25",
   "market": "btts",
   "market_counts": {
-    "total_goals": 42,
-    "corners": 13,
-    "team_total": 2,
-    "match_winner": 16,
-    "double_chance": 2,
-    "handicap": 3,
-    "btts": 3
+    "total_goals": 52,
+    "corners": 19,
+    "team_total": 4,
+    "match_winner": 27,
+    "double_chance": 5,
+    "handicap": 6,
+    "btts": 6
   },
   "countries": [
     {
@@ -162,6 +162,182 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Mexico",
+      "flag": "/app/flags/mx.svg",
+      "leagues": [
+        {
+          "id": 29,
+          "name": "Liga MX",
+          "logo": "/app/leagues/262.png",
+          "fixtures": [
+            {
+              "id": 2211,
+              "url": "https://capper.win/predictions/monterrey-vs-guadalajara-chivas-2211",
+              "kickoff": "2026-10-25T02:00:00+00:00",
+              "time": "04:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Monterrey",
+                "logo": "/app/teams/2282.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 8,
+                "short": null
+              },
+              "away": {
+                "name": "Guadalajara Chivas",
+                "logo": "/app/teams/2278.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 90
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "USA",
+      "flag": "/app/flags/us.svg",
+      "leagues": [
+        {
+          "id": 28,
+          "name": "Major League Soccer",
+          "logo": "/app/leagues/253.png",
+          "fixtures": [
+            {
+              "id": 2216,
+              "url": "https://capper.win/predictions/real-salt-lake-vs-st-louis-city-2216",
+              "kickoff": "2026-10-25T02:30:00+00:00",
+              "time": "04:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Real Salt Lake",
+                "logo": "/app/teams/1606.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 7,
+                "short": null
+              },
+              "away": {
+                "name": "St. Louis City",
+                "logo": "/app/teams/20787.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 0,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 89.5
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2215,
+              "url": "https://capper.win/predictions/colorado-rapids-vs-vancouver-whitecaps-2215",
+              "kickoff": "2026-10-25T02:30:00+00:00",
+              "time": "04:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Colorado Rapids",
+                "logo": "/app/teams/1610.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 6,
+                "short": null
+              },
+              "away": {
+                "name": "Vancouver Whitecaps",
+                "logo": "/app/teams/1603.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 85
                 }
               ],
               "predictions_eta": null,
