@@ -2,15 +2,78 @@
   "date": "2026-10-25",
   "market": "btts",
   "market_counts": {
-    "total_goals": 61,
-    "corners": 22,
-    "team_total": 10,
-    "match_winner": 31,
-    "double_chance": 7,
-    "handicap": 7,
-    "btts": 8
+    "total_goals": 144,
+    "corners": 45,
+    "team_total": 21,
+    "match_winner": 104,
+    "double_chance": 22,
+    "handicap": 25,
+    "btts": 33
   },
   "countries": [
+    {
+      "country": "Belgium",
+      "flag": "/app/flags/be.svg",
+      "leagues": [
+        {
+          "id": 11,
+          "name": "Jupiler Pro League",
+          "logo": "/app/leagues/144.png",
+          "fixtures": [
+            {
+              "id": 2255,
+              "url": "https://capper.win/predictions/club-brugge-kv-vs-st-truiden-2255",
+              "kickoff": "2026-10-25T15:00:00+00:00",
+              "time": "17:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 57,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Club Brugge KV",
+                "logo": "/app/teams/569.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "St. Truiden",
+                "logo": "/app/teams/735.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 51.6
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
     {
       "country": "Brazil",
       "flag": "/app/flags/br.svg",
@@ -172,19 +235,182 @@
       ]
     },
     {
-      "country": "Italy",
-      "flag": "/app/flags/it.svg",
+      "country": "Denmark",
+      "flag": "/app/flags/dk.svg",
       "leagues": [
         {
-          "id": 8,
-          "name": "Serie A",
-          "logo": "/app/leagues/135.png",
+          "id": 22,
+          "name": "Superliga",
+          "logo": "/app/leagues/119.png",
           "fixtures": [
             {
-              "id": 2223,
-              "url": "https://capper.win/predictions/inter-vs-fiorentina-2223",
-              "kickoff": "2026-10-25T11:30:00+00:00",
-              "time": "13:30",
+              "id": 2231,
+              "url": "https://capper.win/predictions/fc-midtjylland-vs-lyngby-2231",
+              "kickoff": "2026-10-25T13:00:00+00:00",
+              "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "FC Midtjylland",
+                "logo": "/app/teams/397.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Lyngby",
+                "logo": "/app/teams/625.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 51.8
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 1,
+          "name": "Premier League",
+          "logo": "/app/leagues/39.png",
+          "fixtures": [
+            {
+              "id": 2249,
+              "url": "https://capper.win/predictions/manchester-united-vs-bournemouth-2249",
+              "kickoff": "2026-10-25T14:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Manchester United",
+                "logo": "/app/teams/33.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 5,
+                "short": null
+              },
+              "away": {
+                "name": "Bournemouth",
+                "logo": "/app/teams/35.png",
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 4,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 65.5
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2246,
+              "url": "https://capper.win/predictions/crystal-palace-vs-newcastle-2246",
+              "kickoff": "2026-10-25T14:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Crystal Palace",
+                "logo": "/app/teams/52.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 7,
+                "short": null
+              },
+              "away": {
+                "name": "Newcastle",
+                "logo": "/app/teams/34.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 4,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 58.1
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2276,
+              "url": "https://capper.win/predictions/sunderland-vs-leeds-2276",
+              "kickoff": "2026-10-25T16:30:00+00:00",
+              "time": "18:30",
               "status_short": "NS",
               "status_long": "Not Started",
               "elapsed": null,
@@ -193,8 +419,8 @@
               "live": false,
               "winner": null,
               "home": {
-                "name": "Inter",
-                "logo": "/app/teams/505.png",
+                "name": "Sunderland",
+                "logo": "/app/teams/746.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -202,8 +428,127 @@
                 "short": null
               },
               "away": {
-                "name": "Fiorentina",
-                "logo": "/app/teams/502.png",
+                "name": "Leeds",
+                "logo": "/app/teams/63.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "flag": "/app/flags/fi.svg",
+      "leagues": [
+        {
+          "id": 21,
+          "name": "Veikkausliiga",
+          "logo": "/app/leagues/244.png",
+          "fixtures": [
+            {
+              "id": 2269,
+              "url": "https://capper.win/predictions/ff-jaro-vs-pk-35-2269",
+              "kickoff": "2026-10-25T12:00:00+00:00",
+              "time": "14:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "FF Jaro",
+                "logo": "/app/teams/2075.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "PK-35",
+                "logo": "/app/teams/10669.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "flag": "/app/flags/fr.svg",
+      "leagues": [
+        {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 2273,
+              "url": "https://capper.win/predictions/rennes-vs-strasbourg-2273",
+              "kickoff": "2026-10-25T16:15:00+00:00",
+              "time": "18:15",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Rennes",
+                "logo": "/app/teams/94.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Strasbourg",
+                "logo": "/app/teams/95.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,
@@ -219,6 +564,427 @@
                     "name": "Ophiuchus",
                     "icon_url": "/app/providers/ophiuchus.svg"
                   }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2270,
+              "url": "https://capper.win/predictions/angers-vs-lorient-2270",
+              "kickoff": "2026-10-25T16:15:00+00:00",
+              "time": "18:15",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Angers",
+                "logo": "/app/teams/77.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Lorient",
+                "logo": "/app/teams/97.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2160,
+              "url": "https://capper.win/predictions/toulouse-vs-estac-troyes-2160",
+              "kickoff": "2026-10-25T16:15:00+00:00",
+              "time": "18:15",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Toulouse",
+                "logo": "/app/teams/96.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Estac Troyes",
+                "logo": "/app/teams/110.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "flag": "/app/flags/de.svg",
+      "leagues": [
+        {
+          "id": 4,
+          "name": "Bundesliga",
+          "logo": "/app/leagues/78.png",
+          "fixtures": [
+            {
+              "id": 2277,
+              "url": "https://capper.win/predictions/sc-freiburg-vs-bayern-munchen-2277",
+              "kickoff": "2026-10-25T16:30:00+00:00",
+              "time": "18:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "SC Freiburg",
+                "logo": "/app/teams/160.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Bayern München",
+                "logo": "/app/teams/157.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Greece",
+      "flag": "/app/flags/gr.svg",
+      "leagues": [
+        {
+          "id": 33,
+          "name": "Super League 1",
+          "logo": "/app/leagues/197.png",
+          "fixtures": [
+            {
+              "id": 2251,
+              "url": "https://capper.win/predictions/olympiakos-piraeus-vs-kalamata-2251",
+              "kickoff": "2026-10-25T14:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Olympiakos Piraeus",
+                "logo": "/app/teams/553.png",
+                "goals": 5,
+                "goals_ft": 5,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Kalamata",
+                "logo": "/app/teams/5046.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 74.7
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2268,
+              "url": "https://capper.win/predictions/volos-nfc-vs-panathinaikos-2268",
+              "kickoff": "2026-10-25T16:00:00+00:00",
+              "time": "18:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 13,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Volos NFC",
+                "logo": "/app/teams/2110.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Panathinaikos",
+                "logo": "/app/teams/617.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 2223,
+              "url": "https://capper.win/predictions/inter-vs-fiorentina-2223",
+              "kickoff": "2026-10-25T11:30:00+00:00",
+              "time": "13:30",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Inter",
+                "logo": "/app/teams/505.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 6,
+                "short": null
+              },
+              "away": {
+                "name": "Fiorentina",
+                "logo": "/app/teams/502.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 64.7
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2243,
+              "url": "https://capper.win/predictions/genoa-vs-venezia-2243",
+              "kickoff": "2026-10-25T14:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Genoa",
+                "logo": "/app/teams/495.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "away": {
+                "name": "Venezia",
+                "logo": "/app/teams/517.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 10,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 53.9
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Serie B",
+          "logo": "/app/leagues/136.png",
+          "fixtures": [
+            {
+              "id": 2252,
+              "url": "https://capper.win/predictions/palermo-vs-carrarese-2252",
+              "kickoff": "2026-10-25T14:00:00+00:00",
+              "time": "16:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Palermo",
+                "logo": "/app/teams/522.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Carrarese",
+                "logo": "/app/teams/1581.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -292,6 +1058,527 @@
       ]
     },
     {
+      "country": "Norway",
+      "flag": "/app/flags/no.svg",
+      "leagues": [
+        {
+          "id": 18,
+          "name": "Eliteserien",
+          "logo": "/app/leagues/103.png",
+          "fixtures": [
+            {
+              "id": 2264,
+              "url": "https://capper.win/predictions/sarpsborg-08-ff-vs-aalesund-2264",
+              "kickoff": "2026-10-25T16:00:00+00:00",
+              "time": "18:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 16,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Sarpsborg 08 FF",
+                "logo": "/app/teams/333.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Aalesund",
+                "logo": "/app/teams/757.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2265,
+              "url": "https://capper.win/predictions/start-vs-sandefjord-2265",
+              "kickoff": "2026-10-25T16:00:00+00:00",
+              "time": "18:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 16,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Start",
+                "logo": "/app/teams/334.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Sandefjord",
+                "logo": "/app/teams/332.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "flag": "/app/flags/pt.svg",
+      "leagues": [
+        {
+          "id": 6,
+          "name": "Primeira Liga",
+          "logo": "/app/leagues/94.png",
+          "fixtures": [
+            {
+              "id": 2260,
+              "url": "https://capper.win/predictions/estoril-vs-moreirense-2260",
+              "kickoff": "2026-10-25T15:30:00+00:00",
+              "time": "17:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Estoril",
+                "logo": "/app/teams/230.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Moreirense",
+                "logo": "/app/teams/215.png",
+                "goals": 3,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Scotland",
+      "flag": "/app/flags/gb-sct.svg",
+      "leagues": [
+        {
+          "id": 12,
+          "name": "Premiership",
+          "logo": "/app/leagues/179.png",
+          "fixtures": [
+            {
+              "id": 2224,
+              "url": "https://capper.win/predictions/hibernian-vs-celtic-2224",
+              "kickoff": "2026-10-25T12:00:00+00:00",
+              "time": "14:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Hibernian",
+                "logo": "/app/teams/249.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Celtic",
+                "logo": "/app/teams/247.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 54.3
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 9,
+          "name": "La Liga",
+          "logo": "/app/leagues/140.png",
+          "fixtures": [
+            {
+              "id": 2234,
+              "url": "https://capper.win/predictions/athletic-club-vs-getafe-2234",
+              "kickoff": "2026-10-25T13:00:00+00:00",
+              "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Athletic Club",
+                "logo": "/app/teams/531.png",
+                "goals": 4,
+                "goals_ft": 4,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "away": {
+                "name": "Getafe",
+                "logo": "/app/teams/546.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 4,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "yes",
+                  "line": null,
+                  "label": "Yes",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 68
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2258,
+              "url": "https://capper.win/predictions/celta-vigo-vs-real-betis-2258",
+              "kickoff": "2026-10-25T15:15:00+00:00",
+              "time": "17:15",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Celta Vigo",
+                "logo": "/app/teams/538.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "away": {
+                "name": "Real Betis",
+                "logo": "/app/teams/543.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 2257,
+              "url": "https://capper.win/predictions/cadiz-vs-ad-ceuta-fc-2257",
+              "kickoff": "2026-10-25T15:15:00+00:00",
+              "time": "17:15",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Cadiz",
+                "logo": "/app/teams/724.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "AD Ceuta FC",
+                "logo": "/app/teams/10139.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "flag": "/app/flags/se.svg",
+      "leagues": [
+        {
+          "id": 19,
+          "name": "Allsvenskan",
+          "logo": "/app/leagues/113.png",
+          "fixtures": [
+            {
+              "id": 2259,
+              "url": "https://capper.win/predictions/mjallby-aif-vs-hammarby-ff-2259",
+              "kickoff": "2026-10-25T15:30:00+00:00",
+              "time": "17:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Mjallby AIF",
+                "logo": "/app/teams/2240.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Hammarby FF",
+                "logo": "/app/teams/363.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 2235,
+              "url": "https://capper.win/predictions/konyaspor-vs-genclerbirligi-sk-2235",
+              "kickoff": "2026-10-25T13:00:00+00:00",
+              "time": "15:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 5,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Konyaspor",
+                "logo": "/app/teams/607.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Gençlerbirliği S.K.",
+                "logo": "/app/teams/997.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Ukraine",
       "flag": "/app/flags/ua.svg",
       "leagues": [
@@ -305,17 +1592,17 @@
               "url": "https://capper.win/predictions/bukovyna-vs-kryvbas-kr-2155",
               "kickoff": "2026-10-25T11:00:00+00:00",
               "time": "13:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 20,
+              "status_short": "TBD",
+              "status_long": "Time To Be Defined",
+              "elapsed": null,
               "extra": null,
               "finished": false,
-              "live": true,
+              "live": false,
               "winner": null,
               "home": {
                 "name": "Bukovyna",
                 "logo": "/app/teams/6486.png",
-                "goals": 0,
+                "goals": null,
                 "goals_ft": null,
                 "red": 0,
                 "corners": null,
@@ -324,7 +1611,7 @@
               "away": {
                 "name": "Kryvbas KR",
                 "logo": "/app/teams/6489.png",
-                "goals": 0,
+                "goals": null,
                 "goals_ft": null,
                 "red": 0,
                 "corners": null,
