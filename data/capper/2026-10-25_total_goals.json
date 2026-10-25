@@ -2,10 +2,10 @@
   "date": "2026-10-25",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 35,
-    "corners": 9,
+    "total_goals": 42,
+    "corners": 13,
     "team_total": 2,
-    "match_winner": 11,
+    "match_winner": 16,
     "double_chance": 2,
     "handicap": 3,
     "btts": 3
@@ -25,18 +25,18 @@
               "url": "https://capper.win/predictions/san-lorenzo-vs-newells-old-boys-2202",
               "kickoff": "2026-10-24T22:15:00+00:00",
               "time": "01:15",
-              "status_short": "HT",
-              "status_long": "Halftime",
-              "elapsed": 45,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "San Lorenzo",
                 "logo": "/app/teams/460.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": null,
                 "short": null
@@ -45,7 +45,7 @@
                 "name": "Newells Old Boys",
                 "logo": "/app/teams/457.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": null,
                 "short": null
@@ -58,13 +58,62 @@
                   "line": 3.5,
                   "label": "Under 3.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "hit",
                   "provider": {
                     "name": "Oracle",
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
                 },
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 1.5,
+                  "label": "Over 1.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2217,
+              "url": "https://capper.win/predictions/rosario-central-vs-huracan-2217",
+              "kickoff": "2026-10-25T00:30:00+00:00",
+              "time": "03:30",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 39,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Rosario Central",
+                "logo": "/app/teams/437.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Huracan",
+                "logo": "/app/teams/445.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
                 {
                   "locked": true,
                   "capper": false,
@@ -76,40 +125,6 @@
                 }
               ],
               "predictions_eta": null,
-              "sport": "football"
-            },
-            {
-              "id": 2217,
-              "url": "https://capper.win/predictions/rosario-central-vs-huracan-2217",
-              "kickoff": "2026-10-25T00:30:00+00:00",
-              "time": "03:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Rosario Central",
-                "logo": "/app/teams/437.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "away": {
-                "name": "Huracan",
-                "logo": "/app/teams/445.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T00:00:00+00:00",
               "sport": "football"
             },
             {
@@ -458,40 +473,45 @@
               "url": "https://capper.win/predictions/palmeiras-vs-rb-bragantino-2200",
               "kickoff": "2026-10-24T21:30:00+00:00",
               "time": "00:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 71,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Palmeiras",
                 "logo": "/app/teams/121.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 7,
+                "corners": 9,
                 "short": null
               },
               "away": {
                 "name": "RB Bragantino",
                 "logo": "/app/teams/794.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
                 "corners": 9,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 2.5,
+                  "label": "Over 2.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -502,18 +522,18 @@
               "url": "https://capper.win/predictions/vasco-da-gama-vs-corinthians-2201",
               "kickoff": "2026-10-24T21:30:00+00:00",
               "time": "00:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 81,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Vasco DA Gama",
                 "logo": "/app/teams/133.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 3,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 3,
                 "short": null
@@ -522,9 +542,9 @@
                 "name": "Corinthians",
                 "logo": "/app/teams/131.png",
                 "goals": 2,
-                "goals_ft": null,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 2,
+                "corners": 3,
                 "short": null
               },
               "predictions": [
@@ -551,29 +571,78 @@
               "url": "https://capper.win/predictions/chapecoense-sc-vs-fluminense-2203",
               "kickoff": "2026-10-24T22:30:00+00:00",
               "time": "01:30",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 39,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Chapecoense-sc",
                 "logo": "/app/teams/132.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
-                "corners": 2,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Fluminense",
                 "logo": "/app/teams/124.png",
                 "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 6,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 2.5,
+                  "label": "Over 2.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2210,
+              "url": "https://capper.win/predictions/santos-vs-bahia-2210",
+              "kickoff": "2026-10-25T00:00:00+00:00",
+              "time": "03:00",
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Santos",
+                "logo": "/app/teams/128.png",
+                "goals": 0,
                 "goals_ft": null,
                 "red": 0,
-                "corners": 1,
+                "corners": 6,
+                "short": null
+              },
+              "away": {
+                "name": "Bahia",
+                "logo": "/app/teams/118.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "predictions": [
@@ -585,43 +654,18 @@
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
                   }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
                 }
               ],
               "predictions_eta": null,
-              "sport": "football"
-            },
-            {
-              "id": 2210,
-              "url": "https://capper.win/predictions/santos-vs-bahia-2210",
-              "kickoff": "2026-10-25T00:00:00+00:00",
-              "time": "03:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Santos",
-                "logo": "/app/teams/128.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "away": {
-                "name": "Bahia",
-                "logo": "/app/teams/118.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-24T23:30:00+00:00",
               "sport": "football"
             }
           ]
@@ -2151,49 +2195,60 @@
               "url": "https://capper.win/predictions/leon-vs-toluca-2204",
               "kickoff": "2026-10-24T23:00:00+00:00",
               "time": "02:00",
-              "status_short": "1H",
-              "status_long": "First Half",
-              "elapsed": 11,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "draw",
               "home": {
                 "name": "Leon",
                 "logo": "/app/teams/2289.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": null,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Toluca",
                 "logo": "/app/teams/2281.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": null,
+                "corners": 6,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3.5,
+                  "label": "Over 3.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3.5,
+                  "label": "Over 3.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "Ophiuchus",
                     "icon_url": "/app/providers/ophiuchus.svg"
-                  }
+                  },
+                  "alien": false,
+                  "strength": 61.4
                 }
               ],
               "predictions_eta": null,
@@ -3715,18 +3770,18 @@
               "url": "https://capper.win/predictions/new-york-red-bulls-vs-inter-miami-2199",
               "kickoff": "2026-10-24T21:30:00+00:00",
               "time": "00:30",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 72,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "New York Red Bulls",
                 "logo": "/app/teams/1602.png",
-                "goals": 1,
-                "goals_ft": null,
+                "goals": 2,
+                "goals_ft": 2,
                 "red": 0,
                 "corners": 3,
                 "short": null
@@ -3735,29 +3790,40 @@
                 "name": "Inter Miami",
                 "logo": "/app/teams/9568.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 0,
+                "corners": 2,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "over",
+                  "line": 3.5,
+                  "label": "Over 3.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "Ophiuchus",
                     "icon_url": "/app/providers/ophiuchus.svg"
-                  }
+                  },
+                  "alien": false,
+                  "strength": 53.5
                 }
               ],
               "predictions_eta": null,
@@ -3768,29 +3834,29 @@
               "url": "https://capper.win/predictions/philadelphia-union-vs-new-england-revolution-2207",
               "kickoff": "2026-10-24T23:30:00+00:00",
               "time": "02:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 67,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Philadelphia Union",
                 "logo": "/app/teams/1599.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "New England Revolution",
                 "logo": "/app/teams/1609.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "predictions": [
@@ -3821,40 +3887,45 @@
               "url": "https://capper.win/predictions/atlanta-united-fc-vs-chicago-fire-2208",
               "kickoff": "2026-10-24T23:30:00+00:00",
               "time": "02:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 67,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Atlanta United FC",
                 "logo": "/app/teams/1608.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "Chicago Fire",
                 "logo": "/app/teams/1607.png",
-                "goals": null,
+                "goals": 3,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "under",
+                  "line": 3.5,
+                  "label": "Under 3.5",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -3865,29 +3936,29 @@
               "url": "https://capper.win/predictions/dc-united-vs-fc-cincinnati-2206",
               "kickoff": "2026-10-24T23:30:00+00:00",
               "time": "02:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 70,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "DC United",
                 "logo": "/app/teams/1615.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "FC Cincinnati",
                 "logo": "/app/teams/2242.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "predictions": [
@@ -3898,7 +3969,7 @@
                   "line": 1.5,
                   "label": "Over 1.5",
                   "odd": null,
-                  "result": "pending",
+                  "result": "hit",
                   "provider": {
                     "name": "Oracle",
                     "icon_url": "/app/providers/oracle.png?v=1"
@@ -3923,29 +3994,29 @@
               "url": "https://capper.win/predictions/orlando-city-sc-vs-new-york-city-fc-2205",
               "kickoff": "2026-10-24T23:30:00+00:00",
               "time": "02:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 65,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Orlando City SC",
                 "logo": "/app/teams/1598.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "New York City FC",
                 "logo": "/app/teams/1604.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "predictions": [
@@ -3967,33 +4038,43 @@
               "url": "https://capper.win/predictions/houston-dynamo-vs-minnesota-united-fc-2212",
               "kickoff": "2026-10-25T00:30:00+00:00",
               "time": "03:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 29,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Houston Dynamo",
                 "logo": "/app/teams/1600.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "Minnesota United FC",
                 "logo": "/app/teams/1612.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T00:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -4001,17 +4082,17 @@
               "url": "https://capper.win/predictions/fc-dallas-vs-san-jose-earthquakes-2213",
               "kickoff": "2026-10-25T00:30:00+00:00",
               "time": "03:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 30,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "FC Dallas",
                 "logo": "/app/teams/1597.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -4020,14 +4101,24 @@
               "away": {
                 "name": "San Jose Earthquakes",
                 "logo": "/app/teams/1596.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T00:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -4035,33 +4126,52 @@
               "url": "https://capper.win/predictions/sporting-kansas-city-vs-austin-2214",
               "kickoff": "2026-10-25T00:30:00+00:00",
               "time": "03:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 28,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Sporting Kansas City",
                 "logo": "/app/teams/1611.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "Austin",
                 "logo": "/app/teams/16489.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T00:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
