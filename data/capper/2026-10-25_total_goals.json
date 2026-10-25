@@ -2,13 +2,13 @@
   "date": "2026-10-25",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 52,
-    "corners": 19,
-    "team_total": 4,
-    "match_winner": 27,
-    "double_chance": 5,
-    "handicap": 6,
-    "btts": 6
+    "total_goals": 61,
+    "corners": 22,
+    "team_total": 10,
+    "match_winner": 31,
+    "double_chance": 7,
+    "handicap": 7,
+    "btts": 8
   },
   "countries": [
     {
@@ -1737,8 +1737,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T16:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -1962,6 +1972,42 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
                 }
               ],
               "predictions_eta": null,
@@ -2401,17 +2447,17 @@
               "url": "https://capper.win/predictions/fortuna-sittard-vs-excelsior-2221",
               "kickoff": "2026-10-25T11:15:00+00:00",
               "time": "13:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 6,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Fortuna Sittard",
                 "logo": "/app/teams/205.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -2420,7 +2466,7 @@
               "away": {
                 "name": "Excelsior",
                 "logo": "/app/teams/196.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -2440,6 +2486,15 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
                 }
               ],
               "predictions_eta": null,
@@ -2587,6 +2642,15 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null,
@@ -2876,17 +2940,17 @@
               "url": "https://capper.win/predictions/slask-wroclaw-vs-wieczysta-krakow-2222",
               "kickoff": "2026-10-25T11:15:00+00:00",
               "time": "13:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 9,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Slask Wroclaw",
                 "logo": "/app/teams/337.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -2895,14 +2959,24 @@
               "away": {
                 "name": "Wieczysta Kraków",
                 "logo": "/app/teams/17115.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T10:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3392,6 +3466,15 @@
                     "icon_url": "/app/providers/oracle.png?v=1"
                   },
                   "alien": false
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null,
@@ -3750,28 +3833,28 @@
               "url": "https://capper.win/predictions/bukovyna-vs-kryvbas-kr-2155",
               "kickoff": "2026-10-25T11:00:00+00:00",
               "time": "13:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 20,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Bukovyna",
                 "logo": "/app/teams/6486.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Kryvbas KR",
                 "logo": "/app/teams/6489.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
@@ -3784,28 +3867,28 @@
               "url": "https://capper.win/predictions/chornomorets-vs-karpaty-2156",
               "kickoff": "2026-10-25T11:00:00+00:00",
               "time": "13:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 21,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Chornomorets",
                 "logo": "/app/teams/3615.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Karpaty",
                 "logo": "/app/teams/3617.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 1,
                 "corners": null,
                 "short": null
               },
