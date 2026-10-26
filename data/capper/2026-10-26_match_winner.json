@@ -2,13 +2,174 @@
   "date": "2026-10-26",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 1,
-    "corners": 0,
+    "total_goals": 6,
+    "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 4,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 0
+    "btts": 4
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 2297,
+              "url": "https://capper.win/predictions/river-plate-vs-racing-club-2297",
+              "kickoff": "2026-10-25T22:15:00+00:00",
+              "time": "00:15",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "River Plate",
+                "logo": "/app/teams/435.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Racing Club",
+                "logo": "/app/teams/436.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  },
+                  "alien": false,
+                  "strength": 62.2
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2317,
+              "url": "https://capper.win/predictions/barracas-central-vs-estudiantes-de-rio-cuarto-2317",
+              "kickoff": "2026-10-26T00:30:00+00:00",
+              "time": "02:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Barracas Central",
+                "logo": "/app/teams/2432.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Estudiantes de Rio Cuarto",
+                "logo": "/app/teams/2424.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 2318,
+              "url": "https://capper.win/predictions/central-cordoba-de-santiago-vs-velez-sarsfield-2318",
+              "kickoff": "2026-10-26T00:30:00+00:00",
+              "time": "02:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Central Cordoba de Santiago",
+                "logo": "/app/teams/1065.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Velez Sarsfield",
+                "logo": "/app/teams/438.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

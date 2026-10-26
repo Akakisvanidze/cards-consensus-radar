@@ -2,13 +2,13 @@
   "date": "2026-10-26",
   "market": "corners",
   "market_counts": {
-    "total_goals": 1,
-    "corners": 0,
+    "total_goals": 6,
+    "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
+    "match_winner": 4,
+    "double_chance": 1,
     "handicap": 0,
-    "btts": 0
+    "btts": 4
   },
   "countries": [
     {
@@ -25,33 +25,33 @@
               "url": "https://capper.win/predictions/river-plate-vs-racing-club-2297",
               "kickoff": "2026-10-25T22:15:00+00:00",
               "time": "00:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "River Plate",
                 "logo": "/app/teams/435.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Racing Club",
                 "logo": "/app/teams/436.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-25T21:45:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -85,7 +85,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T00:00:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -119,7 +119,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T00:00:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -356,33 +356,43 @@
               "url": "https://capper.win/predictions/atlas-vs-puebla-2298",
               "kickoff": "2026-10-25T23:00:00+00:00",
               "time": "01:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 60,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Atlas",
                 "logo": "/app/teams/2283.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "Puebla",
                 "logo": "/app/teams/2291.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-25T22:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
