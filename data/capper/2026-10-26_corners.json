@@ -2,13 +2,13 @@
   "date": "2026-10-26",
   "market": "corners",
   "market_counts": {
-    "total_goals": 15,
-    "corners": 6,
-    "team_total": 2,
-    "match_winner": 7,
-    "double_chance": 3,
-    "handicap": 1,
-    "btts": 4
+    "total_goals": 29,
+    "corners": 8,
+    "team_total": 4,
+    "match_winner": 18,
+    "double_chance": 8,
+    "handicap": 4,
+    "btts": 11
   },
   "countries": [
     {
@@ -140,28 +140,28 @@
               "url": "https://capper.win/predictions/istra-1961-vs-hnk-hajduk-split-2151",
               "kickoff": "2026-10-26T17:00:00+00:00",
               "time": "19:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "Istra 1961",
                 "logo": "/app/teams/1016.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "HNK Hajduk Split",
                 "logo": "/app/teams/608.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
@@ -187,33 +187,33 @@
               "url": "https://capper.win/predictions/fc-copenhagen-vs-odense-2325",
               "kickoff": "2026-10-26T18:00:00+00:00",
               "time": "20:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 58,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "FC Copenhagen",
                 "logo": "/app/teams/400.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Odense",
                 "logo": "/app/teams/405.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T17:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -259,8 +259,27 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-26T19:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -301,7 +320,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T19:15:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -335,7 +354,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T19:15:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -580,33 +599,33 @@
               "url": "https://capper.win/predictions/santa-clara-vs-benfica-2327",
               "kickoff": "2026-10-26T18:45:00+00:00",
               "time": "20:45",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 31,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Santa Clara",
                 "logo": "/app/teams/227.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Benfica",
                 "logo": "/app/teams/211.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T18:15:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -694,7 +713,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T19:00:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -715,33 +734,33 @@
               "url": "https://capper.win/predictions/rizespor-vs-trabzonspor-2324",
               "kickoff": "2026-10-26T16:00:00+00:00",
               "time": "18:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 5,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Rizespor",
                 "logo": "/app/teams/1007.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Trabzonspor",
                 "logo": "/app/teams/998.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 4,
+                "goals_ft": 4,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T15:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -749,33 +768,33 @@
               "url": "https://capper.win/predictions/besiktas-vs-basaksehir-2323",
               "kickoff": "2026-10-26T16:00:00+00:00",
               "time": "18:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 4,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Beşiktaş",
                 "logo": "/app/teams/549.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Başakşehir",
                 "logo": "/app/teams/564.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T15:30:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -783,33 +802,33 @@
               "url": "https://capper.win/predictions/galatasaray-vs-fenerbahce-2326",
               "kickoff": "2026-10-26T18:30:00+00:00",
               "time": "20:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 45,
+              "extra": 2,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Galatasaray",
                 "logo": "/app/teams/645.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Fenerbahçe",
                 "logo": "/app/teams/611.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": "2026-10-26T18:00:00+00:00",
+              "predictions_eta": null,
               "sport": "football"
             }
           ]

@@ -2,13 +2,13 @@
   "date": "2026-10-26",
   "market": "btts",
   "market_counts": {
-    "total_goals": 15,
-    "corners": 6,
-    "team_total": 2,
-    "match_winner": 7,
-    "double_chance": 3,
-    "handicap": 1,
-    "btts": 4
+    "total_goals": 29,
+    "corners": 8,
+    "team_total": 4,
+    "match_winner": 18,
+    "double_chance": 8,
+    "handicap": 4,
+    "btts": 11
   },
   "countries": [
     {
@@ -173,6 +173,171 @@
       ]
     },
     {
+      "country": "Denmark",
+      "flag": "/app/flags/dk.svg",
+      "leagues": [
+        {
+          "id": 22,
+          "name": "Superliga",
+          "logo": "/app/leagues/119.png",
+          "fixtures": [
+            {
+              "id": 2325,
+              "url": "https://capper.win/predictions/fc-copenhagen-vs-odense-2325",
+              "kickoff": "2026-10-26T18:00:00+00:00",
+              "time": "20:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 58,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "FC Copenhagen",
+                "logo": "/app/teams/400.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Odense",
+                "logo": "/app/teams/405.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "flag": "/app/flags/fr.svg",
+      "leagues": [
+        {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 2293,
+              "url": "https://capper.win/predictions/paris-saint-germain-vs-lyon-2293",
+              "kickoff": "2026-10-26T19:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Paris Saint Germain",
+                "logo": "/app/teams/85.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Lyon",
+                "logo": "/app/teams/80.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Ligue 2",
+          "logo": "/app/leagues/62.png",
+          "fixtures": [
+            {
+              "id": 2329,
+              "url": "https://capper.win/predictions/boulogne-vs-reims-2329",
+              "kickoff": "2026-10-26T19:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Boulogne",
+                "logo": "/app/teams/1299.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Reims",
+                "logo": "/app/teams/93.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Mexico",
       "flag": "/app/flags/mx.svg",
       "leagues": [
@@ -225,6 +390,138 @@
                     "icon_url": "/app/providers/typesafe.png"
                   },
                   "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "flag": "/app/flags/pt.svg",
+      "leagues": [
+        {
+          "id": 6,
+          "name": "Primeira Liga",
+          "logo": "/app/leagues/94.png",
+          "fixtures": [
+            {
+              "id": 2327,
+              "url": "https://capper.win/predictions/santa-clara-vs-benfica-2327",
+              "kickoff": "2026-10-26T18:45:00+00:00",
+              "time": "20:45",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 31,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Santa Clara",
+                "logo": "/app/teams/227.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Benfica",
+                "logo": "/app/teams/211.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "flag": "/app/flags/es.svg",
+      "leagues": [
+        {
+          "id": 10,
+          "name": "Segunda División",
+          "logo": "/app/leagues/141.png",
+          "fixtures": [
+            {
+              "id": 2328,
+              "url": "https://capper.win/predictions/fc-andorra-vs-burgos-2328",
+              "kickoff": "2026-10-26T19:30:00+00:00",
+              "time": "21:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "FC Andorra",
+                "logo": "/app/teams/8157.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Burgos",
+                "logo": "/app/teams/9580.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                },
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
                 }
               ],
               "predictions_eta": null,
