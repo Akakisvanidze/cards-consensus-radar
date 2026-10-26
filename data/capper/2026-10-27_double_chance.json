@@ -2,13 +2,71 @@
   "date": "2026-10-27",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
+    "total_goals": 4,
+    "corners": 3,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
-    "handicap": 0,
-    "btts": 0
+    "match_winner": 5,
+    "double_chance": 1,
+    "handicap": 3,
+    "btts": 4
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 2331,
+              "url": "https://capper.win/predictions/union-santa-fe-vs-estudiantes-lp-2331",
+              "kickoff": "2026-10-26T22:00:00+00:00",
+              "time": "00:00",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 2,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Union Santa Fe",
+                "logo": "/app/teams/441.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Estudiantes L.P.",
+                "logo": "/app/teams/450.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Ophiuchus",
+                    "icon_url": "/app/providers/ophiuchus.svg"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -2,13 +2,13 @@
   "date": "2026-10-27",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
+    "total_goals": 4,
+    "corners": 3,
     "team_total": 0,
-    "match_winner": 0,
-    "double_chance": 0,
-    "handicap": 0,
-    "btts": 0
+    "match_winner": 5,
+    "double_chance": 1,
+    "handicap": 3,
+    "btts": 4
   },
   "countries": [
     {
@@ -25,33 +25,48 @@
               "url": "https://capper.win/predictions/union-santa-fe-vs-estudiantes-lp-2331",
               "kickoff": "2026-10-26T22:00:00+00:00",
               "time": "00:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 90,
+              "extra": 2,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Union Santa Fe",
                 "logo": "/app/teams/441.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
               "away": {
                 "name": "Estudiantes L.P.",
                 "logo": "/app/teams/450.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
+                "red": 0,
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-26T21:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 2.5,
+                  "label": "Over 2.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -84,8 +99,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-26T23:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -106,33 +131,43 @@
               "url": "https://capper.win/predictions/coritiba-vs-gremio-2332",
               "kickoff": "2026-10-26T22:30:00+00:00",
               "time": "00:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 59,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Coritiba",
                 "logo": "/app/teams/147.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "Gremio",
                 "logo": "/app/teams/130.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-26T22:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -140,33 +175,43 @@
               "url": "https://capper.win/predictions/flamengo-vs-atletico-mg-2333",
               "kickoff": "2026-10-26T23:00:00+00:00",
               "time": "01:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "HT",
+              "status_long": "Halftime",
+              "elapsed": 45,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Flamengo",
                 "logo": "/app/teams/127.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 8,
                 "short": null
               },
               "away": {
                 "name": "Atletico-MG",
                 "logo": "/app/teams/1062.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-26T22:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
