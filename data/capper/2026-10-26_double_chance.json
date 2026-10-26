@@ -2,11 +2,11 @@
   "date": "2026-10-26",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 10,
+    "total_goals": 15,
     "corners": 6,
-    "team_total": 0,
+    "team_total": 2,
     "match_winner": 7,
-    "double_chance": 2,
+    "double_chance": 3,
     "handicap": 1,
     "btts": 4
   },
@@ -128,6 +128,63 @@
                   },
                   "alien": false,
                   "strength": 52.9
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "flag": "/app/flags/tr.svg",
+      "leagues": [
+        {
+          "id": 13,
+          "name": "Süper Lig",
+          "logo": "/app/leagues/203.png",
+          "fixtures": [
+            {
+              "id": 2324,
+              "url": "https://capper.win/predictions/rizespor-vs-trabzonspor-2324",
+              "kickoff": "2026-10-26T16:00:00+00:00",
+              "time": "18:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Rizespor",
+                "logo": "/app/teams/1007.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Trabzonspor",
+                "logo": "/app/teams/998.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Capella",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null,
