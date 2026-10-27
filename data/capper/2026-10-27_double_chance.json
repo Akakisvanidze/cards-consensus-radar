@@ -25,18 +25,18 @@
               "url": "https://capper.win/predictions/union-santa-fe-vs-estudiantes-lp-2331",
               "kickoff": "2026-10-26T22:00:00+00:00",
               "time": "00:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
+              "status_short": "FT",
+              "status_long": "Match Finished",
               "elapsed": 90,
-              "extra": 2,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "Union Santa Fe",
                 "logo": "/app/teams/441.png",
-                "goals": 2,
-                "goals_ft": null,
+                "goals": 3,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": null,
                 "short": null
@@ -45,20 +45,26 @@
                 "name": "Estudiantes L.P.",
                 "logo": "/app/teams/450.png",
                 "goals": 1,
-                "goals_ft": null,
+                "goals_ft": 1,
                 "red": 0,
                 "corners": null,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "draw_away",
+                  "line": null,
+                  "label": "Draw/Away",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "Ophiuchus",
                     "icon_url": "/app/providers/ophiuchus.svg"
-                  }
+                  },
+                  "alien": false,
+                  "strength": 77.1
                 }
               ],
               "predictions_eta": null,
