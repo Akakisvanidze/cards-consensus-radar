@@ -2,13 +2,13 @@
   "date": "2026-10-28",
   "market": "corners",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
+    "total_goals": 1,
+    "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 1
   },
   "countries": [
     {
@@ -25,33 +25,48 @@
               "url": "https://capper.win/predictions/argentinos-jrs-vs-independ-rivadavia-2388",
               "kickoff": "2026-10-27T22:00:00+00:00",
               "time": "00:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Argentinos JRS",
                 "logo": "/app/teams/458.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 9,
                 "short": null
               },
               "away": {
                 "name": "Independ. Rivadavia",
                 "logo": "/app/teams/473.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-27T21:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9,
+                  "label": "Over 9",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]

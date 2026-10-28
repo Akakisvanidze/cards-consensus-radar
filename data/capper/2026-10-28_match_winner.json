@@ -2,13 +2,76 @@
   "date": "2026-10-28",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
+    "total_goals": 1,
+    "corners": 1,
     "team_total": 0,
-    "match_winner": 0,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
-    "btts": 0
+    "btts": 1
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 2388,
+              "url": "https://capper.win/predictions/argentinos-jrs-vs-independ-rivadavia-2388",
+              "kickoff": "2026-10-27T22:00:00+00:00",
+              "time": "00:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
+              "home": {
+                "name": "Argentinos JRS",
+                "logo": "/app/teams/458.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 9,
+                "short": null
+              },
+              "away": {
+                "name": "Independ. Rivadavia",
+                "logo": "/app/teams/473.png",
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
