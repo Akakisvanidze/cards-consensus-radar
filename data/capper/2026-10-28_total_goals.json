@@ -2,11 +2,11 @@
   "date": "2026-10-28",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 1,
+    "total_goals": 2,
     "corners": 1,
     "team_total": 0,
-    "match_winner": 1,
-    "double_chance": 0,
+    "match_winner": 2,
+    "double_chance": 1,
     "handicap": 0,
     "btts": 1
   },
@@ -159,8 +159,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-28T17:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
