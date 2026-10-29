@@ -2,13 +2,71 @@
   "date": "2026-10-30",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 0,
+    "total_goals": 2,
+    "corners": 2,
+    "team_total": 3,
+    "match_winner": 1,
     "double_chance": 0,
     "handicap": 0,
     "btts": 0
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Brazil",
+      "flag": "/app/flags/br.svg",
+      "leagues": [
+        {
+          "id": 26,
+          "name": "Serie A",
+          "logo": "/app/leagues/71.png",
+          "fixtures": [
+            {
+              "id": 3332,
+              "url": "https://capper.win/predictions/atletico-mg-vs-cruzeiro-3332",
+              "kickoff": "2026-10-29T22:30:00+00:00",
+              "time": "00:30",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 62,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Atletico-MG",
+                "logo": "/app/teams/1062.png",
+                "goals": 0,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "away": {
+                "name": "Cruzeiro",
+                "logo": "/app/teams/135.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
