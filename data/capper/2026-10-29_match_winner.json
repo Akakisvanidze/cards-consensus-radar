@@ -2,13 +2,13 @@
   "date": "2026-10-29",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 26,
+    "total_goals": 27,
     "corners": 20,
     "team_total": 15,
-    "match_winner": 17,
+    "match_winner": 19,
     "double_chance": 0,
     "handicap": 1,
-    "btts": 2
+    "btts": 3
   },
   "countries": [
     {
@@ -241,6 +241,107 @@
                   },
                   "alien": false,
                   "strength": 58.6
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 3328,
+              "url": "https://capper.win/predictions/frosinone-vs-lecce-3328",
+              "kickoff": "2026-10-29T17:30:00+00:00",
+              "time": "19:30",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Frosinone",
+                "logo": "/app/teams/512.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Lecce",
+                "logo": "/app/teams/867.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3331,
+              "url": "https://capper.win/predictions/fiorentina-vs-atalanta-3331",
+              "kickoff": "2026-10-29T19:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Fiorentina",
+                "logo": "/app/teams/502.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Atalanta",
+                "logo": "/app/teams/499.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
                 }
               ],
               "predictions_eta": null,
