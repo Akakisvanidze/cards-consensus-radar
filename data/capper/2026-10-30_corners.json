@@ -98,7 +98,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:15:00+00:00",
               "sport": "football"
             }
           ]
@@ -114,40 +114,6 @@
           "name": "Serie A",
           "logo": "/app/leagues/71.png",
           "fixtures": [
-            {
-              "id": 3333,
-              "url": "https://capper.win/predictions/coritiba-vs-vitoria-3333",
-              "kickoff": "2026-10-29T22:30:00+00:00",
-              "time": "00:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
-              "live": false,
-              "winner": null,
-              "home": {
-                "name": "Coritiba",
-                "logo": "/app/teams/147.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "away": {
-                "name": "Vitoria",
-                "logo": "/app/teams/136.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
-                "short": null
-              },
-              "predictions": [],
-              "predictions_eta": "2026-10-29T22:00:00+00:00",
-              "sport": "football"
-            },
             {
               "id": 3332,
               "url": "https://capper.win/predictions/atletico-mg-vs-cruzeiro-3332",
@@ -341,7 +307,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:30:00+00:00",
               "sport": "football"
             }
           ]
@@ -392,6 +358,40 @@
               "sport": "football"
             },
             {
+              "id": 3450,
+              "url": "https://capper.win/predictions/nice-vs-rennes-3450",
+              "kickoff": "2026-10-30T18:00:00+00:00",
+              "time": "20:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Nice",
+                "logo": "/app/teams/84.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Rennes",
+                "logo": "/app/teams/94.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [],
+              "predictions_eta": "2026-10-30T17:30:00+00:00",
+              "sport": "football"
+            },
+            {
               "id": 3376,
               "url": "https://capper.win/predictions/lille-vs-lens-3376",
               "kickoff": "2026-10-30T20:05:00+00:00",
@@ -422,7 +422,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:35:00+00:00",
               "sport": "football"
             }
           ]
@@ -721,7 +721,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:00:00+00:00",
               "sport": "football"
             }
           ]
@@ -849,7 +849,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:00:00+00:00",
               "sport": "football"
             }
           ]
@@ -896,7 +896,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:45:00+00:00",
               "sport": "football"
             }
           ]
@@ -943,7 +943,7 @@
                 "short": null
               },
               "predictions": [],
-              "predictions_eta": null,
+              "predictions_eta": "2026-10-30T19:30:00+00:00",
               "sport": "football"
             }
           ]
