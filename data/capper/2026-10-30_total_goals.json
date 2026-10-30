@@ -2,11 +2,11 @@
   "date": "2026-10-30",
   "market": "total_goals",
   "market_counts": {
-    "total_goals": 3,
-    "corners": 3,
-    "team_total": 3,
+    "total_goals": 6,
+    "corners": 4,
+    "team_total": 5,
     "match_winner": 2,
-    "double_chance": 0,
+    "double_chance": 1,
     "handicap": 0,
     "btts": 0
   },
@@ -765,8 +765,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-30T19:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -940,8 +950,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-30T19:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -1034,8 +1054,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-30T16:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
