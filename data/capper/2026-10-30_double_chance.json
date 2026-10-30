@@ -2,13 +2,13 @@
   "date": "2026-10-30",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 6,
-    "corners": 4,
-    "team_total": 5,
-    "match_winner": 2,
+    "total_goals": 25,
+    "corners": 18,
+    "team_total": 15,
+    "match_winner": 13,
     "double_chance": 1,
-    "handicap": 0,
-    "btts": 0
+    "handicap": 2,
+    "btts": 5
   },
   "countries": [
     {
@@ -25,29 +25,29 @@
               "url": "https://capper.win/predictions/konyaspor-vs-galatasaray-3359",
               "kickoff": "2026-10-30T17:00:00+00:00",
               "time": "19:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 72,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Konyaspor",
                 "logo": "/app/teams/607.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Galatasaray",
                 "logo": "/app/teams/645.png",
-                "goals": null,
+                "goals": 4,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 8,
                 "short": null
               },
               "predictions": [

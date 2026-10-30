@@ -2,13 +2,259 @@
   "date": "2026-10-30",
   "market": "btts",
   "market_counts": {
-    "total_goals": 6,
-    "corners": 4,
-    "team_total": 5,
-    "match_winner": 2,
+    "total_goals": 25,
+    "corners": 18,
+    "team_total": 15,
+    "match_winner": 13,
     "double_chance": 1,
-    "handicap": 0,
-    "btts": 0
+    "handicap": 2,
+    "btts": 5
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "France",
+      "flag": "/app/flags/fr.svg",
+      "leagues": [
+        {
+          "id": 3,
+          "name": "Ligue 1",
+          "logo": "/app/leagues/61.png",
+          "fixtures": [
+            {
+              "id": 3364,
+              "url": "https://capper.win/predictions/le-havre-vs-paris-saint-germain-3364",
+              "kickoff": "2026-10-30T18:00:00+00:00",
+              "time": "20:00",
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 36,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Le Havre",
+                "logo": "/app/teams/111.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "away": {
+                "name": "Paris Saint Germain",
+                "logo": "/app/teams/85.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 2,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Ligue 2",
+          "logo": "/app/leagues/62.png",
+          "fixtures": [
+            {
+              "id": 3366,
+              "url": "https://capper.win/predictions/grenoble-vs-dijon-3366",
+              "kickoff": "2026-10-30T19:00:00+00:00",
+              "time": "21:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Grenoble",
+                "logo": "/app/teams/101.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Dijon",
+                "logo": "/app/teams/89.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3369,
+              "url": "https://capper.win/predictions/nantes-vs-clermont-foot-3369",
+              "kickoff": "2026-10-30T19:00:00+00:00",
+              "time": "21:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Nantes",
+                "logo": "/app/teams/83.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Clermont Foot",
+                "logo": "/app/teams/99.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3368,
+              "url": "https://capper.win/predictions/metz-vs-pau-3368",
+              "kickoff": "2026-10-30T19:00:00+00:00",
+              "time": "21:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Metz",
+                "logo": "/app/teams/112.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "PAU",
+                "logo": "/app/teams/1297.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3367,
+              "url": "https://capper.win/predictions/laval-vs-boulogne-3367",
+              "kickoff": "2026-10-30T19:00:00+00:00",
+              "time": "21:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Laval",
+                "logo": "/app/teams/433.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Boulogne",
+                "logo": "/app/teams/1299.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
