@@ -2,13 +2,76 @@
   "date": "2026-11-01",
   "market": "btts",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 0,
+    "total_goals": 3,
+    "corners": 2,
+    "team_total": 2,
+    "match_winner": 3,
     "double_chance": 0,
-    "handicap": 0,
-    "btts": 0
+    "handicap": 1,
+    "btts": 1
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "Argentina",
+      "flag": "/app/flags/ar.svg",
+      "leagues": [
+        {
+          "id": 27,
+          "name": "Liga Profesional Argentina",
+          "logo": "/app/leagues/128.png",
+          "fixtures": [
+            {
+              "id": 3490,
+              "url": "https://capper.win/predictions/velez-sarsfield-vs-san-lorenzo-3490",
+              "kickoff": "2026-10-31T22:15:00+00:00",
+              "time": "00:15",
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 47,
+              "extra": null,
+              "finished": false,
+              "live": true,
+              "winner": null,
+              "home": {
+                "name": "Velez Sarsfield",
+                "logo": "/app/teams/438.png",
+                "goals": 2,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 5,
+                "short": null
+              },
+              "away": {
+                "name": "San Lorenzo",
+                "logo": "/app/teams/460.png",
+                "goals": 1,
+                "goals_ft": null,
+                "red": 0,
+                "corners": 1,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "no",
+                  "line": null,
+                  "label": "No",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

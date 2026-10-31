@@ -2,13 +2,13 @@
   "date": "2026-11-01",
   "market": "corners",
   "market_counts": {
-    "total_goals": 0,
-    "corners": 0,
-    "team_total": 1,
-    "match_winner": 0,
+    "total_goals": 3,
+    "corners": 2,
+    "team_total": 2,
+    "match_winner": 3,
     "double_chance": 0,
-    "handicap": 0,
-    "btts": 0
+    "handicap": 1,
+    "btts": 1
   },
   "countries": [
     {
@@ -25,33 +25,43 @@
               "url": "https://capper.win/predictions/velez-sarsfield-vs-san-lorenzo-3490",
               "kickoff": "2026-10-31T22:15:00+00:00",
               "time": "00:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 47,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Velez Sarsfield",
                 "logo": "/app/teams/438.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "San Lorenzo",
                 "logo": "/app/teams/460.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T21:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1563,33 +1573,43 @@
               "url": "https://capper.win/predictions/cf-pachuca-vs-tigres-uanl-3491",
               "kickoff": "2026-10-31T23:00:00+00:00",
               "time": "01:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 18,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "CF Pachuca",
                 "logo": "/app/teams/2292.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "Tigres UANL",
                 "logo": "/app/teams/2279.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T22:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
