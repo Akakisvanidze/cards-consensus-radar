@@ -2,13 +2,13 @@
   "date": "2026-10-31",
   "market": "corners",
   "market_counts": {
-    "total_goals": 17,
-    "corners": 8,
-    "team_total": 11,
-    "match_winner": 12,
+    "total_goals": 71,
+    "corners": 55,
+    "team_total": 32,
+    "match_winner": 56,
     "double_chance": 1,
-    "handicap": 5,
-    "btts": 8
+    "handicap": 14,
+    "btts": 23
   },
   "countries": [
     {
@@ -293,8 +293,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T15:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -349,33 +359,43 @@
               "url": "https://capper.win/predictions/kv-mechelen-vs-genk-3435",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "KV Mechelen",
                 "logo": "/app/teams/266.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "Genk",
                 "logo": "/app/teams/742.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -594,33 +614,48 @@
               "url": "https://capper.win/predictions/lincoln-vs-birmingham-3408",
               "kickoff": "2026-10-31T12:30:00+00:00",
               "time": "14:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Lincoln",
                 "logo": "/app/teams/1379.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Birmingham",
                 "logo": "/app/teams/54.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -628,33 +663,48 @@
               "url": "https://capper.win/predictions/norwich-vs-watford-3409",
               "kickoff": "2026-10-31T12:30:00+00:00",
               "time": "14:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Norwich",
                 "logo": "/app/teams/71.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 9,
                 "short": null
               },
               "away": {
                 "name": "Watford",
                 "logo": "/app/teams/38.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -662,33 +712,48 @@
               "url": "https://capper.win/predictions/stoke-city-vs-preston-3410",
               "kickoff": "2026-10-31T12:30:00+00:00",
               "time": "14:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Stoke City",
                 "logo": "/app/teams/75.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 9,
                 "short": null
               },
               "away": {
                 "name": "Preston",
                 "logo": "/app/teams/59.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 7,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -696,33 +761,43 @@
               "url": "https://capper.win/predictions/wolves-vs-cardiff-3443",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Wolves",
                 "logo": "/app/teams/39.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "Cardiff",
                 "logo": "/app/teams/43.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -730,33 +805,43 @@
               "url": "https://capper.win/predictions/west-ham-vs-west-brom-3442",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 41,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "West Ham",
                 "logo": "/app/teams/48.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "West Brom",
                 "logo": "/app/teams/60.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -764,33 +849,43 @@
               "url": "https://capper.win/predictions/southampton-vs-qpr-3440",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 42,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Southampton",
                 "logo": "/app/teams/41.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 4,
                 "short": null
               },
               "away": {
                 "name": "QPR",
                 "logo": "/app/teams/72.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -798,33 +893,43 @@
               "url": "https://capper.win/predictions/millwall-vs-derby-3439",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Millwall",
                 "logo": "/app/teams/58.png",
-                "goals": null,
+                "goals": 3,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "Derby",
                 "logo": "/app/teams/69.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -832,33 +937,43 @@
               "url": "https://capper.win/predictions/middlesbrough-vs-charlton-3438",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Middlesbrough",
                 "logo": "/app/teams/70.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "Charlton",
                 "logo": "/app/teams/1335.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -866,33 +981,43 @@
               "url": "https://capper.win/predictions/burnley-vs-portsmouth-3437",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 40,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Burnley",
                 "logo": "/app/teams/44.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 4,
                 "short": null
               },
               "away": {
                 "name": "Portsmouth",
                 "logo": "/app/teams/1355.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -900,33 +1025,43 @@
               "url": "https://capper.win/predictions/bolton-vs-bristol-city-3436",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 41,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Bolton",
                 "logo": "/app/teams/68.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Bristol City",
                 "logo": "/app/teams/56.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -934,33 +1069,43 @@
               "url": "https://capper.win/predictions/swansea-vs-blackburn-3441",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 42,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Swansea",
                 "logo": "/app/teams/76.png",
-                "goals": null,
+                "goals": 3,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "Blackburn",
                 "logo": "/app/teams/67.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -975,33 +1120,48 @@
               "url": "https://capper.win/predictions/chelsea-vs-manchester-united-3407",
               "kickoff": "2026-10-31T12:30:00+00:00",
               "time": "14:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Chelsea",
                 "logo": "/app/teams/49.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 8,
                 "short": null
               },
               "away": {
                 "name": "Manchester United",
                 "logo": "/app/teams/33.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 7,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1009,33 +1169,43 @@
               "url": "https://capper.win/predictions/manchester-city-vs-brighton-3434",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Manchester City",
                 "logo": "/app/teams/50.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Brighton",
                 "logo": "/app/teams/51.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1043,33 +1213,43 @@
               "url": "https://capper.win/predictions/bournemouth-vs-leeds-3430",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Bournemouth",
                 "logo": "/app/teams/35.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "Leeds",
                 "logo": "/app/teams/63.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1077,33 +1257,43 @@
               "url": "https://capper.win/predictions/brentford-vs-nottingham-forest-3431",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Brentford",
                 "logo": "/app/teams/55.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "Nottingham Forest",
                 "logo": "/app/teams/65.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1111,33 +1301,43 @@
               "url": "https://capper.win/predictions/coventry-vs-sunderland-3432",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Coventry",
                 "logo": "/app/teams/1346.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Sunderland",
                 "logo": "/app/teams/746.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1145,33 +1345,43 @@
               "url": "https://capper.win/predictions/hull-city-vs-ipswich-3433",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 42,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Hull City",
                 "logo": "/app/teams/64.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Ipswich",
                 "logo": "/app/teams/57.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1301,33 +1511,48 @@
               "url": "https://capper.win/predictions/annecy-vs-montpellier-3411",
               "kickoff": "2026-10-31T13:00:00+00:00",
               "time": "15:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Annecy",
                 "logo": "/app/teams/3012.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "Montpellier",
                 "logo": "/app/teams/82.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1382,33 +1607,48 @@
               "url": "https://capper.win/predictions/vfl-wolfsburg-vs-vfl-osnabruck-3406",
               "kickoff": "2026-10-31T12:00:00+00:00",
               "time": "14:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "VfL Wolfsburg",
                 "logo": "/app/teams/161.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 9,
                 "short": null
               },
               "away": {
                 "name": "VfL Osnabrück",
                 "logo": "/app/teams/1324.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T11:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 11,
+                  "label": "Over 11",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1416,33 +1656,48 @@
               "url": "https://capper.win/predictions/1-fc-kaiserslautern-vs-hertha-bsc-3405",
               "kickoff": "2026-10-31T12:00:00+00:00",
               "time": "14:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "1. FC Kaiserslautern",
                 "logo": "/app/teams/745.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Hertha BSC",
                 "logo": "/app/teams/159.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T11:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1450,33 +1705,48 @@
               "url": "https://capper.win/predictions/sv-darmstadt-98-vs-1-fc-magdeburg-3404",
               "kickoff": "2026-10-31T12:00:00+00:00",
               "time": "14:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "SV Darmstadt 98",
                 "logo": "/app/teams/181.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "1. FC Magdeburg",
                 "logo": "/app/teams/179.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T11:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10,
+                  "label": "Over 10",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1525,33 +1795,43 @@
               "url": "https://capper.win/predictions/fc-schalke-04-vs-rb-leipzig-3425",
               "kickoff": "2026-10-31T14:30:00+00:00",
               "time": "16:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 52,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "FC Schalke 04",
                 "logo": "/app/teams/174.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "RB Leipzig",
                 "logo": "/app/teams/173.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1559,33 +1839,43 @@
               "url": "https://capper.win/predictions/werder-bremen-vs-1899-hoffenheim-3424",
               "kickoff": "2026-10-31T14:30:00+00:00",
               "time": "16:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 54,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Werder Bremen",
                 "logo": "/app/teams/162.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 4,
                 "short": null
               },
               "away": {
                 "name": "1899 Hoffenheim",
                 "logo": "/app/teams/167.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1593,33 +1883,43 @@
               "url": "https://capper.win/predictions/borussia-monchengladbach-vs-sc-paderborn-07-3423",
               "kickoff": "2026-10-31T14:30:00+00:00",
               "time": "16:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 55,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Borussia Mönchengladbach",
                 "logo": "/app/teams/163.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "SC Paderborn 07",
                 "logo": "/app/teams/185.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 4,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1627,33 +1927,43 @@
               "url": "https://capper.win/predictions/fc-augsburg-vs-sc-freiburg-3422",
               "kickoff": "2026-10-31T14:30:00+00:00",
               "time": "16:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 56,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "FC Augsburg",
                 "logo": "/app/teams/170.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "SC Freiburg",
                 "logo": "/app/teams/160.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1661,33 +1971,43 @@
               "url": "https://capper.win/predictions/bayer-leverkusen-vs-vfb-stuttgart-3421",
               "kickoff": "2026-10-31T14:30:00+00:00",
               "time": "16:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 54,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Bayer Leverkusen",
                 "logo": "/app/teams/168.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 6,
                 "short": null
               },
               "away": {
                 "name": "VfB Stuttgart",
                 "logo": "/app/teams/172.png",
-                "goals": null,
+                "goals": 3,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1789,33 +2109,43 @@
               "url": "https://capper.win/predictions/bologna-vs-monza-3417",
               "kickoff": "2026-10-31T14:00:00+00:00",
               "time": "16:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 84,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Bologna",
                 "logo": "/app/teams/500.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "Monza",
                 "logo": "/app/teams/1579.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T13:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1898,33 +2228,43 @@
               "url": "https://capper.win/predictions/modena-vs-mantova-3419",
               "kickoff": "2026-10-31T14:00:00+00:00",
               "time": "16:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 83,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Modena",
                 "logo": "/app/teams/899.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "Mantova",
                 "logo": "/app/teams/1693.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 6,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T13:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1932,33 +2272,43 @@
               "url": "https://capper.win/predictions/sudtirol-vs-cesena-3420",
               "kickoff": "2026-10-31T14:00:00+00:00",
               "time": "16:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 87,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Sudtirol",
                 "logo": "/app/teams/1578.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "Cesena",
                 "logo": "/app/teams/509.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 4,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T13:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -1966,33 +2316,43 @@
               "url": "https://capper.win/predictions/cremonese-vs-benevento-3418",
               "kickoff": "2026-10-31T14:00:00+00:00",
               "time": "16:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "2H",
+              "status_long": "Second Half",
+              "elapsed": 85,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Cremonese",
                 "logo": "/app/teams/520.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "Benevento",
                 "logo": "/app/teams/506.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T13:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2241,17 +2601,17 @@
               "url": "https://capper.win/predictions/feyenoord-vs-fortuna-sittard-3446",
               "kickoff": "2026-10-31T15:30:00+00:00",
               "time": "17:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 12,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Feyenoord",
                 "logo": "/app/teams/209.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -2260,14 +2620,24 @@
               "away": {
                 "name": "Fortuna Sittard",
                 "logo": "/app/teams/205.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T15:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2424,33 +2794,43 @@
               "url": "https://capper.win/predictions/fredrikstad-vs-rosenborg-3426",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Fredrikstad",
                 "logo": "/app/teams/2149.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
               "away": {
                 "name": "Rosenborg",
                 "logo": "/app/teams/331.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": true,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2483,8 +2863,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T16:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -2505,33 +2895,48 @@
               "url": "https://capper.win/predictions/wisla-plock-vs-piast-gliwice-3403",
               "kickoff": "2026-10-31T11:15:00+00:00",
               "time": "13:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "Wisla Plock",
                 "logo": "/app/teams/341.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "Piast Gliwice",
                 "logo": "/app/teams/349.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T10:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 10.5,
+                  "label": "Over 10.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2539,33 +2944,48 @@
               "url": "https://capper.win/predictions/wieczysta-krakow-vs-jagiellonia-3416",
               "kickoff": "2026-10-31T13:45:00+00:00",
               "time": "15:45",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Wieczysta Kraków",
                 "logo": "/app/teams/17115.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 10,
                 "short": null
               },
               "away": {
                 "name": "Jagiellonia",
                 "logo": "/app/teams/336.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T13:15:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 10.5,
+                  "label": "Under 10.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2654,17 +3074,17 @@
               "url": "https://capper.win/predictions/moreirense-vs-estrela-3447",
               "kickoff": "2026-10-31T15:30:00+00:00",
               "time": "17:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 11,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Moreirense",
                 "logo": "/app/teams/215.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
@@ -2673,14 +3093,24 @@
               "away": {
                 "name": "Estrela",
                 "logo": "/app/teams/15130.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T15:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2769,33 +3199,43 @@
               "url": "https://capper.win/predictions/kilmarnock-vs-st-johnstone-3428",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 42,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Kilmarnock",
                 "logo": "/app/teams/250.png",
-                "goals": null,
+                "goals": 2,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "ST Johnstone",
                 "logo": "/app/teams/258.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 1,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2803,33 +3243,43 @@
               "url": "https://capper.win/predictions/motherwell-vs-st-mirren-3429",
               "kickoff": "2026-10-31T15:00:00+00:00",
               "time": "17:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 43,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Motherwell",
                 "logo": "/app/teams/256.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "ST Mirren",
                 "logo": "/app/teams/251.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 2,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
@@ -2850,33 +3300,48 @@
               "url": "https://capper.win/predictions/levante-vs-atletico-madrid-3414",
               "kickoff": "2026-10-31T13:00:00+00:00",
               "time": "15:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Levante",
                 "logo": "/app/teams/539.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 5,
                 "short": null
               },
               "away": {
                 "name": "Atletico Madrid",
                 "logo": "/app/teams/530.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 9.5,
+                  "label": "Under 9.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2884,33 +3349,43 @@
               "url": "https://capper.win/predictions/rayo-vallecano-vs-celta-vigo-3445",
               "kickoff": "2026-10-31T15:15:00+00:00",
               "time": "17:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 25,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Rayo Vallecano",
                 "logo": "/app/teams/728.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null,
+                "corners": 2,
                 "short": null
               },
               "away": {
                 "name": "Celta Vigo",
                 "logo": "/app/teams/538.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
                 "red": null,
-                "corners": null,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -2993,33 +3468,48 @@
               "url": "https://capper.win/predictions/real-sociedad-ii-vs-girona-3413",
               "kickoff": "2026-10-31T13:00:00+00:00",
               "time": "15:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "home",
               "home": {
                 "name": "Real Sociedad II",
                 "logo": "/app/teams/9585.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 3,
                 "short": null
               },
               "away": {
                 "name": "Girona",
                 "logo": "/app/teams/547.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 1,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9.5,
+                  "label": "Over 9.5",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3027,33 +3517,43 @@
               "url": "https://capper.win/predictions/eibar-vs-almeria-3444",
               "kickoff": "2026-10-31T15:15:00+00:00",
               "time": "17:15",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
+              "status_short": "1H",
+              "status_long": "First Half",
+              "elapsed": 27,
               "extra": null,
               "finished": false,
-              "live": false,
+              "live": true,
               "winner": null,
               "home": {
                 "name": "Eibar",
                 "logo": "/app/teams/545.png",
-                "goals": null,
+                "goals": 0,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
               "away": {
                 "name": "Almeria",
                 "logo": "/app/teams/723.png",
-                "goals": null,
+                "goals": 1,
                 "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "red": 0,
+                "corners": 1,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T14:45:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3142,33 +3642,48 @@
               "url": "https://capper.win/predictions/erzurumspor-fk-vs-corum-fk-3402",
               "kickoff": "2026-10-31T10:30:00+00:00",
               "time": "12:30",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 6,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "away",
               "home": {
                 "name": "Erzurumspor FK",
                 "logo": "/app/teams/1009.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 8,
                 "short": null
               },
               "away": {
                 "name": "Çorum FK",
                 "logo": "/app/teams/6343.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 3,
+                "goals_ft": 3,
+                "red": 0,
+                "corners": 0,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T10:00:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "under",
+                  "line": 8.5,
+                  "label": "Under 8.5",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3176,33 +3691,48 @@
               "url": "https://capper.win/predictions/kocaelispor-vs-rizespor-3415",
               "kickoff": "2026-10-31T13:00:00+00:00",
               "time": "15:00",
-              "status_short": "NS",
-              "status_long": "Not Started",
-              "elapsed": null,
-              "extra": null,
-              "finished": false,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": 4,
+              "finished": true,
               "live": false,
-              "winner": null,
+              "winner": "draw",
               "home": {
                 "name": "Kocaelispor",
                 "logo": "/app/teams/7411.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "Rizespor",
                 "logo": "/app/teams/1007.png",
-                "goals": null,
-                "goals_ft": null,
-                "red": null,
-                "corners": null,
+                "goals": 0,
+                "goals_ft": 0,
+                "red": 0,
+                "corners": 4,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T12:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": false,
+                  "pick": "over",
+                  "line": 9,
+                  "label": "Over 9",
+                  "odd": null,
+                  "result": "hit",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             },
             {
@@ -3235,8 +3765,18 @@
                 "corners": null,
                 "short": null
               },
-              "predictions": [],
-              "predictions_eta": "2026-10-31T15:30:00+00:00",
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  }
+                }
+              ],
+              "predictions_eta": null,
               "sport": "football"
             }
           ]
