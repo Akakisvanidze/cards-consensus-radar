@@ -2,13 +2,13 @@
   "date": "2026-10-31",
   "market": "btts",
   "market_counts": {
-    "total_goals": 11,
-    "corners": 7,
+    "total_goals": 17,
+    "corners": 8,
     "team_total": 11,
-    "match_winner": 9,
-    "double_chance": 0,
-    "handicap": 3,
-    "btts": 6
+    "match_winner": 12,
+    "double_chance": 1,
+    "handicap": 5,
+    "btts": 8
   },
   "countries": [
     {
@@ -310,6 +310,107 @@
               "away": {
                 "name": "Brighton",
                 "logo": "/app/teams/51.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3430,
+              "url": "https://capper.win/predictions/bournemouth-vs-leeds-3430",
+              "kickoff": "2026-10-31T15:00:00+00:00",
+              "time": "17:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Bournemouth",
+                "logo": "/app/teams/35.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Leeds",
+                "logo": "/app/teams/63.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Alcor",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "flag": "/app/flags/it.svg",
+      "leagues": [
+        {
+          "id": 8,
+          "name": "Serie A",
+          "logo": "/app/leagues/135.png",
+          "fixtures": [
+            {
+              "id": 3417,
+              "url": "https://capper.win/predictions/bologna-vs-monza-3417",
+              "kickoff": "2026-10-31T14:00:00+00:00",
+              "time": "16:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Bologna",
+                "logo": "/app/teams/500.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Monza",
+                "logo": "/app/teams/1579.png",
                 "goals": null,
                 "goals_ft": null,
                 "red": null,

@@ -2,13 +2,71 @@
   "date": "2026-10-31",
   "market": "double_chance",
   "market_counts": {
-    "total_goals": 11,
-    "corners": 7,
+    "total_goals": 17,
+    "corners": 8,
     "team_total": 11,
-    "match_winner": 9,
-    "double_chance": 0,
-    "handicap": 3,
-    "btts": 6
+    "match_winner": 12,
+    "double_chance": 1,
+    "handicap": 5,
+    "btts": 8
   },
-  "countries": []
+  "countries": [
+    {
+      "country": "England",
+      "flag": "/app/flags/gb-eng.svg",
+      "leagues": [
+        {
+          "id": 1,
+          "name": "Premier League",
+          "logo": "/app/leagues/39.png",
+          "fixtures": [
+            {
+              "id": 3484,
+              "url": "https://capper.win/predictions/aston-villa-vs-fulham-3484",
+              "kickoff": "2026-10-31T20:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Aston Villa",
+                "logo": "/app/teams/66.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Fulham",
+                "logo": "/app/teams/36.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

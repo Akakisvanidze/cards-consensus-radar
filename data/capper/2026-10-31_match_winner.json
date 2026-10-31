@@ -2,13 +2,13 @@
   "date": "2026-10-31",
   "market": "match_winner",
   "market_counts": {
-    "total_goals": 11,
-    "corners": 7,
+    "total_goals": 17,
+    "corners": 8,
     "team_total": 11,
-    "match_winner": 9,
-    "double_chance": 0,
-    "handicap": 3,
-    "btts": 6
+    "match_winner": 12,
+    "double_chance": 1,
+    "handicap": 5,
+    "btts": 8
   },
   "countries": [
     {
@@ -221,6 +221,63 @@
       ]
     },
     {
+      "country": "Belgium",
+      "flag": "/app/flags/be.svg",
+      "leagues": [
+        {
+          "id": 11,
+          "name": "Jupiler Pro League",
+          "logo": "/app/leagues/144.png",
+          "fixtures": [
+            {
+              "id": 3480,
+              "url": "https://capper.win/predictions/sk-beveren-vs-union-st-gilloise-3480",
+              "kickoff": "2026-10-31T19:45:00+00:00",
+              "time": "21:45",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "SK Beveren",
+                "logo": "/app/teams/738.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Union St. Gilloise",
+                "logo": "/app/teams/1393.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "country": "Brazil",
       "flag": "/app/flags/br.svg",
       "leagues": [
@@ -296,18 +353,18 @@
               "url": "https://capper.win/predictions/fc-juarez-vs-club-queretaro-3400",
               "kickoff": "2026-10-31T01:00:00+00:00",
               "time": "03:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 61,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "home",
               "home": {
                 "name": "FC Juarez",
                 "logo": "/app/teams/2298.png",
-                "goals": 2,
-                "goals_ft": null,
+                "goals": 3,
+                "goals_ft": 3,
                 "red": 0,
                 "corners": 2,
                 "short": null
@@ -315,21 +372,26 @@
               "away": {
                 "name": "Club Queretaro",
                 "logo": "/app/teams/2290.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 5,
+                "corners": 10,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -340,49 +402,109 @@
               "url": "https://capper.win/predictions/atletico-san-luis-vs-atlas-3399",
               "kickoff": "2026-10-31T01:00:00+00:00",
               "time": "03:00",
-              "status_short": "2H",
-              "status_long": "Second Half",
-              "elapsed": 55,
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
               "extra": null,
-              "finished": false,
-              "live": true,
-              "winner": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
               "home": {
                 "name": "Atletico San Luis",
                 "logo": "/app/teams/2314.png",
                 "goals": 0,
-                "goals_ft": null,
+                "goals_ft": 0,
                 "red": 0,
-                "corners": 5,
+                "corners": 7,
                 "short": null
               },
               "away": {
                 "name": "Atlas",
                 "logo": "/app/teams/2283.png",
-                "goals": 0,
-                "goals_ft": null,
+                "goals": 1,
+                "goals_ft": 1,
                 "red": 0,
-                "corners": 2,
+                "corners": 4,
                 "short": null
               },
               "predictions": [
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": true,
-                  "alien": false,
+                  "pick": "away",
+                  "line": null,
+                  "label": "Away",
+                  "odd": null,
+                  "result": "hit",
                   "provider": {
                     "name": "typesafe",
                     "icon_url": "/app/providers/typesafe.png"
-                  }
+                  },
+                  "alien": false
                 },
                 {
-                  "locked": true,
+                  "locked": false,
                   "capper": false,
-                  "alien": false,
+                  "pick": "home",
+                  "line": null,
+                  "label": "Home",
+                  "odd": null,
+                  "result": "miss",
                   "provider": {
                     "name": "Ophiuchus",
                     "icon_url": "/app/providers/ophiuchus.svg"
-                  }
+                  },
+                  "alien": false,
+                  "strength": 65.1
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3401,
+              "url": "https://capper.win/predictions/puebla-vs-unam-pumas-3401",
+              "kickoff": "2026-10-31T03:00:00+00:00",
+              "time": "05:00",
+              "status_short": "FT",
+              "status_long": "Match Finished",
+              "elapsed": 90,
+              "extra": null,
+              "finished": true,
+              "live": false,
+              "winner": "away",
+              "home": {
+                "name": "Puebla",
+                "logo": "/app/teams/2291.png",
+                "goals": 1,
+                "goals_ft": 1,
+                "red": 0,
+                "corners": 7,
+                "short": null
+              },
+              "away": {
+                "name": "U.N.A.M. - Pumas",
+                "logo": "/app/teams/2286.png",
+                "goals": 2,
+                "goals_ft": 2,
+                "red": 0,
+                "corners": 3,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": false,
+                  "capper": true,
+                  "pick": "draw",
+                  "line": null,
+                  "label": "Draw",
+                  "odd": null,
+                  "result": "miss",
+                  "provider": {
+                    "name": "typesafe",
+                    "icon_url": "/app/providers/typesafe.png"
+                  },
+                  "alien": false
                 }
               ],
               "predictions_eta": null,
@@ -438,6 +560,50 @@
                   "alien": false,
                   "provider": {
                     "name": "Alcor",
+                    "icon_url": null
+                  }
+                }
+              ],
+              "predictions_eta": null,
+              "sport": "football"
+            },
+            {
+              "id": 3486,
+              "url": "https://capper.win/predictions/barcelona-vs-alaves-3486",
+              "kickoff": "2026-10-31T20:00:00+00:00",
+              "time": "22:00",
+              "status_short": "NS",
+              "status_long": "Not Started",
+              "elapsed": null,
+              "extra": null,
+              "finished": false,
+              "live": false,
+              "winner": null,
+              "home": {
+                "name": "Barcelona",
+                "logo": "/app/teams/529.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "away": {
+                "name": "Alaves",
+                "logo": "/app/teams/542.png",
+                "goals": null,
+                "goals_ft": null,
+                "red": null,
+                "corners": null,
+                "short": null
+              },
+              "predictions": [
+                {
+                  "locked": true,
+                  "capper": false,
+                  "alien": false,
+                  "provider": {
+                    "name": "Wezen",
                     "icon_url": null
                   }
                 }
