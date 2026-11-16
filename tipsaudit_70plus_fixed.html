@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ka">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>70%+ პროგნოზები — INKOGNITO</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#151d32;--line:#293653;--muted:#9eacc7;--accent:#79e0b2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#eef3ff;font:16px/1.45 system-ui,-apple-system,sans-serif}
+main{max-width:900px;margin:auto;padding:22px 14px 50px}
+header,.toolbar,.match,.status{background:var(--panel);border:1px solid var(--line);border-radius:14px}
+header{padding:20px;margin-bottom:14px}h1{margin:0 0 7px;font-size:25px}p{margin:5px 0;color:var(--muted)}
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;padding:12px;margin-bottom:12px}
+button,input{font:inherit;border-radius:9px;border:1px solid var(--line);padding:10px 12px;background:#0e1629;color:#eef3ff}
+button{cursor:pointer;background:#1e654d;border-color:#28785b;font-weight:650}
+input{flex:1;min-width:180px}
+.status{padding:11px 13px;margin-bottom:12px;color:var(--muted);font-size:14px}
+.match{padding:14px;margin:10px 0}
+.teams{font-size:18px;font-weight:700;margin-bottom:5px}
+.meta{font-size:13px;color:var(--muted);margin-bottom:10px}
+.picks{display:flex;gap:8px;flex-wrap:wrap}
+.pick{background:#203c37;border:1px solid #326b58;border-radius:9px;padding:7px 10px;font-weight:700}
+.pick b{color:var(--accent)}
+a{color:#9fc7ff}.empty{text-align:center;padding:30px;color:var(--muted)}
+footer{margin-top:20px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body><main>
+<header>
+<h1>⚽ 70%+ პროგნოზები</h1>
+<p>აჩვენებს ყველა არჩევანს, რომლის ალბათობა 70% ან მეტია.</p>
+<p><b>მონაცემთა წყარო: TipsAudit</b> — ეს არ არის Forebet-ის პროგნოზი.</p>
+</header>
+<div class="toolbar">
+<input id="q" placeholder="მოძებნე გუნდი ან ლიგა…">
+<button id="reload">განახლება</button>
+</div>
+<div class="status" id="status">მონაცემები იტვირთება…</div>
+<div id="list"></div>
+<footer>წყარო: <a href="https://tipsaudit.com" target="_blank" rel="noopener">TipsAudit</a>. მონაცემები ნაჩვენებია წყაროს მიერ მოწოდებული ალბათობებით. განახლება ავტომატურად ყოველ 5 წუთში.</footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+let rows=[];
+const marketName=k=>({"1":"1 — მასპინძლის მოგება","X":"X — ფრე","2":"2 — სტუმრის მოგება"}[k]||k);
+function render(){
+ const q=$("q").value.trim().toLowerCase();
+ const filtered=rows.filter(x=>(`${x.home} ${x.away} ${x.league}`).toLowerCase().includes(q));
+ $("list").innerHTML="";
+ if(!filtered.length){$("list").innerHTML='<div class="match empty">ამჟამად შესაბამისი 70%+ მომავალი პროგნოზი არ მოიძებნა.</div>';return;}
+ for(const m of filtered){
+  const card=document.createElement("section");card.className="match";
+  const kickoff=new Date(m.kickoff);
+  const date=Number.isNaN(+kickoff)?"თარიღი უცნობია":kickoff.toLocaleString("ka-GE",{dateStyle:"medium",timeStyle:"short"});
+  const picks=Object.entries(m.probabilities||{}).filter(([,v])=>Number(v)>=70).sort((a,b)=>b[1]-a[1]);
+  card.innerHTML=`<div class="teams">${esc(m.home)} — ${esc(m.away)}</div><div class="meta">${esc(m.league||"ლიგა უცნობია")} · ${date}</div><div class="picks">${picks.map(([k,v])=>`<span class="pick">${esc(marketName(k))}: <b>${Number(v).toFixed(1)}%</b></span>`).join("")}</div>`;
+  if(m.source_url){const a=document.createElement("a");a.href=m.source_url;a.target="_blank";a.rel="noopener";a.textContent="მატჩის წყარო";a.style.display="inline-block";a.style.marginTop="10px";card.appendChild(a);}
+  $("list").appendChild(card);
+ }
+}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+async function load(){
+ $("status").textContent="მონაცემები იტვირთება…";
+ try{
+  const r=await fetch("./data/forebet/latest.json?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok)throw new Error("HTTP "+r.status);
+  const d=await r.json();
+  const now=Date.now();
+  rows=(d.matches||[]).filter(m=>m.kickoff&&new Date(m.kickoff).getTime()>=now&&Object.values(m.probabilities||{}).some(v=>Number(v)>=70)).sort((a,b)=>new Date(a.kickoff)-new Date(b.kickoff));
+  const stamp=d.updated_at?new Date(d.updated_at).toLocaleString("ka-GE"):"უცნობია";
+  $("status").textContent=`მომავალი მატჩები 70%+: ${rows.length} · მონაცემები განახლდა: ${stamp} · წყარო: ${d.source||"უცნობია"}`;
+  render();
+ }catch(e){$("status").textContent="მონაცემები ვერ ჩაიტვირთა: "+e.message+" (შეამოწმე, რომ გვერდი GitHub Pages-ზეა და JSON ფაილი ხელმისაწვდომია)";$("list").innerHTML="";}
+}
+$("reload").addEventListener("click",load);$("q").addEventListener("input",render);
+load();setInterval(load,300000);
+</script>
+</body></html>
