@@ -1,948 +1,8 @@
 {
   "source": "TipsAudit",
   "source_url": "https://tipsaudit.com",
-  "updated_at": "2026-11-22T16:06:37.997029+00:00",
+  "updated_at": "2026-11-23T20:00:16.095076+00:00",
   "matches": [
-    {
-      "fixture_id": 18432,
-      "home": "Arezzo",
-      "away": "Padova",
-      "league": "Serie B",
-      "kickoff": "2026-11-22T16:15:00+00:00",
-      "probabilities": {
-        "1": 39.8,
-        "X": 29.9,
-        "2": 30.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18432/arezzo-vs-padova-2026-11-22"
-    },
-    {
-      "fixture_id": 18772,
-      "home": "Lorient",
-      "away": "Rennes",
-      "league": "Ligue 1",
-      "kickoff": "2026-11-22T16:15:00+00:00",
-      "probabilities": {
-        "1": 23.9,
-        "X": 29.7,
-        "2": 46.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18772/lorient-vs-rennes-2026-11-22"
-    },
-    {
-      "fixture_id": 18773,
-      "home": "Wisla Plock",
-      "away": "Legia Warszawa",
-      "league": "Ekstraklasa",
-      "kickoff": "2026-11-22T16:30:00+00:00",
-      "probabilities": {
-        "1": 29.9,
-        "X": 29.3,
-        "2": 40.8
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18773/wisla-plock-vs-legia-warszawa-2026-11-22"
-    },
-    {
-      "fixture_id": 18774,
-      "home": "Celje",
-      "away": "Brinje-Grosuplje",
-      "league": "Slovenia PrvaLiga",
-      "kickoff": "2026-11-22T16:30:00+00:00",
-      "probabilities": {
-        "1": 69.3,
-        "X": 17.9,
-        "2": 12.8
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18774/celje-vs-brinje-grosuplje-2026-11-22"
-    },
-    {
-      "fixture_id": 18775,
-      "home": "Werder Bremen",
-      "away": "Hamburger SV",
-      "league": "Bundesliga",
-      "kickoff": "2026-11-22T16:30:00+00:00",
-      "probabilities": {
-        "1": 61.3,
-        "X": 21.8,
-        "2": 16.9
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18775/werder-bremen-vs-hamburger-sv-2026-11-22"
-    },
-    {
-      "fixture_id": 18776,
-      "home": "Liverpool",
-      "away": "Manchester United",
-      "league": "Premier League",
-      "kickoff": "2026-11-22T16:30:00+00:00",
-      "probabilities": {
-        "1": 54.9,
-        "X": 23.1,
-        "2": 22.0
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18776/liverpool-vs-manchester-united-2026-11-22"
-    },
-    {
-      "fixture_id": 18811,
-      "home": "Manta FC",
-      "away": "Delfin SC",
-      "league": "Ecuador LigaPro",
-      "kickoff": "2026-11-22T16:30:00+00:00",
-      "probabilities": {
-        "1": 34.5,
-        "X": 27.6,
-        "2": 37.9
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18811/manta-fc-vs-delfin-sc-2026-11-22"
-    },
-    {
-      "fixture_id": 18777,
-      "home": "AC Milan",
-      "away": "Frosinone",
-      "league": "Serie A",
-      "kickoff": "2026-11-22T17:00:00+00:00",
-      "probabilities": {
-        "1": 60.4,
-        "X": 21.0,
-        "2": 18.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18777/ac-milan-vs-frosinone-2026-11-22"
-    },
-    {
-      "fixture_id": 18778,
-      "home": "FC Nordsjaelland",
-      "away": "FC Copenhagen",
-      "league": "Danish Superliga",
-      "kickoff": "2026-11-22T17:00:00+00:00",
-      "probabilities": {
-        "1": 39.3,
-        "X": 27.1,
-        "2": 33.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18778/fc-nordsjaelland-vs-fc-copenhagen-2026-11-22"
-    },
-    {
-      "fixture_id": 18779,
-      "home": "Sparta Praha",
-      "away": "Slovan Liberec",
-      "league": "Czech Liga",
-      "kickoff": "2026-11-22T17:00:00+00:00",
-      "probabilities": {
-        "1": 56.3,
-        "X": 23.6,
-        "2": 20.1
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18779/sparta-praha-vs-slovan-liberec-2026-11-22"
-    },
-    {
-      "fixture_id": 18780,
-      "home": "Dunajska Streda",
-      "away": "Komárno",
-      "league": "Slovak Super Liga",
-      "kickoff": "2026-11-22T17:00:00+00:00",
-      "probabilities": {
-        "1": 68.9,
-        "X": 18.7,
-        "2": 12.4
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18780/dunajska-streda-vs-komarno-2026-11-22"
-    },
-    {
-      "fixture_id": 18781,
-      "home": "HNK Rijeka",
-      "away": "HNK Gorica",
-      "league": "Croatia HNL",
-      "kickoff": "2026-11-22T17:00:00+00:00",
-      "probabilities": {
-        "1": 72.5,
-        "X": 17.6,
-        "2": 9.9
-      },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 72.5
-        }
-      ],
-      "source_url": "https://tipsaudit.com/match/18781/hnk-rijeka-vs-hnk-gorica-2026-11-22"
-    },
-    {
-      "fixture_id": 18782,
-      "home": "Olympiakos Piraeus",
-      "away": "Iraklis 1908",
-      "league": "Greek Super League",
-      "kickoff": "2026-11-22T17:00:00+00:00",
-      "probabilities": {
-        "1": 84.4,
-        "X": 10.8,
-        "2": 4.8
-      },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 84.4
-        }
-      ],
-      "source_url": "https://tipsaudit.com/match/18782/olympiakos-piraeus-vs-iraklis-1908-2026-11-22"
-    },
-    {
-      "fixture_id": 18783,
-      "home": "Anderlecht",
-      "away": "OH Leuven",
-      "league": "Jupiler Pro League",
-      "kickoff": "2026-11-22T17:30:00+00:00",
-      "probabilities": {
-        "1": 64.3,
-        "X": 20.1,
-        "2": 15.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18783/anderlecht-vs-oh-leuven-2026-11-22"
-    },
-    {
-      "fixture_id": 18784,
-      "home": "Budapest Honved",
-      "away": "Paks",
-      "league": "Hungary NB I",
-      "kickoff": "2026-11-22T17:30:00+00:00",
-      "probabilities": {
-        "1": 33.0,
-        "X": 24.8,
-        "2": 42.2
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18784/budapest-honved-vs-paks-2026-11-22"
-    },
-    {
-      "fixture_id": 18785,
-      "home": "PAOK",
-      "away": "Kifisia",
-      "league": "Greek Super League",
-      "kickoff": "2026-11-22T17:30:00+00:00",
-      "probabilities": {
-        "1": 71.8,
-        "X": 17.6,
-        "2": 10.6
-      },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 71.8
-        }
-      ],
-      "source_url": "https://tipsaudit.com/match/18785/paok-vs-kifisia-2026-11-22"
-    },
-    {
-      "fixture_id": 18786,
-      "home": "Osasuna",
-      "away": "Malaga",
-      "league": "La Liga",
-      "kickoff": "2026-11-22T17:30:00+00:00",
-      "probabilities": {
-        "1": 53.1,
-        "X": 26.3,
-        "2": 20.5
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18786/osasuna-vs-malaga-2026-11-22"
-    },
-    {
-      "fixture_id": 18787,
-      "home": "Girona",
-      "away": "Eibar",
-      "league": "Segunda Division",
-      "kickoff": "2026-11-22T17:30:00+00:00",
-      "probabilities": {
-        "1": 51.6,
-        "X": 25.5,
-        "2": 22.9
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18787/girona-vs-eibar-2026-11-22"
-    },
-    {
-      "fixture_id": 18788,
-      "home": "Celta de Vigo II",
-      "away": "Valladolid",
-      "league": "Segunda Division",
-      "kickoff": "2026-11-22T17:30:00+00:00",
-      "probabilities": {
-        "1": 28.3,
-        "X": 26.1,
-        "2": 45.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18788/celta-de-vigo-ii-vs-valladolid-2026-11-22"
-    },
-    {
-      "fixture_id": 18789,
-      "home": "Sarpsborg 08 FF",
-      "away": "Lillestrom",
-      "league": "Eliteserien",
-      "kickoff": "2026-11-22T18:15:00+00:00",
-      "probabilities": {
-        "1": 47.2,
-        "X": 22.2,
-        "2": 30.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18789/sarpsborg-08-ff-vs-lillestrom-2026-11-22"
-    },
-    {
-      "fixture_id": 18790,
-      "home": "Lommel United",
-      "away": "Standard Liege",
-      "league": "Jupiler Pro League",
-      "kickoff": "2026-11-22T18:15:00+00:00",
-      "probabilities": {
-        "1": 30.1,
-        "X": 24.7,
-        "2": 45.2
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18790/lommel-united-vs-standard-liege-2026-11-22"
-    },
-    {
-      "fixture_id": 18791,
-      "home": "MSV Duisburg",
-      "away": "Hansa Rostock",
-      "league": "3. Liga",
-      "kickoff": "2026-11-22T18:30:00+00:00",
-      "probabilities": {
-        "1": 43.6,
-        "X": 26.1,
-        "2": 30.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18791/msv-duisburg-vs-hansa-rostock-2026-11-22"
-    },
-    {
-      "fixture_id": 18792,
-      "home": "Arges Pitesti",
-      "away": "FCSB",
-      "league": "Romania Liga I",
-      "kickoff": "2026-11-22T18:30:00+00:00",
-      "probabilities": {
-        "1": 22.5,
-        "X": 26.9,
-        "2": 50.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18792/arges-pitesti-vs-fcsb-2026-11-22"
-    },
-    {
-      "fixture_id": 19054,
-      "home": "Estrella Del Sur",
-      "away": "Canuelas",
-      "league": "Primera C",
-      "kickoff": "2026-11-22T18:30:00+00:00",
-      "probabilities": {
-        "1": 32.1,
-        "X": 35.5,
-        "2": 32.5
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/19054/estrella-del-sur-vs-canuelas-2026-11-22"
-    },
-    {
-      "fixture_id": 18958,
-      "home": "Criciuma",
-      "away": "Fortaleza EC",
-      "league": "Brazil Serie B",
-      "kickoff": "2026-11-22T19:00:00+00:00",
-      "probabilities": {
-        "1": 43.2,
-        "X": 33.6,
-        "2": 23.1
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18958/criciuma-vs-fortaleza-ec-2026-11-22"
-    },
-    {
-      "fixture_id": 18793,
-      "home": "Atletico Paranaense",
-      "away": "Remo",
-      "league": "Brazil Serie A",
-      "kickoff": "2026-11-22T19:00:00+00:00",
-      "probabilities": {
-        "1": 61.4,
-        "X": 24.2,
-        "2": 14.4
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18793/atletico-paranaense-vs-remo-2026-11-22"
-    },
-    {
-      "fixture_id": 18809,
-      "home": "Orense SC",
-      "away": "Mushuc Runa SC",
-      "league": "Ecuador LigaPro",
-      "kickoff": "2026-11-22T19:00:00+00:00",
-      "probabilities": {
-        "1": 55.0,
-        "X": 25.6,
-        "2": 19.4
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18809/orense-sc-vs-mushuc-runa-sc-2026-11-22"
-    },
-    {
-      "fixture_id": 18818,
-      "home": "Rosario Central",
-      "away": "Gimnasia M.",
-      "league": "Argentina Liga Profesional",
-      "kickoff": "2026-11-22T19:00:00+00:00",
-      "probabilities": {
-        "1": 70.4,
-        "X": 18.5,
-        "2": 11.1
-      },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 70.4
-        }
-      ],
-      "source_url": "https://tipsaudit.com/match/18818/rosario-central-vs-gimnasia-m-2026-11-22"
-    },
-    {
-      "fixture_id": 18794,
-      "home": "Atalanta",
-      "away": "Inter",
-      "league": "Serie A",
-      "kickoff": "2026-11-22T19:45:00+00:00",
-      "probabilities": {
-        "1": 16.6,
-        "X": 19.9,
-        "2": 63.5
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18794/atalanta-vs-inter-2026-11-22"
-    },
-    {
-      "fixture_id": 18795,
-      "home": "Marseille",
-      "away": "Le Mans",
-      "league": "Ligue 1",
-      "kickoff": "2026-11-22T19:45:00+00:00",
-      "probabilities": {
-        "1": 67.6,
-        "X": 18.8,
-        "2": 13.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18795/marseille-vs-le-mans-2026-11-22"
-    },
-    {
-      "fixture_id": 18796,
-      "home": "Getafe",
-      "away": "Atletico Madrid",
-      "league": "La Liga",
-      "kickoff": "2026-11-22T20:00:00+00:00",
-      "probabilities": {
-        "1": 13.1,
-        "X": 23.6,
-        "2": 63.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18796/getafe-vs-atletico-madrid-2026-11-22"
-    },
-    {
-      "fixture_id": 18797,
-      "home": "Burgos",
-      "away": "Albacete",
-      "league": "Segunda Division",
-      "kickoff": "2026-11-22T20:00:00+00:00",
-      "probabilities": {
-        "1": 47.0,
-        "X": 29.4,
-        "2": 23.5
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18797/burgos-vs-albacete-2026-11-22"
-    },
-    {
-      "fixture_id": 17084,
-      "home": "Sporting Cristal",
-      "away": "Cienciano",
-      "league": "Peru Liga 1",
-      "kickoff": "2026-11-22T20:00:00+00:00",
-      "probabilities": {
-        "1": 68.5,
-        "X": 17.8,
-        "2": 13.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/17084/sporting-cristal-vs-cienciano-2026-11-22"
-    },
-    {
-      "fixture_id": 17086,
-      "home": "Sport Huancayo",
-      "away": "Universitario",
-      "league": "Peru Liga 1",
-      "kickoff": "2026-11-22T20:00:00+00:00",
-      "probabilities": {
-        "1": 45.7,
-        "X": 26.3,
-        "2": 28.0
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/17086/sport-huancayo-vs-universitario-2026-11-22"
-    },
-    {
-      "fixture_id": 18798,
-      "home": "Colo Colo",
-      "away": "U. Catolica",
-      "league": "Primera Division Chile",
-      "kickoff": "2026-11-22T21:00:00+00:00",
-      "probabilities": {
-        "1": 42.7,
-        "X": 24.6,
-        "2": 32.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18798/colo-colo-vs-u-catolica-2026-11-22"
-    },
-    {
-      "fixture_id": 19663,
-      "home": "Nashville SC",
-      "away": "FC Cincinnati",
-      "league": "MLS",
-      "kickoff": "2026-11-22T21:00:00+00:00",
-      "probabilities": {
-        "1": 64.8,
-        "X": 20.0,
-        "2": 15.2
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/19663/nashville-sc-vs-fc-cincinnati-2026-11-22"
-    },
-    {
-      "fixture_id": 18957,
-      "home": "Atletico Goianiense",
-      "away": "Vila Nova",
-      "league": "Brazil Serie B",
-      "kickoff": "2026-11-22T21:30:00+00:00",
-      "probabilities": {
-        "1": 49.8,
-        "X": 27.5,
-        "2": 22.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18957/atletico-goianiense-vs-vila-nova-2026-11-22"
-    },
-    {
-      "fixture_id": 18806,
-      "home": "LDU de Quito",
-      "away": "Aucas",
-      "league": "Ecuador LigaPro",
-      "kickoff": "2026-11-22T21:30:00+00:00",
-      "probabilities": {
-        "1": 55.0,
-        "X": 24.8,
-        "2": 20.1
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18806/ldu-de-quito-vs-aucas-2026-11-22"
-    },
-    {
-      "fixture_id": 18820,
-      "home": "Fluminense",
-      "away": "Mirassol",
-      "league": "Brazil Serie A",
-      "kickoff": "2026-11-22T21:30:00+00:00",
-      "probabilities": {
-        "1": 61.1,
-        "X": 22.6,
-        "2": 16.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18820/fluminense-vs-mirassol-2026-11-22"
-    },
-    {
-      "fixture_id": 18817,
-      "home": "River Plate",
-      "away": "Lanus",
-      "league": "Argentina Liga Profesional",
-      "kickoff": "2026-11-22T22:00:00+00:00",
-      "probabilities": {
-        "1": 58.8,
-        "X": 25.5,
-        "2": 15.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18817/river-plate-vs-lanus-2026-11-22"
-    },
-    {
-      "fixture_id": 18821,
-      "home": "RB Bragantino",
-      "away": "Vasco DA Gama",
-      "league": "Brazil Serie A",
-      "kickoff": "2026-11-22T22:30:00+00:00",
-      "probabilities": {
-        "1": 35.3,
-        "X": 27.0,
-        "2": 37.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18821/rb-bragantino-vs-vasco-da-gama-2026-11-22"
-    },
-    {
-      "fixture_id": 18822,
-      "home": "Guadalajara Chivas",
-      "away": "Cruz Azul",
-      "league": "Liga MX",
-      "kickoff": "2026-11-22T23:07:00+00:00",
-      "probabilities": {
-        "1": 45.1,
-        "X": 23.7,
-        "2": 31.2
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18822/guadalajara-chivas-vs-cruz-azul-2026-11-22"
-    },
-    {
-      "fixture_id": 18805,
-      "home": "Deportes Limache",
-      "away": "D. La Serena",
-      "league": "Primera Division Chile",
-      "kickoff": "2026-11-22T23:30:00+00:00",
-      "probabilities": {
-        "1": 43.0,
-        "X": 26.5,
-        "2": 30.5
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18805/deportes-limache-vs-d-la-serena-2026-11-22"
-    },
-    {
-      "fixture_id": 18823,
-      "home": "Chicago Fire",
-      "away": "Charlotte",
-      "league": "MLS",
-      "kickoff": "2026-11-22T23:30:00+00:00",
-      "probabilities": {
-        "1": 60.6,
-        "X": 20.8,
-        "2": 18.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18823/chicago-fire-vs-charlotte-2026-11-22"
-    },
-    {
-      "fixture_id": 18816,
-      "home": "Instituto Cordoba",
-      "away": "Huracan",
-      "league": "Argentina Liga Profesional",
-      "kickoff": "2026-11-23T01:00:00+00:00",
-      "probabilities": {
-        "1": 46.3,
-        "X": 31.8,
-        "2": 21.8
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18816/instituto-cordoba-vs-huracan-2026-11-23"
-    },
-    {
-      "fixture_id": 18824,
-      "home": "Club Queretaro",
-      "away": "Necaxa",
-      "league": "Liga MX",
-      "kickoff": "2026-11-23T01:10:00+00:00",
-      "probabilities": {
-        "1": 44.2,
-        "X": 24.9,
-        "2": 30.9
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18824/club-queretaro-vs-necaxa-2026-11-23"
-    },
-    {
-      "fixture_id": 19664,
-      "home": "Vancouver Whitecaps",
-      "away": "Real Salt Lake",
-      "league": "MLS",
-      "kickoff": "2026-11-23T01:30:00+00:00",
-      "probabilities": {
-        "1": 64.7,
-        "X": 18.7,
-        "2": 16.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/19664/vancouver-whitecaps-vs-real-salt-lake-2026-11-23"
-    },
-    {
-      "fixture_id": 18886,
-      "home": "Chornomorets",
-      "away": "Epitsentr Dunayivtsi",
-      "league": "Ukraine Premier League",
-      "kickoff": "2026-11-23T11:00:00+00:00",
-      "probabilities": {
-        "1": 31.4,
-        "X": 30.2,
-        "2": 38.4
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18886/chornomorets-vs-epitsentr-dunayivtsi-2026-11-23"
-    },
-    {
-      "fixture_id": 18887,
-      "home": "LNZ Cherkasy",
-      "away": "Polessya",
-      "league": "Ukraine Premier League",
-      "kickoff": "2026-11-23T11:00:00+00:00",
-      "probabilities": {
-        "1": 23.4,
-        "X": 32.0,
-        "2": 44.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18887/lnz-cherkasy-vs-polessya-2026-11-23"
-    },
-    {
-      "fixture_id": 18889,
-      "home": "Asteras Tripolis",
-      "away": "Aris Thessalonikis",
-      "league": "Greek Super League",
-      "kickoff": "2026-11-23T15:00:00+00:00",
-      "probabilities": {
-        "1": 25.2,
-        "X": 32.1,
-        "2": 42.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18889/asteras-tripolis-vs-aris-thessalonikis-2026-11-23"
-    },
-    {
-      "fixture_id": 18890,
-      "home": "Ludogorets",
-      "away": "Dunav Ruse",
-      "league": "Bulgaria First League",
-      "kickoff": "2026-11-23T16:00:00+00:00",
-      "probabilities": {
-        "1": 86.2,
-        "X": 10.0,
-        "2": 3.9
-      },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 86.2
-        }
-      ],
-      "source_url": "https://tipsaudit.com/match/18890/ludogorets-vs-dunav-ruse-2026-11-23"
-    },
-    {
-      "fixture_id": 18891,
-      "home": "Koper",
-      "away": "Aluminij",
-      "league": "Slovenia PrvaLiga",
-      "kickoff": "2026-11-23T16:30:00+00:00",
-      "probabilities": {
-        "1": 63.7,
-        "X": 20.4,
-        "2": 15.9
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18891/koper-vs-aluminij-2026-11-23"
-    },
-    {
-      "fixture_id": 18892,
-      "home": "Başakşehir",
-      "away": "Çorum FK",
-      "league": "Süper Lig",
-      "kickoff": "2026-11-23T17:00:00+00:00",
-      "probabilities": {
-        "1": 52.4,
-        "X": 24.3,
-        "2": 23.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18892/basaksehir-vs-corum-fk-2026-11-23"
-    },
-    {
-      "fixture_id": 18893,
-      "home": "NK Slaven Belupo",
-      "away": "NK Osijek",
-      "league": "Croatia HNL",
-      "kickoff": "2026-11-23T17:00:00+00:00",
-      "probabilities": {
-        "1": 37.6,
-        "X": 25.7,
-        "2": 36.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18893/nk-slaven-belupo-vs-nk-osijek-2026-11-23"
-    },
-    {
-      "fixture_id": 18894,
-      "home": "Podbeskidzie",
-      "away": "Nieciecza",
-      "league": "Poland I Liga",
-      "kickoff": "2026-11-23T17:00:00+00:00",
-      "probabilities": {
-        "1": 32.9,
-        "X": 27.4,
-        "2": 39.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18894/podbeskidzie-vs-nieciecza-2026-11-23"
-    },
-    {
-      "fixture_id": 18895,
-      "home": "Hammarby FF",
-      "away": "IFK Goteborg",
-      "league": "Allsvenskan",
-      "kickoff": "2026-11-23T18:00:00+00:00",
-      "probabilities": {
-        "1": 80.5,
-        "X": 12.4,
-        "2": 7.1
-      },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 80.5
-        }
-      ],
-      "source_url": "https://tipsaudit.com/match/18895/hammarby-ff-vs-ifk-goteborg-2026-11-23"
-    },
-    {
-      "fixture_id": 18896,
-      "home": "Orgryte IS",
-      "away": "Kalmar FF",
-      "league": "Allsvenskan",
-      "kickoff": "2026-11-23T18:00:00+00:00",
-      "probabilities": {
-        "1": 27.5,
-        "X": 25.9,
-        "2": 46.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18896/orgryte-is-vs-kalmar-ff-2026-11-23"
-    },
-    {
-      "fixture_id": 18897,
-      "home": "Brondby",
-      "away": "FC Midtjylland",
-      "league": "Danish Superliga",
-      "kickoff": "2026-11-23T18:00:00+00:00",
-      "probabilities": {
-        "1": 39.6,
-        "X": 25.3,
-        "2": 35.2
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18897/brondby-vs-fc-midtjylland-2026-11-23"
-    },
-    {
-      "fixture_id": 18898,
-      "home": "Wieczysta Kraków",
-      "away": "Motor Lublin",
-      "league": "Ekstraklasa",
-      "kickoff": "2026-11-23T18:00:00+00:00",
-      "probabilities": {
-        "1": 40.9,
-        "X": 23.2,
-        "2": 35.9
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18898/wieczysta-krakow-vs-motor-lublin-2026-11-23"
-    },
-    {
-      "fixture_id": 18899,
-      "home": "Sepsi OSK Sfantu Gheorghe",
-      "away": "Rapid",
-      "league": "Romania Liga I",
-      "kickoff": "2026-11-23T18:00:00+00:00",
-      "probabilities": {
-        "1": 23.4,
-        "X": 26.3,
-        "2": 50.3
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18899/sepsi-osk-sfantu-gheorghe-vs-rapid-2026-11-23"
-    },
-    {
-      "fixture_id": 19058,
-      "home": "Juventud",
-      "away": "Defensor Sporting",
-      "league": "Uruguay Primera Division",
-      "kickoff": "2026-11-23T19:30:00+00:00",
-      "probabilities": {
-        "1": 42.9,
-        "X": 27.5,
-        "2": 29.6
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/19058/juventud-vs-defensor-sporting-2026-11-23"
-    },
-    {
-      "fixture_id": 18901,
-      "home": "AD Ceuta FC",
-      "away": "Almeria",
-      "league": "Segunda Division",
-      "kickoff": "2026-11-23T19:30:00+00:00",
-      "probabilities": {
-        "1": 26.5,
-        "X": 23.8,
-        "2": 49.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18901/ad-ceuta-fc-vs-almeria-2026-11-23"
-    },
-    {
-      "fixture_id": 18902,
-      "home": "Monza",
-      "away": "Fiorentina",
-      "league": "Serie A",
-      "kickoff": "2026-11-23T19:45:00+00:00",
-      "probabilities": {
-        "1": 25.0,
-        "X": 24.3,
-        "2": 50.7
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18902/monza-vs-fiorentina-2026-11-23"
-    },
-    {
-      "fixture_id": 18156,
-      "home": "Nantes",
-      "away": "Grenoble",
-      "league": "Ligue 2",
-      "kickoff": "2026-11-23T19:45:00+00:00",
-      "probabilities": {
-        "1": 66.4,
-        "X": 21.8,
-        "2": 11.8
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18156/nantes-vs-grenoble-2026-11-23"
-    },
-    {
-      "fixture_id": 18162,
-      "home": "Sochaux",
-      "away": "Dunkerque",
-      "league": "Ligue 2",
-      "kickoff": "2026-11-23T19:45:00+00:00",
-      "probabilities": {
-        "1": 39.4,
-        "X": 29.4,
-        "2": 31.2
-      },
-      "qualified": [],
-      "source_url": "https://tipsaudit.com/match/18162/sochaux-vs-dunkerque-2026-11-23"
-    },
     {
       "fixture_id": 18815,
       "home": "Gimnasia L.P.",
@@ -950,9 +10,9 @@
       "league": "Argentina Liga Profesional",
       "kickoff": "2026-11-23T20:00:00+00:00",
       "probabilities": {
-        "1": 45.1,
-        "X": 30.2,
-        "2": 24.7
+        "1": 45.3,
+        "X": 30.5,
+        "2": 24.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18815/gimnasia-lp-vs-newells-old-boys-2026-11-23"
@@ -964,9 +24,9 @@
       "league": "La Liga",
       "kickoff": "2026-11-23T20:00:00+00:00",
       "probabilities": {
-        "1": 44.6,
-        "X": 26.2,
-        "2": 29.2
+        "1": 46.3,
+        "X": 26.7,
+        "2": 27.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18903/levante-vs-elche-2026-11-23"
@@ -978,9 +38,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-23T20:00:00+00:00",
       "probabilities": {
-        "1": 42.1,
-        "X": 27.1,
-        "2": 30.8
+        "1": 43.6,
+        "X": 27.6,
+        "2": 28.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18904/brentford-vs-everton-2026-11-23"
@@ -992,9 +52,9 @@
       "league": "Uruguay Primera Division",
       "kickoff": "2026-11-23T22:30:00+00:00",
       "probabilities": {
-        "1": 45.6,
-        "X": 26.0,
-        "2": 28.3
+        "1": 45.3,
+        "X": 26.2,
+        "2": 28.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19059/albion-fc-vs-danubio-2026-11-23"
@@ -1006,9 +66,9 @@
       "league": "Brazil Serie A",
       "kickoff": "2026-11-23T22:30:00+00:00",
       "probabilities": {
-        "1": 59.0,
-        "X": 23.5,
-        "2": 17.5
+        "1": 60.7,
+        "X": 23.8,
+        "2": 15.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18905/internacional-vs-vitoria-2026-11-23"
@@ -1020,9 +80,9 @@
       "league": "Brazil Serie A",
       "kickoff": "2026-11-23T23:00:00+00:00",
       "probabilities": {
-        "1": 42.9,
-        "X": 27.7,
-        "2": 29.4
+        "1": 42.5,
+        "X": 28.4,
+        "2": 29.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18906/botafogo-vs-sao-paulo-2026-11-23"
@@ -1034,9 +94,9 @@
       "league": "Brazil Serie A",
       "kickoff": "2026-11-24T00:00:00+00:00",
       "probabilities": {
-        "1": 59.0,
-        "X": 21.8,
-        "2": 19.2
+        "1": 59.5,
+        "X": 21.7,
+        "2": 18.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18907/santos-vs-gremio-2026-11-24"
@@ -1048,9 +108,9 @@
       "league": "MLS",
       "kickoff": "2026-11-24T01:00:00+00:00",
       "probabilities": {
-        "1": 40.8,
-        "X": 26.0,
-        "2": 33.2
+        "1": 35.2,
+        "X": 27.0,
+        "2": 37.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18908/st-louis-city-vs-los-angeles-fc-2026-11-24"
@@ -1062,9 +122,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T17:45:00+00:00",
       "probabilities": {
-        "1": 63.0,
-        "X": 18.2,
-        "2": 18.8
+        "1": 65.6,
+        "X": 17.7,
+        "2": 16.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18973/bodoglimt-vs-lask-linz-2026-11-24"
@@ -1076,9 +136,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T17:45:00+00:00",
       "probabilities": {
-        "1": 36.5,
-        "X": 23.4,
-        "2": 40.1
+        "1": 33.0,
+        "X": 24.8,
+        "2": 42.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18974/galatasaray-vs-aston-villa-2026-11-24"
@@ -1090,9 +150,9 @@
       "league": "Serie B",
       "kickoff": "2026-11-24T18:00:00+00:00",
       "probabilities": {
-        "1": 51.3,
-        "X": 27.0,
-        "2": 21.8
+        "1": 49.8,
+        "X": 27.8,
+        "2": 22.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18966/juve-stabia-vs-catanzaro-2026-11-24"
@@ -1104,9 +164,9 @@
       "league": "Serie B",
       "kickoff": "2026-11-24T19:00:00+00:00",
       "probabilities": {
-        "1": 62.4,
-        "X": 21.7,
-        "2": 15.9
+        "1": 63.3,
+        "X": 21.2,
+        "2": 15.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18962/benevento-vs-empoli-2026-11-24"
@@ -1118,9 +178,9 @@
       "league": "Serie B",
       "kickoff": "2026-11-24T19:00:00+00:00",
       "probabilities": {
-        "1": 34.4,
-        "X": 28.0,
-        "2": 37.6
+        "1": 35.1,
+        "X": 28.2,
+        "2": 36.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18963/cesena-vs-ascoli-2026-11-24"
@@ -1132,9 +192,9 @@
       "league": "Serie B",
       "kickoff": "2026-11-24T19:00:00+00:00",
       "probabilities": {
-        "1": 27.9,
-        "X": 29.9,
-        "2": 42.3
+        "1": 27.0,
+        "X": 30.1,
+        "2": 42.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18965/virtus-entella-vs-hellas-verona-2026-11-24"
@@ -1146,8 +206,8 @@
       "league": "Serie B",
       "kickoff": "2026-11-24T19:00:00+00:00",
       "probabilities": {
-        "1": 34.0,
-        "X": 31.2,
+        "1": 33.5,
+        "X": 31.7,
         "2": 34.8
       },
       "qualified": [],
@@ -1160,9 +220,9 @@
       "league": "Serie B",
       "kickoff": "2026-11-24T19:00:00+00:00",
       "probabilities": {
-        "1": 67.8,
-        "X": 19.1,
-        "2": 13.2
+        "1": 67.3,
+        "X": 19.4,
+        "2": 13.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18970/palermo-vs-sudtirol-2026-11-24"
@@ -1174,9 +234,9 @@
       "league": "Championship",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 64.6,
-        "X": 18.4,
-        "2": 17.0
+        "1": 63.3,
+        "X": 19.0,
+        "2": 17.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18975/cardiff-vs-preston-2026-11-24"
@@ -1188,9 +248,9 @@
       "league": "Championship",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 38.6,
-        "X": 28.1,
-        "2": 33.3
+        "1": 40.2,
+        "X": 28.5,
+        "2": 31.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18976/bristol-city-vs-wrexham-2026-11-24"
@@ -1202,9 +262,9 @@
       "league": "Championship",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 38.7,
-        "X": 25.0,
-        "2": 36.3
+        "1": 37.3,
+        "X": 25.7,
+        "2": 37.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18977/sheffield-utd-vs-southampton-2026-11-24"
@@ -1217,8 +277,8 @@
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
         "1": 67.4,
-        "X": 18.7,
-        "2": 13.9
+        "X": 18.6,
+        "2": 14.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18978/middlesbrough-vs-swansea-2026-11-24"
@@ -1231,8 +291,8 @@
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
         "1": 48.7,
-        "X": 25.0,
-        "2": 26.3
+        "X": 25.2,
+        "2": 26.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18979/norwich-vs-qpr-2026-11-24"
@@ -1244,9 +304,9 @@
       "league": "Championship",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 34.6,
-        "X": 29.2,
-        "2": 36.2
+        "1": 34.7,
+        "X": 29.4,
+        "2": 35.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18980/charlton-vs-lincoln-2026-11-24"
@@ -1258,9 +318,9 @@
       "league": "Championship",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 23.4,
-        "X": 24.1,
-        "2": 52.5
+        "1": 23.2,
+        "X": 24.4,
+        "2": 52.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18981/portsmouth-vs-west-ham-2026-11-24"
@@ -1272,9 +332,9 @@
       "league": "Scottish Premiership",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 60.0,
-        "X": 21.4,
-        "2": 18.5
+        "1": 59.3,
+        "X": 22.0,
+        "2": 18.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/12932/hibernian-vs-dundee-2026-11-24"
@@ -1286,9 +346,9 @@
       "league": "League One",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 24.5,
-        "X": 21.8,
-        "2": 53.7
+        "1": 22.4,
+        "X": 21.3,
+        "2": 56.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19665/blackpool-vs-leicester-2026-11-24"
@@ -1300,9 +360,9 @@
       "league": "League One",
       "kickoff": "2026-11-24T19:45:00+00:00",
       "probabilities": {
-        "1": 24.4,
-        "X": 24.7,
-        "2": 50.9
+        "1": 23.7,
+        "X": 24.0,
+        "2": 52.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19666/bromley-vs-wycombe-2026-11-24"
@@ -1314,14 +374,14 @@
       "league": "Championship",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 74.8,
-        "X": 15.7,
-        "2": 9.6
+        "1": 74.2,
+        "X": 16.1,
+        "2": 9.8
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 74.8
+          "probability": 74.2
         }
       ],
       "source_url": "https://tipsaudit.com/match/18982/wolves-vs-derby-2026-11-24"
@@ -1333,14 +393,14 @@
       "league": "Scottish Premiership",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 77.7,
-        "X": 13.8,
-        "2": 8.5
+        "1": 79.7,
+        "X": 12.8,
+        "2": 7.5
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 77.7
+          "probability": 79.7
         }
       ],
       "source_url": "https://tipsaudit.com/match/18983/rangers-vs-aberdeen-2026-11-24"
@@ -1352,14 +412,14 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 83.1,
-        "X": 9.7,
-        "2": 7.2
+        "1": 84.5,
+        "X": 9.1,
+        "2": 6.5
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 83.1
+          "probability": 84.5
         }
       ],
       "source_url": "https://tipsaudit.com/match/18984/real-madrid-vs-psv-eindhoven-2026-11-24"
@@ -1371,14 +431,14 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 78.3,
-        "X": 13.3,
-        "2": 8.4
+        "1": 75.8,
+        "X": 14.2,
+        "2": 10.0
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 78.3
+          "probability": 75.8
         }
       ],
       "source_url": "https://tipsaudit.com/match/18985/manchester-city-vs-napoli-2026-11-24"
@@ -1390,14 +450,14 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 74.7,
-        "X": 15.4,
-        "2": 9.8
+        "1": 78.2,
+        "X": 13.5,
+        "2": 8.3
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 74.7
+          "probability": 78.2
         }
       ],
       "source_url": "https://tipsaudit.com/match/18986/como-vs-aek-athens-fc-2026-11-24"
@@ -1410,8 +470,8 @@
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
         "1": 70.3,
-        "X": 15.2,
-        "2": 14.5
+        "X": 15.4,
+        "2": 14.2
       },
       "qualified": [
         {
@@ -1428,9 +488,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 35.4,
-        "X": 25.5,
-        "2": 39.1
+        "1": 32.2,
+        "X": 25.4,
+        "2": 42.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18988/feyenoord-vs-fc-porto-2026-11-24"
@@ -1442,14 +502,14 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-24T20:00:00+00:00",
       "probabilities": {
-        "1": 8.1,
-        "X": 12.4,
-        "2": 79.5
+        "1": 7.8,
+        "X": 12.6,
+        "2": 79.6
       },
       "qualified": [
         {
           "market": "2",
-          "probability": 79.5
+          "probability": 79.6
         }
       ],
       "source_url": "https://tipsaudit.com/match/18989/slovan-bratislava-vs-real-betis-2026-11-24"
@@ -1461,9 +521,9 @@
       "league": "Brazil Serie A",
       "kickoff": "2026-11-24T21:00:00+00:00",
       "probabilities": {
-        "1": 25.6,
-        "X": 19.5,
-        "2": 54.9
+        "1": 27.7,
+        "X": 24.6,
+        "2": 47.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18990/chapecoense-sc-vs-palmeiras-2026-11-24"
@@ -1476,8 +536,8 @@
       "kickoff": "2026-11-24T23:20:00+00:00",
       "probabilities": {
         "1": 64.1,
-        "X": 23.8,
-        "2": 12.1
+        "X": 22.7,
+        "2": 13.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19060/millonarios-vs-bucaramanga-2026-11-24"
@@ -1490,8 +550,8 @@
       "kickoff": "2026-11-25T01:30:00+00:00",
       "probabilities": {
         "1": 47.1,
-        "X": 29.6,
-        "2": 23.3
+        "X": 29.4,
+        "2": 23.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19061/america-de-cali-vs-deportivo-cali-2026-11-25"
@@ -1517,9 +577,9 @@
       "league": "J1 League",
       "kickoff": "2026-11-25T10:00:00+00:00",
       "probabilities": {
-        "1": 34.8,
-        "X": 27.7,
-        "2": 37.5
+        "1": 33.0,
+        "X": 27.6,
+        "2": 39.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19062/avispa-fukuoka-vs-yokohama-f-marinos-2026-11-25"
@@ -1531,9 +591,9 @@
       "league": "J1 League",
       "kickoff": "2026-11-25T10:00:00+00:00",
       "probabilities": {
-        "1": 28.5,
-        "X": 25.3,
-        "2": 46.2
+        "1": 28.8,
+        "X": 26.3,
+        "2": 44.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19063/jef-united-chiba-vs-nagoya-grampus-2026-11-25"
@@ -1587,9 +647,9 @@
       "league": "J1 League",
       "kickoff": "2026-11-25T10:00:00+00:00",
       "probabilities": {
-        "1": 26.8,
-        "X": 23.1,
-        "2": 50.1
+        "1": 25.1,
+        "X": 22.5,
+        "2": 52.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19067/v-varen-nagasaki-vs-kawasaki-frontale-2026-11-25"
@@ -1601,9 +661,9 @@
       "league": "J1 League",
       "kickoff": "2026-11-25T10:30:00+00:00",
       "probabilities": {
-        "1": 51.9,
-        "X": 23.7,
-        "2": 24.4
+        "1": 53.3,
+        "X": 23.0,
+        "2": 23.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19068/urawa-vs-cerezo-osaka-2026-11-25"
@@ -1615,9 +675,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T17:45:00+00:00",
       "probabilities": {
-        "1": 32.1,
-        "X": 23.7,
-        "2": 44.2
+        "1": 30.4,
+        "X": 24.0,
+        "2": 45.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19069/slavia-praha-vs-villarreal-2026-11-25"
@@ -1629,14 +689,14 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T17:45:00+00:00",
       "probabilities": {
-        "1": 3.0,
-        "X": 4.3,
-        "2": 92.7
+        "1": 3.8,
+        "X": 5.3,
+        "2": 90.9
       },
       "qualified": [
         {
           "market": "2",
-          "probability": 92.7
+          "probability": 90.9
         }
       ],
       "source_url": "https://tipsaudit.com/match/19070/sabah-fa-vs-barcelona-2026-11-25"
@@ -1648,12 +708,40 @@
       "league": "Serie B",
       "kickoff": "2026-11-25T18:00:00+00:00",
       "probabilities": {
-        "1": 49.6,
-        "X": 29.6,
-        "2": 20.8
+        "1": 47.4,
+        "X": 30.2,
+        "2": 22.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18964/cremonese-vs-avellino-2026-11-25"
+    },
+    {
+      "fixture_id": 18968,
+      "home": "Mantova",
+      "away": "Arezzo",
+      "league": "Serie B",
+      "kickoff": "2026-11-25T19:00:00+00:00",
+      "probabilities": {
+        "1": 57.9,
+        "X": 23.2,
+        "2": 18.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/18968/mantova-vs-arezzo-2026-11-25"
+    },
+    {
+      "fixture_id": 18969,
+      "home": "Padova",
+      "away": "Sampdoria",
+      "league": "Serie B",
+      "kickoff": "2026-11-25T19:00:00+00:00",
+      "probabilities": {
+        "1": 32.0,
+        "X": 30.8,
+        "2": 37.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/18969/padova-vs-sampdoria-2026-11-25"
     },
     {
       "fixture_id": 18971,
@@ -1662,12 +750,40 @@
       "league": "Serie B",
       "kickoff": "2026-11-25T19:00:00+00:00",
       "probabilities": {
-        "1": 39.2,
-        "X": 31.2,
-        "2": 29.6
+        "1": 39.4,
+        "X": 30.8,
+        "2": 29.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18971/pisa-vs-modena-2026-11-25"
+    },
+    {
+      "fixture_id": 19071,
+      "home": "Watford",
+      "away": "Blackburn",
+      "league": "Championship",
+      "kickoff": "2026-11-25T19:45:00+00:00",
+      "probabilities": {
+        "1": 38.0,
+        "X": 26.0,
+        "2": 36.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19071/watford-vs-blackburn-2026-11-25"
+    },
+    {
+      "fixture_id": 19072,
+      "home": "Burnley",
+      "away": "Birmingham",
+      "league": "Championship",
+      "kickoff": "2026-11-25T19:45:00+00:00",
+      "probabilities": {
+        "1": 36.3,
+        "X": 24.7,
+        "2": 39.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19072/burnley-vs-birmingham-2026-11-25"
     },
     {
       "fixture_id": 19073,
@@ -1677,8 +793,8 @@
       "kickoff": "2026-11-25T19:45:00+00:00",
       "probabilities": {
         "1": 26.0,
-        "X": 25.4,
-        "2": 48.6
+        "X": 25.6,
+        "2": 48.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19073/bolton-vs-west-brom-2026-11-25"
@@ -1690,9 +806,9 @@
       "league": "Championship",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 41.2,
-        "X": 28.3,
-        "2": 30.5
+        "1": 42.7,
+        "X": 28.5,
+        "2": 28.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19074/stoke-city-vs-millwall-2026-11-25"
@@ -1704,9 +820,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 68.9,
-        "X": 16.2,
-        "2": 14.9
+        "1": 69.3,
+        "X": 16.1,
+        "2": 14.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19075/inter-vs-vfb-stuttgart-2026-11-25"
@@ -1718,9 +834,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 37.4,
-        "X": 25.6,
-        "2": 37.0
+        "1": 39.8,
+        "X": 25.2,
+        "2": 35.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19076/sporting-cp-vs-manchester-united-2026-11-25"
@@ -1732,16 +848,11 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 70.9,
-        "X": 16.6,
-        "2": 12.5
+        "1": 68.9,
+        "X": 18.3,
+        "2": 12.8
       },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 70.9
-        }
-      ],
+      "qualified": [],
       "source_url": "https://tipsaudit.com/match/19077/paris-saint-germain-vs-as-roma-2026-11-25"
     },
     {
@@ -1751,9 +862,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 37.0,
+        "1": 36.2,
         "X": 27.0,
-        "2": 36.0
+        "2": 36.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19078/shakhtar-donetsk-vs-fenerbahce-2026-11-25"
@@ -1765,9 +876,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 19.0,
-        "X": 21.1,
-        "2": 59.9
+        "1": 18.8,
+        "X": 21.7,
+        "2": 59.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19079/lille-vs-bayern-munchen-2026-11-25"
@@ -1779,9 +890,9 @@
       "league": "UEFA Champions League",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "probabilities": {
-        "1": 21.6,
-        "X": 19.9,
-        "2": 58.4
+        "1": 21.0,
+        "X": 19.5,
+        "2": 59.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19080/club-brugge-kv-vs-liverpool-2026-11-25"
@@ -1801,18 +912,46 @@
       "source_url": "https://tipsaudit.com/match/19081/atletico-mg-vs-corinthians-2026-11-25"
     },
     {
+      "fixture_id": 19082,
+      "home": "Santa Fe",
+      "away": "Once Caldas",
+      "league": "Primera A",
+      "kickoff": "2026-11-25T23:20:00+00:00",
+      "probabilities": {
+        "1": 42.5,
+        "X": 29.9,
+        "2": 27.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19082/santa-fe-vs-once-caldas-2026-11-25"
+    },
+    {
       "fixture_id": 18813,
       "home": "Boca Juniors",
       "away": "Independ. Rivadavia",
       "league": "Argentina Liga Profesional",
       "kickoff": "2026-11-26T00:00:00+00:00",
       "probabilities": {
-        "1": 63.7,
-        "X": 22.6,
-        "2": 13.8
+        "1": 63.2,
+        "X": 23.2,
+        "2": 13.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/18813/boca-juniors-vs-independ-rivadavia-2026-11-26"
+    },
+    {
+      "fixture_id": 19083,
+      "home": "Atletico Nacional",
+      "away": "Independiente Medellin",
+      "league": "Primera A",
+      "kickoff": "2026-11-26T01:30:00+00:00",
+      "probabilities": {
+        "1": 54.1,
+        "X": 24.9,
+        "2": 20.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19083/atletico-nacional-vs-independiente-medellin-2026-11-26"
     },
     {
       "fixture_id": 14419,
@@ -1835,9 +974,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T15:30:00+00:00",
       "probabilities": {
-        "1": 43.0,
-        "X": 27.6,
-        "2": 29.3
+        "1": 40.1,
+        "X": 27.7,
+        "2": 32.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19165/kairat-almaty-vs-mjallby-aif-2026-11-26"
@@ -1849,14 +988,14 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 83.1,
-        "X": 10.3,
-        "2": 6.6
+        "1": 84.6,
+        "X": 9.3,
+        "2": 6.0
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 83.1
+          "probability": 84.6
         }
       ],
       "source_url": "https://tipsaudit.com/match/8840/ajax-vs-fc-thun-2026-11-26"
@@ -1868,8 +1007,8 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 44.7,
-        "X": 24.3,
+        "1": 45.1,
+        "X": 23.9,
         "2": 31.0
       },
       "qualified": [],
@@ -1901,9 +1040,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 16.4,
-        "X": 18.2,
-        "2": 65.5
+        "1": 15.6,
+        "X": 17.9,
+        "2": 66.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19175/plzen-vs-benfica-2026-11-26"
@@ -1915,9 +1054,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 23.6,
-        "X": 26.0,
-        "2": 50.5
+        "1": 24.9,
+        "X": 26.6,
+        "2": 48.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19176/celta-vigo-vs-bournemouth-2026-11-26"
@@ -1929,7 +1068,7 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 69.2,
+        "1": 69.3,
         "X": 18.3,
         "2": 12.4
       },
@@ -1943,9 +1082,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 37.9,
-        "X": 28.3,
-        "2": 33.8
+        "1": 34.3,
+        "X": 27.6,
+        "2": 38.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19178/olympiakos-piraeus-vs-ac-milan-2026-11-26"
@@ -1958,7 +1097,7 @@
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
         "1": 84.9,
-        "X": 9.8,
+        "X": 9.7,
         "2": 5.3
       },
       "qualified": [
@@ -1976,9 +1115,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 21.2,
-        "X": 22.0,
-        "2": 56.8
+        "1": 20.6,
+        "X": 21.6,
+        "2": 57.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19180/dinamo-zagreb-vs-bayer-leverkusen-2026-11-26"
@@ -1990,14 +1129,14 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 81.2,
+        "1": 81.3,
         "X": 11.7,
         "2": 7.1
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 81.2
+          "probability": 81.3
         }
       ],
       "source_url": "https://tipsaudit.com/match/19181/besiktas-vs-hapoel-beer-sheva-2026-11-26"
@@ -2028,9 +1167,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 29.5,
-        "X": 25.1,
-        "2": 45.4
+        "1": 28.5,
+        "X": 24.5,
+        "2": 47.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19183/fk-jablonec-vs-fc-lugano-2026-11-26"
@@ -2042,9 +1181,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 14.7,
-        "X": 23.0,
-        "2": 62.3
+        "1": 15.0,
+        "X": 22.8,
+        "2": 62.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19184/fc-iberia-1999-vs-getafe-2026-11-26"
@@ -2070,9 +1209,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 20.4,
-        "X": 22.3,
-        "2": 57.3
+        "1": 20.5,
+        "X": 22.1,
+        "2": 57.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19186/heart-of-midlothian-vs-monaco-2026-11-26"
@@ -2084,9 +1223,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 60.6,
-        "X": 21.5,
-        "2": 17.9
+        "1": 61.9,
+        "X": 21.1,
+        "2": 17.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19187/egnatia-rrogozhine-vs-lincoln-red-imps-fc-2026-11-26"
@@ -2098,9 +1237,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T17:45:00+00:00",
       "probabilities": {
-        "1": 29.0,
-        "X": 25.3,
-        "2": 45.6
+        "1": 32.0,
+        "X": 26.3,
+        "2": 41.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19188/pafos-vs-fc-midtjylland-2026-11-26"
@@ -2112,9 +1251,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 45.4,
-        "X": 26.7,
-        "2": 28.0
+        "1": 44.3,
+        "X": 26.8,
+        "2": 28.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19200/hnk-hajduk-split-vs-st-truiden-2026-11-26"
@@ -2126,9 +1265,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 34.3,
-        "X": 27.0,
-        "2": 38.7
+        "1": 34.6,
+        "X": 27.1,
+        "2": 38.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19201/fc-nordsjaelland-vs-panathinaikos-2026-11-26"
@@ -2140,9 +1279,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 26.0,
-        "X": 23.7,
-        "2": 50.3
+        "1": 25.1,
+        "X": 25.4,
+        "2": 49.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19202/cska-sofia-vs-trabzonspor-2026-11-26"
@@ -2154,14 +1293,14 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 9.5,
-        "X": 15.4,
-        "2": 75.1
+        "1": 10.0,
+        "X": 16.1,
+        "2": 73.9
       },
       "qualified": [
         {
           "market": "2",
-          "probability": 75.1
+          "probability": 73.9
         }
       ],
       "source_url": "https://tipsaudit.com/match/19203/inter-club-descaldes-vs-fc-copenhagen-2026-11-26"
@@ -2173,9 +1312,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 47.2,
-        "X": 22.8,
-        "2": 30.0
+        "1": 47.5,
+        "X": 23.0,
+        "2": 29.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19204/sc-freiburg-vs-twente-2026-11-26"
@@ -2187,9 +1326,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 44.5,
+        "1": 43.4,
         "X": 27.0,
-        "2": 28.5
+        "2": 29.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19205/gent-vs-fk-crvena-zvezda-2026-11-26"
@@ -2201,9 +1340,9 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 19.5,
-        "X": 20.7,
-        "2": 59.9
+        "1": 19.3,
+        "X": 20.5,
+        "2": 60.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/8845/borac-banja-luka-vs-atalanta-2026-11-26"
@@ -2215,14 +1354,14 @@
       "league": "UEFA Conference League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 85.5,
-        "X": 9.8,
-        "2": 4.7
+        "1": 87.2,
+        "X": 8.7,
+        "2": 4.1
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 85.5
+          "probability": 87.2
         }
       ],
       "source_url": "https://tipsaudit.com/match/8848/sc-braga-vs-kups-2026-11-26"
@@ -2234,8 +1373,8 @@
       "league": "League One",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 23.6,
-        "X": 21.4,
+        "1": 23.7,
+        "X": 21.3,
         "2": 55.0
       },
       "qualified": [],
@@ -2248,14 +1387,14 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 83.4,
-        "X": 10.9,
-        "2": 5.7
+        "1": 84.1,
+        "X": 10.4,
+        "2": 5.5
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 83.4
+          "probability": 84.1
         }
       ],
       "source_url": "https://tipsaudit.com/match/19190/juventus-vs-omonia-nicosia-2026-11-26"
@@ -2267,9 +1406,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 19.4,
-        "X": 22.3,
-        "2": 58.2
+        "1": 18.9,
+        "X": 22.1,
+        "2": 59.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19191/torreense-vs-celtic-2026-11-26"
@@ -2281,9 +1420,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 21.5,
-        "X": 24.9,
-        "2": 53.7
+        "1": 20.7,
+        "X": 24.4,
+        "2": 54.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19192/ofi-vs-anderlecht-2026-11-26"
@@ -2295,9 +1434,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 35.1,
-        "X": 26.5,
-        "2": 38.5
+        "1": 33.6,
+        "X": 25.8,
+        "2": 40.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19193/sparta-praha-vs-az-alkmaar-2026-11-26"
@@ -2309,9 +1448,9 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 31.8,
+        "1": 31.0,
         "X": 23.9,
-        "2": 44.3
+        "2": 45.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19194/nec-nijmegen-vs-rennes-2026-11-26"
@@ -2342,14 +1481,14 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 72.0,
-        "X": 16.5,
-        "2": 11.5
+        "1": 71.4,
+        "X": 17.0,
+        "2": 11.6
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 72.0
+          "probability": 71.4
         }
       ],
       "source_url": "https://tipsaudit.com/match/19196/ferencvarosi-tc-vs-celje-2026-11-26"
@@ -2361,14 +1500,14 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 77.3,
-        "X": 14.8,
-        "2": 7.9
+        "1": 78.6,
+        "X": 14.1,
+        "2": 7.3
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 77.3
+          "probability": 78.6
         }
       ],
       "source_url": "https://tipsaudit.com/match/19197/sunderland-vs-jagiellonia-2026-11-26"
@@ -2380,8 +1519,8 @@
       "league": "UEFA Europa League",
       "kickoff": "2026-11-26T20:00:00+00:00",
       "probabilities": {
-        "1": 47.2,
-        "X": 23.4,
+        "1": 47.1,
+        "X": 23.6,
         "2": 29.4
       },
       "qualified": [],
@@ -2413,9 +1552,9 @@
       "league": "A-League",
       "kickoff": "2026-11-27T08:40:00+00:00",
       "probabilities": {
-        "1": 28.3,
-        "X": 25.9,
-        "2": 45.8
+        "1": 27.8,
+        "X": 26.0,
+        "2": 46.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19207/macarthur-vs-melbourne-city-2026-11-27"
@@ -2427,9 +1566,9 @@
       "league": "Saudi Pro League",
       "kickoff": "2026-11-27T12:15:00+00:00",
       "probabilities": {
-        "1": 43.9,
-        "X": 25.9,
-        "2": 30.2
+        "1": 47.9,
+        "X": 24.8,
+        "2": 27.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/14420/al-kholood-vs-al-khaleej-saihat-2026-11-27"
@@ -2452,6 +1591,20 @@
         }
       ],
       "source_url": "https://tipsaudit.com/match/14415/al-qadisiyah-fc-vs-al-fayha-2026-11-27"
+    },
+    {
+      "fixture_id": 19210,
+      "home": "Lokomotiv Sofia",
+      "away": "Slavia Sofia",
+      "league": "Bulgaria First League",
+      "kickoff": "2026-11-27T16:00:00+00:00",
+      "probabilities": {
+        "1": 50.3,
+        "X": 28.6,
+        "2": 21.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19210/lokomotiv-sofia-vs-slavia-sofia-2026-11-27"
     },
     {
       "fixture_id": 19212,
@@ -2488,9 +1641,9 @@
       "league": "2. Bundesliga",
       "kickoff": "2026-11-27T17:30:00+00:00",
       "probabilities": {
-        "1": 57.7,
-        "X": 22.2,
-        "2": 20.2
+        "1": 55.2,
+        "X": 23.0,
+        "2": 21.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19220/vfl-bochum-vs-sv-darmstadt-98-2026-11-27"
@@ -2502,12 +1655,31 @@
       "league": "2. Bundesliga",
       "kickoff": "2026-11-27T17:30:00+00:00",
       "probabilities": {
-        "1": 49.0,
-        "X": 23.4,
-        "2": 27.7
+        "1": 46.8,
+        "X": 23.7,
+        "2": 29.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19221/1-fc-heidenheim-vs-1-fc-nurnberg-2026-11-27"
+    },
+    {
+      "fixture_id": 19222,
+      "home": "Hansa Rostock",
+      "away": "Havelse",
+      "league": "3. Liga",
+      "kickoff": "2026-11-27T18:00:00+00:00",
+      "probabilities": {
+        "1": 78.6,
+        "X": 12.3,
+        "2": 9.1
+      },
+      "qualified": [
+        {
+          "market": "1",
+          "probability": 78.6
+        }
+      ],
+      "source_url": "https://tipsaudit.com/match/19222/hansa-rostock-vs-havelse-2026-11-27"
     },
     {
       "fixture_id": 19224,
@@ -2516,9 +1688,9 @@
       "league": "Austrian Bundesliga",
       "kickoff": "2026-11-27T18:30:00+00:00",
       "probabilities": {
-        "1": 27.5,
-        "X": 31.7,
-        "2": 40.8
+        "1": 26.1,
+        "X": 30.8,
+        "2": 43.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19224/grazer-ak-vs-scr-altach-2026-11-27"
@@ -2530,16 +1702,11 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-27T19:00:00+00:00",
       "probabilities": {
-        "1": 70.4,
-        "X": 16.3,
-        "2": 13.4
+        "1": 69.9,
+        "X": 16.8,
+        "2": 13.3
       },
-      "qualified": [
-        {
-          "market": "1",
-          "probability": 70.4
-        }
-      ],
+      "qualified": [],
       "source_url": "https://tipsaudit.com/match/19226/groningen-vs-willem-ii-2026-11-27"
     },
     {
@@ -2549,9 +1716,9 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-27T19:30:00+00:00",
       "probabilities": {
-        "1": 55.5,
-        "X": 21.4,
-        "2": 23.0
+        "1": 55.7,
+        "X": 21.5,
+        "2": 22.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19229/werder-bremen-vs-borussia-monchengladbach-2026-11-27"
@@ -2563,12 +1730,26 @@
       "league": "Serie A",
       "kickoff": "2026-11-27T19:45:00+00:00",
       "probabilities": {
-        "1": 25.7,
-        "X": 26.6,
-        "2": 47.7
+        "1": 28.0,
+        "X": 28.8,
+        "2": 43.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19230/venezia-vs-bologna-2026-11-27"
+    },
+    {
+      "fixture_id": 19231,
+      "home": "OH Leuven",
+      "away": "Kortrijk",
+      "league": "Jupiler Pro League",
+      "kickoff": "2026-11-27T19:45:00+00:00",
+      "probabilities": {
+        "1": 49.9,
+        "X": 24.1,
+        "2": 26.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19231/oh-leuven-vs-kortrijk-2026-11-27"
     },
     {
       "fixture_id": 19232,
@@ -2577,9 +1758,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-27T19:45:00+00:00",
       "probabilities": {
-        "1": 29.2,
-        "X": 28.0,
-        "2": 42.8
+        "1": 28.0,
+        "X": 28.2,
+        "2": 43.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19232/stade-brestois-29-vs-paris-fc-2026-11-27"
@@ -2591,9 +1772,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-27T20:00:00+00:00",
       "probabilities": {
-        "1": 34.9,
-        "X": 26.8,
-        "2": 38.3
+        "1": 35.2,
+        "X": 28.3,
+        "2": 36.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19233/nottingham-forest-vs-chelsea-2026-11-27"
@@ -2607,7 +1788,7 @@
       "probabilities": {
         "1": 46.2,
         "X": 24.1,
-        "2": 29.6
+        "2": 29.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19234/levante-vs-racing-santander-2026-11-27"
@@ -2619,12 +1800,26 @@
       "league": "Primeira Liga",
       "kickoff": "2026-11-27T20:15:00+00:00",
       "probabilities": {
-        "1": 44.5,
+        "1": 44.9,
         "X": 28.4,
-        "2": 27.1
+        "2": 26.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19235/maritimo-vs-nacional-2026-11-27"
+    },
+    {
+      "fixture_id": 19670,
+      "home": "Fluminense",
+      "away": "Cruzeiro",
+      "league": "Brazil Serie A",
+      "kickoff": "2026-11-27T23:00:00+00:00",
+      "probabilities": {
+        "1": 46.7,
+        "X": 25.5,
+        "2": 27.8
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19670/fluminense-vs-cruzeiro-2026-11-27"
     },
     {
       "fixture_id": 19237,
@@ -2633,12 +1828,26 @@
       "league": "MLS",
       "kickoff": "2026-11-28T01:00:00+00:00",
       "probabilities": {
-        "1": 38.0,
-        "X": 24.1,
-        "2": 37.9
+        "1": 36.7,
+        "X": 23.6,
+        "2": 39.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19237/columbus-crew-vs-inter-miami-2026-11-28"
+    },
+    {
+      "fixture_id": 19673,
+      "home": "Real Salt Lake",
+      "away": "Vancouver Whitecaps",
+      "league": "MLS",
+      "kickoff": "2026-11-28T03:00:00+00:00",
+      "probabilities": {
+        "1": 35.3,
+        "X": 25.6,
+        "2": 39.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19673/real-salt-lake-vs-vancouver-whitecaps-2026-11-28"
     },
     {
       "fixture_id": 19240,
@@ -2647,9 +1856,9 @@
       "league": "K League 1",
       "kickoff": "2026-11-28T05:00:00+00:00",
       "probabilities": {
-        "1": 41.5,
-        "X": 26.7,
-        "2": 31.8
+        "1": 40.5,
+        "X": 25.9,
+        "2": 33.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19240/fc-seoul-vs-daejeon-citizen-2026-11-28"
@@ -2661,9 +1870,9 @@
       "league": "K League 1",
       "kickoff": "2026-11-28T05:00:00+00:00",
       "probabilities": {
-        "1": 41.1,
-        "X": 27.9,
-        "2": 31.0
+        "1": 41.3,
+        "X": 27.4,
+        "2": 31.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19241/fc-anyang-vs-jeju-united-fc-2026-11-28"
@@ -2675,8 +1884,8 @@
       "league": "K League 1",
       "kickoff": "2026-11-28T07:30:00+00:00",
       "probabilities": {
-        "1": 32.7,
-        "X": 27.7,
+        "1": 33.1,
+        "X": 27.3,
         "2": 39.6
       },
       "qualified": [],
@@ -2711,15 +1920,57 @@
       "source_url": "https://tipsaudit.com/match/19678/central-coast-mariners-vs-auckland-2026-11-28"
     },
     {
+      "fixture_id": 19686,
+      "home": "Hertha BSC",
+      "away": "Karlsruher SC",
+      "league": "2. Bundesliga",
+      "kickoff": "2026-11-28T12:00:00+00:00",
+      "probabilities": {
+        "1": 69.9,
+        "X": 16.9,
+        "2": 13.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19686/hertha-bsc-vs-karlsruher-sc-2026-11-28"
+    },
+    {
+      "fixture_id": 19687,
+      "home": "Dynamo Dresden",
+      "away": "FC St. Pauli",
+      "league": "2. Bundesliga",
+      "kickoff": "2026-11-28T12:00:00+00:00",
+      "probabilities": {
+        "1": 34.7,
+        "X": 26.6,
+        "2": 38.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19687/dynamo-dresden-vs-fc-st-pauli-2026-11-28"
+    },
+    {
+      "fixture_id": 19688,
+      "home": "Holstein Kiel",
+      "away": "1. FC Kaiserslautern",
+      "league": "2. Bundesliga",
+      "kickoff": "2026-11-28T12:00:00+00:00",
+      "probabilities": {
+        "1": 40.0,
+        "X": 26.9,
+        "2": 33.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19688/holstein-kiel-vs-1-fc-kaiserslautern-2026-11-28"
+    },
+    {
       "fixture_id": 19693,
       "home": "Milton Keynes Dons",
       "away": "Notts County",
       "league": "League One",
       "kickoff": "2026-11-28T12:30:00+00:00",
       "probabilities": {
-        "1": 52.9,
-        "X": 23.1,
-        "2": 24.0
+        "1": 54.0,
+        "X": 22.7,
+        "2": 23.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19693/milton-keynes-dons-vs-notts-county-2026-11-28"
@@ -2731,9 +1982,9 @@
       "league": "League One",
       "kickoff": "2026-11-28T12:30:00+00:00",
       "probabilities": {
-        "1": 38.0,
+        "1": 43.0,
         "X": 24.1,
-        "2": 37.9
+        "2": 32.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19694/peterborough-vs-cambridge-united-2026-11-28"
@@ -2795,15 +2046,29 @@
       "source_url": "https://tipsaudit.com/match/19704/rot-weiss-essen-vs-hoffenheim-ii-2026-11-28"
     },
     {
+      "fixture_id": 19705,
+      "home": "FC Saarbrücken",
+      "away": "Alemannia Aachen",
+      "league": "3. Liga",
+      "kickoff": "2026-11-28T13:00:00+00:00",
+      "probabilities": {
+        "1": 41.4,
+        "X": 25.1,
+        "2": 33.5
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19705/fc-saarbrucken-vs-alemannia-aachen-2026-11-28"
+    },
+    {
       "fixture_id": 19706,
       "home": "Waldhof Mannheim",
       "away": "Stuttgart II",
       "league": "3. Liga",
       "kickoff": "2026-11-28T13:00:00+00:00",
       "probabilities": {
-        "1": 49.8,
-        "X": 22.5,
-        "2": 27.7
+        "1": 52.9,
+        "X": 22.7,
+        "2": 24.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19706/waldhof-mannheim-vs-stuttgart-ii-2026-11-28"
@@ -2815,9 +2080,9 @@
       "league": "Süper Lig",
       "kickoff": "2026-11-28T13:00:00+00:00",
       "probabilities": {
-        "1": 49.9,
-        "X": 26.1,
-        "2": 24.0
+        "1": 52.1,
+        "X": 25.4,
+        "2": 22.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19707/samsunspor-vs-genclerbirligi-sk-2026-11-28"
@@ -2829,9 +2094,9 @@
       "league": "La Liga",
       "kickoff": "2026-11-28T13:00:00+00:00",
       "probabilities": {
-        "1": 62.5,
-        "X": 20.7,
-        "2": 16.9
+        "1": 61.5,
+        "X": 21.3,
+        "2": 17.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19709/real-betis-vs-rayo-vallecano-2026-11-28"
@@ -2843,9 +2108,9 @@
       "league": "Serie A",
       "kickoff": "2026-11-28T14:00:00+00:00",
       "probabilities": {
-        "1": 63.7,
-        "X": 18.5,
-        "2": 17.8
+        "1": 65.1,
+        "X": 18.1,
+        "2": 16.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19713/frosinone-vs-parma-2026-11-28"
@@ -2857,9 +2122,9 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-28T14:30:00+00:00",
       "probabilities": {
-        "1": 65.1,
-        "X": 19.6,
-        "2": 15.3
+        "1": 64.8,
+        "X": 19.8,
+        "2": 15.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19726/fsv-mainz-05-vs-union-berlin-2026-11-28"
@@ -2872,13 +2137,13 @@
       "kickoff": "2026-11-28T14:30:00+00:00",
       "probabilities": {
         "1": 8.7,
-        "X": 11.6,
-        "2": 79.7
+        "X": 11.8,
+        "2": 79.5
       },
       "qualified": [
         {
           "market": "2",
-          "probability": 79.7
+          "probability": 79.5
         }
       ],
       "source_url": "https://tipsaudit.com/match/19727/hamburger-sv-vs-bayern-munchen-2026-11-28"
@@ -2890,9 +2155,9 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-28T14:30:00+00:00",
       "probabilities": {
-        "1": 50.5,
-        "X": 23.6,
-        "2": 25.9
+        "1": 47.7,
+        "X": 24.5,
+        "2": 27.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19728/1-fc-koln-vs-sv-elversberg-2026-11-28"
@@ -2904,12 +2169,31 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-28T14:30:00+00:00",
       "probabilities": {
-        "1": 40.1,
-        "X": 27.9,
-        "2": 32.0
+        "1": 38.6,
+        "X": 27.6,
+        "2": 33.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19729/sc-paderborn-07-vs-fc-schalke-04-2026-11-28"
+    },
+    {
+      "fixture_id": 19730,
+      "home": "Bodo/Glimt",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "kickoff": "2026-11-28T15:00:00+00:00",
+      "probabilities": {
+        "1": 91.8,
+        "X": 5.2,
+        "2": 3.0
+      },
+      "qualified": [
+        {
+          "market": "1",
+          "probability": 91.8
+        }
+      ],
+      "source_url": "https://tipsaudit.com/match/19730/bodoglimt-vs-kfum-oslo-2026-11-28"
     },
     {
       "fixture_id": 19744,
@@ -2918,9 +2202,9 @@
       "league": "League One",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 34.4,
-        "X": 26.0,
-        "2": 39.6
+        "1": 36.9,
+        "X": 27.1,
+        "2": 36.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19744/wigan-vs-plymouth-2026-11-28"
@@ -2932,9 +2216,9 @@
       "league": "League One",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 55.6,
-        "X": 23.5,
-        "2": 20.9
+        "1": 55.0,
+        "X": 22.8,
+        "2": 22.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19748/luton-vs-oxford-united-2026-11-28"
@@ -2946,14 +2230,14 @@
       "league": "League One",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 71.3,
-        "X": 16.7,
-        "2": 12.0
+        "1": 70.8,
+        "X": 17.0,
+        "2": 12.3
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 71.3
+          "probability": 70.8
         }
       ],
       "source_url": "https://tipsaudit.com/match/19751/stockport-county-vs-leyton-orient-2026-11-28"
@@ -2993,9 +2277,9 @@
       "league": "League Two",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 49.8,
-        "X": 27.9,
-        "2": 22.3
+        "1": 48.7,
+        "X": 27.6,
+        "2": 23.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19757/shrewsbury-vs-cheltenham-2026-11-28"
@@ -3035,9 +2319,9 @@
       "league": "League Two",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 32.4,
-        "X": 25.6,
-        "2": 42.1
+        "1": 29.3,
+        "X": 25.0,
+        "2": 45.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19760/crewe-vs-grimsby-2026-11-28"
@@ -3063,9 +2347,9 @@
       "league": "Jupiler Pro League",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 50.7,
-        "X": 23.9,
-        "2": 25.4
+        "1": 50.2,
+        "X": 24.6,
+        "2": 25.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19762/kvc-westerlo-vs-raal-la-louviere-2026-11-28"
@@ -3099,15 +2383,29 @@
       "source_url": "https://tipsaudit.com/match/19766/dundee-utd-vs-st-johnstone-2026-11-28"
     },
     {
+      "fixture_id": 19768,
+      "home": "Volos NFC",
+      "away": "Asteras Tripolis",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-28T15:00:00+00:00",
+      "probabilities": {
+        "1": 33.2,
+        "X": 28.7,
+        "2": 38.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19768/volos-nfc-vs-asteras-tripolis-2026-11-28"
+    },
+    {
       "fixture_id": 19769,
       "home": "Leeds",
       "away": "Coventry",
       "league": "Premier League",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 62.9,
-        "X": 21.3,
-        "2": 15.8
+        "1": 63.9,
+        "X": 21.0,
+        "2": 15.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19769/leeds-vs-coventry-2026-11-28"
@@ -3119,9 +2417,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-28T15:00:00+00:00",
       "probabilities": {
-        "1": 49.1,
-        "X": 24.6,
-        "2": 26.3
+        "1": 47.5,
+        "X": 25.0,
+        "2": 27.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19770/manchester-united-vs-brentford-2026-11-28"
@@ -3133,12 +2431,26 @@
       "league": "La Liga",
       "kickoff": "2026-11-28T15:15:00+00:00",
       "probabilities": {
-        "1": 20.6,
-        "X": 25.2,
-        "2": 54.2
+        "1": 20.8,
+        "X": 25.3,
+        "2": 53.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19771/malaga-vs-athletic-club-2026-11-28"
+    },
+    {
+      "fixture_id": 19772,
+      "home": "SG Sonnenhof Grossaspach",
+      "away": "MSV Duisburg",
+      "league": "3. Liga",
+      "kickoff": "2026-11-28T15:30:00+00:00",
+      "probabilities": {
+        "1": 29.6,
+        "X": 23.7,
+        "2": 46.7
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19772/sg-sonnenhof-grossaspach-vs-msv-duisburg-2026-11-28"
     },
     {
       "fixture_id": 19773,
@@ -3175,12 +2487,26 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-28T15:30:00+00:00",
       "probabilities": {
-        "1": 47.4,
-        "X": 24.8,
-        "2": 27.8
+        "1": 46.1,
+        "X": 25.5,
+        "2": 28.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19775/excelsior-vs-telstar-2026-11-28"
+    },
+    {
+      "fixture_id": 19778,
+      "home": "Austria Vienna",
+      "away": "Wolfsberger AC",
+      "league": "Austrian Bundesliga",
+      "kickoff": "2026-11-28T16:00:00+00:00",
+      "probabilities": {
+        "1": 57.2,
+        "X": 23.1,
+        "2": 19.7
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19778/austria-vienna-vs-wolfsberger-ac-2026-11-28"
     },
     {
       "fixture_id": 19779,
@@ -3203,9 +2529,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-28T16:15:00+00:00",
       "probabilities": {
-        "1": 21.3,
-        "X": 22.9,
-        "2": 55.8
+        "1": 20.0,
+        "X": 22.7,
+        "2": 57.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19782/angers-vs-lens-2026-11-28"
@@ -3217,12 +2543,54 @@
       "league": "Serie A",
       "kickoff": "2026-11-28T17:00:00+00:00",
       "probabilities": {
-        "1": 26.5,
-        "X": 27.1,
-        "2": 46.5
+        "1": 26.9,
+        "X": 27.2,
+        "2": 46.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19785/torino-vs-lazio-2026-11-28"
+    },
+    {
+      "fixture_id": 19786,
+      "home": "Rosenborg",
+      "away": "Molde",
+      "league": "Eliteserien",
+      "kickoff": "2026-11-28T17:00:00+00:00",
+      "probabilities": {
+        "1": 49.9,
+        "X": 20.8,
+        "2": 29.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19786/rosenborg-vs-molde-2026-11-28"
+    },
+    {
+      "fixture_id": 19787,
+      "home": "FC Vaduz",
+      "away": "FC Zurich",
+      "league": "Swiss Super League",
+      "kickoff": "2026-11-28T17:00:00+00:00",
+      "probabilities": {
+        "1": 42.9,
+        "X": 23.5,
+        "2": 33.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19787/fc-vaduz-vs-fc-zurich-2026-11-28"
+    },
+    {
+      "fixture_id": 19788,
+      "home": "Grasshoppers",
+      "away": "FC Basel 1893",
+      "league": "Swiss Super League",
+      "kickoff": "2026-11-28T17:00:00+00:00",
+      "probabilities": {
+        "1": 32.4,
+        "X": 24.8,
+        "2": 42.8
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19788/grasshoppers-vs-fc-basel-1893-2026-11-28"
     },
     {
       "fixture_id": 19799,
@@ -3245,9 +2613,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-28T17:30:00+00:00",
       "probabilities": {
-        "1": 27.4,
-        "X": 24.5,
-        "2": 48.1
+        "1": 26.9,
+        "X": 24.4,
+        "2": 48.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19800/ipswich-vs-aston-villa-2026-11-28"
@@ -3259,9 +2627,9 @@
       "league": "La Liga",
       "kickoff": "2026-11-28T17:30:00+00:00",
       "probabilities": {
-        "1": 19.1,
-        "X": 21.6,
-        "2": 59.4
+        "1": 17.0,
+        "X": 20.5,
+        "2": 62.6
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19801/elche-vs-atletico-madrid-2026-11-28"
@@ -3273,12 +2641,45 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-28T17:30:00+00:00",
       "probabilities": {
-        "1": 56.8,
-        "X": 19.6,
-        "2": 23.5
+        "1": 55.8,
+        "X": 20.0,
+        "2": 24.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19802/vfb-stuttgart-vs-eintracht-frankfurt-2026-11-28"
+    },
+    {
+      "fixture_id": 19803,
+      "home": "Charlotte",
+      "away": "Chicago Fire",
+      "league": "MLS",
+      "kickoff": "2026-11-28T17:30:00+00:00",
+      "probabilities": {
+        "1": 33.6,
+        "X": 24.9,
+        "2": 41.5
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19803/charlotte-vs-chicago-fire-2026-11-28"
+    },
+    {
+      "fixture_id": 19805,
+      "home": "PSV Eindhoven",
+      "away": "GO Ahead Eagles",
+      "league": "Eredivisie",
+      "kickoff": "2026-11-28T17:45:00+00:00",
+      "probabilities": {
+        "1": 79.2,
+        "X": 11.6,
+        "2": 9.2
+      },
+      "qualified": [
+        {
+          "market": "1",
+          "probability": 79.2
+        }
+      ],
+      "source_url": "https://tipsaudit.com/match/19805/psv-eindhoven-vs-go-ahead-eagles-2026-11-28"
     },
     {
       "fixture_id": 19807,
@@ -3287,12 +2688,26 @@
       "league": "Primeira Liga",
       "kickoff": "2026-11-28T18:00:00+00:00",
       "probabilities": {
-        "1": 37.5,
-        "X": 31.2,
-        "2": 31.2
+        "1": 36.5,
+        "X": 30.5,
+        "2": 33.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19807/academico-viseu-vs-alverca-2026-11-28"
+    },
+    {
+      "fixture_id": 19808,
+      "home": "Kifisia",
+      "away": "Kalamata",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-28T18:00:00+00:00",
+      "probabilities": {
+        "1": 54.3,
+        "X": 24.6,
+        "2": 21.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19808/kifisia-vs-kalamata-2026-11-28"
     },
     {
       "fixture_id": 19810,
@@ -3314,23 +2729,79 @@
       "source_url": "https://tipsaudit.com/match/19810/austria-lustenau-vs-rapid-vienna-2026-11-28"
     },
     {
+      "fixture_id": 19813,
+      "home": "Iraklis 1908",
+      "away": "Panetolikos",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-28T19:00:00+00:00",
+      "probabilities": {
+        "1": 52.8,
+        "X": 26.2,
+        "2": 21.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19813/iraklis-1908-vs-panetolikos-2026-11-28"
+    },
+    {
+      "fixture_id": 19815,
+      "home": "VfL Osnabrück",
+      "away": "Hannover 96",
+      "league": "2. Bundesliga",
+      "kickoff": "2026-11-28T19:30:00+00:00",
+      "probabilities": {
+        "1": 30.6,
+        "X": 25.1,
+        "2": 44.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19815/vfl-osnabruck-vs-hannover-96-2026-11-28"
+    },
+    {
+      "fixture_id": 19816,
+      "home": "Servette FC",
+      "away": "Lausanne",
+      "league": "Swiss Super League",
+      "kickoff": "2026-11-28T19:30:00+00:00",
+      "probabilities": {
+        "1": 50.1,
+        "X": 25.3,
+        "2": 24.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19816/servette-fc-vs-lausanne-2026-11-28"
+    },
+    {
       "fixture_id": 19818,
       "home": "Inter",
       "away": "Genoa",
       "league": "Serie A",
       "kickoff": "2026-11-28T19:45:00+00:00",
       "probabilities": {
-        "1": 75.8,
-        "X": 15.1,
-        "2": 9.0
+        "1": 74.2,
+        "X": 16.1,
+        "2": 9.7
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 75.8
+          "probability": 74.2
         }
       ],
       "source_url": "https://tipsaudit.com/match/19818/inter-vs-genoa-2026-11-28"
+    },
+    {
+      "fixture_id": 19819,
+      "home": "Lommel United",
+      "away": "Zulte Waregem",
+      "league": "Jupiler Pro League",
+      "kickoff": "2026-11-28T19:45:00+00:00",
+      "probabilities": {
+        "1": 35.7,
+        "X": 25.3,
+        "2": 39.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19819/lommel-united-vs-zulte-waregem-2026-11-28"
     },
     {
       "fixture_id": 19820,
@@ -3339,9 +2810,9 @@
       "league": "Jupiler Pro League",
       "kickoff": "2026-11-28T19:45:00+00:00",
       "probabilities": {
-        "1": 62.9,
-        "X": 21.0,
-        "2": 16.1
+        "1": 64.6,
+        "X": 20.3,
+        "2": 15.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19820/charleroi-vs-sk-beveren-2026-11-28"
@@ -3353,9 +2824,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-28T19:45:00+00:00",
       "probabilities": {
-        "1": 32.6,
-        "X": 26.4,
-        "2": 40.9
+        "1": 30.7,
+        "X": 26.7,
+        "2": 42.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19821/le-havre-vs-strasbourg-2026-11-28"
@@ -3367,9 +2838,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-28T19:45:00+00:00",
       "probabilities": {
-        "1": 22.2,
-        "X": 26.3,
-        "2": 51.5
+        "1": 24.3,
+        "X": 27.9,
+        "2": 47.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19822/le-mans-vs-lille-2026-11-28"
@@ -3381,9 +2852,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-28T19:45:00+00:00",
       "probabilities": {
-        "1": 57.8,
-        "X": 22.4,
-        "2": 19.8
+        "1": 57.7,
+        "X": 22.3,
+        "2": 20.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19823/nice-vs-estac-troyes-2026-11-28"
@@ -3395,14 +2866,14 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-28T19:45:00+00:00",
       "probabilities": {
-        "1": 81.8,
-        "X": 11.2,
-        "2": 7.0
+        "1": 82.3,
+        "X": 11.0,
+        "2": 6.7
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 81.8
+          "probability": 82.3
         }
       ],
       "source_url": "https://tipsaudit.com/match/19824/paris-saint-germain-vs-lorient-2026-11-28"
@@ -3414,9 +2885,9 @@
       "league": "Copa Libertadores",
       "kickoff": "2026-11-28T20:00:00+00:00",
       "probabilities": {
-        "1": 48.7,
-        "X": 31.6,
-        "2": 19.7
+        "1": 48.9,
+        "X": 31.3,
+        "2": 19.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19825/palmeiras-vs-estudiantes-lp-2026-11-28"
@@ -3428,9 +2899,9 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-28T20:00:00+00:00",
       "probabilities": {
-        "1": 40.6,
-        "X": 25.6,
-        "2": 33.8
+        "1": 43.9,
+        "X": 24.7,
+        "2": 31.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19826/cambuur-vs-sparta-rotterdam-2026-11-28"
@@ -3442,14 +2913,14 @@
       "league": "La Liga",
       "kickoff": "2026-11-28T20:00:00+00:00",
       "probabilities": {
-        "1": 85.7,
-        "X": 9.0,
-        "2": 5.3
+        "1": 86.0,
+        "X": 8.9,
+        "2": 5.1
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 85.7
+          "probability": 86.0
         }
       ],
       "source_url": "https://tipsaudit.com/match/19827/real-madrid-vs-alaves-2026-11-28"
@@ -3469,18 +2940,46 @@
       "source_url": "https://tipsaudit.com/match/19828/vitoria-sc-vs-estrela-2026-11-28"
     },
     {
+      "fixture_id": 19829,
+      "home": "Fortaleza EC",
+      "away": "Criciuma",
+      "league": "Brazil Serie B",
+      "kickoff": "2026-11-28T21:00:00+00:00",
+      "probabilities": {
+        "1": 45.4,
+        "X": 30.3,
+        "2": 24.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19829/fortaleza-ec-vs-criciuma-2026-11-28"
+    },
+    {
       "fixture_id": 19836,
       "home": "Philadelphia Union",
       "away": "New England Revolution",
       "league": "MLS",
       "kickoff": "2026-11-28T21:30:00+00:00",
       "probabilities": {
-        "1": 64.1,
-        "X": 19.1,
-        "2": 16.8
+        "1": 62.5,
+        "X": 19.8,
+        "2": 17.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/19836/philadelphia-union-vs-new-england-revolution-2026-11-28"
+    },
+    {
+      "fixture_id": 19837,
+      "home": "FC Cincinnati",
+      "away": "Nashville SC",
+      "league": "MLS",
+      "kickoff": "2026-11-28T23:30:00+00:00",
+      "probabilities": {
+        "1": 32.8,
+        "X": 25.5,
+        "2": 41.7
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/19837/fc-cincinnati-vs-nashville-sc-2026-11-28"
     },
     {
       "fixture_id": 19841,
@@ -3517,9 +3016,9 @@
       "league": "K League 1",
       "kickoff": "2026-11-29T07:30:00+00:00",
       "probabilities": {
-        "1": 37.5,
-        "X": 30.6,
-        "2": 31.9
+        "1": 38.3,
+        "X": 30.4,
+        "2": 31.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20288/incheon-united-vs-gangwon-fc-2026-11-29"
@@ -3531,9 +3030,9 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-29T11:15:00+00:00",
       "probabilities": {
-        "1": 34.9,
+        "1": 36.0,
         "X": 25.1,
-        "2": 40.0
+        "2": 38.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20295/ado-den-haag-vs-utrecht-2026-11-29"
@@ -3545,9 +3044,9 @@
       "league": "Serie A",
       "kickoff": "2026-11-29T11:30:00+00:00",
       "probabilities": {
-        "1": 28.7,
-        "X": 25.8,
-        "2": 45.6
+        "1": 29.9,
+        "X": 25.7,
+        "2": 44.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20296/udinese-vs-fiorentina-2026-11-29"
@@ -3559,9 +3058,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-29T12:00:00+00:00",
       "probabilities": {
-        "1": 26.8,
-        "X": 26.2,
-        "2": 46.9
+        "1": 25.8,
+        "X": 26.0,
+        "2": 48.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20300/everton-vs-liverpool-2026-11-29"
@@ -3581,15 +3080,29 @@
       "source_url": "https://tipsaudit.com/match/20301/spvgg-greuther-furth-vs-arminia-bielefeld-2026-11-29"
     },
     {
+      "fixture_id": 20302,
+      "home": "1. FC Magdeburg",
+      "away": "Energie Cottbus",
+      "league": "2. Bundesliga",
+      "kickoff": "2026-11-29T12:30:00+00:00",
+      "probabilities": {
+        "1": 60.1,
+        "X": 19.9,
+        "2": 19.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20302/1-fc-magdeburg-vs-energie-cottbus-2026-11-29"
+    },
+    {
       "fixture_id": 20303,
       "home": "Eintracht Braunschweig",
       "away": "VfL Wolfsburg",
       "league": "2. Bundesliga",
       "kickoff": "2026-11-29T12:30:00+00:00",
       "probabilities": {
-        "1": 27.2,
-        "X": 22.5,
-        "2": 50.3
+        "1": 25.0,
+        "X": 22.6,
+        "2": 52.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20303/eintracht-braunschweig-vs-vfl-wolfsburg-2026-11-29"
@@ -3601,9 +3114,9 @@
       "league": "3. Liga",
       "kickoff": "2026-11-29T12:30:00+00:00",
       "probabilities": {
-        "1": 62.0,
-        "X": 23.5,
-        "2": 14.5
+        "1": 61.6,
+        "X": 24.2,
+        "2": 14.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20304/fc-viktoria-koln-vs-fortuna-koln-2026-11-29"
@@ -3629,9 +3142,9 @@
       "league": "Danish Superliga",
       "kickoff": "2026-11-29T13:00:00+00:00",
       "probabilities": {
-        "1": 47.7,
-        "X": 24.3,
-        "2": 28.0
+        "1": 43.0,
+        "X": 25.0,
+        "2": 32.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20310/randers-fc-vs-ac-horsens-2026-11-29"
@@ -3643,12 +3156,26 @@
       "league": "Danish Superliga",
       "kickoff": "2026-11-29T13:00:00+00:00",
       "probabilities": {
-        "1": 27.5,
-        "X": 25.5,
-        "2": 46.9
+        "1": 25.7,
+        "X": 24.1,
+        "2": 50.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20311/lyngby-vs-viborg-2026-11-29"
+    },
+    {
+      "fixture_id": 20312,
+      "home": "FC Luzern",
+      "away": "FC Lugano",
+      "league": "Swiss Super League",
+      "kickoff": "2026-11-29T13:00:00+00:00",
+      "probabilities": {
+        "1": 33.3,
+        "X": 23.4,
+        "2": 43.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20312/fc-luzern-vs-fc-lugano-2026-11-29"
     },
     {
       "fixture_id": 20316,
@@ -3657,12 +3184,26 @@
       "league": "La Liga",
       "kickoff": "2026-11-29T13:00:00+00:00",
       "probabilities": {
-        "1": 46.3,
-        "X": 28.1,
-        "2": 25.7
+        "1": 45.9,
+        "X": 28.8,
+        "2": 25.3
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20316/valencia-vs-osasuna-2026-11-29"
+    },
+    {
+      "fixture_id": 20318,
+      "home": "Fredrikstad",
+      "away": "Aalesund",
+      "league": "Eliteserien",
+      "kickoff": "2026-11-29T13:30:00+00:00",
+      "probabilities": {
+        "1": 50.3,
+        "X": 23.7,
+        "2": 26.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20318/fredrikstad-vs-aalesund-2026-11-29"
     },
     {
       "fixture_id": 20319,
@@ -3671,9 +3212,9 @@
       "league": "Austrian Bundesliga",
       "kickoff": "2026-11-29T13:30:00+00:00",
       "probabilities": {
-        "1": 62.0,
-        "X": 20.6,
-        "2": 17.4
+        "1": 60.4,
+        "X": 21.2,
+        "2": 18.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20319/sturm-graz-vs-wsg-wattens-2026-11-29"
@@ -3699,12 +3240,26 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-29T13:30:00+00:00",
       "probabilities": {
-        "1": 49.4,
-        "X": 22.1,
-        "2": 28.6
+        "1": 46.4,
+        "X": 22.9,
+        "2": 30.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20323/feyenoord-vs-ajax-2026-11-29"
+    },
+    {
+      "fixture_id": 20324,
+      "home": "Fortuna Sittard",
+      "away": "Heerenveen",
+      "league": "Eredivisie",
+      "kickoff": "2026-11-29T13:30:00+00:00",
+      "probabilities": {
+        "1": 26.0,
+        "X": 23.5,
+        "2": 50.5
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20324/fortuna-sittard-vs-heerenveen-2026-11-29"
     },
     {
       "fixture_id": 20326,
@@ -3713,9 +3268,9 @@
       "league": "Serie A",
       "kickoff": "2026-11-29T14:00:00+00:00",
       "probabilities": {
-        "1": 20.0,
-        "X": 20.7,
-        "2": 59.3
+        "1": 20.1,
+        "X": 21.1,
+        "2": 58.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20326/sassuolo-vs-napoli-2026-11-29"
@@ -3741,12 +3296,40 @@
       "league": "Allsvenskan",
       "kickoff": "2026-11-29T14:00:00+00:00",
       "probabilities": {
-        "1": 48.8,
-        "X": 25.6,
-        "2": 25.7
+        "1": 49.4,
+        "X": 24.8,
+        "2": 25.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20329/if-elfsborg-vs-gais-2026-11-29"
+    },
+    {
+      "fixture_id": 20331,
+      "home": "Malmo FF",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "kickoff": "2026-11-29T14:00:00+00:00",
+      "probabilities": {
+        "1": 60.3,
+        "X": 20.8,
+        "2": 18.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20331/malmo-ff-vs-if-brommapojkarna-2026-11-29"
+    },
+    {
+      "fixture_id": 20332,
+      "home": "Halmstad",
+      "away": "Mjallby AIF",
+      "league": "Allsvenskan",
+      "kickoff": "2026-11-29T14:00:00+00:00",
+      "probabilities": {
+        "1": 51.2,
+        "X": 22.8,
+        "2": 26.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20332/halmstad-vs-mjallby-aif-2026-11-29"
     },
     {
       "fixture_id": 20340,
@@ -3755,9 +3338,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-29T14:00:00+00:00",
       "probabilities": {
-        "1": 23.5,
-        "X": 23.2,
-        "2": 53.3
+        "1": 23.6,
+        "X": 23.4,
+        "2": 53.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20340/auxerre-vs-marseille-2026-11-29"
@@ -3769,9 +3352,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-29T14:05:00+00:00",
       "probabilities": {
-        "1": 62.8,
-        "X": 20.5,
-        "2": 16.7
+        "1": 62.6,
+        "X": 20.6,
+        "2": 16.8
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20341/brighton-vs-newcastle-2026-11-29"
@@ -3784,7 +3367,7 @@
       "kickoff": "2026-11-29T14:05:00+00:00",
       "probabilities": {
         "1": 53.0,
-        "X": 24.0,
+        "X": 24.1,
         "2": 22.9
       },
       "qualified": [],
@@ -3798,7 +3381,7 @@
       "kickoff": "2026-11-29T14:05:00+00:00",
       "probabilities": {
         "1": 36.3,
-        "X": 26.8,
+        "X": 26.9,
         "2": 36.9
       },
       "qualified": [],
@@ -3811,9 +3394,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-29T14:05:00+00:00",
       "probabilities": {
-        "1": 28.3,
-        "X": 28.3,
-        "2": 43.5
+        "1": 27.1,
+        "X": 28.1,
+        "2": 44.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20344/sunderland-vs-tottenham-2026-11-29"
@@ -3825,12 +3408,26 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-29T14:30:00+00:00",
       "probabilities": {
-        "1": 37.0,
-        "X": 24.2,
-        "2": 38.8
+        "1": 34.9,
+        "X": 24.6,
+        "2": 40.5
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20346/sc-freiburg-vs-rb-leipzig-2026-11-29"
+    },
+    {
+      "fixture_id": 20347,
+      "home": "Antwerp",
+      "away": "Anderlecht",
+      "league": "Jupiler Pro League",
+      "kickoff": "2026-11-29T15:00:00+00:00",
+      "probabilities": {
+        "1": 26.3,
+        "X": 22.1,
+        "2": 51.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20347/antwerp-vs-anderlecht-2026-11-29"
     },
     {
       "fixture_id": 20349,
@@ -3839,12 +3436,26 @@
       "league": "Scottish Premiership",
       "kickoff": "2026-11-29T15:00:00+00:00",
       "probabilities": {
-        "1": 25.5,
-        "X": 22.1,
-        "2": 52.4
+        "1": 25.9,
+        "X": 22.3,
+        "2": 51.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20349/heart-of-midlothian-vs-celtic-2026-11-29"
+    },
+    {
+      "fixture_id": 20350,
+      "home": "Atromitos",
+      "away": "Panathinaikos",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-29T15:00:00+00:00",
+      "probabilities": {
+        "1": 13.6,
+        "X": 20.2,
+        "2": 66.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20350/atromitos-vs-panathinaikos-2026-11-29"
     },
     {
       "fixture_id": 20351,
@@ -3853,17 +3464,73 @@
       "league": "La Liga",
       "kickoff": "2026-11-29T15:15:00+00:00",
       "probabilities": {
-        "1": 9.5,
-        "X": 11.6,
-        "2": 78.9
+        "1": 9.6,
+        "X": 11.8,
+        "2": 78.7
       },
       "qualified": [
         {
           "market": "2",
-          "probability": 78.9
+          "probability": 78.7
         }
       ],
       "source_url": "https://tipsaudit.com/match/20351/deportivo-la-coruna-vs-barcelona-2026-11-29"
+    },
+    {
+      "fixture_id": 20352,
+      "home": "SV Wehen",
+      "away": "SV Meppen",
+      "league": "3. Liga",
+      "kickoff": "2026-11-29T15:30:00+00:00",
+      "probabilities": {
+        "1": 53.2,
+        "X": 23.0,
+        "2": 23.8
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20352/sv-wehen-vs-sv-meppen-2026-11-29"
+    },
+    {
+      "fixture_id": 20353,
+      "home": "FC Sion",
+      "away": "BSC Young Boys",
+      "league": "Swiss Super League",
+      "kickoff": "2026-11-29T15:30:00+00:00",
+      "probabilities": {
+        "1": 38.6,
+        "X": 24.1,
+        "2": 37.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20353/fc-sion-vs-bsc-young-boys-2026-11-29"
+    },
+    {
+      "fixture_id": 20354,
+      "home": "FC Thun",
+      "away": "FC ST. Gallen",
+      "league": "Swiss Super League",
+      "kickoff": "2026-11-29T15:30:00+00:00",
+      "probabilities": {
+        "1": 29.5,
+        "X": 23.2,
+        "2": 47.4
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20354/fc-thun-vs-fc-st-gallen-2026-11-29"
+    },
+    {
+      "fixture_id": 20357,
+      "home": "OFI",
+      "away": "Levadiakos",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-29T15:30:00+00:00",
+      "probabilities": {
+        "1": 49.7,
+        "X": 25.7,
+        "2": 24.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20357/ofi-vs-levadiakos-2026-11-29"
     },
     {
       "fixture_id": 20358,
@@ -3872,12 +3539,115 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-29T15:45:00+00:00",
       "probabilities": {
-        "1": 16.4,
-        "X": 19.0,
-        "2": 64.6
+        "1": 17.8,
+        "X": 19.9,
+        "2": 62.4
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20358/pec-zwolle-vs-az-alkmaar-2026-11-29"
+    },
+    {
+      "fixture_id": 20359,
+      "home": "Brann",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 66.5,
+        "X": 16.9,
+        "2": 16.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20359/brann-vs-kristiansund-bk-2026-11-29"
+    },
+    {
+      "fixture_id": 20360,
+      "home": "Sandefjord",
+      "away": "Tromso",
+      "league": "Eliteserien",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 39.1,
+        "X": 25.9,
+        "2": 35.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20360/sandefjord-vs-tromso-2026-11-29"
+    },
+    {
+      "fixture_id": 20361,
+      "home": "Start",
+      "away": "Sarpsborg 08 FF",
+      "league": "Eliteserien",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 38.3,
+        "X": 24.4,
+        "2": 37.4
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20361/start-vs-sarpsborg-08-ff-2026-11-29"
+    },
+    {
+      "fixture_id": 20362,
+      "home": "Red Bull Salzburg",
+      "away": "Lask Linz",
+      "league": "Austrian Bundesliga",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 39.0,
+        "X": 24.7,
+        "2": 36.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20362/red-bull-salzburg-vs-lask-linz-2026-11-29"
+    },
+    {
+      "fixture_id": 20363,
+      "home": "Fenerbahçe",
+      "away": "Erzurumspor FK",
+      "league": "Süper Lig",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 78.6,
+        "X": 13.8,
+        "2": 7.6
+      },
+      "qualified": [
+        {
+          "market": "1",
+          "probability": 78.6
+        }
+      ],
+      "source_url": "https://tipsaudit.com/match/20363/fenerbahce-vs-erzurumspor-fk-2026-11-29"
+    },
+    {
+      "fixture_id": 20368,
+      "home": "Cadiz",
+      "away": "Cordoba",
+      "league": "Segunda Division",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 30.2,
+        "X": 24.9,
+        "2": 44.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20368/cadiz-vs-cordoba-2026-11-29"
+    },
+    {
+      "fixture_id": 20374,
+      "home": "Mallorca",
+      "away": "Castellón",
+      "league": "Segunda Division",
+      "kickoff": "2026-11-29T16:00:00+00:00",
+      "probabilities": {
+        "1": 40.4,
+        "X": 28.6,
+        "2": 31.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20374/mallorca-vs-castellon-2026-11-29"
     },
     {
       "fixture_id": 20377,
@@ -3886,9 +3656,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-29T16:15:00+00:00",
       "probabilities": {
-        "1": 37.5,
-        "X": 25.7,
-        "2": 36.9
+        "1": 37.1,
+        "X": 26.1,
+        "2": 36.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20377/toulouse-vs-rennes-2026-11-29"
@@ -3900,9 +3670,9 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-29T16:30:00+00:00",
       "probabilities": {
-        "1": 56.5,
-        "X": 19.2,
-        "2": 24.3
+        "1": 56.8,
+        "X": 19.1,
+        "2": 24.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20380/1899-hoffenheim-vs-fc-augsburg-2026-11-29"
@@ -3914,9 +3684,9 @@
       "league": "Premier League",
       "kickoff": "2026-11-29T16:30:00+00:00",
       "probabilities": {
-        "1": 50.2,
-        "X": 24.4,
-        "2": 25.4
+        "1": 48.9,
+        "X": 24.9,
+        "2": 26.2
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20381/arsenal-vs-manchester-city-2026-11-29"
@@ -3928,17 +3698,59 @@
       "league": "Serie A",
       "kickoff": "2026-11-29T17:00:00+00:00",
       "probabilities": {
-        "1": 81.9,
-        "X": 11.3,
-        "2": 6.8
+        "1": 81.6,
+        "X": 11.5,
+        "2": 6.9
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 81.9
+          "probability": 81.6
         }
       ],
       "source_url": "https://tipsaudit.com/match/20382/as-roma-vs-monza-2026-11-29"
+    },
+    {
+      "fixture_id": 20383,
+      "home": "Silkeborg",
+      "away": "Aarhus",
+      "league": "Danish Superliga",
+      "kickoff": "2026-11-29T17:00:00+00:00",
+      "probabilities": {
+        "1": 27.2,
+        "X": 24.9,
+        "2": 47.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20383/silkeborg-vs-aarhus-2026-11-29"
+    },
+    {
+      "fixture_id": 20387,
+      "home": "Aris Thessalonikis",
+      "away": "Olympiakos Piraeus",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-29T17:00:00+00:00",
+      "probabilities": {
+        "1": 21.3,
+        "X": 25.0,
+        "2": 53.7
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20387/aris-thessalonikis-vs-olympiakos-piraeus-2026-11-29"
+    },
+    {
+      "fixture_id": 20388,
+      "home": "Standard Liege",
+      "away": "Club Brugge KV",
+      "league": "Jupiler Pro League",
+      "kickoff": "2026-11-29T17:30:00+00:00",
+      "probabilities": {
+        "1": 18.0,
+        "X": 19.4,
+        "2": 62.5
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20388/standard-liege-vs-club-brugge-kv-2026-11-29"
     },
     {
       "fixture_id": 20389,
@@ -3975,17 +3787,45 @@
       "league": "Eliteserien",
       "kickoff": "2026-11-29T18:15:00+00:00",
       "probabilities": {
-        "1": 71.6,
-        "X": 15.2,
-        "2": 13.3
+        "1": 74.9,
+        "X": 14.0,
+        "2": 11.1
       },
       "qualified": [
         {
           "market": "1",
-          "probability": 71.6
+          "probability": 74.9
         }
       ],
       "source_url": "https://tipsaudit.com/match/20392/viking-vs-valerenga-2026-11-29"
+    },
+    {
+      "fixture_id": 20393,
+      "home": "Union St. Gilloise",
+      "away": "Gent",
+      "league": "Jupiler Pro League",
+      "kickoff": "2026-11-29T18:15:00+00:00",
+      "probabilities": {
+        "1": 66.3,
+        "X": 20.3,
+        "2": 13.4
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20393/union-st-gilloise-vs-gent-2026-11-29"
+    },
+    {
+      "fixture_id": 20394,
+      "home": "FC Ingolstadt 04",
+      "away": "SSV Jahn Regensburg",
+      "league": "3. Liga",
+      "kickoff": "2026-11-29T18:30:00+00:00",
+      "probabilities": {
+        "1": 44.5,
+        "X": 25.6,
+        "2": 29.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20394/fc-ingolstadt-04-vs-ssv-jahn-regensburg-2026-11-29"
     },
     {
       "fixture_id": 20395,
@@ -3994,9 +3834,9 @@
       "league": "Bundesliga",
       "kickoff": "2026-11-29T18:30:00+00:00",
       "probabilities": {
-        "1": 46.0,
+        "1": 45.9,
         "X": 23.4,
-        "2": 30.6
+        "2": 30.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20395/borussia-dortmund-vs-bayer-leverkusen-2026-11-29"
@@ -4008,12 +3848,26 @@
       "league": "Brazil Serie A",
       "kickoff": "2026-11-29T19:00:00+00:00",
       "probabilities": {
-        "1": 21.8,
+        "1": 22.1,
         "X": 20.9,
-        "2": 57.3
+        "2": 57.0
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20397/coritiba-vs-flamengo-2026-11-29"
+    },
+    {
+      "fixture_id": 20398,
+      "home": "AEK Athens FC",
+      "away": "PAOK",
+      "league": "Greek Super League",
+      "kickoff": "2026-11-29T19:00:00+00:00",
+      "probabilities": {
+        "1": 60.3,
+        "X": 21.6,
+        "2": 18.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20398/aek-athens-fc-vs-paok-2026-11-29"
     },
     {
       "fixture_id": 20399,
@@ -4022,9 +3876,9 @@
       "league": "Eredivisie",
       "kickoff": "2026-11-29T19:00:00+00:00",
       "probabilities": {
-        "1": 26.0,
-        "X": 22.2,
-        "2": 51.8
+        "1": 25.4,
+        "X": 21.9,
+        "2": 52.7
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20399/nec-nijmegen-vs-twente-2026-11-29"
@@ -4036,9 +3890,9 @@
       "league": "Serie A",
       "kickoff": "2026-11-29T19:45:00+00:00",
       "probabilities": {
-        "1": 45.6,
-        "X": 26.9,
-        "2": 27.6
+        "1": 46.4,
+        "X": 26.7,
+        "2": 26.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20401/como-vs-juventus-2026-11-29"
@@ -4050,9 +3904,9 @@
       "league": "Ligue 1",
       "kickoff": "2026-11-29T19:45:00+00:00",
       "probabilities": {
-        "1": 41.7,
-        "X": 27.6,
-        "2": 30.7
+        "1": 39.1,
+        "X": 28.8,
+        "2": 32.1
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20402/lyon-vs-monaco-2026-11-29"
@@ -4064,9 +3918,9 @@
       "league": "La Liga",
       "kickoff": "2026-11-29T20:00:00+00:00",
       "probabilities": {
-        "1": 46.5,
-        "X": 24.8,
-        "2": 28.8
+        "1": 44.9,
+        "X": 25.2,
+        "2": 29.9
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20403/real-sociedad-vs-sevilla-2026-11-29"
@@ -4084,6 +3938,221 @@
       },
       "qualified": [],
       "source_url": "https://tipsaudit.com/match/20404/fc-porto-vs-sporting-cp-2026-11-29"
+    },
+    {
+      "fixture_id": 20406,
+      "home": "Everton de Vina",
+      "away": "O'Higgins",
+      "league": "Primera Division Chile",
+      "kickoff": "2026-11-29T21:00:00+00:00",
+      "probabilities": {
+        "1": 52.5,
+        "X": 24.6,
+        "2": 22.8
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20406/everton-de-vina-vs-ohiggins-2026-11-29"
+    },
+    {
+      "fixture_id": 20407,
+      "home": "Union La Calera",
+      "away": "Universidad de Concepcion",
+      "league": "Primera Division Chile",
+      "kickoff": "2026-11-29T21:00:00+00:00",
+      "probabilities": {
+        "1": 51.3,
+        "X": 25.8,
+        "2": 22.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20407/union-la-calera-vs-universidad-de-concepcion-2026-11-29"
+    },
+    {
+      "fixture_id": 20408,
+      "home": "A. Italiano",
+      "away": "Palestino",
+      "league": "Primera Division Chile",
+      "kickoff": "2026-11-29T21:00:00+00:00",
+      "probabilities": {
+        "1": 41.0,
+        "X": 27.3,
+        "2": 31.8
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20408/a-italiano-vs-palestino-2026-11-29"
+    },
+    {
+      "fixture_id": 20410,
+      "home": "Nublense",
+      "away": "Cobresal",
+      "league": "Primera Division Chile",
+      "kickoff": "2026-11-29T21:00:00+00:00",
+      "probabilities": {
+        "1": 57.3,
+        "X": 22.5,
+        "2": 20.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20410/nublense-vs-cobresal-2026-11-29"
+    },
+    {
+      "fixture_id": 20411,
+      "home": "U. Catolica",
+      "away": "Huachipato",
+      "league": "Primera Division Chile",
+      "kickoff": "2026-11-29T21:00:00+00:00",
+      "probabilities": {
+        "1": 64.9,
+        "X": 19.8,
+        "2": 15.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20411/u-catolica-vs-huachipato-2026-11-29"
+    },
+    {
+      "fixture_id": 20412,
+      "home": "Concepción",
+      "away": "Universidad de Chile",
+      "league": "Primera Division Chile",
+      "kickoff": "2026-11-29T21:00:00+00:00",
+      "probabilities": {
+        "1": 22.2,
+        "X": 25.5,
+        "2": 52.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20412/concepcion-vs-universidad-de-chile-2026-11-29"
+    },
+    {
+      "fixture_id": 20421,
+      "home": "Mirassol",
+      "away": "Atletico Paranaense",
+      "league": "Brazil Serie A",
+      "kickoff": "2026-11-29T21:30:00+00:00",
+      "probabilities": {
+        "1": 45.6,
+        "X": 26.5,
+        "2": 27.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20421/mirassol-vs-atletico-paranaense-2026-11-29"
+    },
+    {
+      "fixture_id": 20703,
+      "home": "Göztepe",
+      "away": "Trabzonspor",
+      "league": "Süper Lig",
+      "kickoff": "2026-11-30T16:00:00+00:00",
+      "probabilities": {
+        "1": 31.2,
+        "X": 23.9,
+        "2": 44.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20703/goztepe-vs-trabzonspor-2026-11-30"
+    },
+    {
+      "fixture_id": 20707,
+      "home": "Lecce",
+      "away": "Atalanta",
+      "league": "Serie A",
+      "kickoff": "2026-11-30T17:30:00+00:00",
+      "probabilities": {
+        "1": 25.2,
+        "X": 24.2,
+        "2": 50.6
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20707/lecce-vs-atalanta-2026-11-30"
+    },
+    {
+      "fixture_id": 20709,
+      "home": "Odense",
+      "away": "FC Nordsjaelland",
+      "league": "Danish Superliga",
+      "kickoff": "2026-11-30T18:00:00+00:00",
+      "probabilities": {
+        "1": 27.2,
+        "X": 21.9,
+        "2": 50.9
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20709/odense-vs-fc-nordsjaelland-2026-11-30"
+    },
+    {
+      "fixture_id": 20711,
+      "home": "Beşiktaş",
+      "away": "Galatasaray",
+      "league": "Süper Lig",
+      "kickoff": "2026-11-30T18:00:00+00:00",
+      "probabilities": {
+        "1": 49.4,
+        "X": 24.6,
+        "2": 26.1
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20711/besiktas-vs-galatasaray-2026-11-30"
+    },
+    {
+      "fixture_id": 20714,
+      "home": "Cagliari",
+      "away": "AC Milan",
+      "league": "Serie A",
+      "kickoff": "2026-11-30T19:45:00+00:00",
+      "probabilities": {
+        "1": 19.5,
+        "X": 24.2,
+        "2": 56.2
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20714/cagliari-vs-ac-milan-2026-11-30"
+    },
+    {
+      "fixture_id": 20715,
+      "home": "Espanyol",
+      "away": "Getafe",
+      "league": "La Liga",
+      "kickoff": "2026-11-30T20:00:00+00:00",
+      "probabilities": {
+        "1": 46.9,
+        "X": 30.2,
+        "2": 23.0
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20715/espanyol-vs-getafe-2026-11-30"
+    },
+    {
+      "fixture_id": 20716,
+      "home": "Benfica",
+      "away": "Famalicao",
+      "league": "Primeira Liga",
+      "kickoff": "2026-11-30T20:15:00+00:00",
+      "probabilities": {
+        "1": 83.4,
+        "X": 10.6,
+        "2": 6.0
+      },
+      "qualified": [
+        {
+          "market": "1",
+          "probability": 83.4
+        }
+      ],
+      "source_url": "https://tipsaudit.com/match/20716/benfica-vs-famalicao-2026-11-30"
+    },
+    {
+      "fixture_id": 20717,
+      "home": "Casa Pia",
+      "away": "SC Braga",
+      "league": "Primeira Liga",
+      "kickoff": "2026-11-30T20:15:00+00:00",
+      "probabilities": {
+        "1": 11.9,
+        "X": 20.8,
+        "2": 67.3
+      },
+      "qualified": [],
+      "source_url": "https://tipsaudit.com/match/20717/casa-pia-vs-sc-braga-2026-11-30"
     }
   ]
 }
