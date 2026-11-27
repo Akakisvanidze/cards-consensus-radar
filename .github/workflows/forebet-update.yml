@@ -1,12 +1,16 @@
-name: Forebet 70% Update
+name: TipsAudit 70% Update
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 */4 * * *'
 
 permissions:
   contents: write
+
+concurrency:
+  group: tipsaudit-predictions-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -17,10 +21,8 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install libraries
-        run: pip install requests beautifulsoup4
-      - name: Collect predictions
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: pip install requests
+      - name: Collect TipsAudit predictions
         run: python forebet_collect.py
       - name: Save predictions
         run: |
@@ -28,6 +30,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/forebet/latest.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Update API-Football predictions'
+            git commit -m 'Refresh TipsAudit 70% predictions'
             git push
+          else
+            echo 'No prediction data changes to commit.'
           fi
